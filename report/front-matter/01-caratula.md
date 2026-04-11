@@ -23,7 +23,7 @@ Integrantes<br><br>
 | U202318609                   | Wang Chen Juan Sung Jau          |
 | U202422890                   | Cuadros Villanueva Marcelo Fabio |
 | U202512856                   | Jara Espinoza Miguel Angel       |
-| U                            | A                                |
+| U20231C524                   | Sanchez Espinoza Mathias Enrique |
 | U                            | A                                |
 
 Abril 2026
