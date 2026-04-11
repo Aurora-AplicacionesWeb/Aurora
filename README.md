@@ -1,5 +1,6 @@
 <p align="center">
     <img src="/report/assets/images/upc_logo.png" width="160">
+</p>
 
 # Universidad Peruana de Ciencias Aplicadas (UPC)
 
@@ -12,5 +13,5 @@
 # StartupAURORA
 
 # Nombre del producto (en produccion)
-</p>
+
 
