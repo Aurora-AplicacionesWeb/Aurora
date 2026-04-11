@@ -18,13 +18,13 @@ Nombre del producto (en produccion)
 <h2>
 Integrantes<br><br>
 
-|<p align="center">Codigo</p>|<p align="center">Alumno<p>|
-| --- | --- |
-|U202318609 | Wang Chen Juan Sung Jau  |
-|U202422890 | Cuadros Villanueva Marcelo Fabio |
-|U |A |
-|U |A |
-|U |A |
+| <p align="center">Codigo</p> | <p align="center">Alumno<p>      |
+|------------------------------|----------------------------------|
+| U202318609                   | Wang Chen Juan Sung Jau          |
+| U202422890                   | Cuadros Villanueva Marcelo Fabio |
+| U202512856                   | Jara Espinoza Miguel Angel       |
+| U                            | A                                |
+| U                            | A                                |
 
 Abril 2026
 </div>
