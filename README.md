@@ -1,4 +1,4 @@
-![logo_upc](/report/assets/images/upc_logo.png/150)
+<img src="/report/assets/images/upc_logo.png" width="160">
 
 # Universidad Peruana de Ciencias Aplicadas (UPC)
 
