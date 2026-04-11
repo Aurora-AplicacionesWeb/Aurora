@@ -21,7 +21,7 @@ Integrantes<br>
 |<p align="center">Codigo</p>|<p align="center">Alumno<p>|
 | --- | --- |
 |U202318609 | Wang Chen Juan Sung Jau  |
-|U |A |
+|U202422890 | Cuadros Villanueva Marcelo Fabio |
 |U |A |
 |U |A |
 |U |A |
