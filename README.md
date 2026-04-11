@@ -1,17 +1,26 @@
 <p align="center">
-    <img src="/report/assets/images/upc_logo.png" width="160">
+    <img src="/report/assets/images/upc_logo.png" width="250">
 </p>
+<h1 align="center">
+Universidad Peruana de Ciencias Aplicadas (UPC)
+<h3 align="center">
+1ASI0730 - Aplicaciones Web<br><br>
+NRC 12206<br><br>
+Profesor<br>
+Angel Augusto Velasquez Nuñez<br><br>
+Informe de Trabajo Final<br><br>
 
-# Universidad Peruana de Ciencias Aplicadas (UPC)
+Startup: AURORA<br><br>
+Nombre del producto (en produccion)
+</h3>
 
-## 1ASI0730 - Aplicaciones Web
-## NRC: 12206
-## Profesor: Angel Augusto Velasquez Nuñez
+<div align="center">
+<h2>
+Integrantes<br>
 
-## Informe de Trabajo Final
+|     |     |
+| --- | --- |
+|     |     |
 
-# StartupAURORA
-
-# Nombre del producto (en produccion)
-
+</div>
 
