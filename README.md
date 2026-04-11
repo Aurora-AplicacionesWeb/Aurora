@@ -18,9 +18,13 @@ Nombre del producto (en produccion)
 <h2>
 Integrantes<br>
 
-|     |     |
+|<p align="center">Codigo</p>|<p align="center">Alumno<p>|
 | --- | --- |
-|     |     |
-
+|U202318609 | Wang Chen Juan Sung Jau  |
+|U |A |
+|U |A |
+|U |A |
+|U |A |
+</h2>
 </div>
 
