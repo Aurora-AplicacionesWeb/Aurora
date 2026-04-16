@@ -415,3 +415,72 @@
 | **Rotación de Mesas**                    | Uso de sensores para calcular el promedio de ocupación. Si una mesa está libre, el sistema alerta al anfitrión o actualiza la app.                                  |
 
 <sub>*Tabla 4. Estrategias y tácticas frente a competidores*</sub>
+
+---
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+Para comprender mejor a nuestros usuarios y construir arquetipos representativos, diseñamos preguntas para las entrevistas de los dos segmentos objetivos identificados.
+
+**Segmento 1: Dueños de restaurantes chifa y administradores**
+
+**Objetivo de la entrevista:** Identificar cómo gestionan actualmente su inventario, abastecimiento, control operativo y monitoreo de procesos internos; además de reconocer sus principales frustraciones, necesidades y disposición para adoptar una plataforma digital con servicios IoT que les ayude a mejorar la toma de decisiones.
+
+**Preguntas:**
+- ¿Cuál es su nombre, edad y distrito donde se ubica su restaurante?
+- ¿Cuál es su cargo o rol dentro del negocio?
+- ¿Hace cuánto tiempo administra o trabaja en el restaurante?
+- ¿Qué tipo de insumos manejan con mayor frecuencia en su operación?
+- ¿Cómo realizan actualmente el control de inventario y el registro de stock?
+- ¿Qué dificultades enfrenta al momento de prever la demanda de insumos o platos?
+- ¿Con qué frecuencia tiene problemas de sobrestock o desabastecimiento?
+- ¿Cómo coordinan actualmente los pedidos con sus proveedores?
+- ¿Qué información considera más útil para tomar decisiones sobre abastecimiento?
+- ¿Qué tan importante sería para usted recibir alertas automáticas sobre bajo stock?
+- ¿Le sería útil visualizar proyecciones de demanda antes de hacer pedidos?
+- ¿Qué tan dispuesto estaría a usar una plataforma web para controlar inventario, pedidos y monitoreo operativo?
+- ¿Qué funcionalidades considera más importantes en una herramienta de este tipo?
+- ¿Qué le frustra de la manera actual de gestionar la operación del restaurante?
+- ¿Qué tan seguido cree que usaría una plataforma como esta: diario, semanal o solo cuando tenga problemas?
+
+**Preguntas complementarias:**
+- ¿Qué herramientas digitales usa actualmente para el negocio?
+- ¿Qué tan cómodo se siente usando plataformas web o dashboards?
+- ¿Ha usado sensores o sistemas de monitoreo en su restaurante?
+- ¿Qué tipo de datos le gustaría ver en un panel de control?
+
+**Segmento 2: Proveedores de insumos para restaurantes**
+
+**Objetivo de la entrevista:** Comprender cómo gestionan sus entregas, cómo se coordinan con sus clientes y qué información les sería útil para planificar mejor su abastecimiento, rutas y atención comercial a través de una plataforma digital.
+
+**Preguntas:**
+- ¿Cuál es su nombre, edad y tipo de negocio?
+- ¿Qué productos o insumos distribuye a restaurantes?
+- ¿Cuánto tiempo lleva trabajando como proveedor?
+- ¿Cómo coordina actualmente los pedidos con sus clientes?
+- ¿Qué canales usa para recibir pedidos o solicitudes de abastecimiento?
+- ¿Qué dificultades enfrenta al planificar entregas o rutas?
+- ¿Qué tan frecuente es que reciba pedidos imprevistos o urgentes?
+- ¿Qué información le sería útil para anticipar la demanda de sus clientes?
+- ¿Le ayudaría visualizar pedidos pendientes o proyecciones de compra?
+- ¿Qué tan importante sería para usted conocer el consumo o stock aproximado de sus clientes?
+- ¿Qué funcionalidades considera más valiosas en una plataforma para proveedores?
+- ¿Qué le frustra de la forma actual de coordinar entregas y abastecimiento?
+- ¿Qué tan dispuesto estaría a usar una plataforma digital para gestionar clientes y pedidos?
+- ¿Con qué frecuencia cree que usaría una herramienta como esta?
+
+**Preguntas complementarias:**
+- ¿Qué herramientas usa hoy para organizar sus rutas o pedidos?
+- ¿Usa algún sistema para seguimiento de entregas?
+- ¿Qué datos le gustaría consultar antes de salir a repartir?
+- ¿Qué tan cómodo se sentiría trabajando con un dashboard o panel web?
+
+**Preguntas transversales para ambos segmentos**
+- ¿Qué problemas considera más urgentes dentro de la operación actual?
+- ¿Qué beneficios esperaría obtener de una plataforma como SupplyWok?
+- ¿Qué tan importante sería para usted que la información esté centralizada en un solo lugar?
+- ¿Qué tipo de reportes o indicadores le ayudarían más en su trabajo diario?
+- ¿Qué tan útil le parecería una solución que combine gestión de inventario, pedidos, alertas y monitoreo operativo?
+- ¿Qué preocupaciones tendría al usar una nueva plataforma digital para su negocio?
