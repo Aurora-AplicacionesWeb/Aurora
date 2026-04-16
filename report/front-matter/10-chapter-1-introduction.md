@@ -18,7 +18,7 @@ Somos Aurora, un grupo de estudiantes apasionados por la innovación tecnológic
 
 |  | |  |
 |:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------|:----------|
-| **Nombre:** Marcelo Fabio Cuadros Villanueva<br>**Carrera:** Ingeniería de Software<br>**Código:** U202422890                                                            | **Descripción breve de sus habilidades:** <br>    | **Foto** |
+| **Nombre:** Marcelo Fabio Cuadros Villanueva<br>**Carrera:** Ingeniería de Software<br>**Código:** U202422890                                                            | **Descripción breve de sus habilidades:** <br> Soy Marcelo Cuadros, estudiante de Ingeniería de Software en la UPC actualmente cursando mi cuarto ciclo academico. Me considero una persona proactiva, sociable y con gran capacidad de trabajo en equipo; con conocimientos en c++, python, java, html, css y javascript.    | <img src="../assets/images/members/marcelo.png" alt="Marcelo-logo" width="70" /> |
 | **Nombre:** Zayd Jaffar Ayasta Martel<br>**Carrera:** Ingeniería de Software<br>**Código:** U202410837 | **Descripción breve de sus habilidades:** Soy... | **Foto** |
 | **Nombre:** <br>**Carrera:** <br>**Código:**                                                            | **Descripción breve de sus habilidades:** <br>    | **Foto** |
 | **Nombre:** <br>**Carrera:** <br>**Código:**                                                            | **Descripción breve de sus habilidades:** <br>    | **Foto** |
