@@ -44,19 +44,19 @@
         </td>
         <td align="center">
             <p><b>Apicbase</b></p>
-            <img src="report/assets/images/Apicbase.png" alt="Apicbase-logo" width="70" />
+            <img src="../assets/images/Apicbase.png" alt="Apicbase-logo" width="70" />
         </td>
         <td align="center">
             <p><b>MarketMan</b></p>
-            <img src="report/assets/images/MarketMan.png" alt="MarketMan-logo" width="70" />
+            <img src="../assets/images/MarketMan.png" alt="MarketMan-logo" width="70" />
         </td>
         <td align="center">
             <p><b>WISK.ai</b></p>
-            <img src="report/assets/images/WISK.png" alt="WISK.ai-logo" width="70" />
+            <img src="../assets/images/WISK.png" alt="WISK.ai-logo" width="70" />
         </td>
         <td align="center">
             <p><b>Restaurant365</b></p>
-            <img src="report/assets/images/Restaurant365.png" alt="Restaurant365-logo" width="70" />    
+            <img src="../assets/images/Restaurant365.png" alt="Restaurant365-logo" width="70" />    
     </tr>
     <tr>
         <td rowspan="2" align="center">
