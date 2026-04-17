@@ -64,27 +64,39 @@ Es por eso que identificamos que la gestión manual, la baja visibilidad de los 
 
 #### 1.2.2.2 Lean UX Assumptions
 
-**Usuarios objetivo**
-- Se asume que los dueños y administradores de restaurantes buscan una forma simple de controlar inventario, evitar pérdidas y tomar decisiones más rápidas sobre abastecimiento.
-- Se asume que los proveedores necesitan mayor visibilidad sobre la demanda de sus clientes para planificar entregas y rutas de manera más eficiente.
-- Se asume que ambos segmentos estarán dispuestos a usar una plataforma compartida si esta les ofrece beneficios claros, reduce trabajo manual y mejora la coordinación.
+**Business Assumptions:**
+1. Creo que mis clientes necesitan: Una plataforma centralizada para gestionar inventarios y prever la demanda de insumos en tiempo real.
+2. Estas necesidades se pueden resolver con: Una solución web distribuida (RESTful API y Web App) que integre datos operativos y facilite la comunicación con proveedores.
+3. Mis clientes iniciales son (o serán): Dueños y administradores de restaurantes tipo chifa independientes en Lima Metropolitana.
+4. El valor #1 que un cliente quiere de mi servicio es: La reducción de pérdidas económicas derivadas del sobrestock y el desabastecimiento.
+5. El cliente también puede obtener estos beneficios adicionales: Optimización del tiempo del personal y una relación más transparente y eficiente con sus proveedores.
+6. Voy a adquirir la mayoría de mis clientes a través de: Estrategias de marketing B2B, visitas directas a locales y alianzas con distribuidores de insumos para chifas.
+7. Haré dinero a través de: Un modelo de suscripción mensual (SaaS) escalable según el volumen de operaciones del restaurante.
+8. Mi competencia principal en el mercado será: Sistemas POS genéricos que no están especializados en el nicho gastronómico o la gestión manual tradicional (hojas de cálculo/papel).
+9. Los venceremos debido a: Nuestro enfoque específico en el flujo operativo de los chifas y el uso de análisis predictivo para la demanda.
+10. Mi mayor riesgo de producto es: La resistencia al cambio tecnológico por parte del personal administrativo con hábitos de trabajo tradicionales.
+11. Resolveremos esto a través de: Una interfaz intuitiva basada en Material Design y un proceso de implementación simplificado.
+12. ¿Qué otras suposiciones tenemos? Suponemos que los proveedores están dispuestos a integrar sus catálogos y procesos en una plataforma externa para mejorar sus ventas.
 
-**Objetivos de los usuarios**
-- Se asume que los restaurantes quieren reducir quiebres de stock, evitar desperdicio de insumos y mejorar el control de su operación diaria.
-- Se asume que los proveedores quieren anticipar pedidos, organizar mejor su distribución y mantener relaciones más estables con sus clientes.
-- Se asume que ambos grupos valoran tener información centralizada, actualizada y fácil de interpretar.
+**User Assumptions:**
+1. ¿Quién es el usuario?  
+Los administradores de chifas (que toman decisiones de compra) y los encargados de almacén/cocina (que registran el uso de insumos). También los gestores de ventas de los proveedores.
+2. ¿Dónde encaja nuestro producto en su trabajo o vida?  
+   SupplyWok será el núcleo de la operación diaria; se consultará al inicio del turno para verificar stock y al final para planificar el abastecimiento del día siguiente.
+3. ¿Qué problemas tiene nuestro producto que resolver?  
+   La falta de visibilidad del stock real, la incertidumbre sobre cuánto comprar para días festivos o fines de semana, y la lentitud en la coordinación de pedidos.
+4. ¿Cuándo y cómo es nuestro producto usado?  
+   Se usará diariamente mediante una aplicación web adaptable. El administrador accederá a un panel de control para ver alertas de stock crítico y enviar órdenes de compra automáticas.
+5. ¿Qué características son importantes?
+   1. Dashboard interactivo con niveles de stock por categorías.
 
-**Business Outcomes**
-- Se asume que la eficiencia operativa aumentará si los restaurantes pueden visualizar inventario, alertas y demanda proyectada en un solo lugar.
-- Se asume que la coordinación con proveedores mejorará si estos pueden consultar pedidos, proyecciones y estados de abastecimiento.
-- Se asume que la reducción de desperdicio y desabastecimiento generará ahorro económico para los restaurantes.
-- Se asume que un modelo de suscripción con planes diferenciados Premium y Enterprise permitirá sostener el producto en el tiempo.
+   2. Algoritmo de previsión de demanda basado en histórico de ventas.
 
-**Métricas de éxito**
-- Se considera exitoso el proyecto si al menos el 60% de los restaurantes activos configuran inventario inicial y alertas de stock mínimo durante el primer mes.
-- Se considera cumplido el objetivo si al menos el 50% de los pedidos se generan a partir de alertas o sugerencias del sistema.
-- Se considera alcanzado el outcome si al menos el 70% de los usuarios encuestados manifiesta que la plataforma mejora la coordinación operativa.
-- Se considera válido el supuesto si los proveedores consultan regularmente la vista de demanda proyectada y estado de pedidos.
+   3. Módulo de comunicación directa con proveedores.
+
+    4. Alertas tempranas de desabastecimiento.
+6. ¿Cómo debe verse nuestro producto y cómo comportarse?  
+     Debe verse profesional, limpio y eficiente. El comportamiento debe ser rápido y confiable, transmitiendo seguridad en los datos para que el usuario confíe en las sugerencias de compra del sistema.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 - Creemos que al permitir a los restaurantes registrar su inventario y configurar alertas de stock mínimo, lograremos reducir desabastecimientos y compras de emergencia.
