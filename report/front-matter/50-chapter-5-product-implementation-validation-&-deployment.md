@@ -95,7 +95,7 @@ El equipo ha adoptado guías de estilo y convenciones de codificación para cada
 
 **Backend: C# con .NET Framework**
 
-Para el desarrollo del backend, se utilizará **C#** junto con el framework **.NET 9**. Se adoptan las siguientes convenciones:
+Para el desarrollo del backend, se utilizará **C#** junto con el framework **.NET 10**. Se adoptan las siguientes convenciones:
 
 - **Guía de estilo base:**  
   [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
@@ -168,7 +168,7 @@ Para el desarrollo del frontend, el equipo utilizará **Vue 3**, basado en **Jav
 Estas guías aseguran que el código sea limpio, mantenible y fácil de entender para todos los miembros del equipo.
 
 ### 5.1.4. Software Deployment Configuration.
-  
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 | Categoría | Herramienta | Propósito | Tipo de acceso/enlace |
 |:----:|:----:|:----:|:----:|

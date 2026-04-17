@@ -1,5 +1,5 @@
-## Google Java Style Guide 
-https://google.github.io/styleguide/javaguide.html
+## JavaScript Style Guide 
+https://github.com/airbnb/javascript
 
-## Google TypeScript Style Guide 
-https://google.github.io/styleguide/tsguide.html
+## Official Vue.js Style Guide
+https://vuejs.org/style-guide/
