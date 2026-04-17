@@ -83,7 +83,92 @@ Ejemplo:
   fix(api): handle null user tokens
 ```
 ### 5.1.3. Source Code Style Guide & Conventions. 
-### 5.1.4. Software Deployment Configuration.  
+
+El equipo ha adoptado guías de estilo y convenciones de codificación para cada uno de los lenguajes utilizados. Estas convenciones permiten que todos los miembros del equipo desarrollen bajo un estándar común y que el código sea comprensible tanto para desarrolladores actuales como futuros.
+
+**Nomenclatura general:**
+
+- Todos los identificadores, comentarios y documentación del código se escribirán en inglés.
+- Se utilizará el sistema de control de calidad en revisiones por pull request para verificar que las convenciones se cumplan antes de fusionar el código a la rama `develop`.
+
+---
+
+**Backend: C# con .NET Framework**
+
+Para el desarrollo del backend, se utilizará **C#** junto con el framework **.NET 9**. Se adoptan las siguientes convenciones:
+
+- **Guía de estilo base:**  
+  [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+
+- **Estructura de carpetas basada en Domain-Driven Design (DDD):**  
+  - `Domain`: Contiene las entidades, agregados y lógica de negocio.  
+  - `Application`: Contiene los casos de uso y servicios de aplicación.  
+  - `Infrastructure`: Contiene la implementación de repositorios, acceso a datos y servicios externos.  
+  - `API`: Contiene los controladores y configuraciones específicas de la API.
+
+- **Nomenclatura:**  
+  - Clases nombradas en **PascalCase**:  
+    Ejemplo: `UserService`, `MealPlanRepository`  
+  - Métodos y variables en **camelCase**:  
+    Ejemplo: `getAllUsers()`, `userEmail`  
+
+- **Documentación:**  
+  - Uso obligatorio de **XML Documentation Comments** para describir métodos y clases públicas.
+
+- **Separación lógica del código:**  
+  - Cada capa debe tener responsabilidades claras:  
+    - Controladores (`[ApiController]`)  
+    - Servicios (`Scoped` o `Singleton`)  
+    - Repositorios (`IRepository`)  
+    - Modelos  
+
+- **Anotaciones de .NET:**  
+  - Uso de atributos como `[HttpGet]`, `[HttpPost]`, `[FromBody]` para mantener claridad en los controladores.
+
+---
+
+**Frontend: Vue.js Framework (JavaScript, HTML, CSS)**
+
+Para el desarrollo del frontend, el equipo utilizará **Vue 3**, basado en **JavaScript** junto con **HTML** y **CSS**. Las convenciones son:
+
+- **Guías de estilo base:**  
+  - [Vue.js Style Guide (Oficial)](https://vuejs.org/style-guide/)  
+  - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+
+- **Estructura modular y escalable:**  
+  - Cada componente tendrá su propio directorio con los archivos `.vue`, `.js` y `.css` correspondientes.
+
+- **Nomenclatura de archivos:**  
+  - Archivos nombrados con **kebab-case**:  
+    - Componentes: `user-profile.vue`  
+    - Servicios: `auth-service.js`  
+    - CSS asociados seguirán el mismo nombre base.
+
+- **Nomenclatura de clases y componentes:**  
+  - Componentes y clases en **PascalCase**:  
+    Ejemplo: `UserProfile`, `MealPlanCard`  
+  - Variables, métodos y propiedades en **camelCase**.
+
+- **Modelos de datos:**  
+  - Uso de **TypeScript interfaces** o **JavaScript objects** para definir modelos de datos (e.g., `User`, `MealPlan`, `Recipe`) y asegurar consistencia.
+
+- **HTML:**  
+  - Buenas prácticas semánticas y accesibles:  
+    Uso de etiquetas apropiadas (`<main>`, `<section>`, `<button>`, etc.).
+
+- **CSS:**  
+  - Convenciones basadas en el [BEM (Block Element Modifier)](http://getbem.com/):  
+    - Nombres de clase descriptivos en inglés:  
+      Ejemplo: `.user-profile__header`  
+    - Agrupación por tipo de selector.  
+    - Estilos reutilizables mediante clases utilitarias.
+
+---
+
+Estas guías aseguran que el código sea limpio, mantenible y fácil de entender para todos los miembros del equipo.
+
+### 5.1.4. Software Deployment Configuration.
+  
 ## 5.2. Landing Page, Services & Applications Implementation.
 | Categoría | Herramienta | Propósito | Tipo de acceso/enlace |
 |:----:|:----:|:----:|:----:|

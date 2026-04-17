@@ -484,3 +484,16 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 - ¿Qué tipo de reportes o indicadores le ayudarían más en su trabajo diario?
 - ¿Qué tan útil le parecería una solución que combine gestión de inventario, pedidos, alertas y monitoreo operativo?
 - ¿Qué preocupaciones tendría al usar una nueva plataforma digital para su negocio?
+
+### 2.2.2. Registro de entrevistas.
+
+### 2.2.3 Análisis de entrevistas.
+
+## 2.3. Needfinding.
+
+### 2.3.1. User Personas.
+### 2.2.2. User Task Matrix.
+### 2.3.3. User Journey Mapping.
+### 2.3.4. Empathy Mapping.
+## 2.4. Big Picture EventStorming.
+## 2.5. Ubiquitous Language.

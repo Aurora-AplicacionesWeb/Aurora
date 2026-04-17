@@ -1,0 +1,5 @@
+## Google Java Style Guide 
+https://google.github.io/styleguide/javaguide.html
+
+## Google TypeScript Style Guide 
+https://google.github.io/styleguide/tsguide.html
