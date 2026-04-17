@@ -2,22 +2,25 @@
 
 ## 2.1. Competidores
 
+En esta sección se realizará un análisis competitivo sobre distintas plataformas de gestión de restaurantes y proveedores que se encuentran en el mercado, que cumplan funciones similares a nosotros. De esta manera podremos conocer nuestra posición frente a posibles competidores.
+
+Las siguientes plataformas son de las más relevantes en el mercado de gestión de restaurantes y proveedores, cada una con enfoques y características distintas que las hacen destacar en diferentes aspectos del sector:
 
 **1. Apicbase**
 
-- Es un sistema operativo para la gestión de alimentos y bebidas diseñado específicamente para operaciones multi-unidad, como cadenas de restaurantes y hoteles.
+- Es un sistema operativo para la gestión de alimentos y bebidas diseñado específicamente para operaciones multi-unidad, como cadenas de restaurantes y hoteles. Unifica recetas, menús y compras en todos los locales, asegurando consistencia en la calidad y los costos e incluye módulos avanzados para trazabilidad de ingredientes, gestión de alérgenos y cumplimiento de normas HACCP.
 
 **2. MarketMan**
 
-- Plataforma "todo en uno" para el control de inventarios y suministros, ideal para optimizar los flujos de trabajo administrativos (back-of-house).
+- Plataforma "todo en uno" para el control de inventarios y suministros, ideal para optimizar los flujos de trabajo administrativos (back-of-house). Utiliza análisis predictivos para automatizar pedidos a proveedores y detectar fluctuaciones de precios en tiempo real y calcula el costo exacto de cada plato integrando las facturas de compra con las ventas del punto de venta (TPV).
 
 **3. WISK.ai**
 
-- App móvil que se destaca por su precisión técnica, ofreciendo una de las soluciones de inventario más rápidas y precisas del mercada gracias al uso internsivo de inteligencia artificial.
+- App móvil que se destaca por su precisión técnica, ofreciendo una de las soluciones de inventario más rápidas y precisas del mercada gracias al uso internsivo de inteligencia artificial. Su app móvil puede identificar botellas y productos mediante la cámara, agilizando el conteo de existencias, ofrece herramientas muy detalladas para bares y hoteles, permitiendo un seguimiento exacto de mermas en licores y bebidas mezcladas y su IA puede predecir la demanda basándose no solo en ventas pasadas, sino también en factores externos como el clima o eventos locales.
 
 **4. Restaurant365**
 
-- Plataforma de gestión empresarial integral, que unifica contabilidad, inventarios, compras y gestión de personal en un solo ecosistema basado en la nube.
+- Plataforma de gestión empresarial integral basada en la nube, diseñada específicamente para el sector de la hospitalidad. Incluye una red contable específica para restaurantes que automatiza facturas, cuentas por pagar y conciliaciones bancarias, permite rastrear ingredientes en tiempo real, gestionar pedidos automáticos a proveedores y analizar el costo teórico frente al real para reducir mermas, utiliza IA para predecir la demanda futura, optimizar los horarios de trabajo y generar informes de pérdidas y ganancias (P&L) en tiempo real y se integra con cientos de sistemas de punto de venta (TPV/POS), bancos y proveedores de alimentos para que los datos fluyan automáticamente sin necesidad de hojas de cálculo manuales.
 
 ### 2.1.1. Análisis Competitivo
 
@@ -160,12 +163,12 @@
         </td>
         <td align="center">
             <p>
-                .
+                Promocionar el uso de sensores IoT, contenido especializado en seguridad y prevención de riegos en cocina, y co-marketing con proveedores de insumos orientales.
             </p>
         </td>
         <td align="center">
             <p>
-                Contenido educativo profundo, usando una biblioteca técnica para profesionales F&B, marketing basado en cassos de éxito y enfoque emocional para chefs.
+                Contenido educativo profundo, usando una biblioteca técnica para profesionales F&B, marketing basado en casos de éxito y enfoque emocional para chefs.
             </p>
         </td>
         <td align="center">
@@ -193,7 +196,7 @@
         </td>
         <td align="center">
             <p>
-                .
+                Gestión de inventario, comandas y abastecimiento, monitoreo de seguridad en cocina mediante sensores, analítica predictiva para demanda y alertas de bajo stock.
             </p>
         </td>
         <td align="center">
@@ -223,7 +226,7 @@
         </td>
         <td align="center">
             <p>
-                .
+                Modelo de Suscripción; Wok: S/ 119.99 al mes por ubicación. Wok Enterprise: Precio personalizado según necesidades y tamaño del cliente.
             </p>
         </td>
         <td align="center">
@@ -253,7 +256,7 @@
         </td>
         <td align="center">
             <p>
-                .
+                Web (Escritorio) y móvil.
             </p>
         </td>
         <td align="center">
