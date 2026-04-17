@@ -168,17 +168,82 @@ Para el desarrollo del frontend, el equipo utilizará **Vue 3**, basado en **Jav
 Estas guías aseguran que el código sea limpio, mantenible y fácil de entender para todos los miembros del equipo.
 
 ### 5.1.4. Software Deployment Configuration.
+La configuración de despliegue contempla mecanismos organizados para publicar correctamente cada uno de los productos digitales del sistema: **Landing Page**, **Web Services (Backend)** y **Frontend Web Application**. Esta configuración garantiza que el equipo pueda replicar y mantener el proceso de despliegue con consistencia y trazabilidad.
+
+---
+
+**Despliegue del Landing Page**
+
+- **Tecnología:**  
+  HTML5, CSS3, JavaScript (Vanilla), diseño responsivo.
+
+- **Repositorio GitHub:**  
+  [https://github.com/Aurora-AplicacionesWeb/SupplyWok-Landing-Page](https://github.com/Aurora-AplicacionesWeb/SupplyWok-Landing-Page)
+
+- **Plataforma de despliegue:**  
+  GitHub Pages
+
+- **Método de despliegue:**  
+  - La rama `main` contiene la versión estable y publicada del sitio.  
+  - El contenido del directorio raíz se mantiene como fuente para GitHub Pages.  
+  - Los cambios aprobados en `develop` son fusionados a `main` mediante pull request.  
+  - GitHub Pages actualiza automáticamente la publicación al detectar cambios en `main`.
+
+---
+
+**Despliegue del Backend (Web Services)**
+
+- **Tecnología:**  
+  C# con .NET 10.
+
+- **Repositorio GitHub:**  
+  [https://github.com/G4-Aplicaciones-Web/backend](https://github.com/G4-Aplicaciones-Web/backend)
+
+- **Plataforma de despliegue:**  
+  Azure App Service.
+
+- **Método de despliegue:**  
+  - El backend se empaqueta como un archivo ejecutable o se publica directamente desde Visual Studio.  
+  - Se configura un pipeline de despliegue automático en Azure DevOps para integrar los cambios desde el repositorio.  
+  - Las variables de entorno (como credenciales de base de datos) se configuran en Azure App Service de forma segura.  
+  - El servicio se expone mediante una URL pública que el frontend puede consumir vía HTTP/REST.
+
+---
+
+**Despliegue del Frontend Web Application**
+
+- **Tecnología:**  
+  Vue.js 3 (JavaScript, HTML, CSS).
+
+- **Repositorio GitHub:**  
+  [https://github.com/Aurora-AplicacionesWeb/SupplyWok-FrontEnd](https://github.com/Aurora-AplicacionesWeb/SupplyWok-FrontEnd)
+
+- **Plataforma de despliegue:**  
+  Vercel.
+
+- **Método de despliegue:**  
+  - Vue.js se compila con `npm run build` para generar los archivos estáticos de producción.  
+  - La rama `main` sirve como fuente para el despliegue.  
+  - Vercel detecta automáticamente los cambios en `main` y publica la nueva versión del frontend.  
+  - El archivo de configuración de producción incluirá la URL pública del backend para permitir integración total.
+
+---
+
+**Consideraciones Finales**
+
+- Se documentará el procedimiento de despliegue paso a paso en la wiki del repositorio principal.  
+- Los entornos de desarrollo y producción estarán claramente separados mediante archivos de configuración.  
+- Se establecerán pruebas manuales básicas post-despliegue para verificar la disponibilidad y funcionalidad de los servicios.  
+- Se evaluará la incorporación de **GitHub Actions** o **Azure Pipelines** para automatizar los flujos de despliegue continuo (CI/CD).
 
 ## 5.2. Landing Page, Services & Applications Implementation.
-| Categoría | Herramienta | Propósito | Tipo de acceso/enlace |
-|:----:|:----:|:----:|:----:|
-| Project Management | Jira | Gestión del backlog y tareas del equipo mediante tableros Scrum. | https://www.atlassian.com/software/jira |
-| Requirements Management | UXPressia | Creación y documentación de User Personas y customer journeys. | https://uxpressia.com |
-| Product UX/UI Design | Figma | Creación de wireframes y mockups de la interfaz de usuario. | https://figma.com |
-| Modelado de Software | Visual Paradigm | Modelado de arquitectura de software: diagramas de contexto, Bounded Contexts, etc. | https://visual-paradigm.com |
-| Frontend Development | Webstorm | Editor de código para el desarrollo del Landing Page y Frontend (Vue). | https://www.jetbrains.com/webstorm/|
-| Backend Development | Rider| Entorno de desarrollo para el backend en C# y .NET Framework | https://www.jetbrains.com/rider/ |
-| Version Control | GitHub | Repositorio de control de versiones para todos los productos digitales. | https://github.com |
-| Software Documentation | Markdown | Redacción de documentación técnica del proyecto. | Compatible con GitHub / editores de texto |
+
 ### 5.2.1. Sprint 1 
 #### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
