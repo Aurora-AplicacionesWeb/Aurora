@@ -487,8 +487,31 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 - ¿Qué tipo de reportes o indicadores le ayudarían más en su trabajo diario?
 - ¿Qué tan útil le parecería una solución que combine gestión de inventario, pedidos, alertas y monitoreo operativo?
 - ¿Qué preocupaciones tendría al usar una nueva plataforma digital para su negocio?
-
+---
 ### 2.2.2. Registro de entrevistas.
+
+<!-- Segmento objetivo: Proveedores-->
+#### Segmento #2: Proveedores de insumos a restaurantes (Chifa)
+- **Entrevista #1**
+
+<p align="center">
+  <img src="../assets/images/interviews/entrevista-proveedores1.png" width="500">
+</p>
+
+El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un proveedor de carne y pollo con 7 años de experiencia que gestiona sus pedidos principalmente por WhatsApp. Su trabajo es inmediato y diario, ya que los restaurantes compran para el momento, lo que genera como principal problema que muchos clientes pidan tarde, dificultando la disponibilidad de productos y su organización. No muestra interés en herramientas de predicción de demanda ni en conocer el consumo o stock de sus clientes, ya que considera que el consumo es constante. Sin embargo, sí valora una solución digital simple que le permita visualizar pedidos pendientes y recibir recordatorios o alertas, con el fin de evitar olvidos y mejorar su gestión diaria.
+<br>
+<div align="center">
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen            |
+| **Entrevistado**  | Alberto Copa Villa                |
+| **Edad**          | 37 años                                    |
+| **Ubicacion**     | La Perla, Callao                             |
+| **Duración / Empieza en**      | 5:26 minutos / 0:31                           |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQAz-yZWPjdaTYEhhCMiX-lwAbe6dgRCmz--mI4NhxnP9zk?e=bCvRPf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+</div>
 
 ### 2.2.3 Análisis de entrevistas.
 
