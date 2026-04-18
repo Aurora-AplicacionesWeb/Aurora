@@ -444,15 +444,15 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 - ¿Qué tan importante sería para usted recibir alertas automáticas sobre bajo stock?
 - ¿Le sería útil visualizar proyecciones de demanda antes de hacer pedidos?
 - ¿Qué tan dispuesto estaría a usar una plataforma web para controlar inventario, pedidos y monitoreo operativo?
-- ¿Qué funcionalidades considera más importantes en una herramienta de este tipo?
-- ¿Qué le frustra de la manera actual de gestionar la operación del restaurante?
+- ¿Cuál de las siguientes funcionalidades considera más importante en una herramienta de este tipo? (Control de inventario alertas de stock bajo, registro de pedidos a proveedores, proyección de demanda, monitoreo de temperatura)
+- ¿Qué le fastidia de la manera actual de gestionar la operación del restaurante?
 - ¿Qué tan seguido cree que usaría una plataforma como esta: diario, semanal o solo cuando tenga problemas?
 
 **Preguntas complementarias:**
 - ¿Qué herramientas digitales usa actualmente para el negocio?
-- ¿Qué tan cómodo se siente usando plataformas web o dashboards?
+- ¿Qué redes sociales usa con mayor frecuencia?
 - ¿Ha usado sensores o sistemas de monitoreo en su restaurante?
-- ¿Qué tipo de datos le gustaría ver en un panel de control?
+- ¿Qué tan cómodo se siente usando smartphones o aplicaciones móviles?
 
 **Segmento 2: Proveedores de insumos para restaurantes**
 
@@ -478,7 +478,7 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 - ¿Qué herramientas usa hoy para organizar sus rutas o pedidos?
 - ¿Usa algún sistema para seguimiento de entregas?
 - ¿Qué datos le gustaría consultar antes de salir a repartir?
-- ¿Qué tan cómodo se sentiría trabajando con un dashboard o panel web?
+- ¿Cómo se podría usar una herramienta digital para mejorar la coordinación con restaurantes?
 
 **Preguntas transversales para ambos segmentos**
 - ¿Qué problemas considera más urgentes dentro de la operación actual?
