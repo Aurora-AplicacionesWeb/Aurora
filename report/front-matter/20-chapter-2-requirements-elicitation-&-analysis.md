@@ -518,6 +518,11 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
+
+<p align="center">
+  <img src="../assets/images/MarcoValdiviaUserPersona.png" width="500">
+</p>
+
 ### 2.2.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
