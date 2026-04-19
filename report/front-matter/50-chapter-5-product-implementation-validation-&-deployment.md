@@ -86,10 +86,7 @@ Ejemplo:
 
 El equipo ha adoptado guías de estilo y convenciones de codificación para cada uno de los lenguajes utilizados. Estas convenciones permiten que todos los miembros del equipo desarrollen bajo un estándar común y que el código sea comprensible tanto para desarrolladores actuales como futuros.
 
-**Nomenclatura general:**
-
-- Todos los identificadores, comentarios y documentación del código se escribirán en inglés.
-- Se utilizará el sistema de control de calidad en revisiones por pull request para verificar que las convenciones se cumplan antes de fusionar el código a la rama `develop`.
+Todos los identificadores, comentarios y documentación del código se escribirán en inglés.
 
 ---
 
