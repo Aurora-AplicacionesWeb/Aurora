@@ -491,12 +491,15 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 ### 2.2.2. Registro de entrevistas.
 
 
-#### Segmento #1: DDueños de restaurantes chifa y administradores (Chifa)
+#### Segmento #1: DDueños de restaurantes chifa y administradores
 - **Entrevista #1**
 
 <p align="center">
   <img src="../assets/images/interviews/owner-interview1.png" width="500">
 </p>
+
+**Resumen de entrevista:**
+
 Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, gestiona su restaurante basándose principalmente en su experiencia y cálculo mental, especialmente para el manejo de inventario y abastecimiento de insumos como pollo, verduras y otros productos. No utiliza herramientas digitales ni considera necesarias funciones como alertas de stock o predicción de demanda, ya que confía en su conocimiento práctico y en la compra diaria según precios y necesidades. Actualmente realiza pedidos de forma directa (llamadas) y percibe que una plataforma podría complicar su proceso. Sin embargo, muestra cierto interés en herramientas orientadas a atraer más clientes, como una mejor presentación del menú, y solo usaría una solución digital en casos puntuales cuando lo considere necesario.
 
 <br>
@@ -514,12 +517,15 @@ Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, g
 </div>
 
 <!-- Segmento objetivo: Proveedores-->
+---
 #### Segmento #2: Proveedores de insumos para restaurantes
 - **Entrevista #1**
 
 <p align="center">
   <img src="../assets/images/interviews/supplier-interview1.png" width="500">
 </p>
+
+**Resumen de entrevista:**
 
 El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un proveedor de carne y pollo con 7 años de experiencia que gestiona sus pedidos principalmente por WhatsApp. Su trabajo es inmediato y diario, ya que los restaurantes compran para el momento, lo que genera como principal problema que muchos clientes pidan tarde, dificultando la disponibilidad de productos y su organización. No muestra interés en herramientas de predicción de demanda ni en conocer el consumo o stock de sus clientes, ya que considera que el consumo es constante. Sin embargo, sí valora una solución digital simple que le permita visualizar pedidos pendientes y recibir recordatorios o alertas, con el fin de evitar olvidos y mejorar su gestión diaria.
 <br>
