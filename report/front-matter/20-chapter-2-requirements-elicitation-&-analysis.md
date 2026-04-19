@@ -516,6 +516,8 @@ Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, g
 
 </div>
 
+<sub>*Tabla 5. Entrevista 1*</sub>
+
 <!-- Segmento objetivo: Proveedores-->
 ---
 #### Segmento #2: Proveedores de insumos para restaurantes
@@ -542,6 +544,8 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 
 </div>
 
+<sub>*Tabla 8. Entrevista 4*</sub>
+
 ### 2.2.3 Análisis de entrevistas.
 
 ## 2.3. Needfinding.
@@ -550,9 +554,22 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 
 <p align="center">
   <img src="../assets/images/MarcoValdiviaUserPersona.png" width="500">
+</p><br>
+
+<sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
+
+<p align="center">
+  <img src="../assets/images/HuanZhang.png" width="500">
 </p>
 
+<sub>*Ilustración. User Persona dueños de restaurantes chifa y administradores*</sub>
+
 ### 2.2.2. User Task Matrix.
+
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
 ## 2.4. Big Picture EventStorming.
