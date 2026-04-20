@@ -568,9 +568,77 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
+| User Task                                                                  | Frecuencia | Importancia |
+|----------------------------------------------------------------------------|------------|-------------|
+| Registrar y actualizar el inventario de insumos del restaurante            | Alta       | Alta        |
+| Monitorear el stock de productos críticos en almacén                       | Alta       | Alta        |
+| Revisar alertas de bajo stock para prevenir desabastecimiento              | Alta       | Alta        |
+| Controlar las comandas y el estado de atención de los pedidos              | Alta       | Alta        |
+| Supervisar la demanda estimada de platos e insumos                         | Media      | Alta        |
+| Verificar la temperatura de cocina y almacenamiento mediante sensores IoT  | Alta       | Alta        |
+| Identificar posibles riesgos operativos o de seguridad en cocina           | Media      | Alta        |
+| Coordinar pedidos de abastecimiento con proveedores                        | Media      | Alta        |
+| Consultar el historial de pedidos y consumo de insumos                     | Media      | Media       |
+| Revisar el flujo de clientela en mesa para apoyar la proyección de demanda | Alta       | Alta        |
+| Tomar decisiones de compra y abastecimiento con base en datos              | Media      | Alta        |
+| Recibir notificaciones sobre eventos relevantes de operación               | Alta       | Alta        |
+
+<sub>*Tabla 9. User Task para el segmento de dueños de restaurantes chifa*</sub>
+
 - **Segmento objetivo 2: Proveedores de insumos para restaurantes**
 
+| User Task                                                                           | Frecuencia | Importancia |
+|-------------------------------------------------------------------------------------|------------|-------------|
+| Registrar y gestionar pedidos recibidos de los restaurantes                         | Alta       | Alta        |
+| Consultar el estado de los pedidos y su historial                                   | Alta       | Alta        |
+| Revisar la demanda proyectada de sus clientes                                       | Media      | Alta        |
+| Planificar rutas de entrega según pedidos y ubicaciones                             | Media      | Alta        |
+| Coordinar entregas con mayor anticipación y precisión                               | Media      | Alta        |
+| Monitorear información relacionada con el almacenamiento de sus clientes            | Media      | Alta        |
+| Identificar necesidades de reposición según consumo estimado                        | Media      | Alta        |
+| Consultar alertas o cambios relevantes en los pedidos                               | Alta       | Alta        |
+| Revisar patrones de compra de los restaurantes atendidos                            | Media      | Media       |
+| Organizar su operación logística en función de la demanda prevista                  | Media      | Alta        |
+| Mejorar la puntualidad y eficiencia en las entregas                                 | Alta       | Alta        |
+| Mantener comunicación más clara con los restaurantes sobre pedidos y abastecimiento | Alta       | Alta        |
+
+<sub>*Tabla 10. User Task para el segmento de proveedores de chifas*</sub>
+
 ### 2.3.3. User Journey Mapping.
+
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
+
+<p align="center">
+  <img src="../assets/images/map-supplywok1.png" width="500">
+</p>
+
+<sub>*Ilustración. User Journey Mapping - Segmento 1*</sub><br></br>
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
+<p align="center">
+  <img src="../assets/images/map-supplywok2.png" width="500">
+</p>
+
+<sub>*Ilustración. User Journey Mapping - Segmento 2*</sub><br></br>
+
 ### 2.3.4. Empathy Mapping.
+
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
+
+<p align="center">
+  <img src="../assets/images/persona-empathy-map.png" width="500">
+</p>
+
+<sub>*Ilustración. Empathy Map - Segmento 1*</sub><br></br>
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
+<p align="center">
+  <img src="../assets/images/persona-empathy-map2.png" width="500">
+</p>
+
+<sub>*Ilustración. Empathy Map - Segmento 2*</sub><br></br>
+
 ## 2.4. Big Picture EventStorming.
 ## 2.5. Ubiquitous Language.
