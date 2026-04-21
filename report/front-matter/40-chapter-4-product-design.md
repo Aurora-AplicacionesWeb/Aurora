@@ -135,13 +135,15 @@ Para evitar que los usuarios pierdan tiempo buscando información dentro de la p
 | Filtro por fecha | Disponible en el historial de pedidos y en reportes, para analizar periodos específicos de operación. |
 | Alertas activas | Vista filtrada que muestra únicamente los insumos que actualmente están por debajo del stock mínimo o tienen vencimiento próximo. |
 | Búsqueda de clientes (Proveedor) | Permite al proveedor localizar a un restaurante cliente por nombre para revisar su historial o demanda proyectada. |
- 
+
 ---
+
 ### 4.2.5. Navigation Systems.
+
 El sistema de navegación de SupplyWok está diseñado para ser predecible, consistente en ambos roles y accesible desde cualquier punto de la aplicación.
- 
+
 | Elemento de navegación | Descripción |
-|---|---|
+|----|----|
 | Barra lateral (Sidebar) | Menú principal fijo en el lado izquierdo de la pantalla, visible en todo momento. Contiene los accesos directos a todas las secciones del rol activo. En dispositivos móviles se colapsa en un menú tipo hamburguesa. |
 | Header | Barra superior con el nombre del usuario, su rol, notificaciones activas y acceso rápido a Configuración y Cerrar sesión. |
 | Dashboard como punto de entrada | Cada sesión iniciada redirige automáticamente al Dashboard del rol correspondiente, que funciona como centro de comando con accesos directos a las tareas más frecuentes. |
@@ -149,6 +151,8 @@ El sistema de navegación de SupplyWok está diseñado para ser predecible, cons
 | Botones de acción contextual | Cada sección incluye botones primarios para la acción más común (Crear pedido, Agregar insumo, Ver detalle), reduciendo el número de pasos necesarios. |
 | Notificaciones | Ícono en el header que agrupa alertas activas. Al hacer clic despliega un panel con el listado de alertas recientes ordenadas cronológicamente. |
 | Navegación entre roles | Si un usuario administra tanto un restaurante como actúa como proveedor, puede cambiar de vista desde el header sin necesidad de cerrar sesión. |
+
+---
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 ### 4.3.2. Landing Page Mock-up.
