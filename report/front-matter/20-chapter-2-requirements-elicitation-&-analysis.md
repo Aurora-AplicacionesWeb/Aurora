@@ -641,6 +641,28 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 <sub>*Ilustración. Empathy Map - Segmento 2*</sub><br></br>
 
 ## 2.4. Big Picture EventStorming.
+
+En esta sección se introduce y resume el proceso colaborativo realizado por el equipo Aurora para el descubrimiento del dominio del negocio. El objetivo primordial de esta actividad fue lograr una comprensión integral del ecosistema de gestión y abastecimiento de los restaurantes tipo chifa, plasmando los eventos significativos y sus interacciones de manera visual.
+
+A través de esta aproximación de alto nivel, el equipo exploró el panorama del negocio, lo cual permitió identificar procesos clave, al mismo tiempo que se expusieron potenciales problemas u oportunidades de mejora operativa. El proceso se desarrolló siguiendo una línea de tiempo narrativa, facilitando la identificación de puntos críticos y la delimitación de las fronteras lógicas de la solución propuesta.
+
+
+#### Step 1: Unstructured Exploration
+
+En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. Para este paso se tienen en cuenta las épicas y los criterios de aceptación.
+
+<img src="../assets/images/epicevent1.png" width="500">
+
+<img src="../assets/images/epicevent2.png" width="500">
+
+<img src="../assets/images/epicevent3.png" width="500">
+
+<img src="../assets/images/epicevent4.png" width="500">
+
+<img src="../assets/images/epicvent5.png" width="500">
+
+
+
 ## 2.5. Ubiquitous Language.
 
 
