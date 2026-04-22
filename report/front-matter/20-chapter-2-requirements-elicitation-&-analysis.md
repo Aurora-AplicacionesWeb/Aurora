@@ -2,22 +2,25 @@
 
 ## 2.1. Competidores
 
+En esta sección se realizará un análisis competitivo sobre distintas plataformas de gestión de restaurantes y proveedores que se encuentran en el mercado, que cumplan funciones similares a nosotros. De esta manera podremos conocer nuestra posición frente a posibles competidores.
+
+Las siguientes plataformas son de las más relevantes en el mercado de gestión de restaurantes y proveedores, cada una con enfoques y características distintas que las hacen destacar en diferentes aspectos del sector:
 
 **1. Apicbase**
 
-- Es un sistema operativo para la gestión de alimentos y bebidas diseñado específicamente para operaciones multi-unidad, como cadenas de restaurantes y hoteles.
+- Es un sistema operativo para la gestión de alimentos y bebidas diseñado específicamente para operaciones multi-unidad, como cadenas de restaurantes y hoteles. Unifica recetas, menús y compras en todos los locales, asegurando consistencia en la calidad y los costos e incluye módulos avanzados para trazabilidad de ingredientes, gestión de alérgenos y cumplimiento de normas HACCP (Apicbase, s.f.)[^1].
 
 **2. MarketMan**
 
-- Plataforma "todo en uno" para el control de inventarios y suministros, ideal para optimizar los flujos de trabajo administrativos (back-of-house).
+- Plataforma "todo en uno" para el control de inventarios y suministros, ideal para optimizar los flujos de trabajo administrativos (back-of-house). Utiliza análisis predictivos para automatizar pedidos a proveedores y detectar fluctuaciones de precios en tiempo real y calcula el costo exacto de cada plato integrando las facturas de compra con las ventas del punto de venta (TPV) (MarketMan, s.f.)[^2].
 
 **3. WISK.ai**
 
-- App móvil que se destaca por su precisión técnica, ofreciendo una de las soluciones de inventario más rápidas y precisas del mercada gracias al uso internsivo de inteligencia artificial.
+- App móvil que se destaca por su precisión técnica, ofreciendo una de las soluciones de inventario más rápidas y precisas del mercada gracias al uso internsivo de inteligencia artificial. Su app móvil puede identificar botellas y productos mediante la cámara, agilizando el conteo de existencias, ofrece herramientas muy detalladas para bares y hoteles, permitiendo un seguimiento exacto de mermas en licores y bebidas mezcladas y su IA puede predecir la demanda basándose no solo en ventas pasadas, sino también en factores externos como el clima o eventos locales (WISK.ai, s.f.)[^3].
 
 **4. Restaurant365**
 
-- Plataforma de gestión empresarial integral, que unifica contabilidad, inventarios, compras y gestión de personal en un solo ecosistema basado en la nube.
+- Plataforma de gestión empresarial integral basada en la nube, diseñada específicamente para el sector de la hospitalidad. Incluye una red contable específica para restaurantes que automatiza facturas, cuentas por pagar y conciliaciones bancarias, permite rastrear ingredientes en tiempo real, gestionar pedidos automáticos a proveedores y analizar el costo teórico frente al real para reducir mermas, utiliza IA para predecir la demanda futura, optimizar los horarios de trabajo y generar informes de pérdidas y ganancias (P&L) en tiempo real y se integra con cientos de sistemas de punto de venta (TPV/POS), bancos y proveedores de alimentos para que los datos fluyan automáticamente sin necesidad de hojas de cálculo manuales (Restaurant365, s.f.)[^4].
 
 ### 2.1.1. Análisis Competitivo
 
@@ -44,19 +47,19 @@
         </td>
         <td align="center">
             <p><b>Apicbase</b></p>
-            <img src="report/assets/images/Apicbase.png" alt="Apicbase-logo" width="70" />
+            <img src="../assets/images/Apicbase.png" alt="Apicbase-logo" width="70" />
         </td>
         <td align="center">
             <p><b>MarketMan</b></p>
-            <img src="report/assets/images/MarketMan.png" alt="MarketMan-logo" width="70" />
+            <img src="../assets/images/MarketMan.png" alt="MarketMan-logo" width="70" />
         </td>
         <td align="center">
             <p><b>WISK.ai</b></p>
-            <img src="report/assets/images/WISK.png" alt="WISK.ai-logo" width="70" />
+            <img src="../assets/images/WISK.png" alt="WISK.ai-logo" width="70" />
         </td>
         <td align="center">
             <p><b>Restaurant365</b></p>
-            <img src="report/assets/images/Restaurant365.png" alt="Restaurant365-logo" width="70" />    
+            <img src="../assets/images/Restaurant365.png" alt="Restaurant365-logo" width="70" />    
     </tr>
     <tr>
         <td rowspan="2" align="center">
@@ -160,12 +163,12 @@
         </td>
         <td align="center">
             <p>
-                .
+                Promocionar el uso de sensores IoT, contenido especializado en seguridad y prevención de riegos en cocina, y co-marketing con proveedores de insumos orientales.
             </p>
         </td>
         <td align="center">
             <p>
-                Contenido educativo profundo, usando una biblioteca técnica para profesionales F&B, marketing basado en cassos de éxito y enfoque emocional para chefs.
+                Contenido educativo profundo, usando una biblioteca técnica para profesionales F&B, marketing basado en casos de éxito y enfoque emocional para chefs.
             </p>
         </td>
         <td align="center">
@@ -193,7 +196,7 @@
         </td>
         <td align="center">
             <p>
-                .
+                Gestión de inventario, comandas y abastecimiento, monitoreo de seguridad en cocina mediante sensores, analítica predictiva para demanda y alertas de bajo stock.
             </p>
         </td>
         <td align="center">
@@ -223,7 +226,7 @@
         </td>
         <td align="center">
             <p>
-                .
+                Modelo de Suscripción; Wok: S/ 119.99 al mes por ubicación. Wok Enterprise: Precio personalizado según necesidades y tamaño del cliente.
             </p>
         </td>
         <td align="center">
@@ -253,7 +256,7 @@
         </td>
         <td align="center">
             <p>
-                .
+                Web (Escritorio) y móvil.
             </p>
         </td>
         <td align="center">
@@ -415,3 +418,260 @@
 | **Rotación de Mesas**                    | Uso de sensores para calcular el promedio de ocupación. Si una mesa está libre, el sistema alerta al anfitrión o actualiza la app.                                  |
 
 <sub>*Tabla 4. Estrategias y tácticas frente a competidores*</sub>
+
+---
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+Para comprender mejor a nuestros usuarios y construir arquetipos representativos, diseñamos preguntas para las entrevistas de los dos segmentos objetivos identificados.
+
+**Segmento 1: Dueños de restaurantes chifa y administradores**
+
+**Objetivo de la entrevista:** Identificar cómo gestionan actualmente su inventario, abastecimiento, control operativo y monitoreo de procesos internos; además de reconocer sus principales frustraciones, necesidades y disposición para adoptar una plataforma digital con servicios IoT que les ayude a mejorar la toma de decisiones.
+
+**Preguntas:**
+- ¿Cuál es su nombre, edad y distrito donde se ubica su restaurante?
+- ¿Cuál es su cargo o rol dentro del negocio?
+- ¿Hace cuánto tiempo administra o trabaja en el restaurante?
+- ¿Qué tipo de insumos manejan con mayor frecuencia en su operación?
+- ¿Cómo realizan actualmente el control de inventario y el registro de stock?
+- ¿Qué dificultades enfrenta al momento de prever la demanda de insumos o platos?
+- ¿Con qué frecuencia tiene problemas de sobrestock o desabastecimiento?
+- ¿Cómo coordinan actualmente los pedidos con sus proveedores?
+- ¿Qué información considera más útil para tomar decisiones sobre abastecimiento?
+- ¿Qué tan importante sería para usted recibir alertas automáticas sobre bajo stock?
+- ¿Le sería útil visualizar proyecciones de demanda antes de hacer pedidos?
+- ¿Qué tan dispuesto estaría a usar una plataforma web para controlar inventario, pedidos y monitoreo operativo?
+- ¿Cuál de las siguientes funcionalidades considera más importante en una herramienta de este tipo? (Control de inventario alertas de stock bajo, registro de pedidos a proveedores, proyección de demanda, monitoreo de temperatura)
+- ¿Qué le fastidia de la manera actual de gestionar la operación del restaurante?
+- ¿Qué tan seguido cree que usaría una plataforma como esta: diario, semanal o solo cuando tenga problemas?
+
+**Preguntas complementarias:**
+- ¿Qué herramientas digitales usa actualmente para el negocio?
+- ¿Qué redes sociales usa con mayor frecuencia?
+- ¿Ha usado sensores o sistemas de monitoreo en su restaurante?
+- ¿Qué tan cómodo se siente usando smartphones o aplicaciones móviles?
+
+**Segmento 2: Proveedores de insumos para restaurantes**
+
+**Objetivo de la entrevista:** Comprender cómo gestionan sus entregas, cómo se coordinan con sus clientes y qué información les sería útil para planificar mejor su abastecimiento, rutas y atención comercial a través de una plataforma digital.
+
+**Preguntas:**
+- ¿Cuál es su nombre, edad y tipo de negocio?
+- ¿Qué productos o insumos distribuye a restaurantes?
+- ¿Cuánto tiempo lleva trabajando como proveedor?
+- ¿Cómo coordina actualmente los pedidos con sus clientes?
+- ¿Qué canales usa para recibir pedidos o solicitudes de abastecimiento?
+- ¿Qué dificultades enfrenta al planificar entregas o rutas?
+- ¿Qué tan frecuente es que reciba pedidos imprevistos o urgentes?
+- ¿Qué información le sería útil para anticipar la demanda de sus clientes?
+- ¿Le ayudaría visualizar pedidos pendientes o proyecciones de compra?
+- ¿Qué tan importante sería para usted conocer el consumo o stock aproximado de sus clientes?
+- ¿Qué funcionalidades considera más valiosas en una plataforma para proveedores?
+- ¿Qué le frustra de la forma actual de coordinar entregas y abastecimiento?
+- ¿Qué tan dispuesto estaría a usar una plataforma digital para gestionar clientes y pedidos?
+- ¿Con qué frecuencia cree que usaría una herramienta como esta?
+
+**Preguntas complementarias:**
+- ¿Qué herramientas usa hoy para organizar sus rutas o pedidos?
+- ¿Usa algún sistema para seguimiento de entregas?
+- ¿Qué datos le gustaría consultar antes de salir a repartir?
+- ¿Cómo se podría usar una herramienta digital para mejorar la coordinación con restaurantes?
+
+**Preguntas transversales para ambos segmentos**
+- ¿Qué problemas considera más urgentes dentro de la operación actual?
+- ¿Qué beneficios esperaría obtener de una plataforma como SupplyWok?
+- ¿Qué tan importante sería para usted que la información esté centralizada en un solo lugar?
+- ¿Qué tipo de reportes o indicadores le ayudarían más en su trabajo diario?
+- ¿Qué tan útil le parecería una solución que combine gestión de inventario, pedidos, alertas y monitoreo operativo?
+- ¿Qué preocupaciones tendría al usar una nueva plataforma digital para su negocio?
+---
+### 2.2.2. Registro de entrevistas.
+
+
+#### Segmento #1: DDueños de restaurantes chifa y administradores
+- **Entrevista #1**
+
+<p align="center">
+  <img src="../assets/images/interviews/owner-interview1.png" width="500">
+</p>
+
+**Resumen de entrevista:**
+
+Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, gestiona su restaurante basándose principalmente en su experiencia y cálculo mental, especialmente para el manejo de inventario y abastecimiento de insumos como pollo, verduras y otros productos. No utiliza herramientas digitales ni considera necesarias funciones como alertas de stock o predicción de demanda, ya que confía en su conocimiento práctico y en la compra diaria según precios y necesidades. Actualmente realiza pedidos de forma directa (llamadas) y percibe que una plataforma podría complicar su proceso. Sin embargo, muestra cierto interés en herramientas orientadas a atraer más clientes, como una mejor presentación del menú, y solo usaría una solución digital en casos puntuales cuando lo considere necesario.
+
+<br>
+<div align="center">
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen            |
+| **Entrevistado**  | Ana Chen                |
+| **Edad**          | 50 años                                    |
+| **Ubicacion**     | La Perla, Callao                             |
+| **Duración / Empieza en**      | 7:38 minutos / 0:19                           |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDQHa7uwWb0SpGufV03qReqAdJZ63c91J2peSXSFxW63_U?e=CLpwrJ) |
+
+</div>
+
+<sub>*Tabla 5. Entrevista 1*</sub>
+
+<!-- Segmento objetivo: Proveedores-->
+---
+#### Segmento #2: Proveedores de insumos para restaurantes
+- **Entrevista #1**
+
+<p align="center">
+  <img src="../assets/images/interviews/supplier-interview1.png" width="500">
+</p>
+
+**Resumen de entrevista:**
+
+El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un proveedor de carne y pollo con 7 años de experiencia que gestiona sus pedidos principalmente por WhatsApp. Su trabajo es inmediato y diario, ya que los restaurantes compran para el momento, lo que genera como principal problema que muchos clientes pidan tarde, dificultando la disponibilidad de productos y su organización. No muestra interés en herramientas de predicción de demanda ni en conocer el consumo o stock de sus clientes, ya que considera que el consumo es constante. Sin embargo, sí valora una solución digital simple que le permita visualizar pedidos pendientes y recibir recordatorios o alertas, con el fin de evitar olvidos y mejorar su gestión diaria.
+<br>
+<div align="center">
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen            |
+| **Entrevistado**  | Alberto Copa Villa                |
+| **Edad**          | 37 años                                    |
+| **Ubicacion**     | La Perla, Callao                             |
+| **Duración / Empieza en**      | 5:26 minutos / 0:31                           |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQAz-yZWPjdaTYEhhCMiX-lwAbe6dgRCmz--mI4NhxnP9zk?e=bCvRPf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+</div>
+
+<sub>*Tabla 8. Entrevista 4*</sub>
+
+### 2.2.3 Análisis de entrevistas.
+
+## 2.3. Needfinding.
+
+### 2.3.1. User Personas.
+
+<p align="center">
+  <img src="../assets/images/MarcoValdiviaUserPersona.png" width="500">
+</p><br>
+
+<sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
+
+<p align="center">
+  <img src="../assets/images/HuanZhang.png" width="500">
+</p>
+
+<sub>*Ilustración. User Persona dueños de restaurantes chifa y administradores*</sub>
+
+### 2.2.2. User Task Matrix.
+
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
+
+| User Task                                                                  | Frecuencia | Importancia |
+|----------------------------------------------------------------------------|------------|-------------|
+| Registrar y actualizar el inventario de insumos del restaurante            | Alta       | Alta        |
+| Monitorear el stock de productos críticos en almacén                       | Alta       | Alta        |
+| Revisar alertas de bajo stock para prevenir desabastecimiento              | Alta       | Alta        |
+| Controlar las comandas y el estado de atención de los pedidos              | Alta       | Alta        |
+| Supervisar la demanda estimada de platos e insumos                         | Media      | Alta        |
+| Verificar la temperatura de cocina y almacenamiento mediante sensores IoT  | Alta       | Alta        |
+| Identificar posibles riesgos operativos o de seguridad en cocina           | Media      | Alta        |
+| Coordinar pedidos de abastecimiento con proveedores                        | Media      | Alta        |
+| Consultar el historial de pedidos y consumo de insumos                     | Media      | Media       |
+| Revisar el flujo de clientela en mesa para apoyar la proyección de demanda | Alta       | Alta        |
+| Tomar decisiones de compra y abastecimiento con base en datos              | Media      | Alta        |
+| Recibir notificaciones sobre eventos relevantes de operación               | Alta       | Alta        |
+
+<sub>*Tabla 9. User Task para el segmento de dueños de restaurantes chifa*</sub>
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
+| User Task                                                                           | Frecuencia | Importancia |
+|-------------------------------------------------------------------------------------|------------|-------------|
+| Registrar y gestionar pedidos recibidos de los restaurantes                         | Alta       | Alta        |
+| Consultar el estado de los pedidos y su historial                                   | Alta       | Alta        |
+| Revisar la demanda proyectada de sus clientes                                       | Media      | Alta        |
+| Planificar rutas de entrega según pedidos y ubicaciones                             | Media      | Alta        |
+| Coordinar entregas con mayor anticipación y precisión                               | Media      | Alta        |
+| Monitorear información relacionada con el almacenamiento de sus clientes            | Media      | Alta        |
+| Identificar necesidades de reposición según consumo estimado                        | Media      | Alta        |
+| Consultar alertas o cambios relevantes en los pedidos                               | Alta       | Alta        |
+| Revisar patrones de compra de los restaurantes atendidos                            | Media      | Media       |
+| Organizar su operación logística en función de la demanda prevista                  | Media      | Alta        |
+| Mejorar la puntualidad y eficiencia en las entregas                                 | Alta       | Alta        |
+| Mantener comunicación más clara con los restaurantes sobre pedidos y abastecimiento | Alta       | Alta        |
+
+<sub>*Tabla 10. User Task para el segmento de proveedores de chifas*</sub>
+
+### 2.3.3. User Journey Mapping.
+
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
+
+<p align="center">
+  <img src="../assets/images/map-supplywok1.png" width="500">
+</p>
+
+<sub>*Ilustración. User Journey Mapping - Segmento 1*</sub><br></br>
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
+<p align="center">
+  <img src="../assets/images/map-supplywok2.png" width="500">
+</p>
+
+<sub>*Ilustración. User Journey Mapping - Segmento 2*</sub><br></br>
+
+### 2.3.4. Empathy Mapping.
+
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
+
+<p align="center">
+  <img src="../assets/images/persona-empathy-map.png" width="500">
+</p>
+
+<sub>*Ilustración. Empathy Map - Segmento 1*</sub><br></br>
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
+<p align="center">
+  <img src="../assets/images/persona-empathy-map2.png" width="500">
+</p>
+
+<sub>*Ilustración. Empathy Map - Segmento 2*</sub><br></br>
+
+## 2.4. Big Picture EventStorming.
+
+En esta sección se introduce y resume el proceso colaborativo realizado por el equipo Aurora para el descubrimiento del dominio del negocio. El objetivo primordial de esta actividad fue lograr una comprensión integral del ecosistema de gestión y abastecimiento de los restaurantes tipo chifa, plasmando los eventos significativos y sus interacciones de manera visual.
+
+A través de esta aproximación de alto nivel, el equipo exploró el panorama del negocio, lo cual permitió identificar procesos clave, al mismo tiempo que se expusieron potenciales problemas u oportunidades de mejora operativa. El proceso se desarrolló siguiendo una línea de tiempo narrativa, facilitando la identificación de puntos críticos y la delimitación de las fronteras lógicas de la solución propuesta.
+
+
+#### Step 1: Unstructured Exploration
+
+En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. Para este paso se tienen en cuenta las épicas y los criterios de aceptación.
+
+<img src="../assets/images/epicevent1.png" width="500">
+
+<img src="../assets/images/epicevent2.png" width="500">
+
+<img src="../assets/images/epicevent3.png" width="500">
+
+<img src="../assets/images/epicevent4.png" width="500">
+
+<img src="../assets/images/epicvent5.png" width="500">
+
+
+
+## 2.5. Ubiquitous Language.
+
+
+
+
+[^1]: Apicbase. (s.f.). _Plataforma líder de gestión de F&B_. https://get.apicbase.com/es/
+
+[^2]: MarketMan. (s.f.). _Software De Gestión De Inventario Para Restaurantes Para El Control De Costes Y La Eficiencia_. https://es.marketman.com/
+
+[^3]: WISK.ai. (s.f.). _Bar and Restaurant Inventory Management Software_. https://www.wisk.ai/
+
+[^4]: Restaurant365. (s.f.). _Restaurant Management Software_. https://www.restaurant365.com/
