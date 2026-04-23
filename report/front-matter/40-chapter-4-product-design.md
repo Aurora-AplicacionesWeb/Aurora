@@ -212,6 +212,37 @@ El sistema de navegación de SupplyWok está diseñado para ser predecible, cons
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ## 4.8. Database Design.
+
+El siguiente Diagrama Entidad-Relación detalla la estructura de datos fundamental que soporta la lógica de la plataforma. A este modelo, compuesto por 25 entidades, se le aplicaron las tres fases de normalización para garantizar un diseño robusto y eficiente. Esto asegura la escalabilidad, la separación de responsabilidades y el mantenimiento de la aplicación, organizada en los siguientes seis módulos:
+
+- #### Gestión de Inventario
+
+Controla las entradas, salidas y niveles de stock para evitar desabastecimientos o excesos.
+
+- #### Abastecimiento y Órdenes de Compra
+
+Gestiona los pedidos de insumos entre el restaurante y el proveedor, reduciendo los tiempos de respuesta entre ambos.
+
+- #### Panel del Proveedor
+
+Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
+
+- #### Plataforma y Acceso
+
+Administra el acceso seguro de los usuarios, sus cuentas y planes de suscripción.
+
+- #### Monitoreo Operativo y Alertas IoT
+
+Representa el núcleo operativo del sistema; controla sensores y notificaciones para garantizar la seguridad en el entorno de trabajo.
+
+- #### Comandas y Órdenes para Cocina
+
+Facilita la comunicación eficiente entre la cocina y las mesas para garantizar un servicio rápido y sin errores.
+
+
 ### 4.8.1. Database Diagrams.
+
+
+
 
 [^1]: Clec. (s.f.). El color rojo en China: orígenes y tradiciones. Recuperado el 23 de abril de 2026, de https://fundacionclec.org/el-color-rojo-en-china-origenes-y-tradiciones/
