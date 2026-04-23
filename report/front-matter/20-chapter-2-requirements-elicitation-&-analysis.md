@@ -518,6 +518,30 @@ Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, g
 
 <sub>*Tabla 5. Entrevista 1*</sub>
 
+- **Entrevista #2**
+<p align="center">
+  <img src="../assets/images/interviews/owner-interview2.png" width="500" alt="entrevista-owners-2">
+</p>
+
+**Resumen de entrevista:**
+
+El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Callao) con aproximadamente 20 años de experiencia, gestiona su restaurante de forma muy tradicional, basándose principalmente en la compra directa y la comunicación por teléfono con proveedores. No lleva un control formal de inventario y suele darse cuenta de la falta de insumos cada pocos días, lo que genera problemas recurrentes de abastecimiento. Muestra interés en herramientas digitales, reconoce que sería útil contar con alertas de stock y sistemas que indiquen cuánto comprar, especialmente para evitar faltantes. También considera importante mejorar la rapidez en la entrega de pedidos y estaría dispuesto a usar una plataforma diariamente si esta le ayudara a resolver estos problemas de manera automática y sencilla.
+
+<br>
+<div align="center">
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen            |
+| **Entrevistado**  | Weiquan Wang               |
+| **Edad**          | 55 años                                    |
+| **Ubicacion**     | La Perla, Callao                             |
+| **Duración / Empieza en**      | 8:46 minutos / 0:20                 |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDEAnd2qgv5RrhlW47RT0uwAeMEyqi6KVvTeeECfeDlJLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ftyrCl) |
+
+</div>
+
+<sub>*Tabla 6. Entrevista 2*</sub>
 <!-- Segmento objetivo: Proveedores-->
 ---
 #### Segmento #2: Proveedores de insumos para restaurantes
