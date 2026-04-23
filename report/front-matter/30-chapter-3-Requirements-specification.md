@@ -89,16 +89,7 @@
 
 ## 3.2. Impact Mapping
 
-> Nota: La imagen del Impact Mapping fue eliminada del repositorio. Debe rehacerse en la herramienta indicada y actualizar esta sección con la nueva captura.
-
-A continuación se describe la estructura del Impact Mapping elaborado para SupplyWok:
-
-- **Business Goals (SMART):**
-  Alcanzar 50 restaurantes chifa activos suscritos al plan Premium en los primeros 6 meses.
-  Lograr que el 70% de los usuarios activos registren su inventario y realicen al menos un pedido digital en el primer mes.
-- **Actors:** Dueño o administrador de restaurante chifa, proveedor de insumos.
-- **Impacts:** Reducir el tiempo dedicado al control manual de inventario; anticipar pedidos con base en alertas de stock; mejorar la coordinación con proveedores eliminando llamadas informales.
-- **Deliverables:** Módulo de inventario con alertas; módulo de pedidos integrado con directorio de proveedores; dashboard con resumen operativo.
+<img src="/report/assets/images/Impact Mapping-SupplyWok.png" width="580px" alt="Impact Map">
 
 ### 3.3. Product Backlog
 

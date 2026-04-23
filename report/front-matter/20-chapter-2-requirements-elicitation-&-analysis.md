@@ -491,7 +491,7 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 ### 2.2.2. Registro de entrevistas.
 
 
-#### Segmento #1: DDueños de restaurantes chifa y administradores
+#### Segmento #1: Dueños de restaurantes chifa y administradores
 - **Entrevista #1**
 
 <p align="center">
