@@ -11,7 +11,7 @@ Angel Augusto Velasquez Nuñez<br><br>
 Informe de Trabajo Final<br><br>
 
 Startup: AURORA<br><br>
-Nombre del producto (en produccion)
+Producto: SupplyWok
 </h3>
 
 <div align="center">
