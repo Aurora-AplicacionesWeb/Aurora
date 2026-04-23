@@ -661,7 +661,19 @@ En esta fase inicial, todos los miembros del equipo escriben tantos eventos de d
 
 <img src="../assets/images/epicvent5.png" width="500">
 
+#### Step 2: Structured Organization
 
+Después de listar los eventos desestructurados, el equipo los organiza en una línea de tiempo narrativa, identificando las relaciones de causalidad entre ellos. Se agrupan eventos relacionados y se identifican patrones o flujos comunes. En esta fase se busca entender cómo los eventos interactúan entre sí y cómo se relacionan con los procesos del negocio.
+
+<img src="../assets/images/step2e01.png" width="500">
+
+<img src="../assets/images/step2e02.png" width="500">
+
+<img src="../assets/images/step2e03.png" width="500">
+
+<img src="../assets/images/step2e04.png" width="500">
+
+<img src="../assets/images/step2e05.png" width="500">
 
 ## 2.5. Ubiquitous Language.
 
