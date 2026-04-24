@@ -226,6 +226,38 @@ El sistema de navegación de SupplyWok está diseñado para ser predecible, cons
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+
+Para nuestro primer bounded context tenemos el siguiente diagrama de clases.
+
+<div align="center">
+  <img src="../assets/images/1esboundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+Para este contexto, la entidad principal es la Orden de Compra (Purchase Order), la cual reemplaza los mensajes informales y centraliza la comunicación entre el restaurante y el proveedor.
+
+<div align="center">
+  <img src="../assets/images/2boundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+Este contexto se encarga de supervisar las condiciones físicas críticas (temperatura y humedad) en la cocina y el almacén, procesando las lecturas de los sensores y disparando alertas cuando se rompen los umbrales de seguridad.
+
+<div align="center">
+  <img src="../assets/images/3boundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+Este cuarto contexto resuelve tres necesidades clave para Marco Valdivia y los demás proveedores: gestionar su catálogo, tener visibilidad de la demanda (proyección) y hacer seguimiento de la distribución de pedidos.
+
+<div align="center">
+  <img src="../assets/images/4boundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+El quinto y último módulo es transversal: se encarga de la seguridad, la gestión de cuentas, los planes de suscripción y el soporte técnico, garantizando que tanto dueños de chifas como proveedores tengan una experiencia fluida.
+
+<div align="center">
+  <img src="../assets/images/4boundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+
 ## 4.8. Database Design.
 
 El siguiente Diagrama Entidad-Relación detalla la estructura de datos fundamental que soporta la lógica de la plataforma. A este modelo, compuesto por 25 entidades, se le aplicaron las tres fases de normalización para garantizar un diseño robusto y eficiente. Esto asegura la escalabilidad, la separación de responsabilidades y el mantenimiento de la aplicación, organizada en los siguientes seis módulos:
