@@ -542,6 +542,30 @@ El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Call
 </div>
 
 <sub>*Tabla 6. Entrevista 2*</sub>
+- **Entrevista #2**
+<p align="center">
+  <img src="../assets/images/interviews/owner-interview3.png" width="500" alt="entrevista-owners-3">
+</p>
+
+**Resumen de entrevista:**
+
+La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 10 años de experiencia, gestiona su restaurante de manera empírica, sin un control formal de inventario, revisando manualmente y comprando cuando nota que faltan insumos como carne, pollo, verduras y bebidas. Coordina los pedidos principalmente por llamadas y, en ocasiones, debe ir personalmente a adquirir los productos. No percibe grandes dificultades en su operación diaria, aunque reconoce que todo el proceso puede resultar molesto. A diferencia de otros casos, muestra apertura hacia una solución digital: considera importante recibir alertas de stock bajo y ve útil contar con proyecciones de demanda para planificar compras. Estaría dispuesta a usar una plataforma que automatice estas funciones y acepte diversas herramientas (inventario, pedidos, predicción), utilizándola de forma frecuente si le facilita la gestión del negocio.
+
+<br>
+<div align="center">
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen            |
+| **Entrevistado**  | Lily 蔡                |
+| **Edad**          | 54 años                |
+| **Ubicacion**     | La Perla, Callao       |
+| **Duración / Empieza en**      | 12:49 minutos / 0:36  |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/personal/u202318609_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318609%5Fupc%5Fedu%5Fpe%2FDocuments%2Fentrevista3%2Downers%201%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec4f1f5f8%2Db63d%2D4413%2D84a5%2Dd4920163ad74) |
+
+</div>
+
+<sub>*Tabla 7. Entrevista 3*</sub>
 <!-- Segmento objetivo: Proveedores-->
 ---
 #### Segmento #2: Proveedores de insumos para restaurantes
