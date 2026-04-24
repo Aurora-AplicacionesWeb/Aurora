@@ -1,6 +1,48 @@
 # Capítulo IV: Product Design.
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines.
+
+En esta sección se detallan los lineamientos de estilo que hemos decidido seguir para mantener la coherencia visual de la plataforma, la cual incluye la landing page, web y versiones mobile. Se detallaran el branding, paleta de colores y tipografias a utilizar en el proyecto.
+
+#### 4.1.1.1. Branding.
+
+El logo de nuestra plataforma está compuesto por los caracteres 'S' y 'W' provenientes del nombre SuppylWok, puestos de forma creativa para mantener una relacion con nuestro público objetivo. La 'S' encontrandose en forma de humo que sale de un recipiente que tiene la forma de 'W'. Transmitiendo una conexion con el entorno de un restaurante chifa generando familiaridad con nuestros usuarios.
+
+<div align="center">
+  <img src="../assets/images/SupplyWok_logo.png" width="300" height="300" alt="SupplyWok Logo">
+</div>
+
+#### 4.1.1.2. Paleta de Colores.
+
+La identidad visual de SupplyWok busca mantener una relacion con el entorno de un restaurante chifa clásico por lo que nuestro colores predominan rojos y amarillos, combinado con blancos y negros para un contraste optimo.
+
+- **Rojo (#C21204):** Este color en la cultura china esta realacionado con la suerte y la prosperidad en los negocios[^1] que buscamos transmitir mediante el uso de nuestra paltaforma, además de ser un color que genera impacto visual. por lo que se usará en botones principales, alertas y elementos que requieran atención.
+- **Amarillo (#E9B824):** Este color lo usamos como contraste al rojo y para resaltar textos en caso se requiera.
+- **Mostaza o Amarillo oscuro (#AO7832):** Siendo una variante mas oscura del amarillo que tenemos se usaran en detalles para ayudar a armonizar la vista de nuestro usuarios.
+- **Blanco (#FFFFFF):** Color neutro para mantener un balance en la paleta de colores.
+- **Negro (#000000):** Color neutro para mantener un balance en la paleta de colores.
+
+<div align="center">
+  <img src="../assets/images/paleta_colores.png" width="1000" height="200" alt="SupplyWok Colors">
+</div>
+
+#### 4.1.1.3. Tipografía.
+
+La tipografia que se ha decidido usar en nuestra plataforma son dos, Poppins y Monserrat. Estas elecciones fueron hechas pensando en la comodidad de lectura de nuestros usuarios, junto a un diseño moderno que se quiere lograr.
+
+- **Títulos:** Para los titulos se usaran Poppins en pesos de Bold o semibold dependiendo del titulo, esto para dar una fuerza y relevancia necesarias en titulos.
+
+<div align="center">
+  <img src="../assets/images/poppins_example.png" alt="SupplyWok Poppins">
+</div>
+
+- **Párrafos o cuerpo del texto:** Se usara Monserrat en pesos variados como bold, regular o light dependiendo de la intencion del parrafo. Pensado en la legibilidad necesaria para los usuarios al momento de leer.
+
+<div align="center">
+  <img src="../assets/images/monserrat_example.png" alt="SupplyWok Monserrat">
+</div>
+
+
 ### 4.1.2. Web Style Guidelines.
 ### 4.2. Information Architecture.
 La arquitectura de información de SupplyWok ha sido diseñada para atender de manera clara y diferenciada a sus dos segmentos principales: los dueños y administradores de restaurantes tipo chifa, y los proveedores de insumos. La plataforma organiza su contenido en dos espacios de trabajo distintos según el rol del usuario, garantizando que cada persona acceda únicamente a las funcionalidades relevantes para su operación. A continuación, se describen las secciones que conforman cada vista.
@@ -165,9 +207,89 @@ El sistema de navegación de SupplyWok está diseñado para ser predecible, cons
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level EventStorming.
 ### 4.6.2. Software Architecture Context Diagram.
+
+<div align="center">
+  <img src="../assets/images/SupplyWokSystemContext.png" alt="SupplyWok System Context Diagram">
+</div>
+
 ### 4.6.3. Software Architecture Container Diagrams.
+
+<div align="center">
+  <img src="../assets/images/SupplyWokContainers.png" alt="SupplyWok Containers Diagram">
+</div>
+
 ### 4.6.4. Software Architecture Components Diagrams.
+
+<div align="center">
+  <img src="../assets/images/SupplyWokComponents.png" alt="SupplyWok Components Diagram">
+</div>
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+
+Para nuestro primer bounded context tenemos el siguiente diagrama de clases.
+
+<div align="center">
+  <img src="../assets/images/1esboundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+Para este contexto, la entidad principal es la Orden de Compra (Purchase Order), la cual reemplaza los mensajes informales y centraliza la comunicación entre el restaurante y el proveedor.
+
+<div align="center">
+  <img src="../assets/images/2boundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+Este contexto se encarga de supervisar las condiciones físicas críticas (temperatura y humedad) en la cocina y el almacén, procesando las lecturas de los sensores y disparando alertas cuando se rompen los umbrales de seguridad.
+
+<div align="center">
+  <img src="../assets/images/3boundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+Este cuarto contexto resuelve tres necesidades clave para Marco Valdivia y los demás proveedores: gestionar su catálogo, tener visibilidad de la demanda (proyección) y hacer seguimiento de la distribución de pedidos.
+
+<div align="center">
+  <img src="../assets/images/4boundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+El quinto y último módulo es transversal: se encarga de la seguridad, la gestión de cuentas, los planes de suscripción y el soporte técnico, garantizando que tanto dueños de chifas como proveedores tengan una experiencia fluida.
+
+<div align="center">
+  <img src="../assets/images/4boundedclass.png" alt="SupplyWok Components Diagram">
+</div>
+
+
 ## 4.8. Database Design.
+
+El siguiente Diagrama Entidad-Relación detalla la estructura de datos fundamental que soporta la lógica de la plataforma. A este modelo, compuesto por 25 entidades, se le aplicaron las tres fases de normalización para garantizar un diseño robusto y eficiente. Esto asegura la escalabilidad, la separación de responsabilidades y el mantenimiento de la aplicación, organizada en los siguientes seis módulos:
+
+- #### Gestión de Inventario
+
+Controla las entradas, salidas y niveles de stock para evitar desabastecimientos o excesos.
+
+- #### Abastecimiento y Órdenes de Compra
+
+Gestiona los pedidos de insumos entre el restaurante y el proveedor, reduciendo los tiempos de respuesta entre ambos.
+
+- #### Panel del Proveedor
+
+Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
+
+- #### Plataforma y Acceso
+
+Administra el acceso seguro de los usuarios, sus cuentas y planes de suscripción.
+
+- #### Monitoreo Operativo y Alertas IoT
+
+Representa el núcleo operativo del sistema; controla sensores y notificaciones para garantizar la seguridad en el entorno de trabajo.
+
+- #### Comandas y Órdenes para Cocina
+
+Facilita la comunicación eficiente entre la cocina y las mesas para garantizar un servicio rápido y sin errores.
+
+
 ### 4.8.1. Database Diagrams.
+
+
+
+
+[^1]: Clec. (s.f.). El color rojo en China: orígenes y tradiciones. Recuperado el 23 de abril de 2026, de https://fundacionclec.org/el-color-rojo-en-china-origenes-y-tradiciones/

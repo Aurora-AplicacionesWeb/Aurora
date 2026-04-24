@@ -16,7 +16,7 @@ Las siguientes plataformas son de las más relevantes en el mercado de gestión 
 
 **3. WISK.ai**
 
-- App móvil que se destaca por su precisión técnica, ofreciendo una de las soluciones de inventario más rápidas y precisas del mercada gracias al uso internsivo de inteligencia artificial. Su app móvil puede identificar botellas y productos mediante la cámara, agilizando el conteo de existencias, ofrece herramientas muy detalladas para bares y hoteles, permitiendo un seguimiento exacto de mermas en licores y bebidas mezcladas y su IA puede predecir la demanda basándose no solo en ventas pasadas, sino también en factores externos como el clima o eventos locales (WISK.ai, s.f.)[^3].
+- App móvil que se destaca por su precisión técnica, ofreciendo una de las soluciones de inventario más rápidas y precisas del mercado gracias al uso intensivo de inteligencia artificial. Su app móvil puede identificar botellas y productos mediante la cámara, agilizando el conteo de existencias, ofrece herramientas muy detalladas para bares y hoteles, permitiendo un seguimiento exacto de mermas en licores y bebidas mezcladas y su IA puede predecir la demanda basándose no solo en ventas pasadas, sino también en factores externos como el clima o eventos locales (WISK.ai, s.f.)[^3].
 
 **4. Restaurant365**
 
@@ -518,6 +518,54 @@ Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, g
 
 <sub>*Tabla 5. Entrevista 1*</sub>
 
+- **Entrevista #2**
+<p align="center">
+  <img src="../assets/images/interviews/owner-interview2.png" width="500" alt="entrevista-owners-2">
+</p>
+
+**Resumen de entrevista:**
+
+El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Callao) con aproximadamente 20 años de experiencia, gestiona su restaurante de forma muy tradicional, basándose principalmente en la compra directa y la comunicación por teléfono con proveedores. No lleva un control formal de inventario y suele darse cuenta de la falta de insumos cada pocos días, lo que genera problemas recurrentes de abastecimiento. Muestra interés en herramientas digitales, reconoce que sería útil contar con alertas de stock y sistemas que indiquen cuánto comprar, especialmente para evitar faltantes. También considera importante mejorar la rapidez en la entrega de pedidos y estaría dispuesto a usar una plataforma diariamente si esta le ayudara a resolver estos problemas de manera automática y sencilla.
+
+<br>
+<div align="center">
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen            |
+| **Entrevistado**  | Weiquan Wang               |
+| **Edad**          | 55 años                                    |
+| **Ubicacion**     | La Perla, Callao                             |
+| **Duración / Empieza en**      | 8:46 minutos / 0:20                 |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDEAnd2qgv5RrhlW47RT0uwAeMEyqi6KVvTeeECfeDlJLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ftyrCl) |
+
+</div>
+
+<sub>*Tabla 6. Entrevista 2*</sub>
+- **Entrevista #2**
+<p align="center">
+  <img src="../assets/images/interviews/owner-interview3.png" width="500" alt="entrevista-owners-3">
+</p>
+
+**Resumen de entrevista:**
+
+La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 10 años de experiencia, gestiona su restaurante de manera empírica, sin un control formal de inventario, revisando manualmente y comprando cuando nota que faltan insumos como carne, pollo, verduras y bebidas. Coordina los pedidos principalmente por llamadas y, en ocasiones, debe ir personalmente a adquirir los productos. No percibe grandes dificultades en su operación diaria, aunque reconoce que todo el proceso puede resultar molesto. A diferencia de otros casos, muestra apertura hacia una solución digital: considera importante recibir alertas de stock bajo y ve útil contar con proyecciones de demanda para planificar compras. Estaría dispuesta a usar una plataforma que automatice estas funciones y acepte diversas herramientas (inventario, pedidos, predicción), utilizándola de forma frecuente si le facilita la gestión del negocio.
+
+<br>
+<div align="center">
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen            |
+| **Entrevistado**  | Lily 蔡                |
+| **Edad**          | 54 años                |
+| **Ubicacion**     | La Perla, Callao       |
+| **Duración / Empieza en**      | 12:49 minutos / 0:36  |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/personal/u202318609_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318609%5Fupc%5Fedu%5Fpe%2FDocuments%2Fentrevista3%2Downers%201%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec4f1f5f8%2Db63d%2D4413%2D84a5%2Dd4920163ad74) |
+
+</div>
+
+<sub>*Tabla 7. Entrevista 3*</sub>
 <!-- Segmento objetivo: Proveedores-->
 ---
 #### Segmento #2: Proveedores de insumos para restaurantes
@@ -547,6 +595,84 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 <sub>*Tabla 8. Entrevista 4*</sub>
 
 ### 2.2.3 Análisis de entrevistas.
+
+El análisis de las entrevistas realizadas permite identificar patrones claros en los dos segmentos objetivo de SupplyWok: dueños de restaurantes chifa y proveedores. A partir de las entrevistas, se evidencian tanto comportamientos comunes como diferencias en la adopción tecnológica, sustentados en la frecuencia de respuestas observadas.
+
+---
+
+## Segmento 1: Dueños de restaurantes chifa y administradores
+
+<p align="center">
+    <img src="../assets/images/analytics-owners.png" width="800">
+</p>
+
+Este segmento agrupa a propietarios con amplia experiencia (entre 10 y 22 años en los casos entrevistados), quienes gestionan sus negocios de manera empírica.
+
+### Gestión del Inventario
+El 100% de los entrevistados indicó que no utiliza sistemas formales de inventario, dependiendo de la memoria o revisión visual. Esto genera situaciones donde los insumos se acaban sin planificación previa, obligando a compras reactivas.
+
+### Abastecimiento y compras
+El 100% realiza compras diarias o frecuentes, basándose en la demanda inmediata o en variaciones de precios (especialmente en productos como el pollo). No existe planificación a mediano plazo.
+
+### Canales de comunicación
+El 100% coordina pedidos mediante llamadas telefónicas, manteniendo procesos tradicionales.
+
+### Percepción de problemas
+Aproximadamente el 66% reconoce problemas operativos, como falta de insumos o retrasos en abastecimiento, aunque algunos los consideran parte normal del negocio. El 34% restante percibe su operación como estable, pese a no tener control estructurado.
+
+### Adopción tecnológica
+Se identifican dos subgrupos:
+
+- **Resistentes (≈33%)**: consideran innecesarias las herramientas digitales y prefieren métodos tradicionales.
+- **Abiertos (≈67%)**: muestran interés en soluciones si estas simplifican su trabajo.
+
+### Funcionalidades de interés
+- El 67% valora alertas de stock bajo y herramientas que automaticen el cálculo de compras.  
+- Un 66% considera útil la predicción de demanda, especialmente para evitar faltantes.
+
+---
+
+## Segmento 2: Proveedores de insumos
+
+<p align="center">
+    <img src="../assets/images/analytics-suppliers.png" width="800">
+</p>
+
+Este segmento incluye proveedores con experiencia (ej. 7 años), que operan en entornos de alta inmediatez.
+
+### Gestión de pedidos
+El 100% recibe pedidos mediante WhatsApp, lo que genera desorden y dependencia de mensajes informales.
+
+### Problemas principales
+El 100% identifica como principal dificultad los pedidos tardíos, lo que afecta la planificación y disponibilidad de productos.
+
+### Planificación de demanda
+El 100% indica que no puede anticipar la demanda, debido a que los restaurantes compran para el momento.
+
+### Necesidades tecnológicas
+El 100% muestra interés en herramientas simples, especialmente:
+
+- Visualización de pedidos pendientes  
+- Recordatorios o alertas  
+
+Sin embargo, el 0% muestra interés en analítica avanzada o predicciones complejas.
+
+---
+
+## Conclusiones para el diseño de arquetipos
+
+### Automatización simple y práctica
+Dado que el 100% de restaurantes no usa sistemas formales, la plataforma debe automatizar procesos sin requerir esfuerzo adicional del usuario.
+
+### Diferenciación de valor por segmento
+- **Restaurantes**: valoran evitar faltantes y facilitar decisiones de compra.  
+- **Proveedores**: necesitan orden en los pedidos y anticipación.
+
+### Reducción de fricción
+El sistema debe reemplazar llamadas y WhatsApp (usados por el 100%) con una solución igual de rápida, pero estructurada.
+
+### Oportunidad clave
+Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solución sea simple, directa y no complique su operación.
 
 ## 2.3. Needfinding.
 
@@ -661,11 +787,162 @@ En esta fase inicial, todos los miembros del equipo escriben tantos eventos de d
 
 <img src="../assets/images/epicvent5.png" width="500">
 
+#### Step 2: Structured Organization
 
+Después de listar los eventos desestructurados, el equipo los organiza en una línea de tiempo narrativa, identificando las relaciones de causalidad entre ellos. Se agrupan eventos relacionados y se identifican patrones o flujos comunes. En esta fase se busca entender cómo los eventos interactúan entre sí y cómo se relacionan con los procesos del negocio.
+
+<img src="../assets/images/step2e01.png" width="500">
+
+<img src="../assets/images/step2e02.png" width="500">
+
+<img src="../assets/images/step2e03.png" width="500">
+
+<img src="../assets/images/step2e04.png" width="500">
+
+<img src="../assets/images/step2e05.png" width="500">
 
 ## 2.5. Ubiquitous Language.
 
+El Ubiquitous Language es el lenguaje común compartido entre el equipo técnico, los stakeholders y los usuarios del negocio. Para SupplyWok, hemos identificado y definido los términos clave del dominio de gestión de inventario y abastecimiento en restaurantes chifa, asegurando que todos los involucrados en el proyecto utilicen la misma terminología con el mismo significado.
 
+### Términos Transversales (Aplicables a todo el sistema)
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Usuario** | Cualquier persona registrada en la plataforma (dueño de restaurante, administrador, proveedor, personal de cocina o servicio). Cada usuario tiene credenciales y un tipo de cuenta que determina sus permisos. | Sistema general |
+| **Cuenta** | El perfil personal del usuario en la plataforma que incluye datos de contacto, preferencias y plan de suscripción. | Autenticación y acceso |
+| **Credenciales** | Conjunto de correo electrónico y contraseña que utiliza un usuario para autenticarse en el sistema. | Seguridad |
+| **Plan de Suscripción** | Nivel de servicio contratado por un usuario (ej: Premium, Enterprise) que determina el acceso a funcionalidades específicas de la plataforma. | Monetización y acceso |
+| **Notificación** | Alerta enviada al usuario sobre un evento importante del sistema (cambio de estado de pedido, alerta de stock bajo, cambio de temperatura, etc.). | Comunicación en tiempo real |
+| **Dashboard** | Interfaz personalizada que muestra el resumen e información clave según el tipo de usuario y sus permisos. | Visualización general |
+
+---
+
+### Términos del Epic 01: Gestión de Inventario
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Inventario** | Registro centralizado y actualizado de todos los insumos disponibles en un restaurante, incluyendo cantidades, unidades y ubicación. | Gestión de stock |
+| **Insumo / Producto** | Cualquier artículo de aprovisionamiento usado en un restaurante chifa (ingredientes, bebidas, condimentos, etc.). Cada insumo tiene un nombre, categoría, unidad de medida y precio unitario. | Catálogo de productos |
+| **Stock / Cantidad en Stock** | Número actual de unidades disponibles de un insumo en el inventario. Se actualiza con cada entrada, salida o baja registrada. | Control de cantidad |
+| **Stock Mínimo** | Nivel de inventario por debajo del cual se debe reordenar un insumo para evitar quiebres. Es definido por el dueño o administrador del restaurante. | Alertas y reabastecimiento |
+| **Stock Crítico** | Condición cuando el stock actual es igual o inferior al stock mínimo configurado, disparando alertas de reabastecimiento. | Alertas |
+| **Entrada de Mercadería** | Registro del ingreso de insumos al inventario, acompañado de cantidad, fecha, proveedor de origen y documentación (si aplica). | Movimientos de entrada |
+| **Salida de Inventario / Consumo** | Registro de insumos que salen del inventario para ser utilizados en la operación diaria del restaurante. Se registra cantidad, fecha y motivo (consumo diario, merma, etc.). | Movimientos de salida |
+| **Baja de Insumo** | Registro formal de insumos que se retiran permanentemente del inventario, con indicación del motivo (vencimiento, daño, obsolescencia). Afecta el stock disponible. | Control de pérdidas |
+| **Historial de Movimientos** | Log detallado de todas las transacciones de inventario (entradas, salidas, bajas) con fechas, cantidades, motivos y usuario que registró. | Trazabilidad y auditoría |
+| **Clasificación de Inventario** | Categorización del estado de un insumo según su stock actual: Normal (stock superior al mínimo), Crítico (stock en o bajo mínimo), Exceso (stock muy por encima del promedio de consumo). | Visualización y alertas |
+| **Reporte de Inventario** | Documento exportable (PDF/CSV) que muestra el estado actual del inventario, útil para auditorías, análisis o uso externo. | Exportación y documentación |
+
+---
+
+### Términos del Epic 02: Abastecimiento y Órdenes de Compra
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Proveedor / Supplier** | Persona jurídica o natural que suministra insumos a un restaurante. Cada proveedor tiene perfil en la plataforma con datos de contacto, categorías de productos, zonas de cobertura y condiciones de entrega. | Red de abastecimiento |
+| **Orden de Compra / Pedido** | Solicitud formal y digital generada por un restaurante a un proveedor, especificando insumos, cantidades y fecha de entrega requerida. Es el documento central de la transacción de abastecimiento. | Abastecimiento |
+| **Estado de Orden** | Situación actual de una orden de compra en su ciclo de vida: Pendiente (creada, sin confirmar), Confirmada (proveedor acepta), En Preparación, Despachada, Entregada, Cancelada. | Seguimiento de pedidos |
+| **Demanda Proyectada / Pronóstico de Consumo** | Estimación matemática del consumo futuro de un insumo basada en el historial de consumo registrado, utilizando análisis de tendencias. Ayuda a anticipar pedidos. | Planificación |
+| **Historial de Órdenes** | Registro completo de todas las órdenes de compra realizadas por un restaurante, incluyendo insumos, cantidades, proveedores, fechas y resultados. | Análisis y patrones |
+| **Confirmación de Entrega** | Acto formal donde el proveedor marca una orden como "Entregada", registrando fecha, hora, observaciones y evidencia de que los insumos llegaron al restaurante. | Cierre de transacción |
+| **Reabastecimiento** | Proceso de solicitar nuevamente un insumo cuya disponibilidad en el restaurante se ha agotado o está por agotarse. | Acción operativa |
+
+---
+
+### Términos del Epic 03: Monitoreo Operativo y Alertas IoT
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Sensor IoT** | Dispositivo electrónico conectado a la plataforma que mide parámetros físicos en tiempo real (temperatura, humedad). Envía lecturas continuas al sistema. | Hardware e integración |
+| **Lectura del Sensor / Medición** | Valor numérico capturado por un sensor en un momento específico (ej: 18.5°C a las 14:30). Se registra con timestamp exacto. | Data en tiempo real |
+| **Rango Seguro / Rango Configurado** | Intervalo de valores mínimo y máximo aceptables para un parámetro (ej: 15°C a 20°C para temperatura de almacén). Definido por el administrador según normas de calidad y salubridad. | Configuración crítica |
+| **Condición de Riesgo / Out of Range** | Situación cuando una lectura del sensor cae fuera del rango seguro configurado, generando una alerta inmediata. | Evento crítico |
+| **Alerta de Riesgo** | Notificación generada automáticamente cuando se detecta una condición de riesgo, informando al administrador del tipo de condición, valor medido, ubicación y timestamp. | Respuesta inmediata |
+| **Incidencia / Evento Operativo** | Cualquier evento anómalo registrado en el sistema (alerta de temperatura, falla de sensor, cambio de estado no autorizado, error de comando). Se mantiene en historial para auditoría. | Seguimiento operativo |
+| **Historial de Alertas** | Registro detallado de todas las alertas y incidencias generadas, incluyendo tipo, área afectada, valor del sensor, hora, y estado de revisión (revisada / pendiente). | Auditoría y análisis |
+| **Estado de Revisión** | Indicador si una alerta fue revisada por un administrador (y con qué nota de seguimiento) o aún está pendiente de atención. | Control de acciones |
+| **Área / Zona Monitorizada** | Espacio físico del restaurante equipado con sensores (ej: almacén, cocina, cámara frigorífica). Cada área puede tener múltiples sensores y configuraciones independientes. | Ubicación y contexto |
+
+---
+
+### Términos del Epic 04: Panel del Proveedor
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Catálogo de Productos** | Listado completo de insumos que un proveedor ofrece, incluyendo descripción, precio unitario, unidad de medida, disponibilidad actual y condiciones de entrega. | Oferta del proveedor |
+| **Disponibilidad** | Indicador si un producto del catálogo del proveedor está disponible para venta (Activo) o no (Desactivado), sin eliminar el historial. | Estado del producto |
+| **Demanda de Clientes / Demanda Estimada** | Proyección del consumo futuro de un restaurante cliente basada en su historial de órdenes, que el proveedor usa para planificar producción y distribución. | Planificación del proveedor |
+| **Cliente del Proveedor** | Restaurante que ha realizado al menos una orden de compra al proveedor y está registrado en su panel. | Relación comercial |
+| **Historial de Órdenes Recibidas** | Registro de todas las órdenes de compra que un proveedor ha recibido de sus clientes restaurantes, con detalles, estados y fechas. | Base de datos transaccional |
+| **Confirmación de Orden** | Acto donde el proveedor acepta formalmente una orden de compra, comprometiéndose a entregarla en las condiciones pactadas. | Validación de compromiso |
+| **Resumen de Actividad por Cliente** | Análisis agregado del comportamiento de un cliente (número de órdenes, productos más solicitados, monto estimado, frecuencia de pedidos) que ayuda al proveedor a priorizar su atención comercial. | Business Intelligence |
+
+---
+
+### Términos del Epic 05: Plataforma y Acceso
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Tipo de Cuenta** | Clasificación del usuario en la plataforma: Restaurante (dueño/administrador), Proveedor, Personal de Cocina (modo restringido), Personal de Servicio (modo restringido). Determina módulos y permisos accesibles. | Control de acceso |
+| **Autenticación** | Proceso de verificación de identidad del usuario usando credenciales (correo y contraseña). Genera una sesión segura en la plataforma. | Seguridad |
+| **Sesión** | Período activo durante el cual un usuario autenticado puede acceder a la plataforma. Termina al cerrar sesión o por inactividad. | Gestión de acceso |
+| **Permiso / Rol** | Conjunto de acciones específicas que un usuario está autorizado a realizar según su tipo de cuenta (ej: crear orden, modificar inventario, ver reportes). | Control granular |
+| **Modo Restringido** | Configuración de acceso limitado activado por el dueño que muestra solo módulos de mesas y comandas, ocultando módulos administrativos. Usado para personal de cocina/servicio. | Seguridad operativa |
+| **Soporte / Centro de Ayuda** | Sección de la plataforma con artículos informativos organizados por tema, formulario de contacto y canales de comunicación para resolver dudas de usuarios. | Servicio al cliente |
+| **Idioma de la Interfaz** | Idioma en el que se muestra el sistema al usuario (Español o Inglés), seleccionable desde configuración de cuenta. | Localización |
+| **Estado del Servicio** | Información sobre la disponibilidad actual de la plataforma, notificaciones de mantenimiento programado o incidencias no planificadas. | Transparencia operativa |
+| **Disponibilidad Continua** | Compromiso de que la plataforma esté operativa 24/7, minimizando interrupciones salvo mantenimiento programado con notificación previa. | SLA de servicio |
+
+---
+
+### Términos del Epic 06: Comandas y Órdenes para Cocina
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Comanda** | Registro digital de un pedido de clientes vinculado a una mesa, especificando los platos solicitados. Es la orden que se envía a cocina para su preparación. | Operación de servicio |
+| **Mesa** | Identificador único de una mesa física en el restaurante (ej: Mesa 1, Mesa A1). Cada mesa tiene un estado (libre, ocupada, en espera). | Gestión del salón |
+| **Estado de Mesa** | Situación actual de una mesa: Libre (disponible para clientes), Ocupada (clientes sentados), En Espera (clientes esperando servicio). | Control operativo |
+| **Ocupación de Mesas** | Registro en tiempo real del estado de todas las mesas del restaurante, usado para coordinar el flujo de servicio y estimar demanda de insumos. | Planificación operativa |
+| **Visualización de Cocina** | Vista especial de la plataforma donde el cocinero ve todas las comandas activas con los platos a preparar, organizadas por mesa. | Interfaz operativa |
+| **Estado de Comanda** | Situación actual de una comanda: Activa (pendiente de preparar), En Preparación (cocinero trabajando), Lista (platos listos para servir), Entregada (cliente ya recibió). | Ciclo de vida |
+| **Preparación de Platos** | Proceso en cocina de elaborar los platos especificados en una comanda. El cocinero marca el estado cuando termina. | Ejecución operativa |
+
+---
+
+### Términos Técnicos (Para desarrolladores)
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Endpoint / API** | Punto de acceso HTTP que expone funcionalidad del backend (ej: GET /api/inventory, POST /api/orders). Sigue especificación OpenAPI/Swagger. | Integración técnica |
+| **CRUD** | Operaciones básicas: Create (crear), Read (leer), Update (actualizar), Delete (eliminar). Aplicable a cualquier recurso de la plataforma. | Operaciones de datos |
+| **Validación** | Proceso de verificar que los datos enviados al API cumplan con reglas definidas (campos obligatorios, rangos, formatos). Si falla, se retorna error sin guardar. | Integridad de datos |
+| **Manejo Estándar de Errores** | Patrón donde el sistema captura excepciones y retorna códigos HTTP estandarizados (400 validación, 500 servidor interno, etc.) con mensajes descriptivos. | Robustez |
+| **Transacción Atómica** | Operación que se ejecuta completamente o no se ejecuta en absoluto. Si hay error, se deshacen todos los cambios (no se persisten datos inconsistentes). | Consistencia de BD |
+| **Base de Datos / Persistence Layer** | Sistema de almacenamiento permanente de datos de la plataforma, donde se guardan todas las entidades (usuarios, órdenes, inventario, sensores, etc.). | Infraestructura |
+
+---
+
+### Glosario Rápido de Referencia
+
+```
+RESTAURANTE → Usuario tipo "Restaurante" con rol de Dueño/Administrador
+PROVEEDOR → Usuario tipo "Proveedor" que surte insumos
+INVENTARIO → Colección de Insumos con sus cantidades en Stock
+ORDEN DE COMPRA → Solicitud de Insumos a un Proveedor con cantidad y fecha
+SENSOR → Dispositivo que envía Lecturas de Temperatura/Humedad
+ALERTA → Notificación generada cuando una Lectura está Fuera de Rango
+COMANDA → Pedido de un Cliente vinculado a una Mesa, enviado a Cocina
+```
+
+---
+
+### Notas de Alineación del Lenguaje
+
+- El equipo debe usar estos términos consistentemente en código, documentación, conversaciones y reportes.
+- Si algún término es ambiguo en el contexto local o es usado diferente por usuarios, se debe actualizar esta sección.
+- Los nombres de entidades en la base de datos y APIs deben reflejar estos términos (ej: tabla `orders`, campo `stock_minimum`).
+- En la documentación de usuario (centro de ayuda), usar estos términos para evitar confusión con otros productos.
 
 
 [^1]: Apicbase. (s.f.). _Plataforma líder de gestión de F&B_. https://get.apicbase.com/es/
