@@ -596,6 +596,84 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 
 ### 2.2.3 Análisis de entrevistas.
 
+El análisis de las entrevistas realizadas permite identificar patrones claros en los dos segmentos objetivo de SupplyWok: dueños de restaurantes chifa y proveedores. A partir de las entrevistas, se evidencian tanto comportamientos comunes como diferencias en la adopción tecnológica, sustentados en la frecuencia de respuestas observadas.
+
+---
+
+## Segmento 1: Dueños de restaurantes chifa y administradores
+
+<p align="center">
+    <img src="../assets/images/analytics-owners.png" width="800">
+</p>
+
+Este segmento agrupa a propietarios con amplia experiencia (entre 10 y 22 años en los casos entrevistados), quienes gestionan sus negocios de manera empírica.
+
+### Gestión del Inventario
+El 100% de los entrevistados indicó que no utiliza sistemas formales de inventario, dependiendo de la memoria o revisión visual. Esto genera situaciones donde los insumos se acaban sin planificación previa, obligando a compras reactivas.
+
+### Abastecimiento y compras
+El 100% realiza compras diarias o frecuentes, basándose en la demanda inmediata o en variaciones de precios (especialmente en productos como el pollo). No existe planificación a mediano plazo.
+
+### Canales de comunicación
+El 100% coordina pedidos mediante llamadas telefónicas, manteniendo procesos tradicionales.
+
+### Percepción de problemas
+Aproximadamente el 66% reconoce problemas operativos, como falta de insumos o retrasos en abastecimiento, aunque algunos los consideran parte normal del negocio. El 34% restante percibe su operación como estable, pese a no tener control estructurado.
+
+### Adopción tecnológica
+Se identifican dos subgrupos:
+
+- **Resistentes (≈33%)**: consideran innecesarias las herramientas digitales y prefieren métodos tradicionales.
+- **Abiertos (≈67%)**: muestran interés en soluciones si estas simplifican su trabajo.
+
+### Funcionalidades de interés
+- El 67% valora alertas de stock bajo y herramientas que automaticen el cálculo de compras.  
+- Un 66% considera útil la predicción de demanda, especialmente para evitar faltantes.
+
+---
+
+## Segmento 2: Proveedores de insumos
+
+<p align="center">
+    <img src="../assets/images/analytics-suppliers.png" width="800">
+</p>
+
+Este segmento incluye proveedores con experiencia (ej. 7 años), que operan en entornos de alta inmediatez.
+
+### Gestión de pedidos
+El 100% recibe pedidos mediante WhatsApp, lo que genera desorden y dependencia de mensajes informales.
+
+### Problemas principales
+El 100% identifica como principal dificultad los pedidos tardíos, lo que afecta la planificación y disponibilidad de productos.
+
+### Planificación de demanda
+El 100% indica que no puede anticipar la demanda, debido a que los restaurantes compran para el momento.
+
+### Necesidades tecnológicas
+El 100% muestra interés en herramientas simples, especialmente:
+
+- Visualización de pedidos pendientes  
+- Recordatorios o alertas  
+
+Sin embargo, el 0% muestra interés en analítica avanzada o predicciones complejas.
+
+---
+
+## Conclusiones para el diseño de arquetipos
+
+### Automatización simple y práctica
+Dado que el 100% de restaurantes no usa sistemas formales, la plataforma debe automatizar procesos sin requerir esfuerzo adicional del usuario.
+
+### Diferenciación de valor por segmento
+- **Restaurantes**: valoran evitar faltantes y facilitar decisiones de compra.  
+- **Proveedores**: necesitan orden en los pedidos y anticipación.
+
+### Reducción de fricción
+El sistema debe reemplazar llamadas y WhatsApp (usados por el 100%) con una solución igual de rápida, pero estructurada.
+
+### Oportunidad clave
+Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solución sea simple, directa y no complique su operación.
+
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
