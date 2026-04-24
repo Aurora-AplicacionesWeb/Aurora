@@ -289,7 +289,8 @@ Facilita la comunicación eficiente entre la cocina y las mesas para garantizar 
 
 ### 4.8.1. Database Diagrams.
 
-
-
+<div align="center">
+  <img src="../assets/images/database-diagram.png" alt="SupplyWok Database Diagram">
+</div>
 
 [^1]: Clec. (s.f.). El color rojo en China: orígenes y tradiciones. Recuperado el 23 de abril de 2026, de https://fundacionclec.org/el-color-rojo-en-china-origenes-y-tradiciones/
