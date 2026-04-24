@@ -207,8 +207,23 @@ El sistema de navegación de SupplyWok está diseñado para ser predecible, cons
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level EventStorming.
 ### 4.6.2. Software Architecture Context Diagram.
+
+<div align="center">
+  <img src="../assets/images/SupplyWokSystemContext.png" alt="SupplyWok System Context Diagram">
+</div>
+
 ### 4.6.3. Software Architecture Container Diagrams.
+
+<div align="center">
+  <img src="../assets/images/SupplyWokContainers.png" alt="SupplyWok Containers Diagram">
+</div>
+
 ### 4.6.4. Software Architecture Components Diagrams.
+
+<div align="center">
+  <img src="../assets/images/SupplyWokComponents.png" alt="SupplyWok Components Diagram">
+</div>
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ## 4.8. Database Design.
