@@ -725,7 +725,146 @@ Después de listar los eventos desestructurados, el equipo los organiza en una l
 
 ## 2.5. Ubiquitous Language.
 
+El Ubiquitous Language es el lenguaje común compartido entre el equipo técnico, los stakeholders y los usuarios del negocio. Para SupplyWok, hemos identificado y definido los términos clave del dominio de gestión de inventario y abastecimiento en restaurantes chifa, asegurando que todos los involucrados en el proyecto utilicen la misma terminología con el mismo significado.
 
+### Términos Transversales (Aplicables a todo el sistema)
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Usuario** | Cualquier persona registrada en la plataforma (dueño de restaurante, administrador, proveedor, personal de cocina o servicio). Cada usuario tiene credenciales y un tipo de cuenta que determina sus permisos. | Sistema general |
+| **Cuenta** | El perfil personal del usuario en la plataforma que incluye datos de contacto, preferencias y plan de suscripción. | Autenticación y acceso |
+| **Credenciales** | Conjunto de correo electrónico y contraseña que utiliza un usuario para autenticarse en el sistema. | Seguridad |
+| **Plan de Suscripción** | Nivel de servicio contratado por un usuario (ej: Premium, Enterprise) que determina el acceso a funcionalidades específicas de la plataforma. | Monetización y acceso |
+| **Notificación** | Alerta enviada al usuario sobre un evento importante del sistema (cambio de estado de pedido, alerta de stock bajo, cambio de temperatura, etc.). | Comunicación en tiempo real |
+| **Dashboard** | Interfaz personalizada que muestra el resumen e información clave según el tipo de usuario y sus permisos. | Visualización general |
+
+---
+
+### Términos del Epic 01: Gestión de Inventario
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Inventario** | Registro centralizado y actualizado de todos los insumos disponibles en un restaurante, incluyendo cantidades, unidades y ubicación. | Gestión de stock |
+| **Insumo / Producto** | Cualquier artículo de aprovisionamiento usado en un restaurante chifa (ingredientes, bebidas, condimentos, etc.). Cada insumo tiene un nombre, categoría, unidad de medida y precio unitario. | Catálogo de productos |
+| **Stock / Cantidad en Stock** | Número actual de unidades disponibles de un insumo en el inventario. Se actualiza con cada entrada, salida o baja registrada. | Control de cantidad |
+| **Stock Mínimo** | Nivel de inventario por debajo del cual se debe reordenar un insumo para evitar quiebres. Es definido por el dueño o administrador del restaurante. | Alertas y reabastecimiento |
+| **Stock Crítico** | Condición cuando el stock actual es igual o inferior al stock mínimo configurado, disparando alertas de reabastecimiento. | Alertas |
+| **Entrada de Mercadería** | Registro del ingreso de insumos al inventario, acompañado de cantidad, fecha, proveedor de origen y documentación (si aplica). | Movimientos de entrada |
+| **Salida de Inventario / Consumo** | Registro de insumos que salen del inventario para ser utilizados en la operación diaria del restaurante. Se registra cantidad, fecha y motivo (consumo diario, merma, etc.). | Movimientos de salida |
+| **Baja de Insumo** | Registro formal de insumos que se retiran permanentemente del inventario, con indicación del motivo (vencimiento, daño, obsolescencia). Afecta el stock disponible. | Control de pérdidas |
+| **Historial de Movimientos** | Log detallado de todas las transacciones de inventario (entradas, salidas, bajas) con fechas, cantidades, motivos y usuario que registró. | Trazabilidad y auditoría |
+| **Clasificación de Inventario** | Categorización del estado de un insumo según su stock actual: Normal (stock superior al mínimo), Crítico (stock en o bajo mínimo), Exceso (stock muy por encima del promedio de consumo). | Visualización y alertas |
+| **Reporte de Inventario** | Documento exportable (PDF/CSV) que muestra el estado actual del inventario, útil para auditorías, análisis o uso externo. | Exportación y documentación |
+
+---
+
+### Términos del Epic 02: Abastecimiento y Órdenes de Compra
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Proveedor / Supplier** | Persona jurídica o natural que suministra insumos a un restaurante. Cada proveedor tiene perfil en la plataforma con datos de contacto, categorías de productos, zonas de cobertura y condiciones de entrega. | Red de abastecimiento |
+| **Orden de Compra / Pedido** | Solicitud formal y digital generada por un restaurante a un proveedor, especificando insumos, cantidades y fecha de entrega requerida. Es el documento central de la transacción de abastecimiento. | Abastecimiento |
+| **Estado de Orden** | Situación actual de una orden de compra en su ciclo de vida: Pendiente (creada, sin confirmar), Confirmada (proveedor acepta), En Preparación, Despachada, Entregada, Cancelada. | Seguimiento de pedidos |
+| **Demanda Proyectada / Pronóstico de Consumo** | Estimación matemática del consumo futuro de un insumo basada en el historial de consumo registrado, utilizando análisis de tendencias. Ayuda a anticipar pedidos. | Planificación |
+| **Historial de Órdenes** | Registro completo de todas las órdenes de compra realizadas por un restaurante, incluyendo insumos, cantidades, proveedores, fechas y resultados. | Análisis y patrones |
+| **Confirmación de Entrega** | Acto formal donde el proveedor marca una orden como "Entregada", registrando fecha, hora, observaciones y evidencia de que los insumos llegaron al restaurante. | Cierre de transacción |
+| **Reabastecimiento** | Proceso de solicitar nuevamente un insumo cuya disponibilidad en el restaurante se ha agotado o está por agotarse. | Acción operativa |
+
+---
+
+### Términos del Epic 03: Monitoreo Operativo y Alertas IoT
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Sensor IoT** | Dispositivo electrónico conectado a la plataforma que mide parámetros físicos en tiempo real (temperatura, humedad). Envía lecturas continuas al sistema. | Hardware e integración |
+| **Lectura del Sensor / Medición** | Valor numérico capturado por un sensor en un momento específico (ej: 18.5°C a las 14:30). Se registra con timestamp exacto. | Data en tiempo real |
+| **Rango Seguro / Rango Configurado** | Intervalo de valores mínimo y máximo aceptables para un parámetro (ej: 15°C a 20°C para temperatura de almacén). Definido por el administrador según normas de calidad y salubridad. | Configuración crítica |
+| **Condición de Riesgo / Out of Range** | Situación cuando una lectura del sensor cae fuera del rango seguro configurado, generando una alerta inmediata. | Evento crítico |
+| **Alerta de Riesgo** | Notificación generada automáticamente cuando se detecta una condición de riesgo, informando al administrador del tipo de condición, valor medido, ubicación y timestamp. | Respuesta inmediata |
+| **Incidencia / Evento Operativo** | Cualquier evento anómalo registrado en el sistema (alerta de temperatura, falla de sensor, cambio de estado no autorizado, error de comando). Se mantiene en historial para auditoría. | Seguimiento operativo |
+| **Historial de Alertas** | Registro detallado de todas las alertas y incidencias generadas, incluyendo tipo, área afectada, valor del sensor, hora, y estado de revisión (revisada / pendiente). | Auditoría y análisis |
+| **Estado de Revisión** | Indicador si una alerta fue revisada por un administrador (y con qué nota de seguimiento) o aún está pendiente de atención. | Control de acciones |
+| **Área / Zona Monitorizada** | Espacio físico del restaurante equipado con sensores (ej: almacén, cocina, cámara frigorífica). Cada área puede tener múltiples sensores y configuraciones independientes. | Ubicación y contexto |
+
+---
+
+### Términos del Epic 04: Panel del Proveedor
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Catálogo de Productos** | Listado completo de insumos que un proveedor ofrece, incluyendo descripción, precio unitario, unidad de medida, disponibilidad actual y condiciones de entrega. | Oferta del proveedor |
+| **Disponibilidad** | Indicador si un producto del catálogo del proveedor está disponible para venta (Activo) o no (Desactivado), sin eliminar el historial. | Estado del producto |
+| **Demanda de Clientes / Demanda Estimada** | Proyección del consumo futuro de un restaurante cliente basada en su historial de órdenes, que el proveedor usa para planificar producción y distribución. | Planificación del proveedor |
+| **Cliente del Proveedor** | Restaurante que ha realizado al menos una orden de compra al proveedor y está registrado en su panel. | Relación comercial |
+| **Historial de Órdenes Recibidas** | Registro de todas las órdenes de compra que un proveedor ha recibido de sus clientes restaurantes, con detalles, estados y fechas. | Base de datos transaccional |
+| **Confirmación de Orden** | Acto donde el proveedor acepta formalmente una orden de compra, comprometiéndose a entregarla en las condiciones pactadas. | Validación de compromiso |
+| **Resumen de Actividad por Cliente** | Análisis agregado del comportamiento de un cliente (número de órdenes, productos más solicitados, monto estimado, frecuencia de pedidos) que ayuda al proveedor a priorizar su atención comercial. | Business Intelligence |
+
+---
+
+### Términos del Epic 05: Plataforma y Acceso
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Tipo de Cuenta** | Clasificación del usuario en la plataforma: Restaurante (dueño/administrador), Proveedor, Personal de Cocina (modo restringido), Personal de Servicio (modo restringido). Determina módulos y permisos accesibles. | Control de acceso |
+| **Autenticación** | Proceso de verificación de identidad del usuario usando credenciales (correo y contraseña). Genera una sesión segura en la plataforma. | Seguridad |
+| **Sesión** | Período activo durante el cual un usuario autenticado puede acceder a la plataforma. Termina al cerrar sesión o por inactividad. | Gestión de acceso |
+| **Permiso / Rol** | Conjunto de acciones específicas que un usuario está autorizado a realizar según su tipo de cuenta (ej: crear orden, modificar inventario, ver reportes). | Control granular |
+| **Modo Restringido** | Configuración de acceso limitado activado por el dueño que muestra solo módulos de mesas y comandas, ocultando módulos administrativos. Usado para personal de cocina/servicio. | Seguridad operativa |
+| **Soporte / Centro de Ayuda** | Sección de la plataforma con artículos informativos organizados por tema, formulario de contacto y canales de comunicación para resolver dudas de usuarios. | Servicio al cliente |
+| **Idioma de la Interfaz** | Idioma en el que se muestra el sistema al usuario (Español o Inglés), seleccionable desde configuración de cuenta. | Localización |
+| **Estado del Servicio** | Información sobre la disponibilidad actual de la plataforma, notificaciones de mantenimiento programado o incidencias no planificadas. | Transparencia operativa |
+| **Disponibilidad Continua** | Compromiso de que la plataforma esté operativa 24/7, minimizando interrupciones salvo mantenimiento programado con notificación previa. | SLA de servicio |
+
+---
+
+### Términos del Epic 06: Comandas y Órdenes para Cocina
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Comanda** | Registro digital de un pedido de clientes vinculado a una mesa, especificando los platos solicitados. Es la orden que se envía a cocina para su preparación. | Operación de servicio |
+| **Mesa** | Identificador único de una mesa física en el restaurante (ej: Mesa 1, Mesa A1). Cada mesa tiene un estado (libre, ocupada, en espera). | Gestión del salón |
+| **Estado de Mesa** | Situación actual de una mesa: Libre (disponible para clientes), Ocupada (clientes sentados), En Espera (clientes esperando servicio). | Control operativo |
+| **Ocupación de Mesas** | Registro en tiempo real del estado de todas las mesas del restaurante, usado para coordinar el flujo de servicio y estimar demanda de insumos. | Planificación operativa |
+| **Visualización de Cocina** | Vista especial de la plataforma donde el cocinero ve todas las comandas activas con los platos a preparar, organizadas por mesa. | Interfaz operativa |
+| **Estado de Comanda** | Situación actual de una comanda: Activa (pendiente de preparar), En Preparación (cocinero trabajando), Lista (platos listos para servir), Entregada (cliente ya recibió). | Ciclo de vida |
+| **Preparación de Platos** | Proceso en cocina de elaborar los platos especificados en una comanda. El cocinero marca el estado cuando termina. | Ejecución operativa |
+
+---
+
+### Términos Técnicos (Para desarrolladores)
+
+| Término | Definición | Contexto |
+|---|---|---|
+| **Endpoint / API** | Punto de acceso HTTP que expone funcionalidad del backend (ej: GET /api/inventory, POST /api/orders). Sigue especificación OpenAPI/Swagger. | Integración técnica |
+| **CRUD** | Operaciones básicas: Create (crear), Read (leer), Update (actualizar), Delete (eliminar). Aplicable a cualquier recurso de la plataforma. | Operaciones de datos |
+| **Validación** | Proceso de verificar que los datos enviados al API cumplan con reglas definidas (campos obligatorios, rangos, formatos). Si falla, se retorna error sin guardar. | Integridad de datos |
+| **Manejo Estándar de Errores** | Patrón donde el sistema captura excepciones y retorna códigos HTTP estandarizados (400 validación, 500 servidor interno, etc.) con mensajes descriptivos. | Robustez |
+| **Transacción Atómica** | Operación que se ejecuta completamente o no se ejecuta en absoluto. Si hay error, se deshacen todos los cambios (no se persisten datos inconsistentes). | Consistencia de BD |
+| **Base de Datos / Persistence Layer** | Sistema de almacenamiento permanente de datos de la plataforma, donde se guardan todas las entidades (usuarios, órdenes, inventario, sensores, etc.). | Infraestructura |
+
+---
+
+### Glosario Rápido de Referencia
+
+```
+RESTAURANTE → Usuario tipo "Restaurante" con rol de Dueño/Administrador
+PROVEEDOR → Usuario tipo "Proveedor" que surte insumos
+INVENTARIO → Colección de Insumos con sus cantidades en Stock
+ORDEN DE COMPRA → Solicitud de Insumos a un Proveedor con cantidad y fecha
+SENSOR → Dispositivo que envía Lecturas de Temperatura/Humedad
+ALERTA → Notificación generada cuando una Lectura está Fuera de Rango
+COMANDA → Pedido de un Cliente vinculado a una Mesa, enviado a Cocina
+```
+
+---
+
+### Notas de Alineación del Lenguaje
+
+- El equipo debe usar estos términos consistentemente en código, documentación, conversaciones y reportes.
+- Si algún término es ambiguo en el contexto local o es usado diferente por usuarios, se debe actualizar esta sección.
+- Los nombres de entidades en la base de datos y APIs deben reflejar estos términos (ej: tabla `orders`, campo `stock_minimum`).
+- En la documentación de usuario (centro de ayuda), usar estos términos para evitar confusión con otros productos.
 
 
 [^1]: Apicbase. (s.f.). _Plataforma líder de gestión de F&B_. https://get.apicbase.com/es/
