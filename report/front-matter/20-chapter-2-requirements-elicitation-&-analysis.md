@@ -776,6 +776,7 @@ En esta sección, el equipo resume el proceso y presenta los resultados de nuest
 
 Este ejercicio sirvió como una primera aproximación visual de alto nivel para explorar el landscape del negocio. A través de este mapa, logramos identificar los procesos clave de la cadena de suministro, problemas operativos y oportunidades de mejora que nuestra solución digital busca resolver.
 
+
 #### Step 1: Unstructured Exploration
 
 En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. 

@@ -296,14 +296,6 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
-| Aspect | Leader | Collaborators |
-|---|---|---|
-| Estructura y Componentes (Estructura HTML) | | |
-| Diseño UI y Responsividad (CSS & Mobile-First) | | |
-| Interactividad y Experiencia de Usuario (JS & UX) | | |
-| SEO y Accesibilidad Web (a11y) | | |
-| Contenido Multimedia y Retención (Assets & Engagement) | | |
-
 | Team Member {Last Name, First Name} | GitHub username | Estructure HTML | Design UI & responsive | Scripts and UX | SEO and Accessibility | Content and Assets |
 |---|---|---|---|---|---|---|
 | Cuadros, Marcelo | Marcelo-alt-lab | C | C | L | - | C |
@@ -344,7 +336,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Crear estructura HTML de la Hero Section</td>
       <td>Maquetar la sección principal (Hero) usando etiquetas semánticas de HTML5.</td>
       <td>2</td>
-      <td></td>
+      <td>Zayd Ayasta</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -352,7 +344,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Implementar estilos CSS de la Hero Section</td>
       <td>Aplicar la hoja de estilos base para definir colores, tipografía y disposición.</td>
       <td>2</td>
-      <td></td>
+      <td>Mathias Sanchez</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -360,7 +352,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Implementar CTAs y enlace al formulario de registro</td>
       <td>Añadir botones llamativos que redirijan al usuario al proceso de registro.</td>
       <td>1</td>
-      <td></td>
+      <td>Marcelo Cuadros</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -368,7 +360,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Adaptar Hero Section a diseño responsive</td>
       <td>Asegurar que la sección principal se visualice correctamente en dispositivos móviles.</td>
       <td>2</td>
-      <td></td>
+      <td>Zayd Ayasta</td>
       <td>To-do</td>
     </tr>
     <!-- US45 -->
@@ -379,7 +371,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Crear estructura HTML de la sección de características</td>
       <td>Construir la grilla o layout para mostrar los beneficios principales de la plataforma.</td>
       <td>1</td>
-      <td></td>
+      <td>Juan Wang</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -387,7 +379,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Agregar iconos y estilos visuales a cada característica</td>
       <td>Incorporar elementos gráficos y CSS para hacer cada característica visualmente atractiva.</td>
       <td>2</td>
-      <td></td>
+      <td>Mathias Sanchez</td>
       <td>To-do</td>
     </tr>
     <!-- US46 -->
@@ -398,7 +390,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Crear estructura HTML de la sección de planes</td>
       <td>Maquetar el área donde se mostrarán las opciones de precios y suscripciones.</td>
       <td>1</td>
-      <td></td>
+      <td>Miguel Jara</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -406,7 +398,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Implementar estilos de tarjetas de planes y precios</td>
       <td>Diseñar visualmente las tarjetas de precios para facilitar la comparación de planes.</td>
       <td>2</td>
-      <td></td>
+      <td>Zayd Ayasta</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -414,7 +406,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Agregar CTA de selección de plan con redirección al registro</td>
       <td>Vincular cada tarjeta de precio con el flujo de creación de cuenta.</td>
       <td>1</td>
-      <td></td>
+      <td>Marcelo Cuadros</td>
       <td>To-do</td>
     </tr>
     <!-- US47 -->
@@ -425,7 +417,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Crear estructura HTML del acordeón FAQ</td>
       <td>Maquetar el contenedor base para las preguntas frecuentes de los usuarios.</td>
       <td>1</td>
-      <td></td>
+      <td>Juan Wang</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -433,7 +425,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Implementar lógica de expansión y colapso de preguntas</td>
       <td>Programar la interactividad para mostrar u ocultar respuestas al hacer clic.</td>
       <td>2</td>
-      <td></td>
+      <td>Marcelo Cuadros</td>
       <td>To-do</td>
     </tr>
     <!-- US48 -->
@@ -444,7 +436,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Crear navbar sticky con enlaces de navegación</td>
       <td>Implementar un menú de navegación fijo en la parte superior con scroll suave.</td>
       <td>2</td>
-      <td></td>
+      <td>Marcelo Cuadros</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -452,7 +444,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Implementar menú hamburguesa para dispositivos móviles</td>
       <td>Desarrollar un menú lateral desplegable para resoluciones de pantalla pequeñas.</td>
       <td>2</td>
-      <td></td>
+      <td>Miguel Jara</td>
       <td>To-do</td>
     </tr>
     <!-- US49 -->
@@ -463,7 +455,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Definir e implementar breakpoints responsive globales</td>
       <td>Establecer las reglas CSS de diseño adaptable para toda la página de aterrizaje.</td>
       <td>2</td>
-      <td></td>
+      <td>Zayd Ayasta</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -471,7 +463,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Verificar tamaño mínimo de elementos interactivos</td>
       <td>Validar que botones y enlaces tengan al menos 44px para facilitar el toque en móviles.</td>
       <td>1</td>
-      <td></td>
+      <td>Mathias Sanchez</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -479,7 +471,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Validar que las imágenes no generen scroll horizontal</td>
       <td>Asegurar que ningún recurso visual exceda el ancho máximo de la pantalla.</td>
       <td>1</td>
-      <td></td>
+      <td>Zayd Ayasta</td>
       <td>To-do</td>
     </tr>
     <!-- US50 -->
@@ -490,7 +482,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Configurar meta tags de SEO (título, descripción, keywords)</td>
       <td>Añadir metadatos clave para mejorar la indexación y visibilidad en buscadores.</td>
       <td>1</td>
-      <td></td>
+      <td>Juan Wang</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -498,7 +490,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Agregar atributos alt, roles ARIA y estructura semántica HTML5</td>
       <td>Mejorar la accesibilidad para usuarios que dependen de lectores de pantalla.</td>
       <td>2</td>
-      <td></td>
+      <td>Juan Wang</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -506,7 +498,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Verificar navegación por teclado y visibilidad del foco</td>
       <td>Asegurar que se pueda interactuar con la página usando únicamente el teclado.</td>
       <td>1</td>
-      <td></td>
+      <td>Juan Wang</td>
       <td>To-do</td>
     </tr>
     <!-- US51 -->
@@ -517,7 +509,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Crear estructura HTML del footer</td>
       <td>Maquetar la sección final de la página para enlaces secundarios y legales.</td>
       <td>1</td>
-      <td></td>
+      <td>Zayd Ayasta</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -525,7 +517,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Implementar enlaces a redes sociales y páginas legales</td>
       <td>Conectar los íconos sociales y los textos de términos y condiciones.</td>
       <td>1</td>
-      <td></td>
+      <td>Miguel Jara</td>
       <td>To-do</td>
     </tr>
     <!-- US52 -->
@@ -536,7 +528,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Crear sección de métricas e impacto con estadísticas</td>
       <td>Diseñar un bloque visual que resalte los números clave para generar confianza.</td>
       <td>2</td>
-      <td></td>
+      <td>Miguel Jara</td>
       <td>To-do</td>
     </tr>
     <!-- US53 -->
@@ -547,7 +539,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Integrar galería de imágenes del producto con texto alternativo</td>
       <td>Mostrar capturas de la plataforma asegurando que sean accesibles para todos.</td>
       <td>1</td>
-      <td></td>
+      <td>Miguel Jara</td>
       <td>To-do</td>
     </tr>
     <tr>
@@ -555,7 +547,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Integrar video del producto con fallback de texto alternativo</td>
       <td>Incrustar un video demostrativo con opciones de texto para quienes no puedan verlo.</td>
       <td>2</td>
-      <td></td>
+      <td>Miguel Jara</td>
       <td>To-do</td>
     </tr>
     <!-- US54 -->
@@ -566,7 +558,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Distribuir CTAs secundarios en secciones clave de la Landing Page</td>
       <td>Añadir llamadas a la acción adicionales a lo largo del recorrido del usuario.</td>
       <td>1</td>
-      <td></td>
+      <td>Mathias Sanchez</td>
       <td>To-do</td>
     </tr>
     <!-- US55 -->
@@ -577,7 +569,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Implementar scripts de show/hide para contenido condicional</td>
       <td>Añadir lógica JavaScript para controlar elementos que se muestran bajo ciertas acciones.</td>
       <td>1</td>
-      <td></td>
+      <td>Marcelo Cuadros</td>
       <td>To-do</td>
     </tr>
     <!-- US56 -->
@@ -588,7 +580,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Agregar comentarios de código y estandarizar nombres de variables</td>
       <td>Limpiar y documentar el código fuente para facilitar futuros mantenimientos.</td>
       <td>1</td>
-      <td></td>
+      <td>Juan Wang</td>
       <td>To-do</td>
     </tr>
     <!-- US57 -->
@@ -599,7 +591,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Crear sección del equipo con video y texto alternativo</td>
       <td>Maquetar la presentación de los creadores de SupplyWok con soporte multimedia.</td>
       <td>2</td>
-      <td></td>
+      <td>Miguel Jara</td>
       <td>To-do</td>
     </tr>
     <!-- US58 -->
@@ -610,7 +602,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
       <td>Ordenar sección de funcionalidades priorizando beneficios para restaurantes</td>
       <td>Estructurar visualmente el contenido para destacar el valor aportado a los restaurantes.</td>
       <td>1</td>
-      <td></td>
+      <td>Marcelo Cuadros</td>
       <td>To-do</td>
     </tr>
   </tbody>
