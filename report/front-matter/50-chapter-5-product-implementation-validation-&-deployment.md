@@ -239,6 +239,309 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
 #### 5.2.1.1. Sprint Planning 1
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 #### 5.2.1.3. Sprint Backlog 1.
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Sprint #</th>
+      <th colspan="6">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- US44 -->
+    <tr>
+      <td rowspan="4">US44</td>
+      <td rowspan="4">Página de inicio con hero section</td>
+      <td>T01</td>
+      <td>Crear estructura HTML de la Hero Section</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Implementar estilos CSS de la Hero Section</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Implementar CTAs y enlace al formulario de registro</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T04</td>
+      <td>Adaptar Hero Section a diseño responsive</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US45 -->
+    <tr>
+      <td rowspan="2">US45</td>
+      <td rowspan="2">Sección de características principales</td>
+      <td>T05</td>
+      <td>Crear estructura HTML de la sección de características</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T06</td>
+      <td>Agregar iconos y estilos visuales a cada característica</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US46 -->
+    <tr>
+      <td rowspan="3">US46</td>
+      <td rowspan="3">Sección de planes y precios</td>
+      <td>T07</td>
+      <td>Crear estructura HTML de la sección de planes</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T08</td>
+      <td>Implementar estilos de tarjetas de planes y precios</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T09</td>
+      <td>Agregar CTA de selección de plan con redirección al registro</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US47 -->
+    <tr>
+      <td rowspan="2">US47</td>
+      <td rowspan="2">Sección de preguntas frecuentes</td>
+      <td>T10</td>
+      <td>Crear estructura HTML del acordeón FAQ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T11</td>
+      <td>Implementar lógica de expansión y colapso de preguntas</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US48 -->
+    <tr>
+      <td rowspan="2">US48</td>
+      <td rowspan="2">Navegación y menú principal</td>
+      <td>T12</td>
+      <td>Crear navbar sticky con enlaces de navegación</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T13</td>
+      <td>Implementar menú hamburguesa para dispositivos móviles</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US49 -->
+    <tr>
+      <td rowspan="3">US49</td>
+      <td rowspan="3">Responsividad total y optimización mobile</td>
+      <td>T14</td>
+      <td>Definir e implementar breakpoints responsive globales</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T15</td>
+      <td>Verificar tamaño mínimo de elementos interactivos</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T16</td>
+      <td>Validar que las imágenes no generen scroll horizontal</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US50 -->
+    <tr>
+      <td rowspan="3">US50</td>
+      <td rowspan="3">SEO y accesibilidad web</td>
+      <td>T17</td>
+      <td>Configurar meta tags de SEO (título, descripción, keywords)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T18</td>
+      <td>Agregar atributos alt, roles ARIA y estructura semántica HTML5</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T19</td>
+      <td>Verificar navegación por teclado y visibilidad del foco</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US51 -->
+    <tr>
+      <td rowspan="2">US51</td>
+      <td rowspan="2">Footer con información adicional</td>
+      <td>T20</td>
+      <td>Crear estructura HTML del footer</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T21</td>
+      <td>Implementar enlaces a redes sociales y páginas legales</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US52 -->
+    <tr>
+      <td>US52</td>
+      <td>Impacto apoyado en cifras</td>
+      <td>T22</td>
+      <td>Crear sección de métricas e impacto con estadísticas</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US53 -->
+    <tr>
+      <td rowspan="2">US53</td>
+      <td rowspan="2">Muestra del producto</td>
+      <td>T23</td>
+      <td>Integrar galería de imágenes del producto con texto alternativo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>T24</td>
+      <td>Integrar video del producto con fallback de texto alternativo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US54 -->
+    <tr>
+      <td>US54</td>
+      <td>Calls to action</td>
+      <td>T25</td>
+      <td>Distribuir CTAs secundarios en secciones clave de la Landing Page</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US55 -->
+    <tr>
+      <td>US55</td>
+      <td>Scripts para ocultar contenido</td>
+      <td>T26</td>
+      <td>Implementar scripts de show/hide para contenido condicional</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US56 -->
+    <tr>
+      <td>US56</td>
+      <td>Comentarios y nombres de variables</td>
+      <td>T27</td>
+      <td>Agregar comentarios de código y estandarizar nombres de variables</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US57 -->
+    <tr>
+      <td>US57</td>
+      <td>Sobre el equipo detrás de SupplyWok</td>
+      <td>T28</td>
+      <td>Crear sección del equipo con video y texto alternativo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+    <!-- US58 -->
+    <tr>
+      <td>US58</td>
+      <td>Prioridad en mostrar las funcionalidades a los Restaurantes</td>
+      <td>T29</td>
+      <td>Ordenar sección de funcionalidades priorizando beneficios para restaurantes</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>To-do</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
