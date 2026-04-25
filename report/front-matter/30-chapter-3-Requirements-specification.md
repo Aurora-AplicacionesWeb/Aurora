@@ -71,7 +71,7 @@
 
 ## 3.2. Impact Mapping
 
-<img src="/report/assets/images/Impact Mapping-SupplyWok.png" width="580px" alt="Impact Map">
+<img src="/report/assets/images/impactmapping-supplywok.png" width="580px" alt="Impact Map">
 
 ### 3.3. Product Backlog
 

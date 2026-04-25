@@ -47,19 +47,19 @@ Las siguientes plataformas son de las más relevantes en el mercado de gestión 
         </td>
         <td align="center">
             <p><b>Apicbase</b></p>
-            <img src="../assets/images/Apicbase.png" alt="Apicbase-logo" width="70" />
+            <img src="../assets/images/apicabase.png" alt="Apicbase-logo" width="70" />
         </td>
         <td align="center">
             <p><b>MarketMan</b></p>
-            <img src="../assets/images/MarketMan.png" alt="MarketMan-logo" width="70" />
+            <img src="../assets/images/marketman.png" alt="MarketMan-logo" width="70" />
         </td>
         <td align="center">
             <p><b>WISK.ai</b></p>
-            <img src="../assets/images/WISK.png" alt="WISK.ai-logo" width="70" />
+            <img src="../assets/images/wisk.png" alt="WISK.ai-logo" width="70" />
         </td>
         <td align="center">
             <p><b>Restaurant365</b></p>
-            <img src="../assets/images/Restaurant365.png" alt="Restaurant365-logo" width="70" />    
+            <img src="../assets/images/restaurant365.png" alt="Restaurant365-logo" width="70" />    
     </tr>
     <tr>
         <td rowspan="2" align="center">
@@ -681,7 +681,7 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
 <p align="center">
-  <img src="../assets/images/HuanZhang.png" width="500">
+  <img src="../assets/images/huanzhang-userpersona.png" width="500">
 </p>
 
 <sub>*Ilustración. User Persona dueños de restaurantes chifa y administradores*</sub>
@@ -689,7 +689,7 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 - **Segmento objetivo 2: Proveedores de insumos para restaurantes**
 
 <p align="center">
-  <img src="../assets/images/MarcoValdiviaUserPersona.png" width="500">
+  <img src="../assets/images/marcovaldivia-userpersona.png" width="500">
 </p><br>
 
 <sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
@@ -782,7 +782,7 @@ Este ejercicio sirvió como una primera aproximación visual de alto nivel para 
 En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. 
 
 <p align="center">
-  <img src="../assets/images/Step1BigEvent.png" width="500">
+  <img src="../assets/images/step1bigevent.png" width="500">
 </p>
 
 #### Step 2: Structured Organization

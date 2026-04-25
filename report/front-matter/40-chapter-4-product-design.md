@@ -9,7 +9,7 @@ SupplyWok adopta un sistema de diseño coherente, funcional y alineado con el co
 El logo de nuestra plataforma está compuesto por los caracteres 'S' y 'W' provenientes del nombre SupplyWok, puestos de forma creativa para mantener una relacion con nuestro público objetivo. La 'S' encontrandose en forma de humo que sale de un recipiente que tiene la forma de 'W'. Transmitiendo una conexion con el entorno de un restaurante chifa generando familiaridad con nuestros usuarios.
 
 <div align="center">
-  <img src="../assets/images/SupplyWok_logo.png" width="300" height="300" alt="SupplyWok Logo">
+  <img src="../assets/images/supplywok-logo.png" width="300" height="300" alt="SupplyWok Logo">
 </div>
 
 #### 4.1.1.2. Paleta de Colores.
@@ -23,7 +23,7 @@ La identidad visual de SupplyWok busca mantener una relacion con el entorno de u
 - **Negro (#000000):** Color neutro para mantener un balance en la paleta de colores.
 
 <div align="center">
-  <img src="../assets/images/paleta_colores.png" width="1000" height="200" alt="SupplyWok Colors">
+  <img src="../assets/images/paleta-colors.png" width="1000" height="200" alt="SupplyWok Colors">
 </div>
 
 #### 4.1.1.3. Tipografía.
@@ -33,13 +33,13 @@ La tipografia que se ha decidido usar en nuestra plataforma son dos, Poppins y M
 - **Títulos:** Para los titulos se usaran Poppins en pesos de Bold o semibold dependiendo del titulo, esto para dar una fuerza y relevancia necesarias en titulos.
 
 <div align="center">
-  <img src="../assets/images/poppins_example.png" alt="SupplyWok Poppins">
+  <img src="../assets/images/poppins-example.png" alt="SupplyWok Poppins">
 </div>
 
 - **Párrafos o cuerpo del texto:** Se usara Monserrat en pesos variados como bold, regular o light dependiendo de la intencion del parrafo. Pensado en la legibilidad necesaria para los usuarios al momento de leer.
 
 <div align="center">
-  <img src="../assets/images/monserrat_example.png" alt="SupplyWok Monserrat">
+  <img src="../assets/images/monserrat-example.png" alt="SupplyWok Monserrat">
 </div>
 
 
@@ -435,19 +435,19 @@ Este contexto delimitado representa la capa transversal de seguridad y administr
 ### 4.6.2. Software Architecture Context Diagram.
 
 <div align="center">
-  <img src="../assets/images/SupplyWokSystemContext.png" alt="SupplyWok System Context Diagram">
+  <img src="../assets/images/supplywok-systemcontext.png" alt="SupplyWok System Context Diagram">
 </div>
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
 <div align="center">
-  <img src="../assets/images/SupplyWokContainers.png" alt="SupplyWok Containers Diagram">
+  <img src="../assets/images/supplywok-containers.png" alt="SupplyWok Containers Diagram">
 </div>
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
 <div align="center">
-  <img src="../assets/images/SupplyWokComponents.png" alt="SupplyWok Components Diagram">
+  <img src="../assets/images/supplywok-components.png" alt="SupplyWok Components Diagram">
 </div>
 
 ## 4.7. Software Object-Oriented Design.
