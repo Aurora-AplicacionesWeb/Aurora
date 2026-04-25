@@ -321,19 +321,16 @@ Se definen las etiquetas SEO y Meta Tags para las páginas principales de Supply
 
 SupplyWok implementa sistemas de búsqueda y filtrado en las secciones donde el volumen de datos lo requiere. Para cada sistema se describe tanto la entrada de búsqueda como la presentación de los resultados.
 
-| Sección | Qué se busca | Cómo se ven los resultados |
+| Sección | Filtros y búsquedas disponibles | Cómo se ven los resultados |
 |---|---|---|
-| Inventario | Insumo por nombre o categoría | Lista filtrada en la misma tabla, mostrando las filas que coinciden con el término. Las columnas visibles son: Producto, Stock actual, Stock mínimo, Estado, Proveedor. Los insumos en estado crítico aparecen con badge rojo "Low stock" al inicio. |
-| Inventario | Filtro por categoría (carnes, verduras, condimentos, bebidas) | La tabla se reorganiza mostrando solo los insumos de la categoría seleccionada. El filtro activo aparece como chip sobre la tabla con opción de cerrar. |
-| Pedidos | Pedido por número de orden o proveedor | La tabla de pedidos muestra únicamente las filas que coinciden. Cada fila muestra: ID de orden, Proveedor, Estado (badge de color), Fecha de entrega. |
-| Pedidos | Filtro por estado (Pendiente, En camino, Entregado, Cancelado) | La lista se acorta a las órdenes con ese estado. El contador de resultados se actualiza (ej: "3 pedidos encontrados"). |
-| Pedidos | Filtro por rango de fechas | Se muestra un date picker de inicio y fin. Los resultados se ordenan cronológicamente dentro del rango. |
-| Proveedores | Proveedor por nombre o tipo de insumo | Lista de tarjetas de proveedor filtrada en tiempo real, mostrando nombre, categoría de insumos y estado de vínculo. |
-| Alertas | Filtro por tipo (stock, temperatura, operativa) | La lista de alertas muestra solo las del tipo seleccionado, ordenadas cronológicamente. Cada alerta muestra: tipo, descripción, fecha/hora y estado (Revisada / Pendiente). |
-| Alertas | Filtro por período | Se filtran las alertas dentro del rango de fechas seleccionado. El total se actualiza en el encabezado de la sección. |
-| Kitchen Tickets | Filtro por estado de comanda | Se muestran solo las comandas con ese estado (En cola, En prep, Listo). Útil para que cocina filtre rápidamente las listas por estado. |
-| Catálogo (Proveedor) | Producto por nombre | Lista de productos del catálogo filtrada en tiempo real. Cada resultado muestra: nombre, precio unitario, unidad y disponibilidad. |
-| Mis clientes (Proveedor) | Cliente por nombre de restaurante | Tarjeta del restaurante encontrado con historial de pedidos y demanda proyectada como resultado inmediato. |
+| Inventario | Búsqueda por nombre de insumo; filtro por categoría (carnes, verduras, condimentos, bebidas) | La tabla se filtra en tiempo real mostrando solo las filas coincidentes. Columnas visibles: Producto, Stock actual, Stock mínimo, Estado, Proveedor. Los insumos críticos aparecen con badge rojo "Low stock" al inicio de la lista. El filtro de categoría activo se muestra como chip sobre la tabla con opción de eliminarlo. |
+| Pedidos | Búsqueda por número de orden o nombre de proveedor; filtro por estado (Pendiente, En camino, Entregado, Cancelado); filtro por rango de fechas | La tabla muestra solo las órdenes que coinciden. Cada fila muestra: ID de orden, Proveedor, Estado (badge de color), Fecha de entrega. El contador de resultados se actualiza ("3 pedidos encontrados"). Para el filtro de fechas se muestra un date picker con inicio y fin; los resultados se ordenan cronológicamente dentro del rango. |
+| Proveedores | Búsqueda por nombre de proveedor o tipo de insumo que suministra | Lista de tarjetas filtrada en tiempo real. Cada tarjeta muestra nombre del proveedor, categoría de insumos y estado de vínculo (activo / inactivo). |
+| Alertas | Filtro por tipo de alerta (stock, temperatura, operativa); filtro por período (rango de fechas) | La lista muestra solo las alertas del tipo o período seleccionado, ordenadas cronológicamente. Cada alerta muestra: tipo, descripción, fecha/hora y estado (Revisada / Pendiente). El total de resultados se actualiza en el encabezado de la sección. |
+| Kitchen Tickets | Filtro por estado de comanda (En cola, En preparación, Listo) | Solo se muestran las comandas con el estado seleccionado. Cada comanda muestra mesa, platos solicitados y tiempo transcurrido desde la creación. |
+| Catálogo (Proveedor) | Búsqueda por nombre de producto | Lista del catálogo filtrada en tiempo real. Cada resultado muestra: nombre, precio unitario, unidad de medida y disponibilidad (activo / desactivado). |
+| Mis clientes (Proveedor) | Búsqueda por nombre de restaurante cliente | Se muestra la tarjeta del restaurante encontrado con su historial de pedidos recientes, frecuencia de compra y demanda proyectada. |
+ 
 
 ---
 
