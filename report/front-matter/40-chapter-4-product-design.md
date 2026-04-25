@@ -365,8 +365,29 @@ SupplyWok tiene dos contextos de navegación diferenciados: la **Landing Page**,
 | Cambio de rol | Si un usuario tiene ambos roles (restaurante y proveedor), puede cambiar de vista desde un selector en el header sin cerrar sesión. |
 ---
 ## 4.3. Landing Page UI Design.
+Durnate la elaboración de la landing page se utilizaropn los principios de diseño, utlizando diferentes secciones que muestran la información.
 ### 4.3.1. Landing Page Wireframe.
+#### Desktop
+<p align="center">
+  <img src="../assets/images/figma/landingpage-desktop-wireframe.png" width="600px">
+</p>
+
+#### Mobile
+<p align="center">
+  <img src="../assets/images/figma/landingpage-mobile-wireframe.png" width="600px">
+</p>
+
 ### 4.3.2. Landing Page Mock-up.
+#### Desktop
+<p align="center">
+  <img src="../assets/images/figma/landingpage-desktop-mockup.png" >
+</p>
+
+#### Mobile
+<p align="center">
+  <img src="../assets/images/figma/landingpage-mobile-mockup.png" width="600px">
+</p>
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ### 4.4.2. Web Applications Wireflow Diagrams.
