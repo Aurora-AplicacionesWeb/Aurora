@@ -24,7 +24,7 @@ Integrantes<br><br>
 | U202422890                   | Cuadros Villanueva Marcelo Fabio |
 | U202512856                   | Jara Espinoza Miguel Angel       |
 | U20231C524                   | Sanchez Espinoza Mathias Enrique |
-| U                            | A                                |
+| U202410837                   | Ayasta Martel Zayd Jaffar        |
 
 Abril 2026
 </div>

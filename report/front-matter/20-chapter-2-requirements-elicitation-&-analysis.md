@@ -678,17 +678,21 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 ### 2.3.1. User Personas.
 
-<p align="center">
-  <img src="../assets/images/MarcoValdiviaUserPersona.png" width="500">
-</p><br>
-
-<sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
 <p align="center">
   <img src="../assets/images/HuanZhang.png" width="500">
 </p>
 
 <sub>*Ilustración. User Persona dueños de restaurantes chifa y administradores*</sub>
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
+<p align="center">
+  <img src="../assets/images/MarcoValdiviaUserPersona.png" width="500">
+</p><br>
+
+<sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
 
 ### 2.2.2. User Task Matrix.
 
@@ -768,24 +772,17 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 ## 2.4. Big Picture EventStorming.
 
-En esta sección se introduce y resume el proceso colaborativo realizado por el equipo Aurora para el descubrimiento del dominio del negocio. El objetivo primordial de esta actividad fue lograr una comprensión integral del ecosistema de gestión y abastecimiento de los restaurantes tipo chifa, plasmando los eventos significativos y sus interacciones de manera visual.
+En esta sección, el equipo resume el proceso y presenta los resultados de nuestra sesión colaborativa de Big Picture EventStorming. El objetivo principal de esta dinámica fue comprender el dominio del negocio de Aurora en su totalidad, plasmando cronológicamente los eventos más significativos que ocurren en la interacción entre los restaurantes tipo chifa y sus proveedores.
 
-A través de esta aproximación de alto nivel, el equipo exploró el panorama del negocio, lo cual permitió identificar procesos clave, al mismo tiempo que se expusieron potenciales problemas u oportunidades de mejora operativa. El proceso se desarrolló siguiendo una línea de tiempo narrativa, facilitando la identificación de puntos críticos y la delimitación de las fronteras lógicas de la solución propuesta.
-
+Este ejercicio sirvió como una primera aproximación visual de alto nivel para explorar el landscape del negocio. A través de este mapa, logramos identificar los procesos clave de la cadena de suministro, problemas operativos y oportunidades de mejora que nuestra solución digital busca resolver.
 
 #### Step 1: Unstructured Exploration
 
-En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. Para este paso se tienen en cuenta las épicas y los criterios de aceptación.
+En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. 
 
-<img src="../assets/images/epicevent1.png" width="500">
-
-<img src="../assets/images/epicevent2.png" width="500">
-
-<img src="../assets/images/epicevent3.png" width="500">
-
-<img src="../assets/images/epicevent4.png" width="500">
-
-<img src="../assets/images/epicvent5.png" width="500">
+<p align="center">
+  <img src="../assets/images/Step1BigEvent.png" width="500">
+</p>
 
 #### Step 2: Structured Organization
 

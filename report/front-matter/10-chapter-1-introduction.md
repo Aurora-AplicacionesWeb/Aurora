@@ -1,15 +1,21 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile 
-### 1.1.1. Descripción de la Startup 
-Somos Aurora, un grupo de estudiantes apasionados por la innovación tecnológica de la Universidad Peruana de Ciencias Aplicadas. Nuestra startup está enfocada en optimizar la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes. Nuestra plataforma conecta a restaurantes y proveedores a través de un sistema centralizado que permite gestionar inventarios, preveenir accidentes, anticipar la demanda y mejorar la coordinación en la cadena de suministro.
+### 1.1.1. Descripción de la Startup  
 
-- **Misión:** Nuestra misión es mejorar la eficiencia operativa de los restaurantes mediante herramientas tecnológicas que permitan gestionar inventarios, anticipar necesidades de abastecimiento y optimizar la coordinación con proveedores, contribuyendo a una gestión más inteligente y sostenible del negocio gastronómico.
+**Nombre de la startup:** Aurora  
+**Nombre del producto:** SupplyWok  
 
-- **Visión:** Convertirnos en una plataforma líder en la digitalización de operaciones para restaurantes en Latinoamérica, facilitando la toma de decisiones basada en datos y fortaleciendo la integración entre restaurantes y proveedores.
+Somos Aurora, un grupo de estudiantes apasionados por la innovación tecnológica de la Universidad Peruana de Ciencias Aplicadas. Nuestra startup está enfocada en optimizar la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes.  
+
+Como parte de esta iniciativa, desarrollamos SupplyWok, una plataforma que conecta a restaurantes y proveedores a través de un sistema centralizado que permite gestionar inventarios, prevenir accidentes, monitorear condiciones en tiempo real mediante IoT, anticipar la demanda y mejorar la coordinación en la cadena de suministro.
+
+- **Misión:** Nuestra misión es mejorar la eficiencia operativa de los restaurantes mediante herramientas tecnológicas que permitan gestionar inventarios, anticipar necesidades de abastecimiento, monitorear condiciones críticas en cocina y optimizar la coordinación con proveedores, contribuyendo a una gestión más inteligente y sostenible del negocio gastronómico.
+
+- **Visión:** Convertirnos en una plataforma líder en la digitalización de operaciones para restaurantes en Latinoamérica, facilitando la toma de decisiones basada en datos y fortaleciendo la integración entre restaurantes y proveedores mediante tecnologías inteligentes.
 
 - **Valores:**
     - **Eficiencia**: Buscamos optimizar procesos clave para reducir pérdidas y mejorar la operación diaria.
-    - **Innovación**: Aplicamos tecnología y análisis de datos para resolver problemas reales del sector gastronómico.
+    - **Innovación**: Aplicamos tecnología, IoT y análisis de datos para resolver problemas reales del sector gastronómico.
     - **Confiabilidad**: Proporcionamos información precisa y útil para la toma de decisiones.
     - **Escalabilidad**: Diseñamos soluciones adaptables a distintos tamaños de negocio.
     - **Colaboración**: Facilitamos la interacción entre restaurantes y proveedores para mejorar resultados conjuntos.
