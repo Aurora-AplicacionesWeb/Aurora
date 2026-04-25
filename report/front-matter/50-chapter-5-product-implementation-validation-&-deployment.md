@@ -237,7 +237,81 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
 
 ### 5.2.1. Sprint 1 
 #### 5.2.1.1. Sprint Planning 1
+
+En el sprint 1 como equipo nos centramos en la creación de la Landing Page de SupplyWok, que será la cara visible de nuestra plataforma ante los usuarios. Definiendo las secciones claves de la página para informar y convencer a los visitantes que se interesen.
+
+<table style="width:100%; border-collapse:collapse; font-size:0.95em;">
+  <colgroup>
+    <col style="width:25%">
+    <col style="width:75%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th colspan="2" style="padding:10px 14px; text-align:left; border:1px solid #000;">Sprint Planning 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Sprint #</td>
+      <td style="padding:8px 14px; border:1px solid #000;">1</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Date</td>
+      <td style="padding:8px 14px; border:1px solid #000;">20-04-2026</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Time</td>
+      <td style="padding:8px 14px; border:1px solid #000;">15:00</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Location</td>
+      <td style="padding:8px 14px; border:1px solid #000;">Virtual, Discord</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Prepared by</td>
+      <td style="padding:8px 14px; border:1px solid #000;">Zayd Ayasta, Juan Wang</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Attendees</td>
+      <td style="padding:8px 14px; border:1px solid #000;">Marcelo Cuadros, Mathias Sanchez, Miguel Jara</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Sprint n-1 Retrospective Summary</td>
+      <td style="padding:8px 14px; border:1px solid #000; font-style:italic;">Siendo el primer sprint, este campo no es aplicable.</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Sprint 1 Goal</td>
+      <td style="padding:8px 14px; border:1px solid #000; line-height:1.6;">Nuestro enfoque en este sprint es la Landing Page que informará de nuestra plataforma, por lo que la desarrollaremos e implementaremos para que sea accesible y responsiva. Con la información que brindamos sobre nuestro producto esperamos ganarnos la confianza de los que visiten la página y que empiecen a usar nuestro sistema. Se confirmará cuando esté en producción y se pueda usar el enlace de la página.</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Sprint n Velocity</td>
+      <td style="padding:8px 14px; border:1px solid #000;">Límite de <strong>35 SP</strong></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600; padding:8px 14px; border:1px solid #000;">Sum of Story Points</td>
+      <td style="padding:8px 14px; border:1px solid #000;"><strong>30 SP</strong></td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
+| Aspect | Leader | Collaborators |
+|---|---|---|
+| Estructura y Componentes (Estructura HTML) | | |
+| Diseño UI y Responsividad (CSS & Mobile-First) | | |
+| Interactividad y Experiencia de Usuario (JS & UX) | | |
+| SEO y Accesibilidad Web (a11y) | | |
+| Contenido Multimedia y Retención (Assets & Engagement) | | |
+
+| Team Member {Last Name, First Name} | GitHub username | Estructure HTML | Design UI & responsive | Scripts and UX | SEO and Accessibility | Content and Assets |
+|---|---|---|---|---|---|---|
+| Cuadros, Marcelo | Marcelo-alt-lab | C | C | L | - | C |
+| Sanchez, Mathias | Nounz27 | C | - | C | C | L |
+| Jara, Miguel | MiguelJara2 | - | C | - | - | C |
+| Ayasta, Zayd | Zayd Ayasta | L | L | - | C | - |
+| Wang, Juan | jwd3t | C | - | C | L | C |
+
 #### 5.2.1.3. Sprint Backlog 1.
 
 <table>
@@ -268,32 +342,32 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="4">Página de inicio con hero section</td>
       <td>T01</td>
       <td>Crear estructura HTML de la Hero Section</td>
-      <td></td>
-      <td></td>
+      <td>Maquetar la sección principal (Hero) usando etiquetas semánticas de HTML5.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T02</td>
       <td>Implementar estilos CSS de la Hero Section</td>
-      <td></td>
-      <td></td>
+      <td>Aplicar la hoja de estilos base para definir colores, tipografía y disposición.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T03</td>
       <td>Implementar CTAs y enlace al formulario de registro</td>
-      <td></td>
-      <td></td>
+      <td>Añadir botones llamativos que redirijan al usuario al proceso de registro.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T04</td>
       <td>Adaptar Hero Section a diseño responsive</td>
-      <td></td>
-      <td></td>
+      <td>Asegurar que la sección principal se visualice correctamente en dispositivos móviles.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -303,16 +377,16 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="2">Sección de características principales</td>
       <td>T05</td>
       <td>Crear estructura HTML de la sección de características</td>
-      <td></td>
-      <td></td>
+      <td>Construir la grilla o layout para mostrar los beneficios principales de la plataforma.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T06</td>
       <td>Agregar iconos y estilos visuales a cada característica</td>
-      <td></td>
-      <td></td>
+      <td>Incorporar elementos gráficos y CSS para hacer cada característica visualmente atractiva.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -322,24 +396,24 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="3">Sección de planes y precios</td>
       <td>T07</td>
       <td>Crear estructura HTML de la sección de planes</td>
-      <td></td>
-      <td></td>
+      <td>Maquetar el área donde se mostrarán las opciones de precios y suscripciones.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T08</td>
       <td>Implementar estilos de tarjetas de planes y precios</td>
-      <td></td>
-      <td></td>
+      <td>Diseñar visualmente las tarjetas de precios para facilitar la comparación de planes.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T09</td>
       <td>Agregar CTA de selección de plan con redirección al registro</td>
-      <td></td>
-      <td></td>
+      <td>Vincular cada tarjeta de precio con el flujo de creación de cuenta.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -349,16 +423,16 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="2">Sección de preguntas frecuentes</td>
       <td>T10</td>
       <td>Crear estructura HTML del acordeón FAQ</td>
-      <td></td>
-      <td></td>
+      <td>Maquetar el contenedor base para las preguntas frecuentes de los usuarios.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T11</td>
       <td>Implementar lógica de expansión y colapso de preguntas</td>
-      <td></td>
-      <td></td>
+      <td>Programar la interactividad para mostrar u ocultar respuestas al hacer clic.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -368,16 +442,16 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="2">Navegación y menú principal</td>
       <td>T12</td>
       <td>Crear navbar sticky con enlaces de navegación</td>
-      <td></td>
-      <td></td>
+      <td>Implementar un menú de navegación fijo en la parte superior con scroll suave.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T13</td>
       <td>Implementar menú hamburguesa para dispositivos móviles</td>
-      <td></td>
-      <td></td>
+      <td>Desarrollar un menú lateral desplegable para resoluciones de pantalla pequeñas.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -387,24 +461,24 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="3">Responsividad total y optimización mobile</td>
       <td>T14</td>
       <td>Definir e implementar breakpoints responsive globales</td>
-      <td></td>
-      <td></td>
+      <td>Establecer las reglas CSS de diseño adaptable para toda la página de aterrizaje.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T15</td>
       <td>Verificar tamaño mínimo de elementos interactivos</td>
-      <td></td>
-      <td></td>
+      <td>Validar que botones y enlaces tengan al menos 44px para facilitar el toque en móviles.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T16</td>
       <td>Validar que las imágenes no generen scroll horizontal</td>
-      <td></td>
-      <td></td>
+      <td>Asegurar que ningún recurso visual exceda el ancho máximo de la pantalla.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -414,24 +488,24 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="3">SEO y accesibilidad web</td>
       <td>T17</td>
       <td>Configurar meta tags de SEO (título, descripción, keywords)</td>
-      <td></td>
-      <td></td>
+      <td>Añadir metadatos clave para mejorar la indexación y visibilidad en buscadores.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T18</td>
       <td>Agregar atributos alt, roles ARIA y estructura semántica HTML5</td>
-      <td></td>
-      <td></td>
+      <td>Mejorar la accesibilidad para usuarios que dependen de lectores de pantalla.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T19</td>
       <td>Verificar navegación por teclado y visibilidad del foco</td>
-      <td></td>
-      <td></td>
+      <td>Asegurar que se pueda interactuar con la página usando únicamente el teclado.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -441,16 +515,16 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="2">Footer con información adicional</td>
       <td>T20</td>
       <td>Crear estructura HTML del footer</td>
-      <td></td>
-      <td></td>
+      <td>Maquetar la sección final de la página para enlaces secundarios y legales.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T21</td>
       <td>Implementar enlaces a redes sociales y páginas legales</td>
-      <td></td>
-      <td></td>
+      <td>Conectar los íconos sociales y los textos de términos y condiciones.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -460,8 +534,8 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td>Impacto apoyado en cifras</td>
       <td>T22</td>
       <td>Crear sección de métricas e impacto con estadísticas</td>
-      <td></td>
-      <td></td>
+      <td>Diseñar un bloque visual que resalte los números clave para generar confianza.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -471,16 +545,16 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td rowspan="2">Muestra del producto</td>
       <td>T23</td>
       <td>Integrar galería de imágenes del producto con texto alternativo</td>
-      <td></td>
-      <td></td>
+      <td>Mostrar capturas de la plataforma asegurando que sean accesibles para todos.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
     <tr>
       <td>T24</td>
       <td>Integrar video del producto con fallback de texto alternativo</td>
-      <td></td>
-      <td></td>
+      <td>Incrustar un video demostrativo con opciones de texto para quienes no puedan verlo.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -490,8 +564,8 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td>Calls to action</td>
       <td>T25</td>
       <td>Distribuir CTAs secundarios en secciones clave de la Landing Page</td>
-      <td></td>
-      <td></td>
+      <td>Añadir llamadas a la acción adicionales a lo largo del recorrido del usuario.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -501,8 +575,8 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td>Scripts para ocultar contenido</td>
       <td>T26</td>
       <td>Implementar scripts de show/hide para contenido condicional</td>
-      <td></td>
-      <td></td>
+      <td>Añadir lógica JavaScript para controlar elementos que se muestran bajo ciertas acciones.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -512,8 +586,8 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td>Comentarios y nombres de variables</td>
       <td>T27</td>
       <td>Agregar comentarios de código y estandarizar nombres de variables</td>
-      <td></td>
-      <td></td>
+      <td>Limpiar y documentar el código fuente para facilitar futuros mantenimientos.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -523,8 +597,8 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td>Sobre el equipo detrás de SupplyWok</td>
       <td>T28</td>
       <td>Crear sección del equipo con video y texto alternativo</td>
-      <td></td>
-      <td></td>
+      <td>Maquetar la presentación de los creadores de SupplyWok con soporte multimedia.</td>
+      <td>2</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -534,8 +608,8 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
       <td>Prioridad en mostrar las funcionalidades a los Restaurantes</td>
       <td>T29</td>
       <td>Ordenar sección de funcionalidades priorizando beneficios para restaurantes</td>
-      <td></td>
-      <td></td>
+      <td>Estructurar visualmente el contenido para destacar el valor aportado a los restaurantes.</td>
+      <td>1</td>
       <td></td>
       <td>To-do</td>
     </tr>
@@ -543,7 +617,12 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
 </table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Como la Landing Page es una página estática, no fue necesario durante el Sprint el uso de servicios externos ni conexiones a APIs, por lo cual no hay generación ni evidencia de documentación técnica relacionada.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
