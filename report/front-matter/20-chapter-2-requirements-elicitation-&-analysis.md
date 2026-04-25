@@ -678,17 +678,21 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 ### 2.3.1. User Personas.
 
-<p align="center">
-  <img src="../assets/images/MarcoValdiviaUserPersona.png" width="500">
-</p><br>
-
-<sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
 <p align="center">
   <img src="../assets/images/HuanZhang.png" width="500">
 </p>
 
 <sub>*Ilustración. User Persona dueños de restaurantes chifa y administradores*</sub>
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
+<p align="center">
+  <img src="../assets/images/MarcoValdiviaUserPersona.png" width="500">
+</p><br>
+
+<sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
 
 ### 2.2.2. User Task Matrix.
 
