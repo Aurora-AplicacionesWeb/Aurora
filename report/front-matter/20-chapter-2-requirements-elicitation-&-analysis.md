@@ -24,386 +24,24 @@ Las siguientes plataformas son de las más relevantes en el mercado de gestión 
 
 ### 2.1.1. Análisis Competitivo
 
-<table>
-    <tr>
-        <td colspan="7" align="center">
-            <b>Competitive Analysis Landscape</b>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2" align="center">
-            ¿Porqué llevar a cabo este análisis?
-        </td>
-        <td colspan="5">
-        El objetivo de este análisis es identificar las fortalezas, debilidades, oportunidades y amenazas del entorno competitivo en el sector de gestión de resturantes y proveedores, con el fin de definir la ventaja competitiva de SupplyWok frente a las alternativas existentes y orientar las estrategias de diferenciación e innovación.</td>
-    </tr>
-   <tr>
-        <td colspan="2" align="center">
-            <b>Competidores</b>
-        </td>
-        <td align="center">
-            <p><b>SupplyWok</b></p>
-            <img src="" alt="" width="70" />
-        </td>
-        <td align="center">
-            <p><b>Apicbase</b></p>
-            <img src="../assets/images/apicabase.png" alt="Apicbase-logo" width="70" />
-        </td>
-        <td align="center">
-            <p><b>MarketMan</b></p>
-            <img src="../assets/images/marketman.png" alt="MarketMan-logo" width="70" />
-        </td>
-        <td align="center">
-            <p><b>WISK.ai</b></p>
-            <img src="../assets/images/wisk.png" alt="WISK.ai-logo" width="70" />
-        </td>
-        <td align="center">
-            <p><b>Restaurant365</b></p>
-            <img src="../assets/images/restaurant365.png" alt="Restaurant365-logo" width="70" />    
-    </tr>
-    <tr>
-        <td rowspan="2" align="center">
-            <b>Perfil</b>
-        </td>
-        <td align="center">
-            <b>Overview</b>
-        </td>
-        <td align="center">
-            <p>
-                Plataforma web que optimiza y agiliza la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes. 
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Plataformaa basada en la nube diseñada para centralizar la gestión de alimentos y bebidas en cadenas de restaurantes y hoteles.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Plataforma basada en la nube especializada en automatizar el inventario y las compras para restaurantes, conectando el almacén directamente con los proveedores.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Plataforma basada en IA que se especializa en la gestión ultraprecisa de inventarios, usando reconocimiento de imágen para agilizar el conteo de existencias mediante el móvil.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Plataforma de gestión empresarial que unifica en un solo sistema la contabilidad, el control de inventarios, las compras y la gestión del personal.
-            </p>
-        </td>
-    </tr>
-     <tr>
-        <td align="center">
-            <b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b>
-        </td>
-        <td align="center">
-            <p>
-                Plataforma centralizada y escalable que optimiza la cadena de suministro mediante analítica predictiva, garantizando eficiencia operativa, prevención de accidentes y una colaboración inteligente entre restaurantes y proveedores para una gestión sostenible.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Gestión centralizada de recetas y menús para múltiples locales, con enfoque en trazabilidad alimentaria, control de alérgenos y estandarización de la producción a gran escala.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Automatización integral del inventario y compras que utiliza análisis predictivos para sugerir pedidos, detectar variaciones de precios y maximizar la rentabilidad operativa.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Control de inventario ultrapeciso mediante inteligencia artificial y reconocimiento visual, especializado en la reducción de mermas y optimización de costos en bebidas y licores.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Sistema ERP unificado que integra contabilidad financiera, inventarios y gestión de personal, conectando el flujo de caja con la operación diaria en una sola plataforma.
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" align="center">
-            <b>Perfil de Marketing</b>
-        </td>
-        <td align="center">
-            <b>Mercado objetivo</b>
-        </td>
-        <td align="center">
-            <p>
-                Restaurantes de gastronomía peruano-china (chifas), aquellos con una operación moderada a alta complejidad que enfrentan retos críticos en la frescura de insumos y seguridad laboral.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Grupos de hospitalidad, hoteles y empresas de catering. Negocios con múltiples unidades y cocinas centrales que necesitan estandarizar recetas y producción a gran escala.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Restaurantes individuales y pequeñas cadenas enfocados principalmente en gestión de alimentos.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Establecimientos con un alto volumen de bebidas, como bares, clubes nocturnos y restaurantes de alta gama.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Operadores de nivel empresarial y franquicias que requieren una solución contable robusta.
-            </p>
-        </td>
-    </tr>
-     <tr>
-        <td align="center">
-            <b>Estrategias de marketing</b>
-        </td>
-        <td align="center">
-            <p>
-                Promocionar el uso de sensores IoT, contenido especializado en seguridad y prevención de riegos en cocina, y co-marketing con proveedores de insumos orientales.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Contenido educativo profundo, usando una biblioteca técnica para profesionales F&B, marketing basado en casos de éxito y enfoque emocional para chefs.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Estrategia de Co-Marketing, colaborando con socios tecnológicos, SEO y guías prácticas y prueba social masiva.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Marketing de comparación con otros competidores, calculadoras de ROI y lead magnets gratuitos.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Webinars de nivel eje ejecutivo, eventos de grandes franquicias y networking y marketing de datos unificados.
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="3" align="center">
-            <b>Perfil de Producto</b>
-        </td>
-        <td align="center">
-            <b>Productos & Servicios</b>
-        </td>
-        <td align="center">
-            <p>
-                Gestión de inventario, comandas y abastecimiento, monitoreo de seguridad en cocina mediante sensores, analítica predictiva para demanda y alertas de bajo stock.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Gestión de recetas y menús, planificación de producción, módulo de inventario, trazabilidad de alérgenos, ventas y analítica.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Gestión de compras, escaneo de facturas, control de inventario, alertas de precios y libro de cocina digital.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Inventario de bebidas (Bar), base de datos global para licores y vinos, inteligencia de pedidos y análisis de costos. 
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Contabilidad, gestión de mano de obra, inventario y recetas, reporting empresarial y servicios de nómina.
-            </p>
-        </td>
-    </tr>
-<tr>
-        <td align="center">
-            <b>Precios & costos</b>
-        </td>
-        <td align="center">
-            <p>
-                Modelo de Suscripción; Wok: S/ 119.99 al mes por ubicación. Wok Enterprise: Precio personalizado según necesidades y tamaño del cliente.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Modelo de Suscripción; Basic: $265 aprox. al mes por establecimiento 
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Modelo de Suscripción; Starter: Desde $199 al mes. Crecimiento: Desde $299 al mes. 
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Modelo de Suscripción; Essentials: Desde $189 al mes. Professional: Desde $249 al mes. Premium: Desde $499 al mes.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Modelo de Suscripción; Eseential: Desde $399 o $435 al mes por ubicación. Professional: Aproximadamente $635 al mes.
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <b>Canales y distribución (Web y/o móvil)</b>
-        </td>
-        <td align="center">
-            <p>
-                Web (Escritorio) y móvil.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Web (Escritorio) y móvil.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Web (Escritorio) y móvil (iOS y Android).
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Web (Escritorio) y móvil (iOS y Android).
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Web (Escritorio) y móvil (iOS y Android).
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="4" align="center">
-            <b>Análisis SWOT</b>
-        </td>
-        <td align="center">
-            <b>Fortalezas</b>
-        </td>
-        <td align="center">
-            <p>
-                Diferenciador de seguridad, visión colaborativa y enfoque de sostenibilidad y escalabilidad.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Gestión visual de recetas de altísima calidad y control estricto de alérgenos/HACCP.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Enorme red de proveedores ya integrados y facilidad para escanear facturas.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Tecnología de escaneo de botellas y uso de IA para predecir demanda externa.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Unificación total de contabilidad, nómina y operación en un solo sistema financiero.
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <b>Debilidades</b>
-        </td>
-        <td align="center">
-            <p>
-                Barrera tecnológica inicial, dependencia de la data del proveedor y recursos de desarrollo.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Curva de aprendizaje elevada y precio alto para restaurantes individuales
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Interfaz móvil no tan intuitiva respecto a la competencia 
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Enfoque limitado a bebidas, la gestión de alimentos no es tan robusta como la de Apicbase.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Implementación extremedamente costosa y lenta, con un enfoque más contable que operativo.
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <b>Oportunidades</b>
-        </td>
-        <td align="center">
-            <p>
-                Nicho Especilizado (Chifas), crecimiento del sector en Latinoamérica y datos para el sector objetivo.  
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Expansión en el sector hotelero de lujo y grandes canteras de catering.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Integración con sistemas de pago para el proceso directo de compras.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Convertirse en el estándar para auditorías de inventario en bares de alta gama y casinos.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Adquisición de plataformas más pequeñas para dominar el mercado de franquicias.
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <b>Amenazas</b>
-        </td>
-        <td align="center">
-            <p>
-                Competencia consolidada de grandes empresas, inestabilidad económica en Latinoamérica y resistencia al cambio cultural
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Nuevos competidores con interfaces más ágiles y menos burocráticas como SupplyWok.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Pérdida de mercado frente a soluciones especializadas en nichos (como SupplyWok).
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Que los sistemas de Punto de Venta (TPV) desarrollen sus propios escáneres nativos.
-            </p>
-        </td>
-        <td align="center">
-            <p>
-                Software de contabilidad general, como QuickBook, que mejoren sus módulos de restaurante.
-            </p>
-        </td>
-    </tr>
-</table>
+**Competitive Analysis Landscape**
+
+*¿Porqué llevar a cabo este análisis?*
+El objetivo de este análisis es identificar las fortalezas, debilidades, oportunidades y amenazas del entorno competitivo en el sector de gestión de resturantes y proveedores, con el fin de definir la ventaja competitiva de SupplyWok frente a las alternativas existentes y orientar las estrategias de diferenciación e innovación.
+
+| Categoría | Subcategoría | SupplyWok <br><img src="" width="70" /> | Apicbase <br><img src="../assets/images/apicbase.png" width="70" /> | MarketMan <br><img src="../assets/images/market-man.png" width="70" /> | WISK.ai <br><img src="../assets/images/wisk.png" width="70" /> | Restaurant365 <br><img src="../assets/images/restaurant365.png" width="70" /> |
+|---|---|---|---|---|---|---|
+| **Perfil** | Overview | Plataforma web que optimiza y agiliza la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes. | Plataformaa basada en la nube diseñada para centralizar la gestión de alimentos y bebidas en cadenas de restaurantes y hoteles. | Plataforma basada en la nube especializada en automatizar el inventario y las compras para restaurantes, conectando el almacén directamente con los proveedores. | Plataforma basada en IA que se especializa en la gestión ultraprecisa de inventarios, usando reconocimiento de imágen para agilizar el conteo de existencias mediante el móvil. | Plataforma de gestión empresarial que unifica en un solo sistema la contabilidad, el control de inventarios, las compras y la gestión del personal. |
+| **Perfil** | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Plataforma centralizada y escalable que optimiza la cadena de suministro mediante analítica predictiva, garantizando eficiencia operativa, prevención de accidentes y una colaboración inteligente entre restaurantes y proveedores para una gestión sostenible. | Gestión centralizada de recetas y menús para múltiples locales, con enfoque en trazabilidad alimentaria, control de alérgenos y estandarización de la producción a gran escala. | Automatización integral del inventario y compras que utiliza análisis predictivos para sugerir pedidos, detectar variaciones de precios y maximizar la rentabilidad operativa. | Control de inventario ultrapeciso mediante inteligencia artificial y reconocimiento visual, especializado en la reducción de mermas y optimización de costos en bebidas y licores. | Sistema ERP unificado que integra contabilidad financiera, inventarios y gestión de personal, conectando el flujo de caja con la operación diaria en una sola plataforma. |
+| **Perfil de Marketing** | Mercado objetivo | Restaurantes de gastronomía peruano-china (chifas), aquellos con una operación moderada a alta complejidad que enfrentan retos críticos en la frescura de insumos y seguridad laboral. | Grupos de hospitalidad, hoteles y empresas de catering. Negocios con múltiples unidades y cocinas centrales que necesitan estandarizar recetas y producción a gran escala. | Restaurantes individuales y pequeñas cadenas enfocados principalmente en gestión de alimentos. | Establecimientos con un alto volumen de bebidas, como bares, clubes nocturnos y restaurantes de alta gama. | Operadores de nivel empresarial y franquicias que requieren una solución contable robusta. |
+| **Perfil de Marketing** | Estrategias de marketing | Promocionar el uso de sensores IoT, contenido especializado en seguridad y prevención de riegos en cocina, y co-marketing con proveedores de insumos orientales. | Contenido educativo profundo, usando una biblioteca técnica para profesionales F&B, marketing basado en casos de éxito y enfoque emocional para chefs. | Estrategia de Co-Marketing, colaborando con socios tecnológicos, SEO y guías prácticas y prueba social masiva. | Marketing de comparación con otros competidores, calculadoras de ROI y lead magnets gratuitos. | Webinars de nivel eje ejecutivo, eventos de grandes franquicias y networking y marketing de datos unificados. |
+| **Perfil de Producto** | Productos & Servicios | Gestión de inventario, comandas y abastecimiento, monitoreo de seguridad en cocina mediante sensores, analítica predictiva para demanda y alertas de bajo stock. | Gestión de recetas y menús, planificación de producción, módulo de inventario, trazabilidad de alérgenos, ventas y analítica. | Gestión de compras, escaneo de facturas, control de inventario, alertas de precios y libro de cocina digital. | Inventario de bebidas (Bar), base de datos global para licores y vinos, inteligencia de pedidos y análisis de costos. | Contabilidad, gestión de mano de obra, inventario y recetas, reporting empresarial y servicios de nómina. |
+| **Perfil de Producto** | Precios & costos | Modelo de Suscripción; Wok: S/ 119.99 al mes por ubicación. Wok Enterprise: Precio personalizado según necesidades y tamaño del cliente. | Modelo de Suscripción; Basic: $265 aprox. al mes por establecimiento | Modelo de Suscripción; Starter: Desde $199 al mes. Crecimiento: Desde $299 al mes. | Modelo de Suscripción; Essentials: Desde $189 al mes. Professional: Desde $249 al mes. Premium: Desde $499 al mes. | Modelo de Suscripción; Eseential: Desde $399 o $435 al mes por ubicación. Professional: Aproximadamente $635 al mes. |
+| **Perfil de Producto** | Canales y distribución (Web y/o móvil) | Web (Escritorio) y móvil. | Web (Escritorio) y móvil. | Web (Escritorio) y móvil (iOS y Android). | Web (Escritorio) y móvil (iOS y Android). | Web (Escritorio) y móvil (iOS y Android). |
+| **Análisis SWOT** | Fortalezas | Diferenciador de seguridad, visión colaborativa y enfoque de sostenibilidad y escalabilidad. | Gestión visual de recetas de altísima calidad y control estricto de alérgenos/HACCP. | Enorme red de proveedores ya integrados y facilidad para escanear facturas. | Tecnología de escaneo de botellas y uso de IA para predecir demanda externa. | Unificación total de contabilidad, nómina y operación en un solo sistema financiero. |
+| **Análisis SWOT** | Debilidades | Barrera tecnológica inicial, dependencia de la data del proveedor y recursos de desarrollo. | Curva de aprendizaje elevada y precio alto para restaurantes individuales | Interfaz móvil no tan intuitiva respecto a la competencia | Enfoque limitado a bebidas, la gestión de alimentos no es tan robusta como la de Apicbase. | Implementación extremedamente costosa y lenta, con un enfoque más contable que operativo. |
+| **Análisis SWOT** | Oportunidades | Nicho Especilizado (Chifas), crecimiento del sector en Latinoamérica y datos para el sector objetivo. | Expansión en el sector hotelero de lujo y grandes canteras de catering. | Integración con sistemas de pago para el proceso directo de compras. | Convertirse en el estándar para auditorías de inventario en bares de alta gama y casinos. | Adquisición de plataformas más pequeñas para dominar el mercado de franquicias. |
+| **Análisis SWOT** | Amenazas | Competencia consolidada de grandes empresas, inestabilidad económica en Latinoamérica y resistencia al cambio cultural | Nuevos competidores con interfaces más ágiles y menos burocráticas como SupplyWok. | Pérdida de mercado frente a soluciones especializadas en nichos (como SupplyWok). | Que los sistemas de Punto de Venta (TPV) desarrollen sus propios escáneres nativos. | Software de contabilidad general, como QuickBook, que mejoren sus módulos de restaurante. |
 
 <sub>*Tabla 3. Análisis Competitivo*</sub>
 
@@ -772,9 +410,9 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 ## 2.4. Big Picture EventStorming.
 
-En esta sección, el equipo resume el proceso y presenta los resultados de nuestra sesión colaborativa de Big Picture EventStorming. El objetivo principal de esta dinámica fue comprender el dominio del negocio de Aurora en su totalidad, plasmando cronológicamente los eventos más significativos que ocurren en la interacción entre los restaurantes tipo chifa y sus proveedores.
+En esta sección se introduce y resume el proceso colaborativo realizado por el equipo Aurora para el descubrimiento del dominio del negocio. El objetivo primordial de esta actividad fue lograr una comprensión integral del ecosistema de gestión y abastecimiento de los restaurantes tipo chifa, plasmando los eventos significativos y sus interacciones de manera visual.
 
-Este ejercicio sirvió como una primera aproximación visual de alto nivel para explorar el landscape del negocio. A través de este mapa, logramos identificar los procesos clave de la cadena de suministro, problemas operativos y oportunidades de mejora que nuestra solución digital busca resolver.
+A través de esta aproximación de alto nivel, el equipo exploró el panorama del negocio, lo cual permitió identificar procesos clave, al mismo tiempo que se expusieron potenciales problemas u oportunidades de mejora operativa. El proceso se desarrolló siguiendo una línea de tiempo narrativa, facilitando la identificación de puntos críticos y la delimitación de las fronteras lógicas de la solución propuesta.
 
 
 #### Step 1: Unstructured Exploration
@@ -782,7 +420,7 @@ Este ejercicio sirvió como una primera aproximación visual de alto nivel para 
 En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. 
 
 <p align="center">
-  <img src="../assets/images/step1bigevent.png" width="500">
+  <img src="../assets/images/Step1BigEvent.png" width="500">
 </p>
 
 #### Step 2: Structured Organization

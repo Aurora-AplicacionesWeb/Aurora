@@ -71,13 +71,37 @@
 
 ## 3.2. Impact Mapping
 
-<img src="/report/assets/images/impactmapping-supplywok.png" width="580px" alt="Impact Map">
+El Impact Mapping de SupplyWok refleja la relación entre los objetivos de negocio, los actores clave, los impactos esperados en su comportamiento y las funcionalidades que los sustentan.
+
+**Objetivo de negocio #1 [Segmento de dueños o administradores de restaurante chifa]:** <br>Optimizar la gestión operativa y de abastecimiento en restaurantes tipo chifa, reduciendo en un 20% las pérdidas económicas por desperdicio y falta de stock mediante una plataforma integrada.
+
+**Objetivo de negocio #2 [Segmento de proveedores de insumos de restaurante]:** <br>Mejorar la planificación de distribución y coordinación con restaurantes clientes, incrementando en un 30% la precisión de entregas y reduciendo en un 25% los pedidos urgentes no planificados mediante visibilidad digital de la demanda.<br>
+
+| Actor | Impacto esperado | Entregables / Funcionalidades |
+|---|---|---|
+| **Dueño o administrador de restaurante chifa** | Controlar el inventario y abastecimiento de insumos de forma centralizada, reduciendo pérdidas por quiebres de stock y pedidos mal planificados | Módulo de inventario, alertas de stock mínimo, emisión de órdenes de compra digitales y proyección de demanda |
+| **Proveedor de insumos para restaurantes** | Anticipar la demanda de sus clientes y gestionar pedidos digital y organizadamente, mejorando la precisión de entregas y reduciendo coordinaciones informales | Perfil y catálogo digital, panel de órdenes entrantes, vista de demanda proyectada y confirmación de entregas |
+
+**Primer Segmento Objetivo (Dueño o administrador de restaurante chifa):**
+
+<p align="center">
+  <img src="../assets/images/SupplyWokImpactMapSegmento1.png" width="980">
+</p><br>
+
+<sub>Ilustración. Impact Mapping dueños de restaurantes chifa y administradores</sub>
+
+----
+**Segundo Segmento Objetivo (Proveedores de insumos para restaurantes):**
+
+<p align="center">
+  <img src="../assets/images/SupplyWokImpactMapSegmento2.png" width="980">
+</p><br>
+
+<sub> Ilustración. Impact Mapping proveedores de insumos para restaurantes</sub>
+
+---
 
 ### 3.3. Product Backlog
-
-Herramienta utilizada para el Product Backlog: [Jira - SupplyWok](#)
-
-> Nota: Actualizar el enlace público al tablero de Jira/Trello antes de la entrega e incluir una captura de la herramienta utilizada.
 
 | # Orden | User Story ID | Título | Descripción | Story Points |
 |:---:|:---:|---|---|:---:|
