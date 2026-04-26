@@ -1,56 +1,187 @@
 # Capítulo IV: Product Design.
 ## 4.1. Style Guidelines
-### 4.1.1. General Style Guidelines.
 
-SupplyWok adopta un sistema de diseño coherente, funcional y alineado con el contexto operativo de restaurantes tipo chifa y sus proveedores. En esta sección se detallan los lineamientos de estilo que hemos decidido seguir para mantener la coherencia visual de la plataforma, la cual incluye la landing page, web y versiones mobile. Se detallaran el branding, paleta de colores y tipografias a utilizar en el proyecto.
+### 4.1.1. General Style Guidelines
 
-#### 4.1.1.1. Branding.
+SupplyWok adopta un sistema de diseño coherente, funcional y alineado con el contexto operativo de restaurantes tipo chifa y sus proveedores. En esta sección se detallan los lineamientos de estilo que hemos definido para mantener la coherencia visual de la plataforma, la cual incluye la landing page, la web application y las versiones mobile. Se detallan el branding, la paleta de colores y las tipografías a utilizar en el proyecto.
 
-El logo de nuestra plataforma está compuesto por los caracteres 'S' y 'W' provenientes del nombre SupplyWok, puestos de forma creativa para mantener una relacion con nuestro público objetivo. La 'S' encontrandose en forma de humo que sale de un recipiente que tiene la forma de 'W'. Transmitiendo una conexion con el entorno de un restaurante chifa generando familiaridad con nuestros usuarios.
+**1. Logo:**
+
+El logo de nuestra plataforma está compuesto por los caracteres **S** y **W**, provenientes del nombre *SupplyWok*, representados de forma creativa para mantener una relación con nuestro público objetivo. La **S** se encuentra en forma de humo que sale de un recipiente con forma de **W**. Esta composición transmite una conexión con el entorno de un restaurante chifa y genera familiaridad con nuestros usuarios.
 
 <div align="center">
   <img src="../assets/images/supplywok-logo.png" width="300" height="300" alt="SupplyWok Logo">
 </div>
 
-#### 4.1.1.2. Paleta de Colores.
+**2. Branding:**
 
-La identidad visual de SupplyWok busca mantener una relacion con el entorno de un restaurante chifa clásico por lo que nuestro colores predominan rojos y amarillos, combinado con blancos y negros para un contraste optimo.
+SupplyWok busca transmitir una identidad visual **moderna, confiable, cercana y ordenada**, alineada con las necesidades de restaurantes tipo chifa y sus proveedores. La marca debe reflejar rapidez operativa, control sobre el abastecimiento y facilidad de uso en entornos donde la gestión diaria requiere eficiencia.
 
-- **Rojo (#C21204):** Este color en la cultura china esta realacionado con la suerte y la prosperidad en los negocios[^1] que buscamos transmitir mediante el uso de nuestra paltaforma, además de ser un color que genera impacto visual. por lo que se usará en botones principales, alertas y elementos que requieran atención.
-- **Amarillo (#E9B824):** Este color lo usamos como contraste al rojo y para resaltar textos en caso se requiera.
-- **Mostaza o Amarillo oscuro (#AO7832):** Siendo una variante mas oscura del amarillo que tenemos se usaran en detalles para ayudar a armonizar la vista de nuestro usuarios.
-- **Blanco (#FFFFFF):** Color neutro para mantener un balance en la paleta de colores.
-- **Negro (#000000):** Color neutro para mantener un balance en la paleta de colores.
+El branding de SupplyWok se fundamenta en los siguientes conceptos:
 
-<div align="center">
-  <img src="../assets/images/paleta-colors.png" width="1000" height="200" alt="SupplyWok Colors">
-</div>
+- **Confianza:** la interfaz debe proyectar seguridad al manejar información sensible como stock, pedidos, alertas y proveedores.
+- **Agilidad:** la experiencia debe facilitar acciones rápidas y reducir fricción en tareas frecuentes.
+- **Cercanía:** la comunicación visual y textual debe ser comprensible y accesible para usuarios con distintos niveles de experiencia digital.
+- **Orden:** la presentación de la información debe ser clara, estructurada y fácil de escanear.
+- **Identidad gastronómica:** el logotipo y la paleta de colores deben mantener una relación visual con el contexto del chifa, sin perder limpieza ni profesionalismo.
 
-#### 4.1.1.3. Tipografía.
+Para reforzar esta identidad, se utilizarán elementos visuales con un estilo consistente en toda la plataforma. El objetivo es que SupplyWok sea percibido como una solución especializada, profesional y fácil de adoptar.
 
-La tipografia que se ha decidido usar en nuestra plataforma son dos, Poppins y Monserrat. Estas elecciones fueron hechas pensando en la comodidad de lectura de nuestros usuarios, junto a un diseño moderno que se quiere lograr.
+**3. Typography:**
 
-- **Títulos:** Para los titulos se usaran Poppins en pesos de Bold o semibold dependiendo del titulo, esto para dar una fuerza y relevancia necesarias en titulos.
+La tipografía que se ha decidido usar en nuestra plataforma son dos: **Poppins** y **Montserrat**. Estas elecciones fueron hechas pensando en la comodidad de lectura de nuestros usuarios y en el diseño moderno que se quiere lograr.
+
+- **Títulos:** Para los títulos se usará **Poppins** en pesos **Bold** o **SemiBold**, dependiendo del nivel jerárquico del texto. Esto permite darles la fuerza y relevancia necesarias.
 
 <div align="center">
   <img src="../assets/images/poppins-example.png" alt="SupplyWok Poppins">
 </div>
 
-- **Párrafos o cuerpo del texto:** Se usara Monserrat en pesos variados como bold, regular o light dependiendo de la intencion del parrafo. Pensado en la legibilidad necesaria para los usuarios al momento de leer.
+- **Párrafos o cuerpo del texto:** Se usará **Montserrat** en pesos variados como **Bold**, **Regular** o **Light**, dependiendo de la intención del texto. Esto asegura la legibilidad necesaria para los usuarios al momento de leer.
 
 <div align="center">
-  <img src="../assets/images/monserrat-example.png" alt="SupplyWok Monserrat">
+  <img src="../assets/images/monserrat-example.png" alt="SupplyWok Montserrat">
 </div>
 
+**4. Colors:**
 
-### 4.1.2. Web Style Guidelines.
+La identidad visual de SupplyWok busca mantener una relación con el entorno de un restaurante chifa clásico, por lo que predominan los tonos rojos y amarillos, combinados con blanco y negro para lograr un contraste óptimo.
 
+- **Rojo (#C21204):** Este color se usará en botones principales, alertas y elementos que requieran atención. Se eligió por su fuerza visual y por su asociación con energía, dinamismo y relevancia.
+- **Amarillo (#E9B824):** Este color se usará como contraste del rojo y para resaltar textos o elementos puntuales.
+- **Mostaza o amarillo oscuro (#A07832):** Variante más oscura del amarillo, utilizada en detalles para ayudar a armonizar la vista de los usuarios.
+- **Blanco (#FFFFFF):** Color neutro para mantener balance y aportar limpieza visual.
+- **Negro (#000000):** Color neutro para reforzar contraste y legibilidad.
+
+<div align="center">
+  <img src="../assets/images/paleta-colors.png" width="1000" height="200" alt="SupplyWok Colors">
+</div>
+
+**5. Spacing:**
+
+El sistema de espaciado de SupplyWok se ha definido para mantener orden visual, legibilidad y consistencia entre la landing page, la web application y las vistas móviles. Se adopta una escala base de **8 px**. En el caso de separar secciones, se pueden usar espacios de hasta **24 px**, lo que permite construir interfaces limpias y fácilmente adaptables a distintos tamaños de pantalla.
+
+**6. Tone:**
+
+El tono de comunicación de SupplyWok será **profesional, claro y confiable**, pero sin caer en tecnicismos innecesarios. Debido a que la plataforma está orientada a restaurantes tipo chifa y proveedores que trabajan en contextos operativos de alta demanda, la comunicación debe transmitir orden, rapidez y seguridad en la gestión del abastecimiento.
+
+SupplyWok busca proyectar:
+
+- **Confianza**, al tratar información crítica como stock, pedidos y alertas.
+- **Agilidad**, al guiar al usuario hacia acciones rápidas y concretas.
+- **Cercanía**, utilizando mensajes comprensibles para usuarios con distintos niveles de familiaridad tecnológica.
+- **Control**, al presentar la información de manera estructurada y orientada a la toma de decisiones.
+
+Por ello, la experiencia visual y verbal evita un tono alarmista o excesivamente informal. En su lugar, se prioriza una comunicación sobria, directa y enfocada en la eficiencia operativa.
+
+**7. Language:**
+
+El lenguaje de SupplyWok será **directo, breve y orientado a la acción**. Se utilizarán etiquetas y mensajes simples que permitan al usuario identificar rápidamente qué está ocurriendo y qué acción puede realizar a continuación.
+
+Se evitarán expresiones ambiguas o excesivamente técnicas. Por ejemplo, se priorizarán frases como:
+
+- `Crear pedido` en lugar de `Registrar nueva orden de abastecimiento`.
+- `Stock bajo` en lugar de `Nivel de inventario inferior al umbral configurado`.
+- `Ver proveedor` en lugar de `Consultar información detallada del proveedor asociado`.
+- `Actualizar estado` en lugar de `Modificar el flujo transaccional del pedido`.
+
+Este enfoque reduce la fricción cognitiva y mejora la usabilidad, especialmente en escenarios donde el usuario necesita actuar rápido, como reposición de insumos, revisión de alertas o seguimiento de entregas.
+
+### 4.1.2. Web Style Guidelines
+
+Las Web Style Guidelines de SupplyWok establecen los criterios visuales y de interacción que guían el diseño de la landing page y la web application. Estas pautas aseguran consistencia entre dispositivos, favorecen la legibilidad y permiten que tanto restaurantes como proveedores naveguen de forma intuitiva por la plataforma.
+
+#### Estructura general
+
+SupplyWok adopta un enfoque **responsive web design**, de modo que la interfaz se adapte correctamente a desktop, laptop, tablet y mobile web sin perder claridad ni coherencia visual.
+
+- **Desktop:** La navegación principal se presenta mediante sidebar lateral y header superior. Los módulos con mayor densidad informativa, como inventario y reportes, aprovechan mejor el ancho disponible mediante tablas, tarjetas comparativas y filtros visibles.
+- **Tablet:** La estructura se reorganiza a 6 u 8 columnas, reduciendo el número de elementos visibles por fila. Los paneles laterales pueden colapsarse y ciertas tablas pasan a formatos más compactos para facilitar la interacción táctil.
+- **Mobile Web:** La estructura se simplifica a una sola columna. Los elementos se apilan verticalmente, se priorizan botones de acción principal y la navegación se compacta mediante menú hamburguesa o navegación inferior, según el flujo.
+
+#### Breakpoints
+
+Se proponen los siguientes breakpoints para asegurar una adaptación consistente:
+
+- **Mobile:** hasta 767 px.
+- **Tablet:** desde 768 px hasta 1023 px.
+- **Desktop:** 1024 px en adelante.
+
+#### Componentes básicos de UI
+
+- **Botones primarios:** fondo rojo `#C21204` o marrón `#2D241E`, texto blanco, bordes redondeados de 10 px a 12 px. Se utilizan para acciones clave como `Crear pedido`, `Export PDF`, `Confirmar` o `Iniciar sesión`.
+- **Botones secundarios:** fondo blanco o amarillo claro, borde en rojo o mostaza, con texto oscuro. Se emplean para acciones complementarias como `Cancelar`, `Ver detalle` o `Volver`.
+- **Inputs y formularios:** bordes suaves, fondo claro y suficiente padding interno para facilitar lectura e interacción. El estado enfocado resalta mediante borde rojo o mostaza. El estado de error utiliza borde rojo más oscuro y un mensaje de validación visible.
+- **Cards:** contenedores rectangulares con esquinas redondeadas, padding interno de 16 px a 24 px y jerarquía clara entre título, contenido y acciones. Se usan en dashboard, alertas, métricas y secciones de resumen.
+- **Tablas:** encabezados destacados, filas con separación visual suficiente y acciones agrupadas al extremo derecho. En resoluciones pequeñas, las tablas pueden transformarse en listas o tarjetas para mejorar la lectura.
+- **Sidebar:** navegación vertical persistente en desktop, con acceso a Dashboard, Inventario, Pedidos, Proveedores, Alertas, Reportes y Configuración. En tablet y mobile se colapsa.
+- **Header:** barra superior con nombre del usuario, rol, notificaciones y acceso rápido a configuración y cierre de sesión.
+
+#### Tipografía en web
+
+La propuesta tipográfica de SupplyWok mantiene como base las fuentes **Poppins** y **Montserrat**, según la identidad visual previamente definida.
+
+- **Títulos principales (H1):** Poppins Bold, 24 px a 28 px.
+- **Subtítulos (H2):** Poppins SemiBold, 20 px a 22 px.
+- **Encabezados de sección (H3):** Poppins Medium, 18 px.
+- **Texto de párrafo y descripciones:** Montserrat Regular, 14 px a 16 px.
+- **Texto en botones:** Poppins SemiBold, 14 px a 16 px.
+- **Etiquetas de formularios y tablas:** Montserrat Medium, 13 px a 14 px.
+
+#### Interacción
+
+- **Hover:** Los botones incrementan ligeramente el contraste o brillo del color base. Los links se subrayan o cambian a una variante más intensa del color principal.
+- **Focus:** Todo componente interactivo debe mostrar un estado visible de foco, especialmente inputs, botones y enlaces, para favorecer accesibilidad y navegación por teclado.
+- **Active / Click:** Los botones aplican una ligera reducción de escala o sombra interna para confirmar la interacción.
+- **Feedback visual:** Estados como éxito, error, advertencia o información se distinguen mediante color, iconografía y texto breve.
+- **Scroll y navegación persistente:** En desktop, el header y ciertos filtros pueden permanecer visibles para facilitar navegación rápida en vistas largas.
+- **Responsive behavior:** El contenido prioritario siempre debe conservar visibilidad antes que elementos decorativos o secundarios.
+
+### 4.1.3. Mobile Style Guidelines
+
+Las Mobile Style Guidelines de SupplyWok tienen como objetivo adaptar la experiencia de uso a pantallas reducidas sin perder funcionalidad, claridad visual ni consistencia con la propuesta general del producto. Estas pautas priorizan rapidez de interacción, facilidad de lectura y acceso inmediato a acciones frecuentes.
+
+#### Estructura general
+
+La experiencia móvil de SupplyWok está diseñada para que restaurantes y proveedores puedan consultar información crítica y ejecutar acciones esenciales desde cualquier lugar.
+
+- **Pantallas en una sola columna**, con contenido apilado verticalmente.
+- **Header compacto**, con logo, nombre de la vista y acceso a notificaciones o menú.
+- **Navegación simplificada**, priorizando las secciones más importantes según el rol del usuario.
+- **Botones de acción visibles**, especialmente en flujos como crear pedido, registrar stock o confirmar entregas.
+- **Tarjetas resumidas**, en lugar de tablas complejas, para mostrar inventario, pedidos y alertas de forma clara.
+
+#### Componentes básicos en mobile
+
+- **Botones primarios:** rojo `#C21204` o marrón `#2D241E`, texto blanco, esquinas redondeadas de 12 px y tamaño suficiente para interacción táctil.
+- **Botones secundarios:** fondo blanco o amarillo claro con borde visible y alto contraste.
+- **Inputs:** ancho completo, padding amplio y separación mínima de 16 px entre campos.
+- **Cards de resumen:** usadas para pedidos, insumos, alertas y métricas, con distribución vertical y jerarquía clara.
+- **Listas:** los registros se organizan en bloques táctiles con título, estado, fecha y acción principal.
+- **Indicadores de estado:** cada pedido o alerta utiliza color y texto para distinguir rápidamente condiciones como pendiente, entregado, stock bajo o fuera de rango.
+
+#### Tipografía en mobile
+
+- **Título principal (H1):** Poppins Bold, 20 px a 22 px.
+- **Subtítulos (H2):** Poppins SemiBold, 16 px a 18 px.
+- **Texto general:** Montserrat Regular, 14 px.
+- **Botones:** Poppins SemiBold, 14 px.
+- **Etiquetas pequeñas o estados:** Montserrat Medium, 12 px a 13 px.
+
+#### Interacción en mobile
+
+- Se prioriza el uso de **acciones rápidas** y **flujos cortos**.
+- Los botones deben tener un tamaño mínimo adecuado para interacción táctil.
+- Los formularios se dividen en bloques cortos para evitar fatiga visual.
+- Las acciones críticas se colocan al alcance natural del pulgar.
+- Los cambios de estado deben mostrarse inmediatamente mediante mensajes visibles o indicadores contextuales.
 
 ## 4.2. Information Architecture
 
+**Estructura:**
 La arquitectura de información de SupplyWok está diseñada para dos contextos distintos: la **Landing Page**, orientada a captar y convertir visitantes en usuarios registrados, y la **Web Application**, donde los usuarios operan la plataforma según su rol. Ambos contextos tienen estructuras de navegación y organización de contenido diferenciadas, pero comparten un lenguaje visual y terminológico consistente.
 
-### Landing Page
+<h4>Landing Page</h4>
 
 La Landing Page es el primer punto de contacto entre SupplyWok y sus potenciales usuarios. Su arquitectura de información está pensada para que el visitante comprenda el valor del producto, identifique su segmento (restaurante o proveedor) y tome acción hacia el registro, todo en un recorrido vertical y sin fricciones.
 
@@ -68,7 +199,7 @@ En la sección **Preguntas frecuentes (FAQ)**, se resuelven dudas comunes sobre 
 
 En la sección **Footer**, el visitante puede acceder a enlaces legales (política de privacidad, términos de servicio), redes sociales, y datos de contacto del equipo Aurora.
 
-### Web Application
+<h4>Web Application</h4>
 
 La Web Application de SupplyWok organiza su contenido en dos espacios de trabajo distintos según el rol del usuario autenticado: la **Vista Restaurante** y la **Vista Proveedor**. Cada rol accede únicamente a las funcionalidades relevantes para su operación.
 
@@ -100,7 +231,7 @@ El equipo de Aurora confía en que esta arquitectura permitirá a ambos tipos de
 
 El contenido de SupplyWok se organiza aplicando distintos esquemas según la naturaleza de cada sección y el flujo esperado del usuario. Se detalla también qué esquemas no se utilizan y la razón de esa decisión.
 
-#### Esquemas utilizados
+**Esquemas utilizados:**
 
 | Tipo de organización | Aplicación en SupplyWok | Justificación |
 |---|---|---|
@@ -108,7 +239,7 @@ El contenido de SupplyWok se organiza aplicando distintos esquemas según la nat
 | Secuencial | Registro de usuario, configuración inicial del inventario, creación de un pedido, flujo de comanda | Acompaña al usuario paso a paso en flujos que requieren completar etapas en orden. Reduce errores y abandono en procesos críticos. |
 | Matricial | Gestión de inventario, historial de pedidos, panel de Kitchen Tickets | Permite visualizar múltiples variables simultáneamente (producto, cantidad, fecha, proveedor, estado) para facilitar comparaciones y toma de decisiones rápida. |
 
-#### Esquemas no utilizados
+**Esquemas no utilizados:**
 
 | Tipo de organización | Razón de exclusión |
 |---|---|
