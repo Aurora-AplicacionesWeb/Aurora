@@ -598,7 +598,7 @@ Durnate la elaboración de la landing page se utilizaropn los principios de dise
 
 #### Mobile
 ![mobile-protoype](../assets/images/figma/mobile-prototype.png)
-[prototipo mobile](https://www.figma.com/proto/JUBnvZfJvlrpxIpW8ICRvS/SupplyWok?node-id=428-2336&p=f&t=kGhZbpCdqH2BntGS-0&scaling=scale-down&content-scaling=fixed&page-id=428%3A2336)
+[prototipo mobile](https://www.figma.com/proto/JUBnvZfJvlrpxIpW8ICRvS/SupplyWok?node-id=428-2336&p=f&t=kGhZbpCdqH2BntGS-0&scaling=scale-  down&content-scaling=fixed&page-id=428%3A2336)
 ## 4.6. Domain-Driven Software Architecture.
 
 
