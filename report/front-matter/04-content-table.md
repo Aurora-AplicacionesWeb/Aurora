@@ -46,9 +46,31 @@
     - [4.1. Style Guidelines](40-chapter-4-product-design.md#41-style-guidelines)
         - [4.1.1. General Style Guidelines](40-chapter-4-product-design.md#411-general-style-guidelines)
         - [4.1.2. Web Style Guidelines](40-chapter-4-product-design.md#412-web-style-guidelines)
+        - [4.1.3. Mobile Style Guidelines](40-chapter-4-product-design.md#413-mobile-style-guidelines)
     - [4.2. Information Architecture](40-chapter-4-product-design.md#42-information-architecture)
         - [4.2.1. Organization Systems](40-chapter-4-product-design.md#421-organization-systems)
         - [4.2.2. Labeling Systems](40-chapter-4-product-design.md#422-labeling-systems)
+        - [4.2.3. SEO Tags and Meta Tags](40-chapter-4-product-design.md#423-seo-tags-and-meta-tags)
+        - [4.2.4. Searching Systems](40-chapter-4-product-design.md#424-searching-systems)
+        - [4.2.5. Navigation Systems](40-chapter-4-product-design.md#425-navigation-systems)
+    - [4.3. Landing Page UI Design](40-chapter-4-product-design.md#43-landing-page-ui-design)
+        - [4.3.1. Landing Page Wireframe](40-chapter-4-product-design.md#431-landing-page-wireframe)
+        - [4.3.2. Landing Page Mock-up](40-chapter-4-product-design.md#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](40-chapter-4-product-design.md#44-web-applications-uxui-design)
+        - [4.4.1. Web Applications Wireframes](40-chapter-4-product-design.md#441-web-applications-wireframes)
+        - [4.4.2. Web Applications Wireflow Diagrams](40-chapter-4-product-design.md#442-web-applications-wireflow-diagrams)
+        - [4.4.2. Web Applications Mock-ups](40-chapter-4-product-design.md#442-web-applications-mock-ups)
+        - [4.4.3. Web Applications User Flow Diagrams](40-chapter-4-product-design.md#443-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](40-chapter-4-product-design.md#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](40-chapter-4-product-design.md#46-domain-driven-software-architecture)
+        - [4.6.1. Design-Level EventStorming](40-chapter-4-product-design.md#461-design-level-eventstorming)
+        - [4.6.2. Software Architecture Context Diagram](40-chapter-4-product-design.md#462-software-architecture-context-diagram)
+        - [4.6.3. Software Architecture Container Diagrams](40-chapter-4-product-design.md#463-software-architecture-container-diagrams)
+        - [4.6.4. Software Architecture Components Diagrams](40-chapter-4-product-design.md#464-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](40-chapter-4-product-design.md#47-software-object-oriented-design)
+        - [4.7.1. Class Diagrams](40-chapter-4-product-design.md#471-class-diagrams)
+    - [4.8. Database Design](40-chapter-4-product-design.md#48-database-design)
+        - [4.8.1. Database Diagrams](40-chapter-4-product-design.md#481-database-diagrams)
 
 - [Capítulo V: Product Implementation, Validation & Deployment](50-chapter-5-product-implementation-validation-&-deployment.md)
     - [5.1. Software Configuration Management](50-chapter-5-product-implementation-validation-&-deployment.md#51-software-configuration-management)
@@ -65,6 +87,3 @@
 - [Bibliografía](99-bibliography.md)
 
 ---
-
-
-        
