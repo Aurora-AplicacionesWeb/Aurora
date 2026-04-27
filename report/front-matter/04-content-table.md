@@ -55,6 +55,12 @@
         - [5.1.1. Software Development Environment Configuration](50-chapter-5-product-implementation-validation-&-deployment.md#511-software-development-environment-configuration)
         - [5.1.2. Source Code Management](50-chapter-5-product-implementation-validation-&-deployment.md#512-source-code-management)
         - [5.1.3. Source Code Style Guide & Conventions](50-chapter-5-product-implementation-validation-&-deployment.md#513-source-code-style-guide--conventions)
+        - [5.1.4. Software Deployment Configuration](50-chapter-5-product-implementation-validation-&-deployment.md#514-software-deployment-configuration)
+    - [5.2. Landing Page, Services & Applications Implementation](50-chapter-5-product-implementation-validation-&-deployment.md#52-landing-page-services--applications-implementation)
+        - [5.2.1. Sprint 1](50-chapter-5-product-implementation-validation-&-deployment.md#521-sprint-1)
+            - [5.2.1.1. Sprint Planning 1](50-chapter-5-product-implementation-validation-&-deployment.md#5211-sprint-planning-1)
+            - [5.2.1.2. Aspect Leaders and Collaborators](50-chapter-5-product-implementation-validation-&-deployment.md#5212-aspect-leaders-and-collaborators)
+            - [5.2.1.3. Sprint Backlog 1](50-chapter-5-product-implementation-validation-&-deployment.md#5213-sprint-backlog-1)
 
 - [Bibliografía](99-bibliography.md)
 

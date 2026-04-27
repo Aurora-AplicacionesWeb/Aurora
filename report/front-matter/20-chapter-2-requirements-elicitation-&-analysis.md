@@ -420,7 +420,7 @@ A través de esta aproximación de alto nivel, el equipo exploró el panorama de
 En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. 
 
 <p align="center">
-  <img src="../assets/images/Step1BigEvent.png" width="500">
+  <img src="../assets/images/step1bigevent.png" width="500">
 </p>
 
 #### Step 2: Structured Organization
