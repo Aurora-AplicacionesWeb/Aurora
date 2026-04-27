@@ -176,297 +176,308 @@ La experiencia móvil de SupplyWok está diseñada para que restaurantes y prove
 - Las acciones críticas se colocan al alcance natural del pulgar.
 - Los cambios de estado deben mostrarse inmediatamente mediante mensajes visibles o indicadores contextuales.
 
-## 4.2. Information Architecture
+### 4.2. Information Architecture.
 
-La arquitectura de información de SupplyWok está diseñada para dos contextos distintos: la **Landing Page**, orientada a captar y convertir visitantes en usuarios registrados, y la **Web Application**, donde los usuarios operan la plataforma según su rol. Ambos contextos tienen estructuras de navegación y organización de contenido diferenciadas, pero comparten un lenguaje visual y terminológico consistente.
+La arquitectura de información de SupplyWok ha sido diseñada para que los dos segmentos principales del producto, restaurantes tipo chifa y proveedores de insumos, puedan localizar información, ejecutar tareas y comprender el estado de sus operaciones de forma rápida y consistente. Esta propuesta abarca tanto la Landing Page como la Web Application, de modo que exista continuidad entre la experiencia de descubrimiento del producto y la experiencia de uso dentro de la plataforma.
 
-### Landing Page
+En el caso de la Landing Page, la arquitectura de información busca guiar al visitante desde una comprensión inicial del problema hacia una acción concreta, ya sea registrarse, iniciar sesión o explorar las funcionalidades clave según su rol. Para ello, el contenido se organiza en bloques progresivos como propuesta de valor, beneficios, funcionalidades, impacto, testimonios, preguntas frecuentes y llamadas a la acción. Esta secuencia permite que el usuario comprenda qué resuelve SupplyWok, a quién está dirigido y cómo puede empezar a utilizarlo.
 
-La Landing Page es el primer punto de contacto entre SupplyWok y sus potenciales usuarios. Su arquitectura de información está pensada para que el visitante comprenda el valor del producto, identifique su segmento (restaurante o proveedor) y tome acción hacia el registro, todo en un recorrido vertical y sin fricciones.
+En la Web Application, la arquitectura de información responde a una lógica operativa. En lugar de priorizar persuasión o descubrimiento, la aplicación prioriza velocidad de acceso, visibilidad del estado actual y ejecución eficiente de tareas. Por ello, el contenido se distribuye en módulos funcionales diferenciados por rol, donde cada usuario accede únicamente a las secciones que necesita para gestionar inventario, pedidos, proveedores, alertas, reportes o catálogos.
 
-En la sección **Hero**, el visitante encuentra el mensaje principal de la plataforma acompañado de dos llamadas a la acción: una para iniciar el registro y otra para explorar más la propuesta de valor. Esta sección establece el tono visual y comunica la propuesta en una sola mirada.
+De esta manera, la arquitectura de información de SupplyWok se apoya en cuatro sistemas complementarios: Organization Systems, Labeling Systems, Searching Systems y Navigation Systems. En conjunto, estos sistemas permiten estructurar la información de forma entendible, reducir la sobrecarga cognitiva y mantener una experiencia coherente entre web pública y aplicación transaccional.
 
-En la sección **Cómo funciona**, se presenta el proceso de incorporación a la plataforma en tres pasos secuenciales: registro, configuración del inventario y gestión operativa. Esta sección reduce la percepción de complejidad para usuarios no técnicos.
+### 4.2.1. Organization Systems.
 
-En la sección **Funcionalidades principales**, se detallan las capacidades clave del producto: control de inventario, pedidos a proveedores, monitoreo IoT y proyección de demanda. Cada funcionalidad se presenta con un ícono representativo y una descripción breve.
+La organización del contenido en SupplyWok responde a la naturaleza de cada producto digital y al tipo de tarea que el usuario necesita realizar. La Landing Page organiza información para presentar, explicar y convencer; mientras que la Web Application organiza información para operar, monitorear y tomar decisiones. Por ello, se aplican distintos esquemas de organización visual y categorización según el contexto.
 
-En la sección **¿Para quién es SupplyWok?**, se presentan dos bloques diferenciados por segmento: uno para restaurantes y otro para proveedores, cada uno con sus beneficios específicos y un botón de registro con rol preseleccionado. Esto permite que el visitante se identifique con su perfil y acceda al flujo de registro correspondiente.
+#### Organization Systems in the Landing Page
 
-En la sección **Planes y precios**, se muestran los planes disponibles (Wok Premium y Wok Enterprise) con sus características y precios, incluyendo un botón de acción que redirige al formulario de registro con el plan preseleccionado.
+En la Landing Page, la información se organiza principalmente de forma **jerárquica** y **secuencial**. La jerarquía visual permite destacar de inmediato la propuesta de valor, los beneficios principales y los llamados a la acción más importantes. La secuencia guía al visitante por un recorrido progresivo: primero entiende el problema, luego conoce la solución, después explora sus funcionalidades y finalmente recibe estímulos para registrarse o iniciar sesión.
 
-En la sección **Preguntas frecuentes (FAQ)**, se resuelven dudas comunes sobre la plataforma, costos, integración de hardware IoT y diferencias respecto a otros sistemas.
+La estructura general de la Landing Page sigue el siguiente flujo:
 
-En la sección **Footer**, el visitante puede acceder a enlaces legales (política de privacidad, términos de servicio), redes sociales, y datos de contacto del equipo Aurora.
+- **Hero section:** Presenta la propuesta de valor principal y los CTAs principales.
+- **Sección de beneficios:** Resume de forma rápida los problemas que resuelve la plataforma.
+- **Sección de funcionalidades:** Explica las capacidades clave para restaurantes y proveedores.
+- **Sección de impacto o métricas:** Refuerza credibilidad mediante cifras, indicadores o resultados esperados.
+- **Sección de muestra del producto:** Permite visualizar pantallas, imágenes o video del sistema.
+- **Sección de preguntas frecuentes:** Resuelve dudas antes de la conversión.
+- **Footer:** Reúne enlaces secundarios, contacto, páginas legales y accesos finales.
 
-### Web Application
+Esta estructura no es aleatoria: busca reducir fricción en el recorrido del visitante y facilitar que identifique en pocos segundos si el producto es relevante para su necesidad.
 
-La Web Application de SupplyWok organiza su contenido en dos espacios de trabajo distintos según el rol del usuario autenticado: la **Vista Restaurante** y la **Vista Proveedor**. Cada rol accede únicamente a las funcionalidades relevantes para su operación.
+#### Organization Systems in the Web Application
 
-En la sección **Dashboard**, el usuario accede a un resumen del estado operativo del día. Desde esta pantalla puede visualizar las alertas de stock mínimo activas, los pedidos pendientes de confirmación, el nivel de ocupación de mesas y cualquier anomalía de temperatura registrada por los sensores IoT. Es el punto de entrada principal tras iniciar sesión y está pensada para que el administrador tome decisiones rápidas sin necesidad de navegar a otras secciones.
+En la Web Application, la organización del contenido es principalmente **por tópicos**, **por audiencia** y **cronológica**, según el tipo de información mostrada.
 
-En la sección **Inventario**, el restaurante gestiona el registro completo de sus insumos. Cada producto incluye nombre, categoría, unidad de medida, cantidad actual en stock, stock mínimo configurado y proveedor asociado. Desde aquí se pueden registrar entradas de mercadería, descontar unidades consumidas y actualizar la información de cualquier insumo.
+- **Por tópicos:** Se emplea en el menú principal, donde las funcionalidades se agrupan en módulos como Inventario, Pedidos, Proveedores, Alertas, Reportes y Configuración.
+- **Por audiencia:** Se aplica al separar claramente la experiencia del restaurante y la del proveedor. Cada rol visualiza solamente los módulos, flujos y datos relevantes para sus operaciones.
+- **Cronológica:** Se utiliza en historiales, pedidos, movimientos de inventario, alertas y registros, donde el tiempo es una variable importante para trazabilidad y seguimiento.
+- **Matricial:** Se emplea en vistas donde el usuario necesita comparar múltiples variables simultáneamente, como tablas de inventario, catálogos o reportes.
 
-En la sección **Pedidos**, el restaurante crea, gestiona y hace seguimiento de sus órdenes de abastecimiento. Cada pedido tiene un estado visible (Pendiente, En camino, Entregado, Cancelado) que se actualiza en tiempo real. El historial de pedidos permite revisar órdenes anteriores.
-
-En la sección **Kitchen Tickets / Comandas**, el personal gestiona las comandas activas del salón. Cada comanda está vinculada a una mesa y muestra los platos solicitados con su estado de preparación (En cola, En preparación, Listo). La cocina ve esta vista en tiempo real.
-
-En la sección **Proveedores**, el restaurante accede al directorio de proveedores vinculados, con datos de contacto, categorías de insumos y historial de transacciones.
-
-En la sección **Tables and Occupancy / Mesas y Ocupación**, el administrador visualiza el estado en tiempo real de cada mesa del salón (libre, ocupada, en espera), útil para coordinar el flujo del servicio.
-
-En la sección **Alertas**, se concentran todas las notificaciones generadas por el sistema: stock mínimo alcanzado, temperatura fuera de rango configurado y eventos operativos críticos.
-
-En la sección **Reportes**, el restaurante analiza métricas de consumo, evolución del inventario y proyección de demanda a través de gráficos y tablas exportables.
-
-En la sección **Configuración**, se gestionan los datos del perfil del negocio, los umbrales de sensores IoT, los rangos seguros de temperatura y humedad, y las preferencias de notificación.
-
-En la sección **Suscripción**, el usuario revisa su plan activo, consulta las funcionalidades disponibles y puede cambiar de plan según las necesidades del negocio.
-
-El equipo de Aurora confía en que esta arquitectura permitirá a ambos tipos de usuario operar de manera más eficiente, reduciendo el tiempo dedicado a tareas manuales y mejorando la coordinación entre restaurantes y proveedores.
-
----
-
-### 4.2.1. Organization Systems
-
-El contenido de SupplyWok se organiza aplicando distintos esquemas según la naturaleza de cada sección y el flujo esperado del usuario. Se detalla también qué esquemas no se utilizan y la razón de esa decisión.
-
-#### Esquemas utilizados
+#### Organización visual del contenido
 
 | Tipo de organización | Aplicación en SupplyWok | Justificación |
 |---|---|---|
-| Jerárquica | Landing Page, Dashboard principal de cada rol | Permite destacar la información más crítica (alertas de stock, estado de pedidos) y guiar al usuario hacia las acciones prioritarias sin sobrecargar la pantalla. |
-| Secuencial | Registro de usuario, configuración inicial del inventario, creación de un pedido, flujo de comanda | Acompaña al usuario paso a paso en flujos que requieren completar etapas en orden. Reduce errores y abandono en procesos críticos. |
-| Matricial | Gestión de inventario, historial de pedidos, panel de Kitchen Tickets | Permite visualizar múltiples variables simultáneamente (producto, cantidad, fecha, proveedor, estado) para facilitar comparaciones y toma de decisiones rápida. |
+| Jerárquica | Hero section, dashboards, cards de alertas y KPIs | Permite destacar información crítica y dirigir la atención hacia las acciones prioritarias. |
+| Secuencial | Registro, onboarding, creación de pedidos, configuración inicial | Ayuda al usuario a completar procesos paso a paso, reduciendo errores. |
+| Matricial | Inventario, historial de pedidos, catálogos, reportes | Facilita comparar atributos como cantidad, proveedor, fecha, precio y estado. |
 
-#### Esquemas no utilizados
+#### Esquemas de categorización
 
-| Tipo de organización | Razón de exclusión |
+| Tipo de esquema | Aplicación en SupplyWok | Justificación |
+|---|---|---|
+| Por tópicos | Inventario, Pedidos, Proveedores, Alertas, Reportes, Configuración | Agrupa el contenido según la tarea que el usuario busca realizar. |
+| Cronológico | Historial de pedidos, movimientos de stock, alertas registradas | Facilita seguimiento y auditoría de eventos pasados. |
+| Por audiencia | Vista Restaurante y Vista Proveedor | Reduce ruido informativo y adapta la experiencia al rol del usuario. |
+
+#### Esquemas no priorizados
+
+SupplyWok no prioriza un esquema **alfabético** como estructura principal, ya que la mayoría de sus tareas no dependen de exploración lexical, sino de acciones operativas y contextuales. Aunque ciertos listados pueden ordenarse alfabéticamente de manera secundaria, la plataforma privilegia estructuras orientadas a flujo de trabajo, prioridad operativa y estado de la información.
+
+Tampoco se utiliza una organización puramente temática en la Landing Page sin jerarquía de conversión, porque el objetivo de esa interfaz no es solo informar, sino llevar al usuario hacia una acción clara en el menor número posible de pasos.
+
+#### Secciones principales de SupplyWok
+
+La aplicación se divide en dos grandes espacios según el rol del usuario.
+
+**Vista Restaurante**
+
+| Sección | Descripción |
 |---|---|
-| Alfabético | Los insumos, proveedores y pedidos no tienen un orden natural por nombre. Los usuarios buscan por categoría, estado o fecha, no por orden de letra. Usar orden alfabético aumentaría el tiempo de búsqueda en lugar de reducirlo. |
-| Por popularidad | La plataforma no es un marketplace ni tiene contenido editorial. No existe un concepto de "más visto" o "más popular" relevante para la operación de un restaurante. |
-| Geográfico | Aunque los proveedores tienen zonas de cobertura, la plataforma no organiza su contenido por ubicación geográfica. La coordinación es por relación cliente-proveedor, no por mapa. |
+| Dashboard | Resumen del estado operativo del día: alertas de stock, pedidos pendientes, lecturas críticas y métricas principales. |
+| Inventario | Registro y seguimiento de insumos, stock actual, stock mínimo, unidad de medida y movimientos. |
+| Pedidos | Creación, seguimiento e historial de órdenes de abastecimiento dirigidas a proveedores. |
+| Proveedores | Directorio y detalle de proveedores vinculados al restaurante. |
+| Alertas | Centro de notificaciones operativas y eventos críticos. |
+| Reportes | Visualización de métricas, consumo, evolución del inventario y comportamiento de pedidos. |
+| Configuración | Gestión de perfil, usuarios, preferencias y parámetros generales. |
 
-#### Organización por contexto
+**Vista Proveedor**
 
-**Landing Page**
-
-| Sección | Tipo de organización |
+| Sección | Descripción |
 |---|---|
-| Hero + CTA | Jerárquica — el mensaje principal domina visualmente, los CTAs secundarios están subordinados |
-| Cómo funciona | Secuencial — 3 pasos numerados con progresión clara |
-| Funcionalidades | Matricial — grid de features comparables entre sí |
-| ¿Para quién? | Por audiencia — dos bloques diferenciados por segmento (restaurante / proveedor) |
-| Planes y precios | Matricial — tabla comparativa de planes con características en filas |
-| FAQ | Por tópicos — agrupadas por tipo de duda (producto, precio, hardware, soporte) |
+| Dashboard | Resumen de pedidos recibidos, entregas en curso y demanda proyectada. |
+| Pedidos recibidos | Gestión y seguimiento de las órdenes enviadas por restaurantes. |
+| Mis clientes | Directorio de restaurantes vinculados y su historial de demanda. |
+| Demanda proyectada | Estimación de necesidades futuras por cliente o producto. |
+| Catálogo de productos | Gestión de los insumos ofrecidos, precios y disponibilidad. |
+| Configuración | Gestión del perfil, cobertura, contacto y preferencias. |
 
-**Web Application — Vista Restaurante**
+### 4.2.2. Labeling Systems.
 
-| Sección | Tipo de organización |
-|---|---|
-| Dashboard | Jerárquica — alertas críticas primero, métricas secundarias después |
-| Inventario | Matricial — tabla con columnas de producto, stock actual, stock mínimo, estado |
-| Pedidos | Cronológico + Matricial — ordenados por fecha, filtrable por estado |
-| Kitchen Tickets | Secuencial — flujo de estado: Cola → En preparación → Listo → Entregado |
-| Alertas | Cronológico — ordenadas por hora de generación, más recientes primero |
-| Reportes | Matricial — métricas comparables por periodo y por insumo |
+El sistema de etiquetado de SupplyWok ha sido diseñado para que cada elemento de la interfaz comunique su propósito de forma inmediata. Las etiquetas se redactan con términos breves, directos y familiares para el contexto gastronómico y logístico, evitando tecnicismos innecesarios. Esto permite que el usuario comprenda con rapidez qué sección está visitando, qué acción puede ejecutar y qué resultado debe esperar.
 
-**Web Application — Vista Proveedor**
+A diferencia de un simple glosario, el sistema de etiquetado de SupplyWok se aplica de manera concreta en zonas específicas de la interfaz, como la navbar de la Landing Page, el sidebar de la aplicación, los botones principales, los formularios, los breadcrumbs y los mensajes de estado.
 
-| Sección | Tipo de organización |
-|---|---|
-| Dashboard | Jerárquica — pedidos urgentes primero, demanda proyectada como contexto |
-| Pedidos recibidos | Cronológico + por estado — ordenados por fecha de entrega esperada |
-| Mis clientes | Matricial — comparativa de frecuencia, monto y demanda por cliente |
-| Catálogo | Matricial — productos con precio, unidad y disponibilidad en columnas |
+#### Labeling in the Landing Page
 
----
+En la Landing Page, las etiquetas priorizan claridad comercial y orientación a la conversión. Se emplean principalmente en:
 
-### 4.2.2. Labeling Systems
+- **Navbar superior:** `Inicio`, `Funcionalidades`, `Planes`, `FAQ`, `Iniciar sesión`.
+- **Botones principales del hero:** `Crear cuenta`, `Ver demo`, `Soy restaurante`, `Soy proveedor`.
+- **Secciones informativas:** `Beneficios`, `Cómo funciona`, `Impacto`, `Preguntas frecuentes`.
+- **Footer:** `Contacto`, `Política de privacidad`, `Términos y condiciones`.
 
-El sistema de etiquetado de SupplyWok usa términos directos en español (con excepciones técnicas como "Dashboard" o "IoT" que son de uso común en el sector), asegurando que cada etiqueta esté anclada a un elemento concreto de la interfaz.
+Estas etiquetas permiten que el visitante identifique rápidamente la estructura del contenido y pueda desplazarse hacia las secciones que más le interesan antes de tomar una decisión.
 
-#### Navbar — Landing Page
+#### Labeling in the Web Application
 
-| Etiqueta | Elemento | Destino |
+En la Web Application, las etiquetas se enfocan en apoyar la operación diaria del usuario. Se distribuyen en los siguientes puntos:
+
+- **Sidebar o menú lateral:** `Dashboard`, `Inventario`, `Pedidos`, `Proveedores`, `Alertas`, `Reportes`, `Configuración`.
+- **Header:** `Notificaciones`, `Mi perfil`, `Cambiar de vista`, `Cerrar sesión`.
+- **Botones de acción:** `Agregar insumo`, `Crear pedido`, `Actualizar estado`, `Ver detalle`, `Guardar cambios`, `Cancelar`.
+- **Breadcrumbs:** `Pedidos > Detalle del pedido`, `Inventario > Agregar insumo`, `Proveedores > Perfil del proveedor`.
+- **Formularios:** `Nombre del insumo`, `Unidad de medida`, `Stock mínimo`, `Proveedor asociado`, `Fecha de entrega`, `Precio unitario`.
+- **Mensajes de estado:** `Pendiente`, `En camino`, `Entregado`, `Cancelado`, `Stock bajo`, `Fuera de rango`.
+
+#### Criterios del sistema de etiquetado
+
+El sistema de etiquetado de SupplyWok sigue los siguientes criterios:
+
+- **Brevedad:** Las etiquetas deben usar el menor número de palabras posible sin perder claridad.
+- **Consistencia:** Un mismo concepto debe nombrarse siempre de la misma manera en toda la plataforma.
+- **Familiaridad:** Se priorizan términos cercanos al usuario real del dominio.
+- **Orientación a la acción:** Los botones y acciones usan verbos claros que indican lo que ocurrirá.
+- **Escaneabilidad:** Las etiquetas deben poder comprenderse rápidamente incluso en interfaces densas como tablas y dashboards.
+
+#### Etiquetas principales del sistema
+
+| Etiqueta | Lugar de uso | Descripción |
 |---|---|---|
-| SupplyWok (logo) | Enlace en navbar | Ancla a sección Hero (#hero) |
-| ¿Cómo funciona? | Enlace de navegación | Ancla a sección #como-funciona |
-| Segmentos | Enlace de navegación | Ancla a sección #para-quien |
-| Precios | Enlace de navegación | Ancla a sección #precios |
-| Iniciar sesión | Botón secundario (outline) | Redirige a /login |
-| Registrarse | Botón primario (filled) | Redirige a /register |
+| Iniciar sesión | Navbar, formularios de acceso | Permite ingresar con una cuenta existente. |
+| Crear cuenta | Hero section, formularios de registro | Permite registrarse como nuevo usuario. |
+| Dashboard | Sidebar, header, breadcrumbs | Pantalla inicial con el resumen principal del rol. |
+| Inventario | Sidebar, títulos de vista | Módulo de control de insumos y stock. |
+| Agregar insumo | Botón principal, formularios | Acción para registrar un nuevo producto en inventario. |
+| Stock mínimo | Formularios, tablas, alertas | Umbral que activa reposición o advertencia. |
+| Crear pedido | Botón principal, módulo de pedidos | Acción para generar una nueva orden. |
+| Estado del pedido | Tablas, cards, detalle de pedido | Indicador del avance operativo del pedido. |
+| Alerta de stock | Dashboard, alertas, notificaciones | Notificación sobre nivel crítico de inventario. |
+| Proveedor vinculado | Formularios, tablas, fichas | Relación activa entre restaurante y proveedor. |
+| Historial | Tablas, reportes, filtros | Registro cronológico de eventos o transacciones. |
+| Reportes | Sidebar, títulos, cards | Módulo de análisis y visualización de métricas. |
+| Configuración | Sidebar, header | Área de gestión del perfil y parámetros del sistema. |
+| Cerrar sesión | Header, menú de usuario | Acción para salir de la cuenta actual. |
 
-#### Hero — Landing Page
+### 4.2.3. SEO Tags and Meta Tags.
 
-| Etiqueta | Elemento | Acción |
-|---|---|---|
-| Comenzar gratis | Botón CTA primario | Redirige a /register |
-| Ver cómo funciona | Botón CTA secundario | Ancla a sección #como-funciona |
+Las etiquetas SEO y Meta Tags de SupplyWok se definen para mejorar la visibilidad del producto en buscadores, reforzar la claridad del contenido presentado y optimizar la manera en que las páginas se muestran en navegadores y redes sociales. Debido a que la solución cuenta con una Landing Page pública y una Web Application privada, las decisiones de etiquetado SEO se concentran principalmente en las páginas públicas y en las pantallas principales que pueden funcionar como punto de acceso o referencia de producto.
 
-#### Sección Segmentos — Landing Page
+A continuación, se detallan los principales títulos y metadatos propuestos para las páginas más relevantes de la experiencia digital.
 
-| Etiqueta | Elemento | Acción |
-|---|---|---|
-| Empezar como restaurante | Botón en card de restaurante | Redirige a /register?rol=restaurante |
-| Empezar como proveedor | Botón en card de proveedor | Redirige a /register?rol=proveedor |
-
-#### Formulario de Registro (/register)
-
-| Etiqueta | Elemento | Tipo |
-|---|---|---|
-| Tipo de cuenta | Selector de rol | Radio button: Restaurante / Proveedor |
-| Nombre del negocio | Input de texto | Campo obligatorio |
-| Correo electrónico | Input de email | Campo obligatorio |
-| Contraseña | Input de contraseña | Campo obligatorio |
-| Crear cuenta | Botón de submit | Primario |
-| ¿Ya tienes cuenta? Inicia sesión | Enlace | Redirige a /login |
-
-#### Formulario de Login (/login)
-
-| Etiqueta | Elemento | Tipo |
-|---|---|---|
-| Correo electrónico | Input de email | Campo obligatorio |
-| Contraseña | Input de contraseña | Campo obligatorio |
-| Iniciar sesión | Botón de submit | Primario |
-| ¿Olvidaste tu contraseña? | Enlace | Redirige a /forgot-password |
-| ¿No tienes cuenta? Regístrate | Enlace | Redirige a /register |
-
-#### Sidebar — Web Application
-
-| Etiqueta | Ícono | Ruta |
-|---|---|---|
-| Dashboard | Cuadrícula | /dashboard |
-| Inventory / Inventario | Caja | /inventory |
-| Orders / Pedidos | Documento | /orders |
-| Kitchen Tickets | Ticket | /kitchen |
-| Suppliers / Proveedores | Camión | /suppliers |
-| Tables and Occupancy | Mesa | /tables |
-| Alerts / Alertas | Campana | /alerts |
-| Reports / Reportes | Gráfico | /reports |
-| Configuration / Configuración | Engranaje | /settings |
-| Subscription / Suscripción | Escudo | /subscription |
-
-#### Header — Web Application
-
-| Etiqueta | Elemento | Acción |
-|---|---|---|
-| Nombre del restaurante / proveedor | Texto en header | Identificación del negocio activo |
-| Plan actual (ej: Premium) | Badge | Redirige a /subscription |
-| Ícono de notificaciones | Campana con contador | Abre panel lateral de alertas |
-| Avatar del usuario | Foto o iniciales | Abre menú: Perfil / Configuración / Cerrar sesión |
-
-#### Botones de acción contextual — Web Application
-
-| Sección | Etiqueta del botón principal | Acción |
-|---|---|---|
-| Inventario | + Agregar insumo | Abre formulario de nuevo insumo |
-| Pedidos | + Crear pedido | Abre formulario de nueva orden de compra |
-| Kitchen Tickets | + Nueva comanda | Abre formulario de nueva comanda |
-| Proveedores | + Agregar proveedor | Abre formulario de nuevo proveedor |
-| Alertas | Marcar como revisada | Cambia estado de la alerta |
-| Reportes | Exportar PDF / CSV | Descarga el reporte en el formato seleccionado |
-
-#### Breadcrumbs — Web Application
-
-| Vista | Breadcrumb mostrado |
-|---|---|
-| Detalle de pedido | Pedidos › Pedido #PO-8821 |
-| Detalle de insumo | Inventario › Arroz jazmín |
-| Detalle de comanda | Kitchen Tickets › Mesa 12 |
-| Detalle de proveedor | Proveedores › Global Foods Ltd. |
-
-#### Estados y badges
-
-| Etiqueta | Color | Contexto |
-|---|---|---|
-| Urgent / Urgente | Rojo | Stock crítico en Dashboard |
-| Alert | Naranja | Temperatura fuera de rango |
-| Low stock | Rojo | Estado de insumo en Inventario |
-| Preventive alert | Naranja | Insumo próximo al mínimo |
-| Pending / Pendiente | Gris | Estado de pedido |
-| In transit / En camino | Azul | Estado de pedido |
-| Delayed / Retrasado | Rojo | Estado de pedido |
-| In Prep | Naranja | Estado de comanda en cocina |
-| Ready / Listo | Verde | Estado de comanda en cocina |
-| Queue / En cola | Gris | Estado de comanda en cocina |
-
----
-
-### 4.2.3. SEO Tags and Meta Tags
-
-Se definen las etiquetas SEO y Meta Tags para las páginas principales de SupplyWok, tanto de la Landing Page como de las vistas clave de la Web Application.
-
-**Home — Landing Page (/)**
+#### Home / Landing Page
 
 - **Title:** SupplyWok | Gestión inteligente de abastecimiento para restaurantes
-- **Meta Description:** Controla tu inventario, anticipa la demanda y coordina pedidos con tus proveedores desde una sola plataforma. Diseñada para restaurantes chifa y negocios gastronómicos.
-- **Meta Keywords:** gestión de inventario restaurantes, abastecimiento chifa, control de stock, proveedores restaurantes, software gastronómico Perú
+- **Meta Description:** Optimiza inventario, pedidos y coordinación con proveedores desde una sola plataforma diseñada para restaurantes tipo chifa y negocios gastronómicos.
+- **Meta Keywords:** gestión de inventario restaurantes, abastecimiento gastronómico, control de stock, pedidos a proveedores, software para chifas, supply chain restaurante
 - **Meta Author:** Aurora
 
-**Planes y Precios — Landing Page (/#precios)**
+#### Funcionalidades / Features
 
-- **Title:** Planes y Precios | SupplyWok
-- **Meta Description:** Conoce los planes Wok Premium y Wok Enterprise. Elige el que mejor se adapta al tamaño y necesidades de tu restaurante o negocio proveedor.
-- **Meta Keywords:** precio software restaurante, plan gestión inventario, suscripción SupplyWok, plan premium chifa
+- **Title:** Funcionalidades de SupplyWok | Inventario, pedidos y alertas en una sola plataforma
+- **Meta Description:** Conoce cómo SupplyWok ayuda a restaurantes y proveedores a gestionar inventario, coordinar pedidos, monitorear alertas y tomar mejores decisiones operativas.
+- **Meta Keywords:** funcionalidades software restaurante, inventario digital, pedidos a proveedores, alertas de stock, dashboard gastronómico
 - **Meta Author:** Aurora
 
-**Login — Web Application (/login)**
+#### Planes / Pricing
+
+- **Title:** Planes de SupplyWok | Soluciones para restaurantes y proveedores
+- **Meta Description:** Explora los planes de SupplyWok y descubre la opción adecuada para digitalizar el control de inventario, pedidos y abastecimiento de tu negocio.
+- **Meta Keywords:** precios software restaurante, planes gestión de inventario, suscripción software gastronómico, plataforma para proveedores
+- **Meta Author:** Aurora
+
+#### Login / Iniciar sesión
 
 - **Title:** Iniciar sesión | SupplyWok
-- **Meta Description:** Accede a tu cuenta de SupplyWok para gestionar tu inventario, pedidos y operación en tiempo real.
-- **Meta Keywords:** login SupplyWok, iniciar sesión restaurante, acceso plataforma
+- **Meta Description:** Accede a tu cuenta de SupplyWok para gestionar inventario, pedidos, alertas y reportes desde una plataforma centralizada.
+- **Meta Keywords:** login supplywok, acceso plataforma inventario, panel restaurante, panel proveedor
 - **Meta Author:** Aurora
 
-**Registro — Web Application (/register)**
+#### Register / Crear cuenta
 
 - **Title:** Crear cuenta | SupplyWok
-- **Meta Description:** Regístrate en SupplyWok como restaurante o proveedor. Empieza a gestionar tu inventario y abastecimiento de forma inteligente.
-- **Meta Keywords:** registro SupplyWok, crear cuenta restaurante, registrar proveedor insumos
+- **Meta Description:** Regístrate en SupplyWok como restaurante o proveedor y empieza a organizar tu abastecimiento de forma más eficiente.
+- **Meta Keywords:** registro supplywok, crear cuenta restaurante, crear cuenta proveedor, software abastecimiento
 - **Meta Author:** Aurora
 
-**Dashboard — Web Application (/dashboard)**
+#### Dashboard
 
 - **Title:** Dashboard | SupplyWok
-- **Meta Description:** Accede a tu panel de control para monitorear stock, pedidos, alertas IoT y ocupación de mesas en tiempo real.
-- **Meta Keywords:** panel restaurante, control operativo, alertas stock, monitoreo IoT
+- **Meta Description:** Revisa el estado actual de tu operación, alertas activas, pedidos pendientes y métricas clave desde el panel principal de SupplyWok.
+- **Meta Keywords:** dashboard restaurante, dashboard proveedor, panel operativo, alertas de stock, pedidos pendientes
 - **Meta Author:** Aurora
 
-**Inventario — Web Application (/inventory)**
+#### Inventario
 
 - **Title:** Inventario | SupplyWok
-- **Meta Description:** Gestiona el inventario de tu restaurante. Registra entradas, controla el stock y recibe alertas de reabastecimiento automáticas.
-- **Meta Keywords:** inventario restaurante, control de insumos, stock chifa, alertas stock mínimo
+- **Meta Description:** Gestiona tus insumos, controla niveles de stock y detecta productos críticos desde el módulo de inventario de SupplyWok.
+- **Meta Keywords:** inventario restaurante, control de insumos, stock mínimo, abastecimiento digital
 - **Meta Author:** Aurora
 
-**Pedidos — Web Application (/orders)**
+#### Pedidos
 
 - **Title:** Pedidos | SupplyWok
-- **Meta Description:** Crea y haz seguimiento de tus órdenes de compra a proveedores. Visualiza el estado de cada pedido en tiempo real.
-- **Meta Keywords:** órdenes de compra restaurante, pedidos proveedores, seguimiento abastecimiento
+- **Meta Description:** Crea, consulta y supervisa órdenes de abastecimiento entre restaurantes y proveedores con trazabilidad centralizada.
+- **Meta Keywords:** pedidos restaurante, órdenes de compra, seguimiento de pedidos, abastecimiento proveedor
 - **Meta Author:** Aurora
 
----
+Estas etiquetas permiten diferenciar el propósito de cada página dentro del ecosistema digital, mantener coherencia entre la propuesta comercial y la experiencia operativa, y reforzar el posicionamiento del producto en búsquedas relacionadas con inventario, abastecimiento y gestión gastronómica.
 
-### 4.2.4. Searching Systems
+### 4.2.4. Searching Systems.
 
-SupplyWok implementa sistemas de búsqueda y filtrado en las secciones donde el volumen de datos lo requiere. Para cada sistema se describe tanto la entrada de búsqueda como la presentación de los resultados.
+SupplyWok incorpora sistemas de búsqueda y filtrado para reducir el tiempo que el usuario dedica a localizar información dentro de la plataforma. Dado que gran parte de la experiencia está orientada a tareas operativas, las búsquedas no solo deben encontrar datos, sino también presentarlos en un formato comprensible y accionable.
 
-| Sección | Filtros y búsquedas disponibles | Cómo se ven los resultados |
+#### Searching in the Web Application
+
+Los mecanismos de búsqueda se aplican en módulos donde el volumen de información puede crecer rápidamente, como inventario, pedidos, proveedores, clientes, alertas e historiales. Cada búsqueda se acompaña de filtros específicos según el contexto del módulo.
+
+| Sistema de búsqueda | Ubicación | Descripción |
 |---|---|---|
-| Inventario | Búsqueda por nombre de insumo; filtro por categoría (carnes, verduras, condimentos, bebidas) | La tabla se filtra en tiempo real mostrando solo las filas coincidentes. Columnas visibles: Producto, Stock actual, Stock mínimo, Estado, Proveedor. Los insumos críticos aparecen con badge rojo "Low stock" al inicio de la lista. El filtro de categoría activo se muestra como chip sobre la tabla con opción de eliminarlo. |
-| Pedidos | Búsqueda por número de orden o nombre de proveedor; filtro por estado (Pendiente, En camino, Entregado, Cancelado); filtro por rango de fechas | La tabla muestra solo las órdenes que coinciden. Cada fila muestra: ID de orden, Proveedor, Estado (badge de color), Fecha de entrega. El contador de resultados se actualiza ("3 pedidos encontrados"). Para el filtro de fechas se muestra un date picker con inicio y fin; los resultados se ordenan cronológicamente dentro del rango. |
-| Proveedores | Búsqueda por nombre de proveedor o tipo de insumo que suministra | Lista de tarjetas filtrada en tiempo real. Cada tarjeta muestra nombre del proveedor, categoría de insumos y estado de vínculo (activo / inactivo). |
-| Alertas | Filtro por tipo de alerta (stock, temperatura, operativa); filtro por período (rango de fechas) | La lista muestra solo las alertas del tipo o período seleccionado, ordenadas cronológicamente. Cada alerta muestra: tipo, descripción, fecha/hora y estado (Revisada / Pendiente). El total de resultados se actualiza en el encabezado de la sección. |
-| Kitchen Tickets | Filtro por estado de comanda (En cola, En preparación, Listo) | Solo se muestran las comandas con el estado seleccionado. Cada comanda muestra mesa, platos solicitados y tiempo transcurrido desde la creación. |
-| Catálogo (Proveedor) | Búsqueda por nombre de producto | Lista del catálogo filtrada en tiempo real. Cada resultado muestra: nombre, precio unitario, unidad de medida y disponibilidad (activo / desactivado). |
-| Mis clientes (Proveedor) | Búsqueda por nombre de restaurante cliente | Se muestra la tarjeta del restaurante encontrado con su historial de pedidos recientes, frecuencia de compra y demanda proyectada. |
- 
+| Búsqueda de insumos | Inventario | Permite localizar productos por nombre, categoría o unidad de medida. |
+| Búsqueda de proveedores | Proveedores | Permite encontrar proveedores por nombre o tipo de insumo ofrecido. |
+| Búsqueda de pedidos | Pedidos | Permite filtrar pedidos por estado, proveedor, cliente o rango de fechas. |
+| Búsqueda de clientes | Vista Proveedor | Permite encontrar restaurantes vinculados por nombre o historial de actividad. |
+| Filtro por categoría | Inventario y catálogos | Reduce el listado a un tipo específico de producto. |
+| Filtro por fecha | Historial, reportes y pedidos | Permite analizar periodos específicos de operación. |
+| Filtro por estado | Pedidos y alertas | Muestra solamente registros con una condición determinada. |
 
----
+#### Visualización de resultados
 
-### 4.2.5. Navigation Systems
+Los resultados de búsqueda en SupplyWok se presentan de forma distinta según la naturaleza del contenido:
 
-SupplyWok tiene dos contextos de navegación diferenciados: la **Landing Page**, cuya navegación guía al visitante hacia el registro, y la **Web Application**, cuya navegación permite al usuario operar la plataforma desde cualquier sección.
+- **Inventario:** Los resultados se muestran en una tabla o lista con columnas como nombre del insumo, stock actual, stock mínimo, unidad de medida y proveedor asociado.
+- **Pedidos:** Los resultados se presentan en tabla o cards con número de pedido, proveedor o cliente, fecha, estado y acceso a detalle.
+- **Proveedores y clientes:** Los resultados se muestran como fichas resumidas con nombre, contacto, rubro o historial asociado.
+- **Alertas:** Los resultados se muestran como lista priorizada con nivel de criticidad, fecha y acceso a la sección relacionada.
+- **Reportes o historiales:** Los resultados se representan mediante tablas filtradas o gráficos ajustados al rango seleccionado.
+
+#### Comportamiento esperado de los resultados
+
+Los resultados de búsqueda deben seguir estos criterios:
+
+- Responder en tiempo razonable y con feedback visual claro.
+- Mostrar solo la información necesaria para que el usuario tome una decisión rápida.
+- Permitir ordenar o refinar el resultado sin reiniciar completamente la búsqueda.
+- Indicar cuando no existen coincidencias mediante mensajes como `No se encontraron resultados`.
+- Mantener visibles los filtros aplicados para que el usuario entienda por qué ve cierto subconjunto de datos.
+
+#### Searching in the Landing Page
+
+La Landing Page no depende de un buscador interno complejo, pero sí incorpora mecanismos de exploración rápida mediante navegación por secciones y anchors. En este caso, el “searching” se resuelve a través de una estructura visible y predecible que permite al visitante llegar rápidamente a contenido como funcionalidades, planes, preguntas frecuentes o acceso al registro.
+
+### 4.2.5. Navigation Systems.
+
+El sistema de navegación de SupplyWok ha sido diseñado para que el usuario pueda recorrer la experiencia con claridad tanto en la Landing Page como en la Web Application. En ambos casos, la navegación busca reducir fricción, mantener consistencia y facilitar el acceso rápido a acciones clave.
+
+#### Navigation in the Landing Page
+
+En la Landing Page, la navegación se estructura como un recorrido progresivo orientado a conversión. El usuario puede desplazarse por la página de forma lineal o saltar directamente a secciones específicas mediante enlaces visibles en la barra superior.
+
+Los principales mecanismos de navegación en la Landing Page son:
+
+- **Navbar superior fija:** Incluye accesos a `Inicio`, `Funcionalidades`, `Planes`, `FAQ` e `Iniciar sesión`.
+- **Navegación por anchors:** Cada opción del menú dirige a una sección concreta de la misma página.
+- **Hero section con CTAs principales:** Botones como `Crear cuenta`, `Ver demo`, `Soy restaurante` o `Soy proveedor` redirigen al usuario al flujo correspondiente.
+- **CTAs secundarios distribuidos:** Se repiten en secciones estratégicas para evitar que el usuario tenga que volver al inicio para actuar.
+- **Footer con enlaces complementarios:** Contacto, políticas, términos y accesos secundarios.
+
+Este sistema permite que un visitante nuevo entienda rápidamente el producto, navegue según su interés y llegue a la acción principal en pocos pasos.
+
+#### Navigation in the Web Application
+
+En la aplicación, la navegación se orienta a productividad y ejecución de tareas. Cada rol accede a una estructura estable que prioriza las funcionalidades más utilizadas.
+
+| Elemento de navegación | Descripción |
+|---|---|
+| Sidebar | Menú lateral persistente con acceso directo a las secciones principales del rol activo. |
+| Header | Barra superior con perfil, rol, notificaciones y accesos rápidos. |
+| Dashboard como punto de entrada | Pantalla inicial tras autenticación, desde donde el usuario visualiza su estado operativo general. |
+| Breadcrumbs | Indicadores de ruta para secciones de detalle, permitiendo comprender ubicación y retroceder fácilmente. |
+| Botones contextuales | Acciones principales visibles dentro de cada módulo, como `Crear pedido` o `Agregar insumo`. |
+| Notificaciones | Panel accesible desde el header para revisar alertas recientes y redirigirse a la sección relacionada. |
+| Cambio de vista por rol | En caso de usuarios con más de un rol, se puede alternar entre contexto restaurante y proveedor. |
+
+#### Recorridos principales de navegación
+
+La navegación de SupplyWok considera recorridos típicos como los siguientes:
+
+- **Visitante de Landing Page -> CTA principal -> Registro o login -> Dashboard del rol correspondiente.**
+- **Restaurante -> Dashboard -> Inventario -> Agregar insumo o revisar stock crítico.**
+- **Restaurante -> Dashboard -> Pedidos -> Crear pedido -> Seguimiento del estado.**
+- **Proveedor -> Dashboard -> Pedidos recibidos -> Actualizar estado de entrega.**
+- **Proveedor -> Dashboard -> Catálogo -> Actualizar disponibilidad o precios.**
+
+#### Criterios de navegación
+
+La navegación en SupplyWok sigue estos criterios:
+
+- **Consistencia:** Los elementos principales conservan posición y lógica entre pantallas.
+- **Claridad:** Cada enlace y botón comunica claramente su destino o acción.
+- **Economía de pasos:** Las tareas frecuentes deben completarse con el menor número posible de interacciones.
+- **Visibilidad del estado actual:** El usuario debe saber siempre en qué módulo está y qué acciones puede ejecutar.
+- **Adaptabilidad responsive:** La navegación debe mantenerse usable en desktop, tablet y mobile web.
 
 #### Navegación — Landing Page
 
@@ -495,7 +506,12 @@ SupplyWok tiene dos contextos de navegación diferenciados: la **Landing Page**,
 | Cambio de rol | Si un usuario tiene ambos roles (restaurante y proveedor), puede cambiar de vista desde un selector en el header sin cerrar sesión. |
 ---
 ## 4.3. Landing Page UI Design.
-Durnate la elaboración de la landing page se utilizaropn los principios de diseño, utlizando diferentes secciones que muestran la información.
+La propuesta de UI del Landing Page de SupplyWok traduce las decisiones previas de identidad visual, estilo y arquitectura de información en una experiencia clara, persuasiva y orientada a conversión. Su objetivo principal es presentar la propuesta de valor del producto, explicar de manera rápida cómo ayuda a restaurantes tipo chifa y proveedores, y conducir al visitante hacia una acción concreta, como registrarse, iniciar sesión o explorar el funcionamiento de la plataforma.
+
+El diseño del Landing Page se estructura en bloques progresivos que responden a una lógica de descubrimiento: primero captar atención, luego explicar el problema, mostrar beneficios y funcionalidades, reforzar confianza con evidencia visual y finalmente cerrar con llamadas a la acción claras. Esta organización permite que el usuario entienda qué resuelve SupplyWok, cómo funciona y por qué debería usarlo, sin tener que navegar por una interfaz compleja ni enfrentarse a una sobrecarga de información.
+
+A nivel visual, la interfaz aprovecha la paleta cromática definida para la marca, con predominio de rojo, amarillo, blanco y negro, para transmitir dinamismo, energía y asociación cultural con el entorno de los restaurantes tipo chifa. La jerarquía visual se apoya en titulares fuertes, CTAs visibles, tarjetas informativas y bloques diferenciados por espaciado, logrando que el recorrido sea intuitivo y consistente tanto en escritorio como en dispositivos móviles.
+
 ### 4.3.1. Landing Page Wireframe.
 #### Desktop
 <p align="center">
