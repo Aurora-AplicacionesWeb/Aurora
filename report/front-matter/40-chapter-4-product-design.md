@@ -709,6 +709,9 @@ Este contexto delimitado representa el núcleo operativo del restaurante chifa d
   <img src="../assets/images/Bounded-context-cavnvas-DDD6.png" alt="SupplyWok System Context Diagram">
 </div>
 
+aqui se encuentra el enlace de lucid chart del proceso:
+[lucid chart](https://lucid.app/lucidspark/5b28482f-d099-4d83-a08c-9b7af6d88474/edit?view_items=bz3RN-x7D4~0&page=0_0&invitationId=inv_b6c94e5b-c9dc-4932-9e69-f11cae2d319d)
+
 ### 4.6.2. Software Architecture Context Diagram.
 
 El Software Architecture Context Diagram de SupplyWok presenta el sistema como una solución central que interactúa con sus actores principales y con servicios externos necesarios para su funcionamiento. En este nivel, el objetivo no es mostrar detalles internos de implementación, sino delimitar claramente el alcance del sistema, sus usuarios y los sistemas externos con los que intercambia información.
@@ -869,6 +872,8 @@ El monitoreo operativo se soporta con tablas como `ALERTAS`, `TIPO_ALERTA`, `SEN
 La operación interna del restaurante se modela con `MESA`, `ESTADOS_MESA`, `COMANDA`, `DETALLE_COMANDA`, `MENU_PLATOS` y `ESTADO_COMANDA`. Estas tablas permiten representar la asignación de mesas, el registro de pedidos internos y el estado de preparación o atención en cocina. Este módulo complementa el enfoque de SupplyWok al conectar abastecimiento con operación diaria del restaurante.
 
 En conjunto, el diagrama relacional de SupplyWok muestra una estructura con entidades claramente separadas por responsabilidad, relaciones explícitas mediante claves foráneas y soporte para la evolución del sistema en múltiples módulos funcionales. Esta base de datos relacional permite mantener consistencia en la información, facilitar consultas operativas y sostener la integración entre los distintos bounded contexts del dominio.
+
+![base de datos](../assets/images/database-diagram.png)
 
 [Imagen sugerida: `../assets/images/database-diagram.png` — diagrama entidad-relación global de la solución]
 
