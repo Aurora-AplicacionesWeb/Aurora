@@ -513,118 +513,148 @@ El diseño del Landing Page se estructura en bloques progresivos que responden a
 A nivel visual, la interfaz aprovecha la paleta cromática definida para la marca, con predominio de rojo, amarillo, blanco y negro, para transmitir dinamismo, energía y asociación cultural con el entorno de los restaurantes tipo chifa. La jerarquía visual se apoya en titulares fuertes, CTAs visibles, tarjetas informativas y bloques diferenciados por espaciado, logrando que el recorrido sea intuitivo y consistente tanto en escritorio como en dispositivos móviles.
 
 ### 4.3.1. Landing Page Wireframe.
+
+Los wireframes del Landing Page de SupplyWok representan la fase inicial de estructuración de la experiencia pública del producto. En ellos se define la jerarquía visual, la distribución de los bloques informativos y el orden en que el visitante descubre la propuesta de valor antes de aplicar el estilo final. Esta etapa permitió validar que la información más importante estuviera visible en los primeros segundos de navegación y que la secuencia del contenido favoreciera la conversión.
+
 #### Desktop
-<p align="center">
-  <img src="../assets/images/figma/landingpage-desktop-wireframe.png" width="600px">
-</p>
+
+En la versión desktop, el wireframe prioriza una hero section amplia con el mensaje principal de la plataforma, acompañada por botones de acción visibles y una navegación superior persistente. A partir de esta cabecera, el contenido se organiza en secciones horizontales que presentan cómo funciona la plataforma, sus funcionalidades clave, los segmentos a los que atiende, los planes disponibles y la sección de preguntas frecuentes. Esta distribución aprovecha mejor el ancho de pantalla y facilita una lectura escaneable y ordenada.
+
+[Imagen sugerida: `../assets/images/figma/landingpage-desktop-wireframe.png` — wireframe desktop completo del landing page]
 
 #### Mobile
-<p align="center">
-  <img src="../assets/images/figma/landingpage-mobile-wireframe.png" width="600px">
-</p>
+
+En la versión mobile, la estructura se reorganiza en una sola columna, priorizando el contenido esencial y reduciendo el número de elementos visibles por bloque. La hero section conserva los mensajes y acciones principales, pero la navegación se compacta para facilitar la interacción táctil. Las secciones se apilan verticalmente y los llamados a la acción se mantienen visibles en puntos estratégicos para asegurar continuidad en el recorrido del usuario sin perder claridad.
+
+[Imagen sugerida: `../assets/images/figma/landingpage-mobile-wireframe.png` — wireframe mobile completo del landing page]
 
 ### 4.3.2. Landing Page Mock-up.
+
+Los mock-ups finales del Landing Page de SupplyWok representan la consolidación visual del diseño planteado en los wireframes. En esta etapa se incorporan la paleta cromática institucional, la tipografía definida, el sistema de espaciado, la iconografía y los principios de diseño inclusivo para construir una interfaz visualmente coherente, clara y alineada con la identidad del producto.
+
 #### Desktop
-<p align="center">
-  <img src="../assets/images/figma/landingpage-desktop-mockup.png" >
-</p>
+
+En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del rojo institucional en botones y puntos de énfasis, combinado con fondos claros y bloques bien espaciados. La hero section destaca la propuesta de valor de SupplyWok y dirige la atención hacia los llamados a la acción. Las secciones posteriores organizan las funcionalidades, los beneficios por segmento y los planes con una estructura visual limpia que facilita la comprensión rápida del producto.
+
+[Imagen sugerida: `../assets/images/figma/landingpage-desktop-mockup.png` — mock-up desktop del landing page]
 
 #### Mobile
-<p align="center">
-  <img src="../assets/images/figma/landingpage-mobile-mockup.png" width="600px">
-</p>
 
+En la versión mobile del mock-up, la composición se adapta a pantallas reducidas manteniendo consistencia visual en color, tipografía y jerarquía de contenidos. Los elementos se apilan en una sola columna y los botones se dimensionan para interacción táctil. Esta adaptación busca que la propuesta comercial de SupplyWok siga siendo clara, navegable y atractiva en dispositivos móviles, sin sacrificar legibilidad ni orientación del usuario.
+
+[Imagen sugerida: `../assets/images/figma/landingpage-mobile-mockup.png` — mock-up mobile del landing page]
+
+### 4.3.2. Landing Page Mock-up.
+
+Los mock-ups finales del Landing Page de SupplyWok representan la consolidación visual del diseño planteado en los wireframes. En esta etapa se incorporan la paleta cromática institucional, la tipografía definida, el sistema de espaciado, la iconografía y los principios de diseño inclusivo para construir una interfaz visualmente coherente, clara y alineada con la identidad del producto.
+
+#### Desktop
+
+En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del rojo institucional en botones y puntos de énfasis, combinado con fondos claros y bloques bien espaciados. La hero section destaca la propuesta de valor de SupplyWok y dirige la atención hacia los llamados a la acción. Las secciones posteriores organizan las funcionalidades, los beneficios por segmento y los planes con una estructura visual limpia que facilita la comprensión rápida del producto.
+
+[Imagen sugerida: `../assets/images/figma/landingpage-desktop-mockup.png` — mock-up desktop del landing page]
+
+#### Mobile
+
+En la versión mobile del mock-up, la composición se adapta a pantallas reducidas manteniendo consistencia visual en color, tipografía y jerarquía de contenidos. Los elementos se apilan en una sola columna y los botones se dimensionan para interacción táctil. Esta adaptación busca que la propuesta comercial de SupplyWok siga siendo clara, navegable y atractiva en dispositivos móviles, sin sacrificar legibilidad ni orientación del usuario.
+
+[Imagen sugerida: `../assets/images/figma/landingpage-mobile-mockup.png` — mock-up mobile del landing page]
 
 ## 4.4. Web Applications UX/UI Design.
 
+La propuesta UX/UI de las Web Applications de SupplyWok está diseñada para responder a dos necesidades principales: permitir que los restaurantes gestionen su operación diaria con rapidez y dar a los proveedores visibilidad clara sobre pedidos, clientes y demanda proyectada. A partir de ello, la interfaz prioriza acceso directo a módulos críticos, visualización rápida del estado operativo y reducción de pasos en las tareas más frecuentes.
+
 ### 4.4.1. Web Applications Wireframes.
 
-<p align="center">
-  <img src="../assets/images/figma/wireframes-web.jpg" width="600px">
-</p>
+Los wireframes de las Web Applications definen la estructura base de las vistas más relevantes del sistema antes de aplicar el diseño visual final. En ellos se observa la distribución de dashboards, formularios, tablas, tarjetas, paneles laterales y zonas de acción principal. Esta etapa permitió validar la relación entre jerarquía visual, arquitectura de información y flujos operativos por rol.
 
-![web-application-mobile-wireframe1](../assets/images/figma/web-app-mobile-wireframe1.png)
-![web-application-mobile-wireframe2](../assets/images/figma/web-app-mobile-wireframe2.png)
-![web-application-mobile-wireframe3](../assets/images/figma/web-app-mobile-wireframe3.png)
+En escritorio, los wireframes muestran una estructura con sidebar, header superior y área central de trabajo, adecuada para dashboards, tablas y reportes. En mobile, la información se reorganiza en tarjetas y listas táctiles, reduciendo la complejidad visual sin perder funcionalidad.
+
+[Imagen sugerida: `../assets/images/figma/wireframes-web.jpg` — wireframes web principales en escritorio]
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-wireframe1.png` — wireframe mobile del dashboard o vista principal]
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-wireframe2.png` — wireframe mobile de pedidos/inventario]
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-wireframe3.png` — wireframe mobile de proveedor o alertas]
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-![web-application-mobile-wireflow1](../assets/images/figma/web-app-mobile-wireflow1.jpeg)
-![web-application-mobile-wireflow2](../assets/images/figma/web-app-mobile-wireflow2.jpeg)
-![web-application-mobile-wireflow3](../assets/images/figma/web-app-mobile-wireflow3.jpeg)
-![web-application-mobile-wireflow4](../assets/images/figma/web-app-mobile-wireflow4.jpeg)
+
+Los wireflows de SupplyWok muestran cómo cambian las pantallas wireframe a medida que el usuario avanza en un flujo concreto. Cada wireflow se construye a partir de un user goal y representa la secuencia de pasos necesarios para alcanzarlo, incluyendo decisiones intermedias y estados relevantes de la interfaz.
+
+**User Goal 1: Registrar y controlar insumos del restaurante.**  
+Este wireflow representa el recorrido del usuario restaurante desde el acceso al Dashboard hasta el módulo de Inventario, donde puede registrar un nuevo insumo, definir unidad de medida, stock mínimo y proveedor asociado. El flujo permite validar que la pantalla principal, la tabla de inventario y el formulario de creación estén conectados de manera lógica y con mínima fricción.
+
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-wireflow1.jpeg` — wireflow del flujo de inventario]
+
+**User Goal 2: Crear y dar seguimiento a un pedido de abastecimiento.**  
+Este wireflow muestra cómo el restaurante inicia un pedido desde la sección de Pedidos, selecciona proveedor, agrega productos y revisa el estado del pedido una vez registrado. La secuencia evidencia una organización paso a paso que reduce errores y favorece la trazabilidad de la orden.
+
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-wireflow2.jpeg` — wireflow del flujo de creación de pedido]
+
+**User Goal 3: Gestionar comandas y operación interna del restaurante.**  
+Este wireflow representa el flujo mediante el cual el personal del restaurante registra una comanda, la asocia a una mesa y hace seguimiento a su avance dentro de la operación interna. La estructura permite visualizar con claridad los cambios de estado entre cola, preparación y listo.
+
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-wireflow3.jpeg` — wireflow del flujo de comandas]
+
+**User Goal 4: Gestionar pedidos recibidos y catálogo del proveedor.**  
+Este wireflow muestra el recorrido del proveedor desde su dashboard hacia pedidos recibidos, clientes o catálogo de productos, permitiéndole revisar demanda, actualizar disponibilidad y dar seguimiento a entregas. Esto valida la coherencia de la experiencia del segundo rol principal del sistema.
+
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-wireflow4.jpeg` — wireflow del flujo del proveedor]
 
 ### 4.4.2. Web Applications Mock-ups.
 
-Se muestran los mock ups del diseño de la aplicacion web para escritorio
+Los mock-ups de SupplyWok muestran la versión visual final de las aplicaciones web, incorporando el sistema de colores, tipografía, espaciado y componentes definidos en las Style Guidelines. En estas vistas se evidencia cómo la jerarquía visual, el diseño inclusivo y la arquitectura de información se traducen en pantallas operativas, legibles y consistentes para ambos roles.
 
-**dashboard principal**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web1.png" width="600px">
-</p>
+En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lateral persistente, paneles informativos, tablas y tarjetas orientadas a la toma de decisiones. En mobile, la experiencia se reorganiza en bloques táctiles de una sola columna, priorizando la consulta rápida y la ejecución de acciones esenciales.
 
-**Inventario del restaurante**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web2.png" width="600px">
-</p>
+[Imagen sugerida: `../assets/images/figma/mockup-web1.png` — dashboard principal]
+[Imagen sugerida: `../assets/images/figma/mockup-web2.png` — inventario del restaurante]
+[Imagen sugerida: `../assets/images/figma/mockup-web3.png` — órdenes de insumos]
+[Imagen sugerida: `../assets/images/figma/mockup-web4.png` — pedidos de clientes]
+[Imagen sugerida: `../assets/images/figma/mockup-web5.png` — lista de proveedores]
+[Imagen sugerida: `../assets/images/figma/mockup-web6.png` — mesas ocupadas]
+[Imagen sugerida: `../assets/images/figma/mockup-web7.png` — menú de notificaciones de alertas]
+[Imagen sugerida: `../assets/images/figma/mockup-web8.png` — reportes estadísticos]
+[Imagen sugerida: `../assets/images/figma/mockup-web9.png` — configuración del restaurante]
+[Imagen sugerida: `../assets/images/figma/mockup-web10.png` — planes de suscripción]
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-mockup1.png` — mock-up mobile de dashboard]
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-mockup2.png` — mock-up mobile de flujo operativo]
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-mockup3.png` — mock-up mobile del rol proveedor]
 
-**Ordenes de insumos**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web3.png" width="600px">
-</p>
-
-**Pedidos de los clientes**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web4.png" width="600px">
-</p>
-
-**Lista de proveedores**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web5.png" width="600px">
-</p>
-
-**Mesas ocupadas**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web6.png" width="600px">
-</p>
-
-**Menu de notificaciones de alertas**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web7.png" width="600px">
-</p>
-
-**Reportes estadisticos**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web8.png" width="600px">
-</p>
-
-**Configuracion del restaurante**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web9.png" width="600px">
-</p>
-
-**Planes de suscribción**
-<p align="center">
-  <img src="../assets/images/figma/mockup-web10.png" width="600px">
-</p>
-
-Se muestran los respectivos mock ups del diseño de la aplicacion para mobile 
-
-![web-application-mobile-mockup1](../assets/images/figma/web-app-mobile-mockup1.png)
-![web-application-mobile-mockup2](../assets/images/figma/web-app-mobile-mockup2.png)
-![web-application-mobile-mockup3](../assets/images/figma/web-app-mobile-mockup3.png)
 ### 4.4.3. Web Applications User Flow Diagrams.
 
+Los User Flow Diagrams de SupplyWok representan los recorridos funcionales principales de los usuarios dentro del sistema, considerando tanto la ruta esperada como posibles variantes o interrupciones. A diferencia del wireflow, aquí el foco está en la lógica de navegación, las decisiones del usuario y las condiciones que afectan la continuidad del flujo.
 
-![web-application-mobile-userflow1](../assets/images/figma/web-app-mobile-userflow1.jpeg)
-![web-application-mobile-userflow2](../assets/images/figma/web-app-mobile-userflow2.jpeg)
-![web-application-mobile-userflow3](../assets/images/figma/web-app-mobile-userflow3.jpeg)
-![web-application-mobile-userflow4](../assets/images/figma/web-app-mobile-userflow4.jpeg)
+**User Goal 1: Mantener actualizado el inventario del restaurante.**  
+Happy path: el usuario ingresa al Dashboard, accede a Inventario, selecciona la opción para agregar o editar un insumo, guarda la información y visualiza la actualización reflejada en la tabla principal.  
+Unhappy path: el usuario omite campos obligatorios o ingresa valores inválidos; el sistema bloquea el guardado y muestra mensajes de validación.
+
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-userflow1.jpeg` — user flow del inventario]
+
+**User Goal 2: Generar un pedido de abastecimiento correctamente.**  
+Happy path: el restaurante accede al módulo de Pedidos, selecciona proveedor, agrega productos, confirma cantidades y registra la orden, quedando visible con estado pendiente.  
+Unhappy path: no existe stock de referencia, no se selecciona proveedor o faltan productos; el sistema notifica el error y evita el registro incompleto.
+
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-userflow2.jpeg` — user flow del pedido]
+
+**User Goal 3: Gestionar una comanda hasta su finalización.**  
+Happy path: el personal registra una comanda, la asocia a una mesa, la cocina la procesa y el sistema actualiza su estado hasta marcarla como lista o entregada.  
+Unhappy path: la mesa no está disponible, la comanda queda incompleta o el estado no puede avanzar por una inconsistencia operativa; el sistema informa la condición al usuario.
+
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-userflow3.jpeg` — user flow de comandas]
+
+**User Goal 4: Dar seguimiento a pedidos desde la vista proveedor.**  
+Happy path: el proveedor accede a pedidos recibidos, revisa el detalle, actualiza el estado del despacho y confirma la entrega.  
+Unhappy path: el pedido está retrasado, faltan productos o el proveedor no puede confirmar entrega; el sistema permite registrar la incidencia y mantener trazabilidad del estado.
+
+[Imagen sugerida: `../assets/images/figma/web-app-mobile-userflow4.jpeg` — user flow del proveedor]
+
 ## 4.5. Web Applications Prototyping.
+
+La fase de prototipado de SupplyWok permite simular la navegación y la interacción principal de las aplicaciones antes de su implementación final. Los prototipos fueron diseñados para validar la continuidad entre arquitectura de información, componentes de interfaz y flujos funcionales, tanto en escritorio como en mobile. Además del prototipo navegable en Figma, esta sección debe incorporar evidencia audiovisual del recorrido de uso, tal como solicita la rúbrica.
 
 #### Escritorio
 ![desktop-prototype](../assets/images/figma/desktop-prototype.png)
 
-[prototipo de escritorio](https://www.figma.com/proto/JUBnvZfJvlrpxIpW8ICRvS/SupplyWok?node-id=428-4042&p=f&t=kGhZbpCdqH2BntGS-0&scaling=scale-down&content-scaling=fixed&page-id=428%3A2335)
+[Prototipo Desktop](https://www.figma.com/proto/JUBnvZfJvlrpxIpW8ICRvS/SupplyWok?node-id=428-4042&p=f&t=kGhZbpCdqH2BntGS-0&scaling=scale-down&content-scaling=fixed&page-id=428%3A2335)
 
 #### Mobile
 ![mobile-protoype](../assets/images/figma/mobile-prototype.png)
@@ -632,7 +662,7 @@ Se muestran los respectivos mock ups del diseño de la aplicacion para mobile
 [prototipo mobile](https://www.figma.com/proto/JUBnvZfJvlrpxIpW8ICRvS/SupplyWok?node-id=428-2336&p=f&t=kGhZbpCdqH2BntGS-0&scaling=scale-down&content-scaling=fixed&page-id=428%3A2336)
 
 #### Video prototype
-[vide de prototype desktop y mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDkq2Qv2M5aR40vWnyGaTpSAfxzErIKTIrpk9ecgyM3YHI?e=dJMWyy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[video de prototype desktop y mobile](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDkq2Qv2M5aR40vWnyGaTpSAfxzErIKTIrpk9ecgyM3YHI?e=dJMWyy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## 4.6. Domain-Driven Software Architecture.
 
@@ -681,21 +711,32 @@ Este contexto delimitado representa el núcleo operativo del restaurante chifa d
 
 ### 4.6.2. Software Architecture Context Diagram.
 
-<div align="center">
-  <img src="../assets/images/suppluwok-system-context.png" alt="SupplyWok System Context Diagram">
-</div>
+El Software Architecture Context Diagram de SupplyWok presenta el sistema como una solución central que interactúa con sus actores principales y con servicios externos necesarios para su funcionamiento. En este nivel, el objetivo no es mostrar detalles internos de implementación, sino delimitar claramente el alcance del sistema, sus usuarios y los sistemas externos con los que intercambia información.
+
+En el diagrama se observa que los actores principales son el restaurante y el proveedor, quienes utilizan SupplyWok para gestionar abastecimiento, operación y seguimiento de pedidos. Asimismo, el sistema se relaciona con Stripe como servicio externo para la gestión de pagos o suscripciones. Esta representación permite comprender el lugar que ocupa SupplyWok dentro del ecosistema digital de la solución y deja clara la frontera entre la plataforma desarrollada por el equipo y los servicios de terceros.
+
+[Imagen sugerida: `../assets/images/suppluwok-system-context.png` — diagrama de contexto del sistema]
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
-<div align="center">
-  <img src="../assets/images/supplywok-containers.png" alt="SupplyWok Containers Diagram">
-</div>
+El Container Diagram de SupplyWok muestra la descomposición de la solución en sus principales contenedores de software y la forma en que se distribuyen las responsabilidades entre ellos. En este nivel se identifican la Landing Page, la Single Page Application, la Mobile Web App, la API principal, la base de datos y los servicios externos involucrados.
+
+La Landing Page cumple una función de presentación y conversión, guiando al visitante hacia el registro o inicio de sesión. La Single Page Application concentra la experiencia operativa principal en navegador, mientras que la Mobile Web App ofrece acceso adaptado a pantallas reducidas y tareas rápidas. Ambas aplicaciones consumen la SupplyWok API mediante comunicación JSON/HTTPS, delegando en el backend la lógica de negocio, persistencia y coordinación entre módulos. La API, a su vez, se conecta con la base de datos PostgreSQL para almacenar y consultar la información del dominio, y con Stripe para funciones relacionadas con pagos o suscripción.
+
+Este diagrama permite justificar las principales decisiones tecnológicas y evidencia una arquitectura desacoplada, donde la interfaz, la lógica de negocio y la persistencia mantienen responsabilidades diferenciadas.
+
+[Imagen sugerida: `../assets/images/supplywok-containers.png` — diagrama de contenedores]
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
-<div align="center">
-  <img src="../assets/images/supplywok-components.png" alt="SupplyWok Components Diagram">
-</div>
+El Component Diagram de SupplyWok profundiza en la estructura interna del contenedor más crítico de la solución: la API. En este nivel se identifican los componentes responsables de atender operaciones específicas del dominio, así como sus relaciones con servicios de autenticación, persistencia y procesamiento de eventos del negocio.
+
+Dentro del contenedor backend se distinguen componentes como Access Controller, Restaurant Controller, Orders Controller, Delivery Orders Controller, Provider Controller, Inventory Controller e IoT Controller. Cada uno encapsula una responsabilidad concreta del sistema: autenticación y control de acceso, gestión de operaciones del restaurante, procesamiento de órdenes, seguimiento de entregas, administración de proveedores, control de inventario y monitoreo operativo basado en sensores. Esta descomposición ayuda a visualizar cómo la API distribuye su lógica interna y cómo cada componente participa en el flujo general de la solución.
+
+La representación también evidencia la relación de estos componentes con la base de datos y con los servicios de soporte, reforzando la idea de una arquitectura modular que facilita mantenimiento, escalabilidad y evolución del sistema.
+
+[Imagen sugerida: `../assets/images/supplywok-components.png` — diagrama de componentes del backend]
+
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
@@ -801,8 +842,35 @@ Facilita la comunicación eficiente entre la cocina y las mesas para garantizar 
 
 ### 4.8.1. Database Diagrams.
 
-<div align="center">
-  <img src="../assets/images/database-diagram.png" alt="SupplyWok Database Diagram">
-</div>
+El Database Diagram de SupplyWok representa la estructura relacional que soporta la persistencia de información del sistema. Aunque se presenta como un modelo integrado, su organización responde a los bounded contexts y módulos funcionales definidos previamente en la arquitectura del dominio. De esta manera, el diagrama no solo muestra tablas, sino también la forma en que se distribuyen responsabilidades de persistencia según cada área del sistema.
+
+#### Inventory Management Bounded Context
+
+En este contexto, la persistencia se centra en el control de insumos y movimientos de stock. Las tablas `INSUMOS`, `MOVIMIENTO_INVENTARIO` y `TIPO_MOVIMIENTO_INVENTARIO` permiten registrar productos, cambios de cantidad y clasificación del movimiento. Aquí se evidencia el uso de claves primarias y foráneas para relacionar cada movimiento con su insumo correspondiente y con el tipo de operación ejecutada.
+
+#### Supply and Purchasing Bounded Context
+
+La gestión de órdenes de compra se modela principalmente a través de `ORDEN_COMPRA`, `DETALLE_ORDEN` y `ESTADO_ORDEN_COMPRA`. Estas tablas permiten registrar el encabezado de cada pedido, sus ítems específicos y el estado transaccional de la orden. Las relaciones entre ellas garantizan integridad referencial y facilitan trazabilidad del pedido desde su creación hasta su entrega.
+
+#### Supplier Management & Operations Bounded Context
+
+La información de los proveedores y sus catálogos se representa mediante tablas como `PROVEEDOR` y `CATALOGO_PROVEEDOR`. Estas estructuras permiten asociar proveedores con los insumos que ofrecen, así como registrar precios, unidades y disponibilidad. Este módulo también se relaciona con el contexto de pedidos, ya que un proveedor puede participar en múltiples órdenes de compra.
+
+#### Identity & Access Bounded Context
+
+La persistencia del acceso y administración de usuarios se modela con `USUARIO`, `ROL_USUARIO`, `PLANES` y `NOMBRE_PLAN`. Estas tablas permiten gestionar credenciales, roles, tipo de plan y relación entre cuenta y nivel de suscripción. Esto asegura que la plataforma pueda distinguir permisos, acceso y condiciones comerciales de cada usuario registrado.
+
+#### Operational Monitoring and IoT Alerts Bounded Context
+
+El monitoreo operativo se soporta con tablas como `ALERTAS`, `TIPO_ALERTA`, `SENSORES`, `TIPO_SENSOR`, `LECTURA_SENSOR`, `UBICACION_SENSOR` y `NOTIFICACIONES`. Estas entidades permiten registrar lecturas provenientes de sensores, generar alertas cuando se superan umbrales definidos y mantener historial de eventos y notificaciones asociadas. La estructura favorece trazabilidad y análisis posterior de incidencias operativas.
+
+#### Restaurant Management Bounded Context
+
+La operación interna del restaurante se modela con `MESA`, `ESTADOS_MESA`, `COMANDA`, `DETALLE_COMANDA`, `MENU_PLATOS` y `ESTADO_COMANDA`. Estas tablas permiten representar la asignación de mesas, el registro de pedidos internos y el estado de preparación o atención en cocina. Este módulo complementa el enfoque de SupplyWok al conectar abastecimiento con operación diaria del restaurante.
+
+En conjunto, el diagrama relacional de SupplyWok muestra una estructura con entidades claramente separadas por responsabilidad, relaciones explícitas mediante claves foráneas y soporte para la evolución del sistema en múltiples módulos funcionales. Esta base de datos relacional permite mantener consistencia en la información, facilitar consultas operativas y sostener la integración entre los distintos bounded contexts del dominio.
+
+[Imagen sugerida: `../assets/images/database-diagram.png` — diagrama entidad-relación global de la solución]
+
 
 [^1]: Clec. (s.f.). El color rojo en China: orígenes y tradiciones. Recuperado el 23 de abril de 2026, de https://fundacionclec.org/el-color-rojo-en-china-origenes-y-tradiciones/
