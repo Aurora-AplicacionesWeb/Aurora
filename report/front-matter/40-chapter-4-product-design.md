@@ -647,37 +647,37 @@ Primero, refinamos la línea de tiempo original, eliminando eventos redundantes 
 Este contexto delimitado constituye el núcleo operativo para los restaurantes tipo chifa dentro de la plataforma Aurora. Su propósito principal es centralizar y automatizar el control de los insumos, transformando la gestión manual tradicional en un proceso preciso y basado en datos.
 
 <div align="center">
-  <img src="../assets/images/event-storming-e01.png" alt="SupplyWok System Context Diagram">
+  <img src="../assets/images/Bounded-context-cavnvas-DDD1.png" alt="SupplyWok System Context Diagram">
 </div>
 
 Este contexto delimitado actúa como el puente transaccional entre los restaurantes tipo chifa y sus proveedores dentro del ecosistema Aurora. Su objetivo fundamental es digitalizar y estructurar la coordinación de pedidos de insumos, reemplazando las vías de comunicación informales por un flujo de trabajo centralizado y rastreable en la plataforma.
 
 <div align="center">
-  <img src="../assets/images/event-storming-e02.png" alt="SupplyWok System Context Diagram">
+  <img src="../assets/images/Bounded-context-cavnvas-DDD2.png" alt="SupplyWok System Context Diagram">
 </div>
 
 Este contexto delimitado tiene como propósito supervisar las condiciones físicas críticas en las instalaciones del restaurante, específicamente en áreas vulnerables como la cocina y el almacén. Mediante la integración simulada de sensores IoT, el sistema monitorea variables ambientales clave de forma continua, tales como la temperatura y la humedad.
 
 <div align="center">
-  <img src="../assets/images/event-storming-e03.png" alt="SupplyWok System Context Diagram">
+  <img src="../assets/images/Bounded-context-cavnvas-DDD3.png" alt="SupplyWok System Context Diagram">
 </div>
 
 Este contexto delimitado está diseñado para centralizar la gestión de los proveedores, brindándoles las herramientas necesarias para optimizar su logística y planificación comercial. A través de este módulo, los proveedores obtienen visibilidad sobre la demanda futura de sus clientes, lo que les permite gestionar sus catálogos de insumos y realizar un seguimiento detallado del estado de los pedidos recibidos.
 
 <div align="center">
-  <img src="../assets/images/event-storming-e04.png" alt="SupplyWok System Context Diagram">
+  <img src="../assets/images/Bounded-context-cavnvas-DDD4.png" alt="SupplyWok System Context Diagram">
 </div>
 
 Este contexto delimitado representa la capa transversal de seguridad y administración comercial de la plataforma Aurora. Su propósito principal es proporcionar un entorno centralizado y seguro donde todos los usuarios puedan autenticarse, gestionar sus cuentas y recibir soporte técnico de manera eficiente.
 
 <div align="center">
-  <img src="../assets/images/event-storming-e05.png" alt="SupplyWok System Context Diagram">
+  <img src="../assets/images/Bounded-context-cavnvas-DDD5.png" alt="SupplyWok System Context Diagram">
 </div>
 
 Este contexto delimitado representa el núcleo operativo del restaurante chifa dentro de la plataforma Aurora. Su propósito principal es orquestar la comunicación crítica entre el salón y la cocina, asegurando que los pedidos se procesen con precisión, se monitoreen en tiempo real y se mantenga la integridad operativa.
 
 <div align="center">
-  <img src="../assets/images/event-storming-e06.png" alt="SupplyWok System Context Diagram">
+  <img src="../assets/images/Bounded-context-cavnvas-DDD6.png" alt="SupplyWok System Context Diagram">
 </div>
 
 ### 4.6.2. Software Architecture Context Diagram.
