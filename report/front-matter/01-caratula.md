@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/report/assets/images/upc_logo.png" width="250">
+    <img src="../assets/images/upc-logo.png" width="250">
 </p>
 <h1 align="center">
 Universidad Peruana de Ciencias Aplicadas (UPC)
@@ -18,16 +18,15 @@ Producto: SupplyWok
 <h2>
 Integrantes<br><br>
 
-| <p align="center">Codigo</p> | <p align="center">Alumno<p>      |
-|------------------------------|----------------------------------|
+
+| Código | Alumno     |
+|:-----------:|:---------------:|
 | U202318609                   | Wang Chen Juan Sung Jau          |
 | U202422890                   | Cuadros Villanueva Marcelo Fabio |
 | U202512856                   | Jara Espinoza Miguel Angel       |
 | U20231C524                   | Sanchez Espinoza Mathias Enrique |
-| U                            | A                                |
+| U202410837                    | Ayasta Martel Zayd Jaffar          |
+
 
 Abril 2026
 </div>
-
-
-
