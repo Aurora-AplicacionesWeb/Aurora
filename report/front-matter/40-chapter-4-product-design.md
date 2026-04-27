@@ -539,46 +539,59 @@ Durnate la elaboración de la landing page se utilizaropn los principios de dise
 
 ### 4.4.2. Web Applications Mock-ups.
 
+Se muestran los mock ups del diseño de la aplicacion web para escritorio
+
+**dashboard principal**
 <p align="center">
   <img src="../assets/images/figma/mockup-web1.png" width="600px">
 </p>
 
+**Inventario del restaurante**
 <p align="center">
   <img src="../assets/images/figma/mockup-web2.png" width="600px">
 </p>
 
+**Ordenes de insumos**
 <p align="center">
   <img src="../assets/images/figma/mockup-web3.png" width="600px">
 </p>
 
+**Pedidos de los clientes**
 <p align="center">
   <img src="../assets/images/figma/mockup-web4.png" width="600px">
 </p>
 
+**Lista de proveedores**
 <p align="center">
   <img src="../assets/images/figma/mockup-web5.png" width="600px">
 </p>
 
+**Mesas ocupadas**
 <p align="center">
   <img src="../assets/images/figma/mockup-web6.png" width="600px">
 </p>
 
+**Menu de notificaciones de alertas**
 <p align="center">
   <img src="../assets/images/figma/mockup-web7.png" width="600px">
 </p>
 
+**Reportes estadisticos**
 <p align="center">
   <img src="../assets/images/figma/mockup-web8.png" width="600px">
 </p>
 
+**Configuracion del restaurante**
 <p align="center">
   <img src="../assets/images/figma/mockup-web9.png" width="600px">
 </p>
 
+**Planes de suscribción**
 <p align="center">
   <img src="../assets/images/figma/mockup-web10.png" width="600px">
 </p>
 
+Se muestran los respectivos mock ups del diseño de la aplicacion para mobile 
 
 ![web-application-mobile-mockup1](../assets/images/figma/web-app-mobile-mockup1.png)
 ![web-application-mobile-mockup2](../assets/images/figma/web-app-mobile-mockup2.png)
@@ -594,10 +607,12 @@ Durnate la elaboración de la landing page se utilizaropn los principios de dise
 
 #### Escritorio
 ![desktop-prototype](../assets/images/figma/desktop-prototype.png)
+
 [prototipo de escritorio](https://www.figma.com/proto/JUBnvZfJvlrpxIpW8ICRvS/SupplyWok?node-id=428-4042&p=f&t=kGhZbpCdqH2BntGS-0&scaling=scale-down&content-scaling=fixed&page-id=428%3A2335)
 
 #### Mobile
 ![mobile-protoype](../assets/images/figma/mobile-prototype.png)
+
 [prototipo mobile](https://www.figma.com/proto/JUBnvZfJvlrpxIpW8ICRvS/SupplyWok?node-id=428-2336&p=f&t=kGhZbpCdqH2BntGS-0&scaling=scale-  down&content-scaling=fixed&page-id=428%3A2336)
 ## 4.6. Domain-Driven Software Architecture.
 
