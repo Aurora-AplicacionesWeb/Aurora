@@ -520,13 +520,17 @@ Los wireframes del Landing Page de SupplyWok representan la fase inicial de estr
 
 En la versión desktop, el wireframe prioriza una hero section amplia con el mensaje principal de la plataforma, acompañada por botones de acción visibles y una navegación superior persistente. A partir de esta cabecera, el contenido se organiza en secciones horizontales que presentan cómo funciona la plataforma, sus funcionalidades clave, los segmentos a los que atiende, los planes disponibles y la sección de preguntas frecuentes. Esta distribución aprovecha mejor el ancho de pantalla y facilita una lectura escaneable y ordenada.
 
-[Imagen sugerida: `../assets/images/figma/landingpage-desktop-wireframe.png` — wireframe desktop completo del landing page]
+<p align="center">
+  <img src="../assets/images/figma/landingpage-desktop-wireframe.png" width="600px">
+</p>
 
 #### Mobile
 
 En la versión mobile, la estructura se reorganiza en una sola columna, priorizando el contenido esencial y reduciendo el número de elementos visibles por bloque. La hero section conserva los mensajes y acciones principales, pero la navegación se compacta para facilitar la interacción táctil. Las secciones se apilan verticalmente y los llamados a la acción se mantienen visibles en puntos estratégicos para asegurar continuidad en el recorrido del usuario sin perder claridad.
 
-[Imagen sugerida: `../assets/images/figma/landingpage-mobile-wireframe.png` — wireframe mobile completo del landing page]
+<p align="center">
+  <img src="../assets/images/figma/landingpage-mobile-wireframe.png" width="600px">
+</p>
 
 ### 4.3.2. Landing Page Mock-up.
 
@@ -536,29 +540,17 @@ Los mock-ups finales del Landing Page de SupplyWok representan la consolidación
 
 En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del rojo institucional en botones y puntos de énfasis, combinado con fondos claros y bloques bien espaciados. La hero section destaca la propuesta de valor de SupplyWok y dirige la atención hacia los llamados a la acción. Las secciones posteriores organizan las funcionalidades, los beneficios por segmento y los planes con una estructura visual limpia que facilita la comprensión rápida del producto.
 
-[Imagen sugerida: `../assets/images/figma/landingpage-desktop-mockup.png` — mock-up desktop del landing page]
+<p align="center">
+  <img src="../assets/images/figma/landingpage-desktop-mockup.png" >
+</p>
 
 #### Mobile
 
 En la versión mobile del mock-up, la composición se adapta a pantallas reducidas manteniendo consistencia visual en color, tipografía y jerarquía de contenidos. Los elementos se apilan en una sola columna y los botones se dimensionan para interacción táctil. Esta adaptación busca que la propuesta comercial de SupplyWok siga siendo clara, navegable y atractiva en dispositivos móviles, sin sacrificar legibilidad ni orientación del usuario.
 
-[Imagen sugerida: `../assets/images/figma/landingpage-mobile-mockup.png` — mock-up mobile del landing page]
-
-### 4.3.2. Landing Page Mock-up.
-
-Los mock-ups finales del Landing Page de SupplyWok representan la consolidación visual del diseño planteado en los wireframes. En esta etapa se incorporan la paleta cromática institucional, la tipografía definida, el sistema de espaciado, la iconografía y los principios de diseño inclusivo para construir una interfaz visualmente coherente, clara y alineada con la identidad del producto.
-
-#### Desktop
-
-En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del rojo institucional en botones y puntos de énfasis, combinado con fondos claros y bloques bien espaciados. La hero section destaca la propuesta de valor de SupplyWok y dirige la atención hacia los llamados a la acción. Las secciones posteriores organizan las funcionalidades, los beneficios por segmento y los planes con una estructura visual limpia que facilita la comprensión rápida del producto.
-
-[Imagen sugerida: `../assets/images/figma/landingpage-desktop-mockup.png` — mock-up desktop del landing page]
-
-#### Mobile
-
-En la versión mobile del mock-up, la composición se adapta a pantallas reducidas manteniendo consistencia visual en color, tipografía y jerarquía de contenidos. Los elementos se apilan en una sola columna y los botones se dimensionan para interacción táctil. Esta adaptación busca que la propuesta comercial de SupplyWok siga siendo clara, navegable y atractiva en dispositivos móviles, sin sacrificar legibilidad ni orientación del usuario.
-
-[Imagen sugerida: `../assets/images/figma/landingpage-mobile-mockup.png` — mock-up mobile del landing page]
+<p align="center">
+  <img src="../assets/images/figma/landingpage-mobile-mockup.png" width="600px">
+</p>
 
 ## 4.4. Web Applications UX/UI Design.
 
