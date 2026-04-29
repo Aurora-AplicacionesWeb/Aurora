@@ -604,6 +604,18 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 ![mockupweb8](../assets/images/figma/mockup-web8.png)
 ![mockupweb9](../assets/images/figma/mockup-web9.png)
 ![mockupweb10](../assets/images/figma/mockup-web10.png)
+
+##### Login and Register Web
+
+![mockupweblogin](../assets/images/figma/mockup-web-login.png)
+
+**1)** La seleccion de idioma del sistema, pudiendo escojer entre ingles, español y chino. <br>
+**2)** Es la seccion donde el usuario podra rellenar su información, en el caso del login pedira su correo y contraseña, mientras que para registarse pedira correo, contraseña, rol y plan de suscripción. <br>
+**3)** Son los campos para rellenar la información solicitada, en el caso del login son solo dos campos, mientras que para registarse son cuatro. Ambos campos en login con un ejemplo de correo y contraseña. <br>
+**4)** Son los textos interacctivos, estos redirigen al usuario a otras secciones del sistema segun indique el texto. <br>
+**5)** El botón principal, en el caso del login permite iniciar sesión, mientras que en el registro redirigire al pago para crear la cuenta.
+
+
 #### mobile
 ![mockupmobile1](../assets/images/figma/web-app-mobile-mockup1.png)
 
