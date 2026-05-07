@@ -621,61 +621,118 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 ![dashboardmain](../assets/images/figma/guides/main-dashboard-guide.png)
 
-**1)** 
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema, como lo son el inventario, ordenes, comandas, proveedores, etc.
+
+**2)** En seccion superior dentro de la pagina esta la vista general con la información pertinente del rol, en este caso el inventario con bajos niveles de stock como ejemplo.
+
+**3)** En el Header se muestran las notificaciones, preguntas o dudas y el perfil del usuario.
+
+**4)** El aparatado visual que muestra nuestra plataforma con el rol y el nombre asociado.
+
+**5)** Una seccion que muestra con más detalle la información de los sensores disponibles.
+
+**6)** Una seccion que muestra con más detalle las comandas y sus estados.
+
+**7)** Este apartado muestra informacion del inventario, priorizando los productos que estan bajos de stock.
+
+**8)** Un apartado que muestra las ordenes que se hacen a los proveedores.
 
 ##### Inventory Page
 
 ![inventorypage](../assets/images/figma/guides/inventory-dashboard-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** La sección más detallada del inventario, mostrando todos los productos registrados en forma de lista, contando con buscadores por escritura del usuario y otro seleccionable por categorías.
+
+**3)** El item de la lista del inventario muestra el nombre del producto, el nivel de stock, categoria, proveedor y acciones como editar o eliminar el producto.
+
+**4)** El botón prncipal de esta sección, el cual permite agregar un nuevo producto al inventario.
 
 ##### Orders Page
 
 ![orderspage](../assets/images/figma/guides/orders-dashboard-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Sección para crear ordenes a los proveedores, permite seleccionar el proovedor, fecha  y prioridad; tambien añade los productos que se quieren pedir añadiendo lineas en forma de listas e indicando el precio. Contiene tambien el boton que enviaria la orden al proveedor.
+
+**3)** Apartado para ver el seguimiento de las ordenes realizadas a proveedores, se muestran en forma de listas.
 
 ##### Kitchen Tickets Page
 
 ![kitchentickets](../assets/images/figma/guides/kitchen-tickets-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Una vista rapida de las comandas mostrando cuantas estan abiertas, en preparacion y listas.
+
+**3)** Vista detallada de las comandas, mostrando a que mesa pertenece, el estado de la comanda y su fecha de creación, con acciones que se pueden hacer a cada comanda como eliminarlo.
+
+**4)** El botón principal, el cual permite crear una nueva comanda.
 
 ##### Suppliers Page
 
 ![supplierspage](../assets/images/figma/guides/supliers-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Lista detallada de los proveedores disponibles en la plataforma, la información que muestra en en formato de listas con el nombre del proveedor, datos de contacto, categorías de suministros, etc. Tambien cuenta con un botón para pasar a la siguiente vista con más proveedores en caso hallan.
 
 ##### Tables Page
 
 ![tablespage](../assets/images/figma/guides/tables-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Vista simple de las mesas, mostrando las mesas ocupadas, libres y un porcentaje de ocupación.
+
+**3)** Sección de búsqueda, uno por input del usuario y un seleccionable por zonas.
+
+**4)** Apartado que muestra una vista detallada de las mesas con su número de comensales, estado, etc. Para ver todos es necesario hacer scroll hacia abajo.
 
 ##### Alerts Page
 
 ![alertspage](../assets/images/figma/guides/alerts-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Sección de búsqueda, uno por input del usuario y un seleccionable por prioridad.
+
+**3)** Una lista detallada de las alertas notificadas, mostrando su prioridad, detalle, fuente, fecha, estado y como accion marcarlo como leída.
 
 ##### Reports Page
 
 ![reportspage](../assets/images/figma/guides/reports-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Botones para exportar los datos del reporte a formato PDF o CSV.
+
+**3)** Sección de gráficos que permite ver los datos del reporte de forma visual. incluye la evolución del inventario, el comsumo por periodos, ordenes por proveedor e incidentes.
 
 ##### Settings Page
 
 ![settingspage](../assets/images/figma/guides/settings-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Sección del perfil del usuario. Permite cambiar datos y horarios, ademas de habilitar notificaciones por SMS o Email.
+
+**3)** Lista de Usuarios que tiene acceso a las comandas, tanto para crearlas como asignarlas.
+
+**4)** Bloqueador del sistema, permite bloquear las funciones del sistema para que el personal solo pueda ver las secciones autorizadas.
 
 ##### Subscription Plans Page
 
 ![subscriptionplanspage](../assets/images/figma/guides/subscripcions-guide.png)
 
-**1)**
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Sección de vista rapuda que muestra el plan actual, usuarios, locaciones y sensores que tiene el usuario.
+**3)** Primer plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
+
+**4)** Segundo plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
 
 #### mobile
 ![mockupmobile1](../assets/images/figma/web-app-mobile-mockup1.png)
