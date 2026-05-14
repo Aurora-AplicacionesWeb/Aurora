@@ -1,7 +1,7 @@
 # Registro de Versiones del Informe
 
 | Versión | Fecha      | Autor                            | Descripción de modificación                                              |
-| ------- | ---------- | -------------------------------- | ------------------------------------------------------------------------ |
+|---------| ---------- |----------------------------------|--------------------------------------------------------------------------|
 | 0.1     | 12/04/2026 | Wang Chen Juan Sung Jau          | Initial commit                                                           |
 | 0.2     | 15/04/2026 | Ayasta Martel Zayd Jaffar        | Startup Profile, Solution profile, Lean UX Process y Segmentos objetivos |
 | 0.3     | 15/04/2026 | Sanchez Espinoza Mathias Enrique | Análisis Competitivo + Merge PR                                          |
@@ -25,3 +25,4 @@
 | 0.1.8   | 24/04/2026 | Wang Chen Juan Sung Jau          | Añadir Aqruitectura de Information                                       |
 | 0.1.9   | 24/04/2026 | todos                            | Añadir Wireframes y Mockups                                              |
 | 0.1.10  | 25/04/2026 | Sanchez Espinoza Mathias Enrique | Event storming y Bounded Context                                         |
+| 0.1.11  | 25/04/2026 | Jara Espinoza Miguel Angel       | Problem Statement Correction                                             |
