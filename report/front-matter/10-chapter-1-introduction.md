@@ -76,27 +76,42 @@ Los restaurantes tipo chifa enfrentan dificultades en la gestión eficiente de s
 
 #### 1.2.2.2 Lean UX Assumptions
 
-**Usuarios objetivo**
-- Se asume que los dueños y administradores de restaurantes buscan una forma simple de controlar inventario, evitar pérdidas y tomar decisiones más rápidas sobre abastecimiento.
-- Se asume que los proveedores necesitan mayor visibilidad sobre la demanda de sus clientes para planificar entregas y rutas de manera más eficiente.
-- Se asume que ambos segmentos estarán dispuestos a usar una plataforma compartida si esta les ofrece beneficios claros, reduce trabajo manual y mejora la coordinación.
+**User Assumptions**
+- Los usuarios son personal operativo de restaurante, dueños y administradores que trabajan con tareas urgentes y contextos de alta rotación.
+- Los usuarios necesitan ejecutar acciones con pocos clics y con baja carga cognitiva, porque alternan entre trabajo físico y pantalla.
+- Usan el sistema en distintos momentos del día y valoran acceso rápido a: comandas, stock, alertas, pedidos de compra y tablas/mesas.
+- Tienen necesidades distintas por rol (lo que “importa” en el dashboard y en los accesos varía según permisos/responsabilidades).
+- Algunos usuarios requieren la interfaz en más de un idioma, y esperan consistencia en textos y etiquetas.
 
-**Objetivos de los usuarios**
-- Se asume que los restaurantes quieren reducir quiebres de stock, evitar desperdicio de insumos y mejorar el control de su operación diaria.
-- Se asume que los proveedores quieren anticipar pedidos, organizar mejor su distribución y mantener relaciones más estables con sus clientes.
-- Se asume que ambos grupos valoran tener información centralizada, actualizada y fácil de interpretar.
+**User Outcomes**
+- El usuario identificará rápidamente qué requiere atención (alertas/pendientes) desde un dashboard principal sin navegar por múltiples pantallas.
+- El usuario podrá reducir quiebres de stock detectando productos “por debajo del mínimo” y permitir tomar acciones preventivas.
+- El usuario podrá crear y editar comandas u órdenes de cocina con seguridad (evitar errores de mesa/tipo de servicio/items/observaciones) y poder volver atrás sin fricción.
+- El usuario podrá generar pedidos de compra más rápido, con datos prellenados y validaciones (fechas, proveedor, prioridad, líneas de pedido).
+- El usuario sentirá control y trazabilidad: saber “qué pasó y qué sigue”, incluso cuando cambian estados (pendiente/en proceso/etc.).
+  
+**Business Assumptions**
+- La operación del restaurante mejora si se centraliza en una sola app la vista de inventario, comandas, compras y alertas (en vez de herramientas separadas).
+- La segmentación por roles reduce errores (cada perfil ve lo necesario) y aumenta seguridad/orden operativo.
+- La estandarización de flujos (crear pedido, crear comanda, configurar proveedores/zonas/notificaciones) reduce dependencia de “cómo lo hace cada turno”.
+- Exponer métricas simples (“salud de inventario”, “productos que requieren reposición”) impulsa decisiones y hábitos operativos.
 
 **Business Outcomes**
-- Se asume que la eficiencia operativa aumentará si los restaurantes pueden visualizar inventario, alertas y demanda proyectada en un solo lugar.
-- Se asume que la coordinación con proveedores mejorará si estos pueden consultar pedidos, proyecciones y estados de abastecimiento.
-- Se asume que la reducción de desperdicio y desabastecimiento generará ahorro económico para los restaurantes.
-- Se asume que un modelo de suscripción con planes diferenciados Premium y Enterprise permitirá sostener el producto en el tiempo.
+- Menos pérdidas por quiebre de stock y mejor rotación de inventario (comprar lo necesario a tiempo).
+- Mayor velocidad de operación (comandas y pedidos se registran/actualizan más rápido) y menos errores por registro manual.
+- Mejor coordinación entre roles (cocina, inventario, administración) con estados y pendientes visibles.
+- Visibilidad operacional para managers: KPIs básicos y backlog de pendientes/alertas para priorizar.
 
-**Métricas de éxito**
-- Se considera exitoso el proyecto si al menos el 60% de los restaurantes activos configuran inventario inicial y alertas de stock mínimo durante el primer mes.
-- Se considera cumplido el objetivo si al menos el 50% de los pedidos se generan a partir de alertas o sugerencias del sistema.
-- Se considera alcanzado el outcome si al menos el 70% de los usuarios encuestados manifiesta que la plataforma mejora la coordinación operativa.
-- Se considera válido el supuesto si los proveedores consultan regularmente la vista de demanda proyectada y estado de pedidos.
+**Features Assumptions**
+- Los usuarios podrán ver en una sola pantalla lo más importante del día (pendientes, alertas, estado general) y entrar rápido a acciones frecuentes.
+- Los usuarios podrán identificar productos en riesgo (bajo mínimo) y tomar acción para reponer antes de quedarse sin stock.
+- El personal podrá crear órdenes con productos, cantidades y notas, y actualizarlas a medida que avanza el servicio.
+- Los usuarios podrán ver qué órdenes están pendientes, en progreso o finalizadas, para coordinar mejor entre áreas.
+- Los usuarios podrán armar pedidos de compra de forma guiada (qué comprar y en qué cantidad) para reabastecer con menos fricción.
+
+
+
+
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 - Creemos que al permitir a los restaurantes registrar su inventario y configurar alertas de stock mínimo, lograremos reducir desabastecimientos y compras de emergencia.
