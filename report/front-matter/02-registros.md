@@ -26,3 +26,4 @@
 | 0.1.9   | 24/04/2026 | todos                            | Añadir Wireframes y Mockups                                              |
 | 0.1.10  | 25/04/2026 | Sanchez Espinoza Mathias Enrique | Event storming y Bounded Context                                         |
 | 0.1.11  | 25/04/2026 | Jara Espinoza Miguel Angel       | Problem Statement Correction                                             |
+| 0.1.12  | 25/04/2026 | Jara Espinoza Miguel Angel       | Assumptions Correction                                             |
