@@ -58,11 +58,22 @@ Los restaurantes tipo chifa enfrentan dificultades en la gestión eficiente de s
 ### 1.2.2 Lean UX Process   
 
 #### 1.2.2.1 Lean UX Problem Statements
-En el contexto de restaurantes tipo chifa y sus proveedores, los dueños y administradores encuentran dificultades para controlar inventarios, prever la demanda y coordinar abastecimiento debido a la falta de herramientas digitales integradas. Esta situación genera desabastecimientos, sobrestock, desperdicio de insumos y una comunicación operativa poco eficiente.
 
-Es por eso que identificamos que la gestión manual, la baja visibilidad de los niveles de stock y la limitada coordinación con proveedores son provocadas por la ausencia de una plataforma centralizada que permita monitorear el estado operativo del restaurante y proyectar necesidades futuras.
 
-¿Cómo podríamos proporcionar a restaurantes y proveedores una plataforma accesible y práctica que permita controlar inventario, proyectar demanda, monitorear condiciones operativas y coordinar pedidos de abastecimiento de manera más eficiente?
+- Estado actual del dominio: El estado actual de la gestión operativa y de abastecimiento en restaurantes tipo chifa se ha enfocado principalmente en controles manuales y procesos fragmentados realizados por dueños y encargados, con escasa digitalización. Esto provoca dificultades para mantener inventarios actualizados, falta de visibilidad sobre la demanda y una coordinación ineficiente con proveedores.
+
+- Lo que los productos/servicios existentes no resuelven: Los productos y servicios disponibles no abordan de forma integrada la combinación de inventario en tiempo real, proyección de demanda sencilla, generación automática de pedidos y monitoreo operativo (por ejemplo, temperatura), necesarios para que restaurantes y proveedores se sincronicen y tomen decisiones preventivas basadas en datos.
+
+- Cómo nuestra solución cerrará la brecha: Nuestra plataforma, SupplyWok, abordará esta brecha mediante una aplicación web con roles diferenciados para restaurantes y proveedores que centraliza inventario y alertas, ofrece proyecciones de demanda basadas en historial y ocupación, sugiere y genera pedidos automatizados, y reporta eventos operativos críticos (p. ej. temperatura fuera de rango) para facilitar decisiones oportunas y coordinación eficiente.
+
+- En qué nos enfocaremos inicialmente: Nuestro enfoque inicial será en dueños y administradores de restaurantes chifa, validando con ellos las funcionalidades esenciales de inventario, alertas y generación de pedidos; en paralelo incorporaremos proveedores clave para validar la vista de demanda y la coordinación de entregas.
+
+- Cómo sabremos que tuvimos éxito (comportamientos medibles):
+  - ≥ 60% de restaurantes activos configuran su inventario inicial y al menos una alerta durante el primer mes.
+  - ≥ 50% de los pedidos se originan a partir de sugerencias o alertas del sistema.
+  - ≥ 70% de los usuarios encuestados manifiestan que la plataforma mejora la coordinación operativa.
+  - ≥ 50% de proveedores activos consultan su panel de demanda al menos una vez por semana.
+  - ≥ 80% de los eventos de temperatura fuera de rango generan alertas visibles y accionables en el dashboard.
 
 #### 1.2.2.2 Lean UX Assumptions
 
