@@ -679,14 +679,20 @@ En esta sección mostramos como se realizó el deploy de la plataforma junto con
 
 ![](../assets/images/deploy-steps/deploy_firebase.png)
 
-2. Usamos el cmd de Jetbrains para realizar el deploy de nuestro proyecto y acceder al enlace público.
+2. Luego de instalar e iniciar sesión en firebase la terminal de Jetbrains para construir, inicializar y deployar nuestro proyecto, para posteriormente acceder al enlace publico.
 
 ![](../assets/images/deploy-steps/deploy_firebase_1.png)
 
 ![](../assets/images/deploy-steps/deploy_firebase_2.png)
 
-Estos implementaron endpoints para manejar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
-[Frontend Deployment]()
+![](../assets/images/deploy-steps/deploy_firebase_3.png)
+
+![](../assets/images/deploy-steps/deploy_firebase_4.png)
+
+![](../assets/images/deploy-steps/deploy_firebase_build.png)
+
+Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
+[https://supplywok.web.app/](https://supplywok.web.app/)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
@@ -697,4 +703,5 @@ En este apartado se visualiza todos los gráficos que representan la participaci
 ![Team Contribution 1](../assets/images/deploy-steps/contributions_1_2.png)
 
 ![Team Contribution 2](../assets/images/deploy-steps/contributions_2_2.png)
+
 
