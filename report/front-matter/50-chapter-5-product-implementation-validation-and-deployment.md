@@ -579,3 +579,4 @@ En este apartado se visualiza todos los gráficos que representan la participaci
 
 ![Team Contribution 2](../assets/images/deploy-steps/contributions_2_2.png)
 
+
