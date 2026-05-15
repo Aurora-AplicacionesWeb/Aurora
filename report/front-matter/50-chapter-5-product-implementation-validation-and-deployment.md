@@ -1,7 +1,7 @@
 # Capítulo V: Product Implementation, Validation & Deployment.
 
 ## 5.1. Software Configuration Management. 
-Para tener consistencia y seguimiento de el desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El metodo cubre la configuracion del entorno de desarrollo, la gestion del codigo y el despliegue, alineado a las buenas prácticas de ingenieria de software y metodologias ágiles.
+Para tener consistencia y seguimiento del desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El metodo cubre la configuracion del entorno de desarrollo, la gestion del codigo y el despliegue, alineado a las buenas prácticas de ingenieria de software y metodologias ágiles.
 ### 5.1.1. Software Development Environment Configuration. 
 Para facilitar la colaboración del equipo en todas las actividades del ciclo de vida de desarrollo de SupplyWok, se ha definido un entorno de desarrollo común. Este entorno está compuesto por herramientas especializadas para la gestión del proyecto, diseño UX/UI, modelado, desarrollo, pruebas, documentación y despliegue. La selección de estas herramientas se basa en criterios de eficiencia, compatibilidad con tecnologías open-source (Vue + C#), y alineación con prácticas recomendadas de la industria.
 |        Categoría        |      Herramienta      |                                               Propósito                                               |                                      Tipo de acceso/enlace                                      |
@@ -221,7 +221,7 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
 - **Método de despliegue:**  
   - Vue.js se compila con `npm run build` para generar los archivos estáticos de producción.  
   - La rama `main` sirve como fuente para el despliegue.  
-  - Firebase debe crearse con cada modificación para que este actualizado con el repositorio.  
+  - Firebase debe crearse con cada modificación para que esté actualizado con el repositorio.  
 
 ---
 
@@ -322,9 +322,9 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
 | SupplyWok-Landing-Page | develop | 3452838 | Merge branch 'develop' of https://github.com/Aurora-AplicacionesWeb/SupplyWok-Landing-Page into develop | 27 de Abril, 2026 |
 
 Destacar que el commit sin commit id es debido a que es un PR que se hace desde un fork del repositorio.
-Tambien se añadira evidencia del figma como pruebas de colaboración en el sprint.
+También se añadirá evidencia del Figma como pruebas de colaboración en el sprint.
 
-Esta seria la captura antes de empezar el sprint con las task creadas en jira y listas para asignarse a los miembros respectivos:
+Esta sería la captura antes de empezar el sprint con las task creadas en jira y listas para asignarse a los miembros respectivos:
 ![jira-prove-1](../assets/images/jira-evidence.png)
 
 Esta seria la captura de como quedo el board de jira al finalizar el sprint:
@@ -353,15 +353,15 @@ Aquí está el enlace a la página desplegada: [SupplyWok landing page](https://
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Como la Landing Page es una página estática, no fue necesario durante el Sprint el uso de servicios externos ni conexiones a APIs, por lo cual no hay generación ni evidencia de documentación técnica relacionada.
+Como la Landing Page es una página estática, no fue necesario durante el Sprint el uso de servicios externos ni conexiones a API's, por lo cual no hay generación ni evidencia de documentación técnica relacionada.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-La evidencia del despliegue de la Landing Page durante el Sprint se mostrara a continuación, el despliegue se realizara en GitHub Pages.
+La evidencia del despliegue de la Landing Page durante el Sprint se mostrará a continuación, el despliegue se realizará en GitHub Pages.
 
 ![first-step](../assets/images/deploy-steps/step-1.png)
 
-Revisamos que el repositorio este en publico:
+Revisamos que el repositorio esté en público:
 
 ![second-step](../assets/images/deploy-steps/step-2.png)
 
@@ -520,17 +520,19 @@ Link de la plataforma de SupplyWok: https://supplywok.web.app/
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Para esta sección se diran los servicios que se utilizaron para simular los json que devolveria nuestro backend, los cuales se implementaron en dos servicios, en mockapi y en my json server.
+Para esta sección se dirán los servicios que se utilizaron para simular los json que devolvería nuestro backend, los cuales se implementaron en dos servicios, en mockapi y en my json server.
 
 ![](../assets/images/mockapi-evidence.png)
 
-![](../assets/images/myjsonserver-evidence.png)
+![Mathias](../assets/images/mathias-myjson.png)
 
-Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
+![Mathias](../assets/images/mathias-myjson2.png)
+
+Estos implementaron endpoints para manejar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-En esta sección mostramos como se realiso el deploy del plataforma junto con el json server.
+En esta sección mostramos como se realizó el deploy de la plataforma junto con el json server.
 
 **Deploy del Json Server**
 
@@ -548,22 +550,22 @@ En esta sección mostramos como se realiso el deploy del plataforma junto con el
 
 **Deploy de la Plataforma en Firebase**
 
-1. Accedemos a https://firebase.google.com/ y accedemos con nuestra cuenta. Despues creamos nuestro proyecto.
+1. Accedemos a https://firebase.google.com/ y accedemos con nuestra cuenta. Después creamos nuestro proyecto.
 
 ![](../assets/images/deploy-steps/deploy_firebase.png)
 
-2. Usamos el cmd de Jetbrains para deployar nuestro proyecto y acceder al enlace publico.
+2. Usamos el cmd de Jetbrains para realizar el deploy de nuestro proyecto y acceder al enlace público.
 
 ![](../assets/images/deploy-steps/deploy_firebase_1.png)
 
 ![](../assets/images/deploy-steps/deploy_firebase_2.png)
 
-Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
+Estos implementaron endpoints para manejar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
 [Frontend Deployment]()
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-En este apartado se visualiza todos los graficos que representan la participacion de cada integrante en el repositorio del fronted.
+En este apartado se visualiza todos los gráficos que representan la participación de cada integrante en el repositorio del fronted.
 
 ![Team Collaboration](../assets/images/deploy-steps/participation_2.png)
 
