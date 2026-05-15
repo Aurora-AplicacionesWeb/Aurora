@@ -470,25 +470,53 @@ Durante el Sprint 2, el equipo se enfocó principalmente en el desarrollo del fr
 
 En este Sprint se logró desarrollar gran parte del frontend de la plataforma SupplyWok. Se integraron funcionalidades como el inicio de sesión, el dashboard general, los módulos de inventario, pedidos, comandas, sensores y alertas, junto con sus funcionalidades básicas principales.
 
-Link de la plataforma de SupplyWok: ![]()
+Link de la plataforma de SupplyWok: https://supplywok.web.app/
 
-![first](../assets/images/frontend/login_screen.png)
+![first](../assets/images/execution-evidence/ec-login.png)
 
-![first](../assets/images/frontend/dashboard_screen.png)
+![first](../assets/images/execution-evidence/ec-dashboard.png)
 
-![first](../assets/images/frontend/inventory_screen.png)
+![first](../assets/images/execution-evidence/ec-inventory.png)
 
-![first](../assets/images/frontend/create_inventoy_item_screen.png)
+![first](../assets/images/execution-evidence/ec-orders.png)
 
-![first](../assets/images/frontend/comandas_screen.png)
+![first](../assets/images/execution-evidence/ec-kitchen-tickets.png)
 
-![first](../assets/images/frontend/create_comanda_screen.png)
+![first](../assets/images/execution-evidence/ec-create-kitchen-tickets.png)
 
-![first](../assets/images/frontend/alerts_screen.png)
+![first](../assets/images/execution-evidence/ec-suppliers.png)
 
-![first](../assets/images/frontend/orders_screen.png)
+![first](../assets/images/execution-evidence/ec-tables-and-occupancy.png)
 
-![first](../assets/images/frontend/tables_and_occupancy_screen.png)
+![first](../assets/images/execution-evidence/ec-add-table.png)
+
+![first](../assets/images/execution-evidence/ec-alerts.png)
+
+![first](../assets/images/execution-evidence/ec-reports.png)
+
+![first](../assets/images/execution-evidence/ec-configuration.png)
+
+![first](../assets/images/execution-evidence/ec-subscription.png)
+
+![first](../assets/images/execution-evidence/ec-suppliers-dashboard.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-orders.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-my-clients.png)
+
+![first](../assets/images/execution-evidence/ec-delivery-planning.png)
+
+![first](../assets/images/execution-evidence/ec-demand-forecast.png)
+
+![first](../assets/images/execution-evidence/ec-product-catalog.png)
+
+![first](../assets/images/execution-evidence/ec-new-product-catalog.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-alerts.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-configuration.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-subscription.png)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
