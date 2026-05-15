@@ -466,7 +466,7 @@ Durante el Sprint 2, el equipo se enfocó principalmente en el desarrollo del fr
 
 ![Tabla en Trello 2](../assets/images/deploy-steps/trello_2.png)
 
-![Sprint en Trello](https://trello.com/b/07LRT0At/sprint-2)
+[Sprint en Trello](https://trello.com/b/07LRT0At/sprint-2)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
@@ -667,11 +667,11 @@ En esta sección mostramos como se realizó el deploy de la plataforma junto con
 
 2. Creamos un nuevo repositorio y subimos el archivo Json.
 
-![](../assets/images/deploy-steps/deploy_db_1.jpg)
+![](../assets/images/deploy-steps/deploy_db_1.png)
 
 3. Accedemos al enlace de nuestro Json server de forma  https://my-json-server.typicode.com/< your-username >/< your-repo >. 
 
-![](../assets/images/myjsonserver-evidence.png)
+![](../assets/images/deploy-steps/myjsonserver-evidence.png)
 
 **Deploy de la Plataforma en Firebase**
 

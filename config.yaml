@@ -5,7 +5,7 @@ from: markdown
 to: pdf
 pdf-engine: xelatex
 standalone: true
-output-file: report/Aurora-report.pdf
+output-file: report/upc-pre-202610-1asi0730-12206-aurora-report-tb1.pdf
 
 toc: true
 toc-depth: 3
@@ -24,13 +24,13 @@ input-files:
   - report/front-matter/03-collaboration.md
   - report/front-matter/04-content-table.md
   - report/front-matter/05-studentoutcome.md
-  - report/front-matter/10-chapter-1-introduction.md
-  - report/front-matter/20-chapter-2-requirements-elicitation-&-analysis.md
-  - report/front-matter/30-chapter-3-Requirements-specification.md
-  - report/front-matter/40-chapter-4-product-design.md
+  - report/front-matter/10-chapter-1.md
+  - report/front-matter/20-chapter-2.md
+  - report/front-matter/30-chapter-3.md
+  - report/front-matter/40-chapter-4.md
   - report/front-matter/50-chapter-5.md
-  - report/annexes/anexos.md
   - report/front-matter/99-bibliography.md
+  - report/annexes/anexos.md
 
 variables:
   lang: es-PE
