@@ -1,7 +1,7 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile 
 ### 1.1.1. Descripción de la Startup 
-Somos Aurora, un grupo de estudiantes apasionados por la innovación tecnológica de la Universidad Peruana de Ciencias Aplicadas. Nuestra startup está enfocada en optimizar la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes. Nuestra plataforma conecta a restaurantes y proveedores a través de un sistema centralizado que permite gestionar inventarios, preveenir accidentes, anticipar la demanda y mejorar la coordinación en la cadena de suministro.
+Somos Aurora, un grupo de estudiantes apasionados por la innovación tecnológica de la Universidad Peruana de Ciencias Aplicadas. Nuestra startup está enfocada en optimizar la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes. Nuestra plataforma conecta a restaurantes y proveedores a través de un sistema centralizado que permite gestionar inventarios, prevenir accidentes, anticipar la demanda y mejorar la coordinación en la cadena de suministro.
 
 - **Misión:** Nuestra misión es mejorar la eficiencia operativa de los restaurantes mediante herramientas tecnológicas que permitan gestionar inventarios, anticipar necesidades de abastecimiento y optimizar la coordinación con proveedores, contribuyendo a una gestión más inteligente y sostenible del negocio gastronómico.
 

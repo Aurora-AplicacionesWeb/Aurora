@@ -640,7 +640,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Sección para crear ordenes a los proveedores, permite seleccionar el proovedor, fecha  y prioridad; tambien añade los productos que se quieren pedir añadiendo lineas en forma de listas e indicando el precio. Contiene tambien el boton que enviaria la orden al proveedor.
+**2)** Sección para crear ordenes a los proveedores, permite seleccionar el proveedor, fecha  y prioridad; tambien añade los productos que se quieren pedir añadiendo lineas en forma de listas e indicando el precio. Contiene tambien el boton que enviaria la orden al proveedor.
 
 **3)** Apartado para ver el seguimiento de las ordenes realizadas a proveedores, se muestran en forma de listas.
 
@@ -650,7 +650,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Una vista rapida de las comandas mostrando cuantas estan abiertas, en preparacion y listas.
+**2)** Una vista rápida de las comandas mostrando cuantas estan abiertas, en preparacion y listas.
 
 **3)** Vista detallada de las comandas, mostrando a que mesa pertenece, el estado de la comanda y su fecha de creación, con acciones que se pueden hacer a cada comanda como eliminarlo.
 
@@ -714,7 +714,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Sección de vista rapuda que muestra el plan actual, usuarios, locaciones y sensores que tiene el usuario.
+**2)** Sección de vista rápida que muestra el plan actual, usuarios, locaciones y sensores que tiene el usuario.
 **3)** Primer plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
 
 **4)** Segundo plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
@@ -804,7 +804,7 @@ Este contexto delimitado representa el núcleo operativo del restaurante chifa d
 
 ![](../assets/images/Bounded-context-cavnvas-DDD6.png)
 
-aqui se encuentra el enlace de lucid chart del proceso:
+Aquí se encuentra el enlace de LucidChart del proceso:
 [lucid chart](https://lucid.app/lucidspark/5b28482f-d099-4d83-a08c-9b7af6d88474/edit?view_items=bz3RN-x7D4~0&page=0_0&invitationId=inv_b6c94e5b-c9dc-4932-9e69-f11cae2d319d)
 
 ### 4.6.2. Software Architecture Context Diagram.

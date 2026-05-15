@@ -462,8 +462,133 @@ Durante el Sprint 2, el equipo se enfocó principalmente en el desarrollo del fr
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
+![Tabla en Trello 1](../assets/images/deploy-steps/trello_1.png)
+
+![Tabla en Trello 2](../assets/images/deploy-steps/trello_2.png)
+
+![Sprint en Trello](https://trello.com/b/07LRT0At/sprint-2)
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
+| SupplyWok-FrontEnd | feature | 66c85df | feat: setup project architecture and shared modules | - | 10/05/2026 |
+| SupplyWok-FrontEnd | feature | 6039b3b | feat: configure application routing | - | 10/05/2026 |
+| SupplyWok-FrontEnd | feature | 4cd7752 | feat: add purchase order domain entities | - | 10/05/2026 |
+| SupplyWok-FrontEnd | feature | fab4097 | feat: implement purchase order api integration | - | 10/05/2026 |
+| SupplyWok-FrontEnd | feature | d6f5221 | feat: add purchase order store management | - | 10/05/2026 |
+| SupplyWok-FrontEnd | feature | bb8db44 | feat: configure supply and purchasing routes | - | 10/05/2026 |
+| SupplyWok-FrontEnd | feature | 546855e | feat: create purchase order reusable components | - | 10/05/2026 |
+| SupplyWok-FrontEnd | feature | 4e2fcff | feat: implement supply and purchasing pages | - | 10/05/2026 |
+| SupplyWok-FrontEnd | feature | f34ffae | refactor: reorganize shared layout and state management | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 21f4bff | feat: implement supply and purchasing bounded context | - | 11/05/2026 |
+| SupplyWok-FrontEnd | develop | 2dc2096 | Merge pull request #5 from Aurora-AplicacionesWeb/develop | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 752abc5 | feat(iot-monitoring): add IoT monitoring components and alerts, update environment variables | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 0e1b7e3 | feat(entities): add initial entities for restaurant management bounded context | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 9e705a8 | feat(restaurant-management/infrastructure): implement assemblers for restaurant management entities. | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 9f17ee0 | feat(restaurant-management): implement base API and endpoint classes for restaurant management. | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 2e948ec | feat(restaurant-management/application): add Pinia store for managing restaurant operations. | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 9f72302 | feat(restaurant-management/locales): update translations for restaurant management pages in English, Spanish, and Chinese. | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 7375fba | feat(restaurant-management/presentation): add components for dish menu, kitchen tickets, and tables occupancy management. | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 45892cb | feat(shared/presentation): implement layout components and add language switcher component. | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 4c4bf96 | feat: rename restaurant-management.json to db.json and update table structure and routing | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 6ca5639 | chore: add new SVG icons for alerts, configuration, dashboard, inventory, kitchen tickets, orders, reports, subscription, and suppliers | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | 0fa27a0 | feat: add environment configuration for development and production with API endpoints | - | 11/05/2026 |
+| SupplyWok-FrontEnd | feature | efe9e7f | feat: initialize supplier management module with the sidebar for suppliers and update translations | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 22a5d5f | fix: correct syntax and an typing error in zh.json | - | 12/05/2026 |
+| SupplyWok-FrontEnd | develop | 92f7703 | Merge branch 'feature/restaurant-management-bc' into develop | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | c22a4df | fix: fix some errors in sidebar-menu | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 5e4e350 | refactor: update method names for consistency and improve layout styling | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 3915b4f | feat: integrate pinia store and vue router, initialize router with supplier routes | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 3bafae0 | fix: correct API URL typo, and adjust app title | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | a5a54a5 | Merge branch 'develop' into feature/operational-monitoring-and-iot-alerts-bc | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | a295c25 | feat(operational-monitoring-and-iot-alerts-bc): add iot and alerts bc to the main branch for develop. | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 064a209 | chore: update package-lock.json to reflect dependency version changes | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | d91f6b3 | feat: add orders entities and assembler for transforming purchase orders resources | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 74a02aa | feat(iot-monitoring): change IoT monitoring components and alerts, update environment variables. | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | e201320 | fix: update OrdersAssembler to use correct Orders entity | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | a7257bd | feat: add supply management api and initialize json server setup | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 7bd9292 | feat(supply-and-purchasing): add mock backend with db.json | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | bcf87fa | feat: add supplier management store with state, getters, and fetch logic | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 739b84d | feat(supply-and-purchasing): add orders summary card | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 78e1edd | Merge remote-tracking branch 'origin/develop' into feature/supply-and-purchasing-bc | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | c0b77d3 | feat: add mock api fallback and dashboard enhancements | - | 12/05/2026 |
+| SupplyWok-FrontEnd | feature | 0694d59 | feat(supply-and-purchasing): enhance dashboard integration and mock api support | - | 12/05/2026 |
+| SupplyWok-FrontEnd | develop | 1232115 | Merge branch 'develop' of https://github.com/Aurora-AplicacionesWeb/SupplyWok-FrontEnd into develop | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | c77d755 | feat: implement inventory item and stock movement entities | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 405c216 | feat: implement inventory management API with mock data fallback | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | ee58105 | feat: implement inventory management API with mock data fallback | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 274c281 | feat: add inventory management page and data table component | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 87c6730 | feat: add internationalization support for inventory management | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 2dc4f94 | feat: add delete confirmation dialog and functionality to inventory management | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | b2cb7d1 | feat: add inventory API configuration and update stock percentage calculation | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 8ec5d44 | feat: integrate confirmation dialog into inventory data table component | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 40c3912 | feat: refactor inventory and stock movement entities to use public properties | - | 13/05/2026 |
+| SupplyWok-FrontEnd | develop | d663118 | Merge remote-tracking branch 'origin/develop' into develop | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 90b902b | feat(iam): add user validation and notifies in header. | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 6f68afb | feat(alerts): enhance alert management with status and source properties, add acknowledgment functionality | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 30b0f7c | feat: finish supplier management store with CRUD methods and documentation | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 7e1145c | feat(supply-management): add catalog entity and assembler | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 3885462 | feat(supply-management): update store and api | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 547bcf2 | feat(supply-management): update db.json to include catalog items | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | ab5066d | feat(supply-management): add routing in sidebar menu for supplier and restaurant and switching roles | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | cf1fc68 | feat(supply-management): add catalog supplier components and functionality | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | f1569f9 | feat(supply-management): add supplier management orders view | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 0dc1f27 | . | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 5e25a4f | Merge remote-tracking branch 'origin/develop' into feature/supplier-management-and-operations-bc | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | e10ad29 | . | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 25d7752 | refactor: improve restaurant management bc and styling consistency across components | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 8965e0a | feat: add active commands and kitchen tickets cards to restaurant management dashboard | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | a71db21 | feat: enhance restaurant management dashboard with kitchen tickets and active commands functionality | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | d243b6b | feat: add pending orders card to dashboard with dynamic count | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | cc267ea | delete: App.vue | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 661ac88 | feat: add below minimum stock card component with internationalization support | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 21227b6 | feat: add Chinese localization for below minimum stock component | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | 71d72db | fix: update role routing | - | 13/05/2026 |
+| SupplyWok-FrontEnd | feature | dbef84e | fix: update route routing and dashboard view | - | 13/05/2026 |
+| SupplyWok-FrontEnd | develop | 1bec258 | Merge branch 'develop' of https://github.com/Aurora-AplicacionesWeb/SupplyWok-FrontEnd into develop | - | 13/05/2026 |
+| SupplyWok-FrontEnd | develop | f7e8c05 | feat(supply-management): add client view | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | ceebb76 | fix: remove unnecessary endpoint paths | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | b876bf0 | feat(supply-management): add alert endpoint and assembler and api | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 45d7066 | feat(supply-management): add endpoins for alerts and store for alerts | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 329deb7 | Merge branch 'feature/supplier-management-and-operations-bc' into develop | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | edfce1d | fix(restaurant-management): fix routing for create kitchen ticket | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 601aedb | fix: unify purchase orders data source | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 0e01c56 | feat: add inventory, configuration, reports page | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 7a31adf | Merge remote-tracking branch 'origin/develop' into feature/supply-and-purchasing-bc | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 7d2759f | fix: delete app.vue | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | aee254d | fix: repair routing and orders api fallbacks | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | f50f699 | feature: add views and fix routes errors | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 2fe0640 | feat(supply-management): add client entity and assembler and endpoint and store | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 7684ba8 | feat(supply-management): add supplier alerts view | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 553e723 | feat(supply-management): add demand forecast endpoint and assembler and entity | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | b5b11b1 | feat(supply-management): add data for demand forecast and install chart.js dependency | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | adb9344 | feat(supply-management): add demand forecast view and internationalization | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | c4ed789 | Merge remote-tracking branch 'origin/feature/supplier-management-and-operations-bc' into develop | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | a001a24 | fix: inventory management api and iam | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 6bb63fa | refactor: align inventory data flow | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | f944122 | feat(supply-management): add delivery route endpoint and assembler and entity and update store and data | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | aa2b8e2 | feat(supply-management): add delivery planning view | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | d97eace | refactor: adjust layout styling for IoT panel and placeholder page | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 35afb4a | feat: implement add table functionality in tables and occupancy page | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 6802e29 | fix: fix route for views | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | abbc374 | fix(supply-management): update delivery status filter | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 5aeeedf | fix(supply-management): add supplier settings and subscription endpoints and assemblers entity stores and data | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 84727b4 | fix(supply-management): add supplier settings and subscription views | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | d0ad0f5 | fix(supply-management): add dashboard components and view | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 83bbae1 | refactor: rename files to "-view" | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 0e8b291 | feat: add table deletion functionality and enhance table details view | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | bfd7a0a | Merge remote-tracking branch 'origin/feature/supplier-management-and-operations-bc' into develop | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 77f8271 | feat(i18n): implement internationalization for various components and routes | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | d228610 | refactor: update supplier API endpoints for supply management and purchase order | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | fe76c7f | feat(subscription): integrate subscription plan management and update UI components | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 245b495 | feat: update environment variables and enhance restaurant management api with new endpoints | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 736f77a | feat(alerts): enhance alert display logic and add supplier notification messages | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | e2fe602 | Merge remote-tracking branch 'origin/develop' into develop | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 1fb79dc | fix(supplier-api.js): connect suppliers page to mock api | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 1f0a08e | Merge branch from develop | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 0541dca | fix(supplier-api.js): connect suppliers page to mock api | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | e5af4fe | Merge pull request #14 from Aurora-AplicacionesWeb/develop | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | 66c71ce | Dejar de rastrear archivos de entorno (manteniendo copias locales) | - | 14/05/2026 |
+| SupplyWok-FrontEnd | develop | ea24093 | chore(app): complete bounded-context architecture migration, routing normalization, and i18n fixes | - | 14/05/2026 |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
@@ -578,4 +703,5 @@ En este apartado se visualiza todos los gráficos que representan la participaci
 ![Team Contribution 1](../assets/images/deploy-steps/contributions_1_2.png)
 
 ![Team Contribution 2](../assets/images/deploy-steps/contributions_2_2.png)
+
 

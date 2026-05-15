@@ -1,4 +1,4 @@
-# Capítulo III: Requirements Specification. 
+# Capítulo III: Requirements Specification 
 ## 3.1. User Stories
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
