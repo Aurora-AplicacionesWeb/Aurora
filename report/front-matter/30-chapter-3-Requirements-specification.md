@@ -84,18 +84,14 @@ El Impact Mapping de SupplyWok refleja la relación entre los objetivos de negoc
 
 **Primer Segmento Objetivo (Dueño o administrador de restaurante chifa):**
 
-<p align="center">
-  <img src="../assets/images/SupplyWokImpactMapSegmento1.png" width="980">
-</p><br>
+![](../assets/images/SupplyWokImpactMapSegmento1.png)
 
 <sub>Ilustración. Impact Mapping dueños de restaurantes chifa y administradores</sub>
 
 ----
 **Segundo Segmento Objetivo (Proveedores de insumos para restaurantes):**
 
-<p align="center">
-  <img src="../assets/images/SupplyWokImpactMapSegmento2.png" width="980">
-</p><br>
+![](../assets/images/SupplyWokImpactMapSegmento2.png)
 
 <sub> Ilustración. Impact Mapping proveedores de insumos para restaurantes</sub>
 

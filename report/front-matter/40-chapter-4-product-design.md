@@ -9,9 +9,7 @@ SupplyWok adopta un sistema de diseño coherente, funcional y alineado con el co
 
 El logo de nuestra plataforma está compuesto por los caracteres **S** y **W**, provenientes del nombre *SupplyWok*, representados de forma creativa para mantener una relación con nuestro público objetivo. La **S** se encuentra en forma de humo que sale de un recipiente con forma de **W**. Esta composición transmite una conexión con el entorno de un restaurante chifa y genera familiaridad con nuestros usuarios.
 
-<div align="center">
-  <img src="../assets/images/supplywok-logo.png" width="300" height="300" alt="SupplyWok Logo">
-</div>
+![](../assets/images/supplywok-logo.png)
 
 **2. Branding:**
 
@@ -33,15 +31,11 @@ La tipografía que se ha decidido usar en nuestra plataforma son dos: **Poppins*
 
 - **Títulos:** Para los títulos se usará **Poppins** en pesos **Bold** o **SemiBold**, dependiendo del nivel jerárquico del texto. Esto permite darles la fuerza y relevancia necesarias.
 
-<div align="center">
-  <img src="../assets/images/poppins-example.png" alt="SupplyWok Poppins">
-</div>
+![](../assets/images/poppins-example.png)
 
 - **Párrafos o cuerpo del texto:** Se usará **Montserrat** en pesos variados como **Bold**, **Regular** o **Light**, dependiendo de la intención del texto. Esto asegura la legibilidad necesaria para los usuarios al momento de leer.
 
-<div align="center">
-  <img src="../assets/images/monserrat-example.png" alt="SupplyWok Montserrat">
-</div>
+![](../assets/images/monserrat-example.png)
 
 **4. Colors:**
 
@@ -53,9 +47,7 @@ La identidad visual de SupplyWok busca mantener una relación con el entorno de 
 - **Blanco (#FFFFFF):** Color neutro para mantener balance y aportar limpieza visual.
 - **Negro (#000000):** Color neutro para reforzar contraste y legibilidad.
 
-<div align="center">
-  <img src="../assets/images/paleta-colors.png" width="1000" height="200" alt="SupplyWok Colors">
-</div>
+![](../assets/images/paleta-colors.png)
 
 **5. Spacing:**
 
@@ -520,17 +512,13 @@ Los wireframes del Landing Page de SupplyWok representan la fase inicial de estr
 
 En la versión desktop, el wireframe prioriza una hero section amplia con el mensaje principal de la plataforma, acompañada por botones de acción visibles y una navegación superior persistente. A partir de esta cabecera, el contenido se organiza en secciones horizontales que presentan cómo funciona la plataforma, sus funcionalidades clave, los segmentos a los que atiende, los planes disponibles y la sección de preguntas frecuentes. Esta distribución aprovecha mejor el ancho de pantalla y facilita una lectura escaneable y ordenada.
 
-<p align="center">
-  <img src="../assets/images/figma/landingpage-desktop-wireframe.png" width="600px">
-</p>
+![](../assets/images/figma/landingpage-desktop-wireframe.png)
 
 #### Mobile
 
 En la versión mobile, la estructura se reorganiza en una sola columna, priorizando el contenido esencial y reduciendo el número de elementos visibles por bloque. La hero section conserva los mensajes y acciones principales, pero la navegación se compacta para facilitar la interacción táctil. Las secciones se apilan verticalmente y los llamados a la acción se mantienen visibles en puntos estratégicos para asegurar continuidad en el recorrido del usuario sin perder claridad.
 
-<p align="center">
-  <img src="../assets/images/figma/landingpage-mobile-wireframe.png" width="600px">
-</p>
+![](../assets/images/figma/landingpage-mobile-wireframe.png)
 
 ### 4.3.2. Landing Page Mock-up.
 
@@ -540,17 +528,13 @@ Los mock-ups finales del Landing Page de SupplyWok representan la consolidación
 
 En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del rojo institucional en botones y puntos de énfasis, combinado con fondos claros y bloques bien espaciados. La hero section destaca la propuesta de valor de SupplyWok y dirige la atención hacia los llamados a la acción. Las secciones posteriores organizan las funcionalidades, los beneficios por segmento y los planes con una estructura visual limpia que facilita la comprensión rápida del producto.
 
-<p align="center">
-  <img src="../assets/images/figma/landingpage-desktop-mockup.png" >
-</p>
+![](../assets/images/figma/landingpage-desktop-mockup.png)
 
 #### Mobile
 
 En la versión mobile del mock-up, la composición se adapta a pantallas reducidas manteniendo consistencia visual en color, tipografía y jerarquía de contenidos. Los elementos se apilan en una sola columna y los botones se dimensionan para interacción táctil. Esta adaptación busca que la propuesta comercial de SupplyWok siga siendo clara, navegable y atractiva en dispositivos móviles, sin sacrificar legibilidad ni orientación del usuario.
 
-<p align="center">
-  <img src="../assets/images/figma/landingpage-mobile-mockup.png" width="600px">
-</p>
+![](../assets/images/figma/landingpage-mobile-mockup.png)
 
 ## 4.4. Web Applications UX/UI Design.
 
@@ -797,39 +781,27 @@ Primero, refinamos la línea de tiempo original, eliminando eventos redundantes 
 
 Este contexto delimitado constituye el núcleo operativo para los restaurantes tipo chifa dentro de la plataforma Aurora. Su propósito principal es centralizar y automatizar el control de los insumos, transformando la gestión manual tradicional en un proceso preciso y basado en datos.
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD1.png" alt="SupplyWok System Context Diagram">
-</div>
+![](../assets/images/Bounded-context-cavnvas-DDD1.png)
 
 Este contexto delimitado actúa como el puente transaccional entre los restaurantes tipo chifa y sus proveedores dentro del ecosistema Aurora. Su objetivo fundamental es digitalizar y estructurar la coordinación de pedidos de insumos, reemplazando las vías de comunicación informales por un flujo de trabajo centralizado y rastreable en la plataforma.
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD2.png" alt="SupplyWok System Context Diagram">
-</div>
+![](../assets/images/Bounded-context-cavnvas-DDD2.png)
 
 Este contexto delimitado tiene como propósito supervisar las condiciones físicas críticas en las instalaciones del restaurante, específicamente en áreas vulnerables como la cocina y el almacén. Mediante la integración simulada de sensores IoT, el sistema monitorea variables ambientales clave de forma continua, tales como la temperatura y la humedad.
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD3.png" alt="SupplyWok System Context Diagram">
-</div>
+![](../assets/images/Bounded-context-cavnvas-DDD3.png)
 
 Este contexto delimitado está diseñado para centralizar la gestión de los proveedores, brindándoles las herramientas necesarias para optimizar su logística y planificación comercial. A través de este módulo, los proveedores obtienen visibilidad sobre la demanda futura de sus clientes, lo que les permite gestionar sus catálogos de insumos y realizar un seguimiento detallado del estado de los pedidos recibidos.
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD4.png" alt="SupplyWok System Context Diagram">
-</div>
+![](../assets/images/Bounded-context-cavnvas-DDD4.png)
 
 Este contexto delimitado representa la capa transversal de seguridad y administración comercial de la plataforma Aurora. Su propósito principal es proporcionar un entorno centralizado y seguro donde todos los usuarios puedan autenticarse, gestionar sus cuentas y recibir soporte técnico de manera eficiente.
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD5.png" alt="SupplyWok System Context Diagram">
-</div>
+![](../assets/images/Bounded-context-cavnvas-DDD5.png)
 
 Este contexto delimitado representa el núcleo operativo del restaurante chifa dentro de la plataforma Aurora. Su propósito principal es orquestar la comunicación crítica entre el salón y la cocina, asegurando que los pedidos se procesen con precisión, se monitoreen en tiempo real y se mantenga la integridad operativa.
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD6.png" alt="SupplyWok System Context Diagram">
-</div>
+![](../assets/images/Bounded-context-cavnvas-DDD6.png)
 
 aqui se encuentra el enlace de lucid chart del proceso:
 [lucid chart](https://lucid.app/lucidspark/5b28482f-d099-4d83-a08c-9b7af6d88474/edit?view_items=bz3RN-x7D4~0&page=0_0&invitationId=inv_b6c94e5b-c9dc-4932-9e69-f11cae2d319d)
@@ -849,6 +821,7 @@ El Container Diagram de SupplyWok muestra la descomposición de la solución en 
 La Landing Page cumple una función de presentación y conversión, guiando al visitante hacia el registro o inicio de sesión. La Single Page Application concentra la experiencia operativa principal en navegador, mientras que la Mobile Web App ofrece acceso adaptado a pantallas reducidas y tareas rápidas. Ambas aplicaciones consumen la SupplyWok API mediante comunicación JSON/HTTPS, delegando en el backend la lógica de negocio, persistencia y coordinación entre módulos. La API, a su vez, se conecta con la base de datos PostgreSQL para almacenar y consultar la información del dominio, y con Stripe para funciones relacionadas con pagos o suscripción.
 
 Este diagrama permite justificar las principales decisiones tecnológicas y evidencia una arquitectura desacoplada, donde la interfaz, la lógica de negocio y la persistencia mantienen responsabilidades diferenciadas.
+
 ![](../assets/images/supplywok-containers.png)
 
 ### 4.6.4. Software Architecture Components Diagrams.
@@ -867,25 +840,19 @@ La representación también evidencia la relación de estos componentes con la b
 
 En esta seccion se presentara y se explicara el diagrama de clases por cada Boundes Context
 
-<div align="center">
-  <img src="../assets/images/IMBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/IMBC.png)
 
 El **Inventory Management Bounded Context** es el encargado de gestionar los recursos de inventario de cada restaurante, incluyendo el control de stock, niveles mínimos y movimientos de entrada y salida.
 
 El **InventoryService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza el **InventoryRepository** para la persistencia de datos y el **InventoryItem** como entidad principal del dominio, encargada de representar cada insumo almacenado en el Inventario del restaurante.El **StockMovement** representa las modificaciones realizadas al stock de cada ítem, permitiendo llevar un registro detallado de entradas, salidas y ajustes.
 
-<div align="center">
-  <img src="../assets/images/S&PBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/S&PBC.png)
 
 El **Supply and Purchasing Bounded Context** es el encargado de gestionar las órdenes de compra realizadas por cada restaurante, incluyendo el registro, cancelación y seguimiento de los pedidos.
 
 El **PurchaseOrderService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza el **PurchaseOrderRepository** para la persistencia de datos y el **PurchaseOrder** como entidad principal del dominio, encargada de representar toda la información de una orden de compra de insumos del restaurante. Además, el **OrderItem** encapsula las especificaciones de cada producto dentro de la orden, como la cantidad solicitada y el precio unitario, permitiendo un control detallado de cada pedido.
 
-<div align="center">
-  <img src="../assets/images/O&IBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/O&IBC.png)
 
 El **Operational Monitoring and IoT Alerts Bounded Context** es el encargado de gestionar la información recopilada por los sensores del restaurante, así como la configuración y generación de alertas ante condiciones fuera de los rangos establecidos.
 
@@ -893,9 +860,7 @@ El **SensorService** actúa como capa de aplicación, coordinando las operacione
 
 Además, emplea la entidad **Sensor**, junto con **SensorReading**, para representar la información capturada por los sensores. Por otro lado, la entidad **Alert** modela las alertas generadas cuando una medición supera los límites configurados.
 
-<div align="center">
-  <img src="../assets/images/RMBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/RMBC.png)
 
 El **Restaurant Management Bounded Context** es el encargado de gestionar todo lo relacionado con la operación del establecimiento, incluyendo la administración de mesas y la gestión de comandas en cada restaurante.
 
@@ -903,9 +868,7 @@ Los servicios **ComandaService**, **RestaurantService** y **TableService** actú
 
 Además, se emplean las entidades **Table**, que representa una mesa dentro del restaurante; **Comanda** y **ComandaItem**, que modelan las órdenes de consumo; y **Restaurant**, que encapsula la información principal de cada restaurante.
 
-<div align="center">
-  <img src="../assets/images/S&OBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/S&OBC.png)
 
 El **Supplier Management & Operations Bounded Context** es el encargado de gestionar la información de los proveedores, sus catálogos de productos y las operaciones relacionadas con el cumplimiento de pedidos.
 
@@ -917,9 +880,7 @@ Además, el **DemandForecastService** se encarga de generar proyecciones de dema
 
 Finalmente, el **OrderFulfillmentService** gestiona el proceso de entrega de pedidos mediante la entidad **OrderFulfillment**, permitiendo hacer seguimiento al estado de los envíos desde su despacho hasta su entrega final.
 
-<div align="center">
-  <img src="../assets/images/I&ABC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/I&ABC.png)
 
 El **Identity & Access Bounded Context** es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas de usuario en el sistema.
 
@@ -927,9 +888,7 @@ Los servicios **AuthService** y **TokenService** actúan como capa de aplicació
 
 La entidad **User** encapsula toda la información relevante de un usuario en la plataforma, como su correo electrónico, contraseña (almacenada de forma segura) y su **Role**, el cual define sus permisos dentro del sistema.
 
-<div align="center">
-  <img src="../assets/images/SBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/SBC.png)
 
 El **Shared Bounded Context** contiene Value Objects comunes que son reutilizados por múltiples bounded contexts del sistema, evitando duplicación y promoviendo consistencia en el modelo.
 

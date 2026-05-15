@@ -132,9 +132,7 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 #### Segmento #1: Dueños de restaurantes chifa y administradores
 - **Entrevista #1**
 
-<p align="center">
-  <img src="../assets/images/interviews/owner-interview1.png" width="500">
-</p>
+![](../assets/images/interviews/owner-interview1.png)
 
 **Resumen de entrevista:**
 
@@ -157,9 +155,8 @@ Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, g
 <sub>*Tabla 5. Entrevista 1*</sub>
 
 - **Entrevista #2**
-<p align="center">
-  <img src="../assets/images/interviews/owner-interview2.png" width="500" alt="entrevista-owners-2">
-</p>
+
+![](../assets/images/interviews/owner-interview2.png)
 
 **Resumen de entrevista:**
 
@@ -180,10 +177,10 @@ El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Call
 </div>
 
 <sub>*Tabla 6. Entrevista 2*</sub>
-- **Entrevista #2**
-<p align="center">
-  <img src="../assets/images/interviews/owner-interview3.png" width="500" alt="entrevista-owners-3">
-</p>
+
+- **Entrevista #3**
+
+![](../assets/images/interviews/owner-interview3.png)
 
 **Resumen de entrevista:**
 
@@ -209,9 +206,7 @@ La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 1
 #### Segmento #2: Proveedores de insumos para restaurantes
 - **Entrevista #1**
 
-<p align="center">
-  <img src="../assets/images/interviews/supplier-interview1.png" width="500">
-</p>
+![](../assets/images/interviews/supplier-interview1.png)
 
 **Resumen de entrevista:**
 
@@ -240,9 +235,7 @@ El análisis de las entrevistas realizadas permite identificar patrones claros e
 
 ## Segmento 1: Dueños de restaurantes chifa y administradores
 
-<p align="center">
-    <img src="../assets/images/analytics-owners.png" width="800">
-</p>
+![](../assets/images/analytics-owners.png)
 
 Este segmento agrupa a propietarios con amplia experiencia (entre 10 y 22 años en los casos entrevistados), quienes gestionan sus negocios de manera empírica.
 
@@ -272,9 +265,7 @@ Se identifican dos subgrupos:
 
 ## Segmento 2: Proveedores de insumos
 
-<p align="center">
-    <img src="../assets/images/analytics-suppliers.png" width="800">
-</p>
+![](../assets/images/analytics-suppliers.png)
 
 Este segmento incluye proveedores con experiencia (ej. 7 años), que operan en entornos de alta inmediatez.
 
@@ -318,17 +309,13 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
-<p align="center">
-  <img src="../assets/images/huanzhang-userpersona.png" width="500">
-</p>
+![](../assets/images/huanzhang-userpersona.png)
 
 <sub>*Ilustración. User Persona dueños de restaurantes chifa y administradores*</sub>
 
 - **Segmento objetivo 2: Proveedores de insumos para restaurantes**
 
-<p align="center">
-  <img src="../assets/images/marcovaldivia-userpersona.png" width="500">
-</p><br>
+![](../assets/images/marcovaldivia-userpersona.png)
 
 <sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
 
@@ -376,17 +363,13 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
-<p align="center">
-  <img src="../assets/images/map-supplywok1.png" width="500">
-</p>
+![](../assets/images/map-supplywok1.png)
 
 <sub>*Ilustración. User Journey Mapping - Segmento 1*</sub><br></br>
 
 - **Segmento objetivo 2: Proveedores de insumos para restaurantes**
 
-<p align="center">
-  <img src="../assets/images/map-supplywok2.png" width="500">
-</p>
+![](../assets/images/map-supplywok2.png)
 
 <sub>*Ilustración. User Journey Mapping - Segmento 2*</sub><br></br>
 
@@ -394,17 +377,13 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
-<p align="center">
-  <img src="../assets/images/persona-empathy-map.png" width="500">
-</p>
+![](../assets/images/persona-empathy-map.png)
 
 <sub>*Ilustración. Empathy Map - Segmento 1*</sub><br></br>
 
 - **Segmento objetivo 2: Proveedores de insumos para restaurantes**
 
-<p align="center">
-  <img src="../assets/images/persona-empathy-map2.png" width="500">
-</p>
+![](../assets/images/persona-empathy-map2.png)
 
 <sub>*Ilustración. Empathy Map - Segmento 2*</sub><br></br>
 
@@ -419,23 +398,21 @@ A través de esta aproximación de alto nivel, el equipo exploró el panorama de
 
 En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. 
 
-<p align="center">
-  <img src="../assets/images/step1bigevent.png" width="500">
-</p>
+![](../assets/images/step1bigevent.png)
 
 #### Step 2: Structured Organization
 
 Después de listar los eventos desestructurados, el equipo los organiza en una línea de tiempo narrativa, identificando las relaciones de causalidad entre ellos. Se agrupan eventos relacionados y se identifican patrones o flujos comunes. En esta fase se busca entender cómo los eventos interactúan entre sí y cómo se relacionan con los procesos del negocio.
 
-<img src="../assets/images/step2e01.png" width="500">
+![](../assets/images/step2e01.png)
 
-<img src="../assets/images/step2e02.png" width="500">
+![](../assets/images/step2e02.png)
 
-<img src="../assets/images/step2e03.png" width="500">
+![](../assets/images/step2e03.png)
 
-<img src="../assets/images/step2e04.png" width="500">
+![](../assets/images/step2e04.png)
 
-<img src="../assets/images/step2e05.png" width="500">
+![](../assets/images/step2e05.png)
 
 ## 2.5. Ubiquitous Language.
 
