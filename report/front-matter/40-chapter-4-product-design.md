@@ -555,18 +555,18 @@ En escritorio, los wireframes muestran una estructura con sidebar, header superi
 Los wireflows de SupplyWok muestran cómo cambian las pantallas wireframe a medida que el usuario avanza en un flujo concreto. Cada wireflow se construye a partir de un user goal y representa la secuencia de pasos necesarios para alcanzarlo, incluyendo decisiones intermedias y estados relevantes de la interfaz.
 
 **User Goal 1: Registrar y controlar insumos del restaurante.**  
-Este wireflow representa el recorrido del usuario restaurante desde el acceso al Dashboard hasta el módulo de Inventario, donde puede registrar un nuevo insumo, definir unidad de medida, stock mínimo y proveedor asociado. El flujo permite validar que la pantalla principal, la tabla de inventario y el formulario de creación estén conectados de manera lógica y con mínima fricción.
+El usuario accede a la aplicación y, al no estar logueado, puede optar por crear una nueva cuenta o iniciar sesión. Si selecciona “Crear cuenta”, se abre un formulario donde debe ingresar su nombre, apellidos, correo electrónico y contraseña. En caso de que falte algún campo, la aplicación mostrará un mensaje de advertencia hasta que se completen los datos correctamente. Una vez registrado, se muestra una confirmación y el usuario es redirigido al mapa principal. Si ya posee una cuenta, selecciona “Iniciar sesión” e ingresa sus credenciales. Si estas son incorrectas, el sistema mostrará un mensaje de error. Tras un inicio exitoso, el usuario accede a la pantalla principal con el mapa interactivo y las funciones disponibles.
 
 ![wireflow1](../assets/images/figma/web-app-mobile-wireflow1.jpeg) 
 
 
 **User Goal 2: Crear y dar seguimiento a un pedido de abastecimiento.**  
-Este wireflow muestra cómo el restaurante inicia un pedido desde la sección de Pedidos, selecciona proveedor, agrega productos y revisa el estado del pedido una vez registrado. La secuencia evidencia una organización paso a paso que reduce errores y favorece la trazabilidad de la orden.
+Este wireflow muestra cómo el restaurante inicia un pedido desde la sección de Pedidos, selecciona proveedor, agrega productos y revisa el estado del pedido una vez registrado. Si el usuario no rellena los campos adecuadamente, se muestra un mensaje de error. La secuencia evidencia una organización paso a paso que reduce errores y favorece la trazabilidad de la orden.
 
 ![wireflow](../assets/images/figma/web-app-mobile-wireflow2.jpeg)
 
 **User Goal 3: Gestionar comandas y operación interna del restaurante.**  
-Este wireflow representa el flujo mediante el cual el personal del restaurante registra una comanda, la asocia a una mesa y hace seguimiento a su avance dentro de la operación interna. La estructura permite visualizar con claridad los cambios de estado entre cola, preparación y listo.
+Este wireflow representa el flujo mediante el cual el personal del restaurante registra una comanda, la asocia a una mesa y hace seguimiento a su avance dentro de la operación interna. Empieza desde el dashboard a la pagina de comandas, luego a generar nuevo ticket y dependiendo el tipo de ticket se genera un formulario para crear la solicitud de la comanda, se rellena la solicitud y luego se envia y actualiza.
 
 ![wireflow3](../assets/images/figma/web-app-mobile-wireflow3.jpeg)
 **User Goal 4: Gestionar pedidos recibidos y catálogo del proveedor.**  
