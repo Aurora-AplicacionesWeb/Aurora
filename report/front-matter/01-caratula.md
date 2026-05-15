@@ -4,19 +4,33 @@
 <h1 align="center">
 Universidad Peruana de Ciencias Aplicadas (UPC)
 <h3 align="center">
-1ASI0730 - Aplicaciones Web<br><br>
-NRC 12206<br><br>
-Profesor<br>
-Angel Augusto Velasquez Nuñez<br><br>
-Informe de Trabajo Final<br><br>
+Carrera: Ingeniería de Software
 
-Startup: AURORA<br><br>
+
+Ciclo: 2026-10
+
+
+1ASI0730 - Aplicaciones Web
+
+
+NRC: 12206
+
+
+Profesor: Angel Augusto Velasquez Nuñez
+
+
+Informe de Trabajo Final
+
+
+Startup: AURORA
+
+
 Producto: SupplyWok
 </h3>
 
 <div align="center">
 <h2>
-Integrantes<br><br>
+Integrantes
 
 
 | Código | Alumno     |
@@ -28,5 +42,5 @@ Integrantes<br><br>
 | U202410837                    | Ayasta Martel Zayd Jaffar          |
 
 
-Abril 2026
+Mayo 2026
 </div>

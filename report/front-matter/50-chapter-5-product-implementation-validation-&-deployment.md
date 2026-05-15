@@ -194,7 +194,7 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
   C# con .NET 10.
 
 - **Repositorio GitHub:**  
-  [https://github.com/G4-Aplicaciones-Web/backend](https://github.com/G4-Aplicaciones-Web/backend)
+  [https://github.com/Aurora-AplicacionesWeb/SupplyWok-BackEnd](https://github.com/Aurora-AplicacionesWeb/SupplyWok-BackEnd)
 
 - **Plataforma de despliegue:**  
   Azure App Service.
@@ -248,7 +248,7 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
 | **Time** | 15:00 |
 | **Location** | Virtual, Discord |
 | **Prepared by** | Zayd Ayasta, Juan Wang |
-| **Attendees** | Marcelo Cuadros, Alexandra Meza, Joan Payano |
+| **Attendees** | Marcelo Cuadros, Mathias Sanchez, Miguel Jara |
 | **Sprint n-1 Retrospective Summary** | *Siendo el primer sprint, este campo no es aplicable.* |
 | **Sprint 1 Goal** | Nuestro enfoque en este sprint es la Landing Page que informará de nuestra plataforma, por lo que la desarrollaremos e implementaremos para que sea accesible y responsiva. Con la información que brindamos sobre nuestro producto esperamos ganarnos la confianza de los que visiten la página y que empiecen a usar nuestro sistema. Se confirmará cuando esté en producción y se pueda usar el enlace de la página. |
 | **Sprint n Velocity** | Límite de **35 SP** |
@@ -302,18 +302,6 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-Se presentaran las capturas que muestran el despliegue de la Landing Page en GitHub Pages en el navegador, en este caso en el navegador de Microsoft Edge.
-
-![first](../assets/images/deploy-steps/prove-1.png)
-
-Aqui se puede diferenciar el funcionamiento de los distintos idiomas en los que se encuentra disponible la Landing Page, en este caso chino.
-
-![second](../assets/images/deploy-steps/prove-2.png)
-
-Aqui esta el enlace a la pagina desplegada: [SupplyWok landing page](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
-
-#### 5.2.1.5. Execution Evidence for Sprint Review.
-
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
 | SupplyWok-Landing-Page | develop | 1eca1eb | feat: css hero section and CTA. | 25 de Abril, 2026 |
@@ -342,6 +330,18 @@ Esta seria la captura antes de empezar el sprint con las task creadas en jira y 
 
 Esta seria la captura de como quedo el board de jira al finalizar el sprint:
 ![jira-prove-2](../assets/images/jira-evidence-2.png)
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Se presentaran las capturas que muestran el despliegue de la Landing Page en GitHub Pages en el navegador, en este caso en el navegador de Microsoft Edge.
+
+![first](../assets/images/deploy-steps/prove-1.png)
+
+Aqui se puede diferenciar el funcionamiento de los distintos idiomas en los que se encuentra disponible la Landing Page, en este caso chino.
+
+![second](../assets/images/deploy-steps/prove-2.png)
+
+Aqui esta el enlace a la pagina desplegada: [SupplyWok landing page](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
