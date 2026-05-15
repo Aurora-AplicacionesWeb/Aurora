@@ -471,24 +471,75 @@ Durante el Sprint 2, el equipo se enfocó principalmente en el desarrollo del fr
 
 En este Sprint se logró desarrollar gran parte del frontend de la plataforma SupplyWok. Se integraron funcionalidades como el inicio de sesión, el dashboard general, los módulos de inventario, pedidos, comandas, sensores y alertas, junto con sus funcionalidades básicas principales.
 
-![first](../assets/images/deploy-steps/prove-1.png)
+Link de la plataforma de SupplyWok: ![]()
 
-![second](../assets/images/deploy-steps/prove-2.png)
+![first](../assets/images/frontend/login_screen.png)
 
-![third](../assets/images/deploy-steps/prove-3.png)
+![first](../assets/images/frontend/dashboard_screen.png)
 
-![fourth](../assets/images/deploy-steps/prove-4.png)
+![first](../assets/images/frontend/inventory_screen.png)
 
-![fifth](../assets/images/deploy-steps/prove-5.png)
+![first](../assets/images/frontend/create_inventoy_item_screen.png)
+
+![first](../assets/images/frontend/comandas_screen.png)
+
+![first](../assets/images/frontend/create_comanda_screen.png)
+
+![first](../assets/images/frontend/alerts_screen.png)
+
+![first](../assets/images/frontend/orders_screen.png)
+
+![first](../assets/images/frontend/tables_and_occupancy_screen.png)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Como la Landing Page es una página estática, no fue necesario durante el Sprint el uso de servicios externos ni conexiones a APIs, por lo cual no hay generación ni evidencia de documentación técnica relacionada.
+Para esta sección se diran los servicios que se utilizaron para simular los json que devolveria nuestro backend, los cuales se implementaron en dos servicios, en mockapi y en my json server.
+
+![](../assets/images/mockapi-evidence.png)
+
+![](../assets/images/myjsonserver-evidence.png)
+
+Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+En esta sección mostramos como se realiso el deploy del plataforma junto con el json server.
+
+**Deploy del Json Server**
+
+1. Accedemos a https://my-json-server.typicode.com/ y seguimos los pasos para publicar el Json Server
+
+![](../assets/images/deploy-steps/deploy_db.png)
+
+2. Creamos un nuevo repositorio y subimos el archivo Json.
+
+![](../assets/images/deploy-steps/deploy_db_1.jpg)
+
+3. Accedemos al enlace de nuestro Json server de forma  https://my-json-server.typicode.com/< your-username >/< your-repo >. 
+
+![](../assets/images/myjsonserver-evidence.png)
+
+**Deploy de la Plataforma en Firebase**
+
+1. Accedemos a https://firebase.google.com/ y accedemos con nuestra cuenta. Despues creamos nuestro proyecto.
+
+![](../assets/images/deploy-steps/deploy_firebase.png)
+
+2. Usamos el cmd de Jetbrains para deployar nuestro proyecto y acceder al enlace publico.
+
+![](../assets/images/deploy-steps/deploy_firebase_1.png)
+
+![](../assets/images/deploy-steps/deploy_firebase_2.png)
+Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
+[Frontend Deployment]()
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 En este apartado se visualiza todos los graficos que representan la participacion de cada integrante en el repositorio del fronted.
+
+![Team Collaboration](../assets/images/deploy-steps/participation_2.png)
+
+![Team Contribution 1](../assets/images/deploy-steps/contributions_1_2.png)
+
+![Team Contribution 2](../assets/images/deploy-steps/contributions_2_2.png)
 
