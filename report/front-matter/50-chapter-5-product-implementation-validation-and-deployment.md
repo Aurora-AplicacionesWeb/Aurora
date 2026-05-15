@@ -1,7 +1,7 @@
 # Capítulo V: Product Implementation, Validation & Deployment.
 
 ## 5.1. Software Configuration Management. 
-Para tener consistencia y seguimiento de el desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El metodo cubre la configuracion del entorno de desarrollo, la gestion del codigo y el despliegue, alineado a las buenas prácticas de ingenieria de software y metodologias ágiles.
+Para tener consistencia y seguimiento del desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El metodo cubre la configuracion del entorno de desarrollo, la gestion del codigo y el despliegue, alineado a las buenas prácticas de ingenieria de software y metodologias ágiles.
 ### 5.1.1. Software Development Environment Configuration. 
 Para facilitar la colaboración del equipo en todas las actividades del ciclo de vida de desarrollo de SupplyWok, se ha definido un entorno de desarrollo común. Este entorno está compuesto por herramientas especializadas para la gestión del proyecto, diseño UX/UI, modelado, desarrollo, pruebas, documentación y despliegue. La selección de estas herramientas se basa en criterios de eficiencia, compatibilidad con tecnologías open-source (Vue + C#), y alineación con prácticas recomendadas de la industria.
 |        Categoría        |      Herramienta      |                                               Propósito                                               |                                      Tipo de acceso/enlace                                      |
@@ -216,13 +216,12 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
   [https://github.com/Aurora-AplicacionesWeb/SupplyWok-FrontEnd](https://github.com/Aurora-AplicacionesWeb/SupplyWok-FrontEnd)
 
 - **Plataforma de despliegue:**  
-  Vercel.
+  Firebase.
 
 - **Método de despliegue:**  
   - Vue.js se compila con `npm run build` para generar los archivos estáticos de producción.  
   - La rama `main` sirve como fuente para el despliegue.  
-  - Vercel detecta automáticamente los cambios en `main` y publica la nueva versión del frontend.  
-  - El archivo de configuración de producción incluirá la URL pública del backend para permitir integración total.
+  - Firebase debe crearse con cada modificación para que esté actualizado con el repositorio.  
 
 ---
 
@@ -323,9 +322,9 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
 | SupplyWok-Landing-Page | develop | 3452838 | Merge branch 'develop' of https://github.com/Aurora-AplicacionesWeb/SupplyWok-Landing-Page into develop | 27 de Abril, 2026 |
 
 Destacar que el commit sin commit id es debido a que es un PR que se hace desde un fork del repositorio.
-Tambien se añadira evidencia del figma como pruebas de colaboración en el sprint.
+También se añadirá evidencia del Figma como pruebas de colaboración en el sprint.
 
-Esta seria la captura antes de empezar el sprint con las task creadas en jira y listas para asignarse a los miembros respectivos:
+Esta sería la captura antes de empezar el sprint con las task creadas en jira y listas para asignarse a los miembros respectivos:
 ![jira-prove-1](../assets/images/jira-evidence.png)
 
 Esta seria la captura de como quedo el board de jira al finalizar el sprint:
@@ -338,31 +337,31 @@ Se presentarán las capturas que muestran el despliegue de la Landing Page en Gi
 ![hero-section](../assets/images/deploy-steps/prove-1.png)
 *Figura: Hero Section de la Landing Page con propuesta de valor clara.*
 
-![features-section](../assets/images/deploy-steps/prove-features.png)
+![features-section](../assets/images/deploy-steps/prove-2.png)
 *Figura: Sección de características principales resaltando beneficios para restaurantes.*
 
-![i18n-support](../assets/images/deploy-steps/prove-2.png)
+![i18n-support](../assets/images/deploy-steps/prove-3.png)
 *Figura: Funcionamiento del sistema de internacionalización (i18n) en idioma chino.*
 
-![plans-section](../assets/images/deploy-steps/prove-plans.png)
+![plans-section](../assets/images/deploy-steps/prove-4.png)
 *Figura: Visualización de planes de suscripción y botones de acción (CTA).*
 
-![footer-section](../assets/images/deploy-steps/prove-footer.png)
+![footer-section](../assets/images/deploy-steps/prove-5.png)
 *Figura: Footer con información de contacto, redes sociales y navegación secundaria.*
 
 Aquí está el enlace a la página desplegada: [SupplyWok landing page](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Como la Landing Page es una página estática, no fue necesario durante el Sprint el uso de servicios externos ni conexiones a APIs, por lo cual no hay generación ni evidencia de documentación técnica relacionada.
+Como la Landing Page es una página estática, no fue necesario durante el Sprint el uso de servicios externos ni conexiones a API's, por lo cual no hay generación ni evidencia de documentación técnica relacionada.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-La evidencia del despliegue de la Landing Page durante el Sprint se mostrara a continuación, el despliegue se realizara en GitHub Pages.
+La evidencia del despliegue de la Landing Page durante el Sprint se mostrará a continuación, el despliegue se realizará en GitHub Pages.
 
 ![first-step](../assets/images/deploy-steps/step-1.png)
 
-Revisamos que el repositorio este en publico:
+Revisamos que el repositorio esté en público:
 
 ![second-step](../assets/images/deploy-steps/step-2.png)
 
@@ -390,7 +389,7 @@ En el Sprint 2, como equipo nos centramos en el desarrollo del frontend de Suppl
 
 | **Sprint #** | 2 |
 |---|---|
-| **Date** | 08-05-2026 |
+| **Date** | 10-05-2026 |
 | **Time** | 13:00 |
 | **Location** | Virtual, Discord |
 | **Prepared by** | Zayd Ayasta, Juan Wang |
@@ -471,57 +470,87 @@ Durante el Sprint 2, el equipo se enfocó principalmente en el desarrollo del fr
 
 En este Sprint se logró desarrollar gran parte del frontend de la plataforma SupplyWok. Se integraron funcionalidades como el inicio de sesión, el dashboard general, los módulos de inventario, pedidos, comandas, sensores y alertas, junto con sus funcionalidades básicas principales.
 
-Link de la plataforma de SupplyWok: ![]()
+Link de la plataforma de SupplyWok: https://supplywok.web.app/
 
-![first](../assets/images/frontend/login_screen.png)
+![first](../assets/images/execution-evidence/ec-login.png)
 
-![first](../assets/images/frontend/dashboard_screen.png)
+![first](../assets/images/execution-evidence/ec-dashboard.png)
 
-![first](../assets/images/frontend/inventory_screen.png)
+![first](../assets/images/execution-evidence/ec-inventory.png)
 
-![first](../assets/images/frontend/create_inventoy_item_screen.png)
+![first](../assets/images/execution-evidence/ec-orders.png)
 
-![first](../assets/images/frontend/comandas_screen.png)
+![first](../assets/images/execution-evidence/ec-kitchen-tickets.png)
 
-![first](../assets/images/frontend/create_comanda_screen.png)
+![first](../assets/images/execution-evidence/ec-create-kitchen-tickets.png)
 
-![first](../assets/images/frontend/alerts_screen.png)
+![first](../assets/images/execution-evidence/ec-suppliers.png)
 
-![first](../assets/images/frontend/orders_screen.png)
+![first](../assets/images/execution-evidence/ec-tables-and-occupancy.png)
 
-![first](../assets/images/frontend/tables_and_occupancy_screen.png)
+![first](../assets/images/execution-evidence/ec-add-table.png)
+
+![first](../assets/images/execution-evidence/ec-alerts.png)
+
+![first](../assets/images/execution-evidence/ec-reports.png)
+
+![first](../assets/images/execution-evidence/ec-configuration.png)
+
+![first](../assets/images/execution-evidence/ec-subscription.png)
+
+![first](../assets/images/execution-evidence/ec-suppliers-dashboard.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-orders.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-my-clients.png)
+
+![first](../assets/images/execution-evidence/ec-delivery-planning.png)
+
+![first](../assets/images/execution-evidence/ec-demand-forecast.png)
+
+![first](../assets/images/execution-evidence/ec-product-catalog.png)
+
+![first](../assets/images/execution-evidence/ec-new-product-catalog.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-alerts.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-configuration.png)
+
+![first](../assets/images/execution-evidence/ec-supplier-subscription.png)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Para esta sección se diran los servicios que se utilizaron para simular los json que devolveria nuestro backend, los cuales se implementaron en dos servicios, en mockapi y en my json server.
+Para esta sección se dirán los servicios que se utilizaron para simular los json que devolvería nuestro backend, los cuales se implementaron en dos servicios, en mockapi y en my json server.
 
 ![](../assets/images/mockapi-evidence.png)
 
-![](../assets/images/myjsonserver-evidence.png)
+![Mathias](../assets/images/mathias-myjson.png)
 
-Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
+![Mathias](../assets/images/mathias-myjson2.png)
+
+Estos implementaron endpoints para manejar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-En esta sección mostramos como se realiso el deploy del plataforma junto con el json server.
+En esta sección mostramos como se realizó el deploy de la plataforma junto con el json server.
 
 **Deploy del Json Server**
 
 1. Accedemos a https://my-json-server.typicode.com/ y seguimos los pasos para publicar el Json Server
 
-![deploy step](../assets/images/deploy-steps/deploy_db.png)
+![](../assets/images/deploy-steps/deploy_db.png)
 
 2. Creamos un nuevo repositorio y subimos el archivo Json.
 
-![](../assets/images/deploy-steps/deploy_db_1.png)
+![](../assets/images/deploy-steps/deploy_db_1.jpg)
 
 3. Accedemos al enlace de nuestro Json server de forma  https://my-json-server.typicode.com/< your-username >/< your-repo >. 
 
-![](../assets/images/deploy-steps/myjsonserver-evidence.png)
+![](../assets/images/myjsonserver-evidence.png)
 
 **Deploy de la Plataforma en Firebase**
 
-1. Accedemos a https://firebase.google.com/ y accedemos con nuestra cuenta. Despues creamos nuestro proyecto.
+1. Accedemos a https://firebase.google.com/ y accedemos con nuestra cuenta. Después creamos nuestro proyecto.
 
 ![](../assets/images/deploy-steps/deploy_firebase.png)
 
@@ -542,7 +571,7 @@ Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros c
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-En este apartado se visualiza todos los graficos que representan la participacion de cada integrante en el repositorio del fronted.
+En este apartado se visualiza todos los gráficos que representan la participación de cada integrante en el repositorio del fronted.
 
 ![Team Collaboration](../assets/images/deploy-steps/participation_2.png)
 
