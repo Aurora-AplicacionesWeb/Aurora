@@ -27,3 +27,4 @@
 | 0.1.10  | 25/04/2026 | Sanchez Espinoza Mathias Enrique | Event storming y Bounded Context                                         |
 | 0.1.11  | 25/04/2026 | Jara Espinoza Miguel Angel       | Problem Statement Correction                                             |
 | 0.1.12  | 25/04/2026 | Jara Espinoza Miguel Angel       | Assumptions Correction                                             |
+| 0.2.0   | 14/05/2026 | todos                            | Format and C4 Diagrams corrections                                             |
