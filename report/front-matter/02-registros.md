@@ -29,3 +29,4 @@
 | 0.1.12  | 25/04/2026 | Jara Espinoza Miguel Angel       | Assumptions Correction                                                   |
 | 0.2.0   | 14/05/2026 | todos                            | Format and C4 Diagrams corrections                                       |
 | 0.2.1   | 15/05/2026 | Jara Espinoza Miguel Angel       | Lean UX Assumptions                                                      |
+| 0.2.2   | 15/05/2026 | Jara Espinoza Miguel Angel       | Lean UX Canvas                                                           |
