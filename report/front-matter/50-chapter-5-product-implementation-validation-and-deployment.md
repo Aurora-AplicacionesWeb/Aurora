@@ -509,15 +509,15 @@ En esta sección mostramos como se realiso el deploy del plataforma junto con el
 
 1. Accedemos a https://my-json-server.typicode.com/ y seguimos los pasos para publicar el Json Server
 
-![](../assets/images/deploy-steps/deploy_db.png)
+![deploy step](../assets/images/deploy-steps/deploy_db.png)
 
 2. Creamos un nuevo repositorio y subimos el archivo Json.
 
-![](../assets/images/deploy-steps/deploy_db_1.jpg)
+![](../assets/images/deploy-steps/deploy_db_1.png)
 
 3. Accedemos al enlace de nuestro Json server de forma  https://my-json-server.typicode.com/< your-username >/< your-repo >. 
 
-![](../assets/images/myjsonserver-evidence.png)
+![](../assets/images/deploy-steps/myjsonserver-evidence.png)
 
 **Deploy de la Plataforma en Firebase**
 
@@ -525,13 +525,20 @@ En esta sección mostramos como se realiso el deploy del plataforma junto con el
 
 ![](../assets/images/deploy-steps/deploy_firebase.png)
 
-2. Usamos el cmd de Jetbrains para deployar nuestro proyecto y acceder al enlace publico.
+2. Luego de instalar e iniciar sesión en firebase la terminal de Jetbrains para construir, inicializar y deployar nuestro proyecto, para posteriormente acceder al enlace publico.
 
 ![](../assets/images/deploy-steps/deploy_firebase_1.png)
 
 ![](../assets/images/deploy-steps/deploy_firebase_2.png)
+
+![](../assets/images/deploy-steps/deploy_firebase_3.png)
+
+![](../assets/images/deploy-steps/deploy_firebase_4.png)
+
+![](../assets/images/deploy-steps/deploy_firebase_build.png)
+
 Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
-[Frontend Deployment]()
+[https://supplywok.web.app/](https://supplywok.web.app/)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 

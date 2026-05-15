@@ -141,14 +141,14 @@ Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, g
 <br>
 <div align="center">
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Juan Sung Jau Wang Chen            |
-| **Entrevistado**  | Ana Chen                |
-| **Edad**          | 50 años                                    |
-| **Ubicacion**     | La Perla, Callao                             |
-| **Duración / Empieza en**      | 7:38 minutos / 0:19                           |
-| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDQHa7uwWb0SpGufV03qReqAdJZ63c91J2peSXSFxW63_U?e=CLpwrJ) |
+| Detalle                  | Información                                                                                                                                                                                                                                                                                                                                                                                         |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistador**        | Juan Sung Jau Wang Chen                                                                                                                                                                                                                                                                                                                                                                             |
+| **Entrevistado**         | Ana Chen                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Edad**                 | 50 años                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Ubicacion**            | La Perla, Callao                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Duración / Empieza en** | 7:38 minutos / 0:00                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Enlace**               | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQCiHWZg6xqsSI1Y7mMb1NweAfJGxL80w4g55N_7TItUyIA?e=j8mWRg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NC44NX19) |
 
 </div>
 
@@ -165,14 +165,14 @@ El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Call
 <br>
 <div align="center">
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Juan Sung Jau Wang Chen            |
-| **Entrevistado**  | Weiquan Wang               |
-| **Edad**          | 55 años                                    |
-| **Ubicacion**     | La Perla, Callao                             |
-| **Duración / Empieza en**      | 8:46 minutos / 0:20                 |
-| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDEAnd2qgv5RrhlW47RT0uwAeMEyqi6KVvTeeECfeDlJLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ftyrCl) |
+| Detalle          | Información                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Entrevistado**  | Weiquan Wang                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Edad**          | 55 años                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Ubicacion**     | La Perla, Callao                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Duración / Empieza en**      | 8:46 minutos / 7:39                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQCiHWZg6xqsSI1Y7mMb1NweAfJGxL80w4g55N_7TItUyIA?e=uHil6j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDU5LjI5fX0%3D) |
 
 </div>
 
@@ -189,14 +189,14 @@ La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 1
 <br>
 <div align="center">
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Juan Sung Jau Wang Chen            |
-| **Entrevistado**  | Lily 蔡                |
-| **Edad**          | 54 años                |
-| **Ubicacion**     | La Perla, Callao       |
-| **Duración / Empieza en**      | 12:49 minutos / 0:36  |
-| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/personal/u202318609_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318609%5Fupc%5Fedu%5Fpe%2FDocuments%2Fentrevista3%2Downers%201%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec4f1f5f8%2Db63d%2D4413%2D84a5%2Dd4920163ad74) |
+| Detalle          | Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Entrevistado**  | Lily 蔡                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Edad**          | 54 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Ubicacion**     | La Perla, Callao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Duración / Empieza en**      | 12:49 minutos / 16:25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQCiHWZg6xqsSI1Y7mMb1NweAfJGxL80w4g55N_7TItUyIA?e=S8AGC9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6OTg1LjMxfX0%3D) |
 
 </div>
 
@@ -214,14 +214,14 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 <br>
 <div align="center">
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Juan Sung Jau Wang Chen            |
-| **Entrevistado**  | Alberto Copa Villa                |
-| **Edad**          | 37 años                                    |
-| **Ubicacion**     | La Perla, Callao                             |
-| **Duración / Empieza en**      | 5:26 minutos / 0:31                           |
-| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQAz-yZWPjdaTYEhhCMiX-lwAbe6dgRCmz--mI4NhxnP9zk?e=bCvRPf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| Detalle          | Información                                                                                                                                                                                                                                                                                                                               |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen                                                                                                                                                                                                                                                                                                                   |
+| **Entrevistado**  | Alberto Copa Villa                                                                                                                                                                                                                                                                                                                        |
+| **Edad**          | 37 años                                                                                                                                                                                                                                                                                                                                   |
+| **Ubicacion**     | La Perla, Callao                                                                                                                                                                                                                                                                                                                          |
+| **Duración / Empieza en**      | 5:26 minutos / 29:15                                                                                                                                                                                                                                                                                                                      |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQCiHWZg6xqsSI1Y7mMb1NweAfJGxL80w4g55N_7TItUyIA?e=2l8g2n&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTc1NS44fX0%3D) |
 
 </div>
 
