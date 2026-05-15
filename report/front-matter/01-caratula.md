@@ -1,10 +1,5 @@
-<p align="center">
-    <img src="../assets/images/upc-logo.png" width="250">
-</p>
-<h1 align="center">
-Universidad Peruana de Ciencias Aplicadas (UPC)
-</h1>
-<h3 align="center">
+![upc logo](../assets/images/upc-logo.png)
+
 Carrera: Ingeniería de Software
 
 
@@ -27,10 +22,8 @@ Startup: AURORA
 
 
 Producto: SupplyWok
-</h3>
 
-<div align="center">
-<h2>
+
 Integrantes
 
 
@@ -44,4 +37,3 @@ Integrantes
 
 
 Mayo 2026
-</div>
