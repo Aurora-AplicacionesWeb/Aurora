@@ -59,8 +59,8 @@
     - [4.4. Web Applications UX/UI Design](40-chapter-4-product-design.md#44-web-applications-uxui-design)
         - [4.4.1. Web Applications Wireframes](40-chapter-4-product-design.md#441-web-applications-wireframes)
         - [4.4.2. Web Applications Wireflow Diagrams](40-chapter-4-product-design.md#442-web-applications-wireflow-diagrams)
-        - [4.4.2. Web Applications Mock-ups](40-chapter-4-product-design.md#442-web-applications-mock-ups)
-        - [4.4.3. Web Applications User Flow Diagrams](40-chapter-4-product-design.md#443-web-applications-user-flow-diagrams)
+        - [4.4.3. Web Applications Mock-ups](40-chapter-4-product-design.md#443-web-applications-mock-ups)
+        - [4.4.4. Web Applications User Flow Diagrams](40-chapter-4-product-design.md#444-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](40-chapter-4-product-design.md#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](40-chapter-4-product-design.md#46-domain-driven-software-architecture)
         - [4.6.1. Design-Level EventStorming](40-chapter-4-product-design.md#461-design-level-eventstorming)
@@ -83,6 +83,11 @@
             - [5.2.1.1. Sprint Planning 1](50-chapter-5-product-implementation-validation-&-deployment.md#5211-sprint-planning-1)
             - [5.2.1.2. Aspect Leaders and Collaborators](50-chapter-5-product-implementation-validation-&-deployment.md#5212-aspect-leaders-and-collaborators)
             - [5.2.1.3. Sprint Backlog 1](50-chapter-5-product-implementation-validation-&-deployment.md#5213-sprint-backlog-1)
+            - [5.2.1.4. Development Evidence for Sprint Review](50-chapter-5-product-implementation-validation-&-deployment.md#5214-development-evidence-for-sprint-review)
+            - [5.2.1.5. Execution Evidence for Sprint Review](50-chapter-5-product-implementation-validation-&-deployment.md#5215-execution-evidence-for-sprint-review)
+            - [5.2.1.6. Services Documentation Evidence for Sprint Review](50-chapter-5-product-implementation-validation-&-deployment.md#5216-services-documentation-evidence-for-sprint-review)
+            - [5.2.1.7. Software Deployment Evidence for Sprint Review](50-chapter-5-product-implementation-validation-&-deployment.md#5217-software-deployment-evidence-for-sprint-review)
+            - [5.2.1.8. Team Collaboration Insights during Sprint](50-chapter-5-product-implementation-validation-&-deployment.md#5218-team-collaboration-insights-during-sprint)
 
 - [Bibliografía](99-bibliography.md)
 

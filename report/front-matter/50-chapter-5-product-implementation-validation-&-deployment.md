@@ -1,4 +1,4 @@
-﻿# Capítulo V: Product Implementation, Validation & Deployment.
+# Capítulo V: Product Implementation, Validation & Deployment.
 
 ## 5.1. Software Configuration Management. 
 Para tener consistencia y seguimiento de el desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El metodo cubre la configuracion del entorno de desarrollo, la gestion del codigo y el despliegue, alineado a las buenas prácticas de ingenieria de software y metodologias ágiles.
@@ -241,22 +241,22 @@ En el sprint 1 como equipo nos centramos en la creación de la Landing Page de S
 
 **Sprint Planning 1**
 
-| Atributo | Valor |
-|---|---|
 | **Sprint #** | 1 |
+|---|---|
 | **Date** | 20-04-2026 |
 | **Time** | 15:00 |
 | **Location** | Virtual, Discord |
 | **Prepared by** | Zayd Ayasta, Juan Wang |
-| **Attendees** | Marcelo Cuadros, Mathias Sanchez, Miguel Jara |
-| **Sprint n-1 Retrospective Summary** | *Siendo el primer sprint, este campo no es aplicable.* |
+| **Attendees** | Marcelo Cuadros, Mathias Sanchez, Miguel Jara, Juan Wang, Zayd Ayasta |
+| **Sprint 0 Review Summary** | *No aplica por ser el primer sprint.* |
+| **Sprint 0 Retrospective Summary** | *No aplica por ser el primer sprint.* |
 | **Sprint 1 Goal** | Nuestro enfoque en este sprint es la Landing Page que informará de nuestra plataforma, por lo que la desarrollaremos e implementaremos para que sea accesible y responsiva. Con la información que brindamos sobre nuestro producto esperamos ganarnos la confianza de los que visiten la página y que empiecen a usar nuestro sistema. Se confirmará cuando esté en producción y se pueda usar el enlace de la página. |
-| **Sprint n Velocity** | Límite de **35 SP** |
+| **Sprint 1 Velocity** | Límite de **35 SP** |
 | **Sum of Story Points** | **30 SP** |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
-| Team Member {Last Name, First Name} | GitHub username | Estructure HTML | Design UI & responsive | Scripts and UX | SEO and Accessibility | Content and Assets |
+| Team Member | GitHub username | Estructure HTML | Design UI & responsive | Scripts and UX | SEO and Accessibility | Content and Assets |
 |---|---|---|---|---|---|---|
 | Cuadros, Marcelo | Marcelo-alt-lab | L | C | L | C | C |
 | Sanchez, Mathias | Nounz27 | C | L | C | - | - |
@@ -333,15 +333,24 @@ Esta seria la captura de como quedo el board de jira al finalizar el sprint:
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
-Se presentaran las capturas que muestran el despliegue de la Landing Page en GitHub Pages en el navegador, en este caso en el navegador de Microsoft Edge.
+Se presentarán las capturas que muestran el despliegue de la Landing Page en GitHub Pages. La interfaz es responsiva y soporta múltiples idiomas, asegurando accesibilidad para diversos perfiles de usuario.
 
-![first](../assets/images/deploy-steps/prove-1.png)
+![hero-section](../assets/images/deploy-steps/prove-1.png)
+*Figura: Hero Section de la Landing Page con propuesta de valor clara.*
 
-Aqui se puede diferenciar el funcionamiento de los distintos idiomas en los que se encuentra disponible la Landing Page, en este caso chino.
+![features-section](../assets/images/deploy-steps/prove-features.png)
+*Figura: Sección de características principales resaltando beneficios para restaurantes.*
 
-![second](../assets/images/deploy-steps/prove-2.png)
+![i18n-support](../assets/images/deploy-steps/prove-2.png)
+*Figura: Funcionamiento del sistema de internacionalización (i18n) en idioma chino.*
 
-Aqui esta el enlace a la pagina desplegada: [SupplyWok landing page](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
+![plans-section](../assets/images/deploy-steps/prove-plans.png)
+*Figura: Visualización de planes de suscripción y botones de acción (CTA).*
+
+![footer-section](../assets/images/deploy-steps/prove-footer.png)
+*Figura: Footer con información de contacto, redes sociales y navegación secundaria.*
+
+Aquí está el enlace a la página desplegada: [SupplyWok landing page](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -367,6 +376,7 @@ Luego de unos minutos, el deploy se realizara correctamente:
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
-Se anexa evidencia de la participación del equipo en el desarrollo de la Landing Page segun el report de commits que da el repositorio de GitHub.
+Se anexa evidencia de la participación activa del equipo en el desarrollo de la Landing Page. Durante el Sprint 1, el equipo utilizó una metodología colaborativa mediante Pull Requests y revisiones de código, asegurando que cada sección cumpliera con los estándares de calidad definidos. El gráfico de contribuciones muestra una distribución equitativa de tareas entre maquetación, estilos, lógica de i18n y despliegue.
 
 ![Team Collaboration](../assets/images/deploy-steps/participation.png)
+*Figura: Reporte de contribuciones y commits del equipo Aurora en el repositorio de la Landing Page.*

@@ -30,3 +30,4 @@
 | 0.2.0   | 14/05/2026 | todos                            | Format and C4 Diagrams corrections                                       |
 | 0.2.1   | 15/05/2026 | Jara Espinoza Miguel Angel       | Lean UX Assumptions                                                      |
 | 0.2.2   | 15/05/2026 | Jara Espinoza Miguel Angel       | Lean UX Canvas                                                           |
+| 0.2.3   | 15/05/2026 | Wang Chen Juan Sung Jau          | Correcciones de formato: cierre h1 en carátula, TOC cap. 4 y 5, numeración 2.3.2, headings cap. 2, logo en análisis competitivo, Sprint Planning y evidencia de ejecución. |

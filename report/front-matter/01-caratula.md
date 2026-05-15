@@ -3,6 +3,7 @@
 </p>
 <h1 align="center">
 Universidad Peruana de Ciencias Aplicadas (UPC)
+</h1>
 <h3 align="center">
 Carrera: Ingeniería de Software
 

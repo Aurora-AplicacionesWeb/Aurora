@@ -548,7 +548,7 @@ En escritorio, los wireframes muestran una estructura con sidebar, header superi
 ![wireframes web](../assets/images/figma/wireframes-web.jpg)
 ![wireframe mobile1](../assets/images/figma/web-app-mobile-wireframe1.png)
 ![wireframe mobile2](../assets/images/figma/web-app-mobile-wireframe2.png)
-[wireframe mobile3](../assets/images/figma/web-app-mobile-wireframe3.png)
+![wireframe mobile3](../assets/images/figma/web-app-mobile-wireframe3.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
@@ -574,7 +574,7 @@ Este wireflow muestra el recorrido del proveedor desde su dashboard hacia pedido
 
 ![wireflow4](../assets/images/figma/web-app-mobile-wireflow4.jpeg)
 
-### 4.4.2. Web Applications Mock-ups.
+### 4.4.3. Web Applications Mock-ups.
 
 Los mock-ups de SupplyWok muestran la versión visual final de las aplicaciones web, incorporando el sistema de colores, tipografía, espaciado y componentes definidos en las Style Guidelines. En estas vistas se evidencia cómo la jerarquía visual, el diseño inclusivo y la arquitectura de información se traducen en pantallas operativas, legibles y consistentes para ambos roles.
 
@@ -724,7 +724,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 ![mockupmobile2](../assets/images/figma/web-app-mobile-mockup2.png)
 ![mockupmobil3](../assets/images/figma/web-app-mobile-mockup3.png)
 
-### 4.4.3. Web Applications User Flow Diagrams.
+### 4.4.4. Web Applications User Flow Diagrams.
 
 Los User Flow Diagrams de SupplyWok representan los recorridos funcionales principales de los usuarios dentro del sistema, considerando tanto la ruta esperada como posibles variantes o interrupciones. A diferencia del wireflow, aquí el foco está en la lógica de navegación, las decisiones del usuario y las condiciones que afectan la continuidad del flujo.
 

@@ -29,7 +29,7 @@ Las siguientes plataformas son de las más relevantes en el mercado de gestión 
 *¿Porqué llevar a cabo este análisis?*
 El objetivo de este análisis es identificar las fortalezas, debilidades, oportunidades y amenazas del entorno competitivo en el sector de gestión de resturantes y proveedores, con el fin de definir la ventaja competitiva de SupplyWok frente a las alternativas existentes y orientar las estrategias de diferenciación e innovación.
 
-| Categoría | Subcategoría | SupplyWok <br><img src="" width="70" /> | Apicbase <br><img src="../assets/images/apicbase.png" width="70" /> | MarketMan <br><img src="../assets/images/market-man.png" width="70" /> | WISK.ai <br><img src="../assets/images/wisk.png" width="70" /> | Restaurant365 <br><img src="../assets/images/restaurant365.png" width="70" /> |
+| Categoría | Subcategoría | SupplyWok <br><img src="../assets/images/supplywok-logo.png" width="70" /> | Apicbase <br><img src="../assets/images/apicbase.png" width="70" /> | MarketMan <br><img src="../assets/images/market-man.png" width="70" /> | WISK.ai <br><img src="../assets/images/wisk.png" width="70" /> | Restaurant365 <br><img src="../assets/images/restaurant365.png" width="70" /> |
 |---|---|---|---|---|---|---|
 | **Perfil** | Overview | Plataforma web que optimiza y agiliza la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes. | Plataformaa basada en la nube diseñada para centralizar la gestión de alimentos y bebidas en cadenas de restaurantes y hoteles. | Plataforma basada en la nube especializada en automatizar el inventario y las compras para restaurantes, conectando el almacén directamente con los proveedores. | Plataforma basada en IA que se especializa en la gestión ultraprecisa de inventarios, usando reconocimiento de imágen para agilizar el conteo de existencias mediante el móvil. | Plataforma de gestión empresarial que unifica en un solo sistema la contabilidad, el control de inventarios, las compras y la gestión del personal. |
 | **Perfil** | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Plataforma centralizada y escalable que optimiza la cadena de suministro mediante analítica predictiva, garantizando eficiencia operativa, prevención de accidentes y una colaboración inteligente entre restaurantes y proveedores para una gestión sostenible. | Gestión centralizada de recetas y menús para múltiples locales, con enfoque en trazabilidad alimentaria, control de alérgenos y estandarización de la producción a gran escala. | Automatización integral del inventario y compras que utiliza análisis predictivos para sugerir pedidos, detectar variaciones de precios y maximizar la rentabilidad operativa. | Control de inventario ultrapeciso mediante inteligencia artificial y reconocimiento visual, especializado en la reducción de mermas y optimización de costos en bebidas y licores. | Sistema ERP unificado que integra contabilidad financiera, inventarios y gestión de personal, conectando el flujo de caja con la operación diaria en una sola plataforma. |
@@ -231,9 +231,7 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 
 El análisis de las entrevistas realizadas permite identificar patrones claros en los dos segmentos objetivo de SupplyWok: dueños de restaurantes chifa y proveedores. A partir de las entrevistas, se evidencian tanto comportamientos comunes como diferencias en la adopción tecnológica, sustentados en la frecuencia de respuestas observadas.
 
----
-
-## Segmento 1: Dueños de restaurantes chifa y administradores
+#### Segmento 1: Dueños de restaurantes chifa y administradores
 
 ![](../assets/images/analytics-owners.png)
 
@@ -261,9 +259,7 @@ Se identifican dos subgrupos:
 - El 67% valora alertas de stock bajo y herramientas que automaticen el cálculo de compras.  
 - Un 66% considera útil la predicción de demanda, especialmente para evitar faltantes.
 
----
-
-## Segmento 2: Proveedores de insumos
+#### Segmento 2: Proveedores de insumos
 
 ![](../assets/images/analytics-suppliers.png)
 
@@ -286,9 +282,7 @@ El 100% muestra interés en herramientas simples, especialmente:
 
 Sin embargo, el 0% muestra interés en analítica avanzada o predicciones complejas.
 
----
-
-## Conclusiones para el diseño de arquetipos
+#### Conclusiones para el diseño de arquetipos
 
 ### Automatización simple y práctica
 Dado que el 100% de restaurantes no usa sistemas formales, la plataforma debe automatizar procesos sin requerir esfuerzo adicional del usuario.
@@ -319,7 +313,7 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 <sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
 
-### 2.2.2. User Task Matrix.
+### 2.3.2. User Task Matrix.
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
