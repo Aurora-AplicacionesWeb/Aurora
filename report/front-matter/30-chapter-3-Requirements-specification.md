@@ -78,7 +78,7 @@ El Impact Mapping de SupplyWok refleja la relación entre los objetivos de negoc
 **Objetivo de negocio #2 [Segmento de proveedores de insumos de restaurante]:** <br>Mejorar la planificación de distribución y coordinación con restaurantes clientes, incrementando en un 30% la precisión de entregas y reduciendo en un 25% los pedidos urgentes no planificados mediante visibilidad digital de la demanda.<br>
 
 | Actor | Impacto esperado | Entregables / Funcionalidades |
-|---|---|---|
+|----|----|----|
 | **Dueño o administrador de restaurante chifa** | Controlar el inventario y abastecimiento de insumos de forma centralizada, reduciendo pérdidas por quiebres de stock y pedidos mal planificados | Módulo de inventario, alertas de stock mínimo, emisión de órdenes de compra digitales y proyección de demanda |
 | **Proveedor de insumos para restaurantes** | Anticipar la demanda de sus clientes y gestionar pedidos digital y organizadamente, mejorando la precisión de entregas y reduciendo coordinaciones informales | Perfil y catálogo digital, panel de órdenes entrantes, vista de demanda proyectada y confirmación de entregas |
 
