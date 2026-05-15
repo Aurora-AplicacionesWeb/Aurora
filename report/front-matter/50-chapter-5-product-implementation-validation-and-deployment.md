@@ -216,13 +216,12 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
   [https://github.com/Aurora-AplicacionesWeb/SupplyWok-FrontEnd](https://github.com/Aurora-AplicacionesWeb/SupplyWok-FrontEnd)
 
 - **Plataforma de despliegue:**  
-  Vercel.
+  Firebase.
 
 - **Método de despliegue:**  
   - Vue.js se compila con `npm run build` para generar los archivos estáticos de producción.  
   - La rama `main` sirve como fuente para el despliegue.  
-  - Vercel detecta automáticamente los cambios en `main` y publica la nueva versión del frontend.  
-  - El archivo de configuración de producción incluirá la URL pública del backend para permitir integración total.
+  - Firebase debe crearse con cada modificación para que este actualizado con el repositorio.  
 
 ---
 
@@ -338,16 +337,16 @@ Se presentarán las capturas que muestran el despliegue de la Landing Page en Gi
 ![hero-section](../assets/images/deploy-steps/prove-1.png)
 *Figura: Hero Section de la Landing Page con propuesta de valor clara.*
 
-![features-section](../assets/images/deploy-steps/prove-features.png)
+![features-section](../assets/images/deploy-steps/prove-2.png)
 *Figura: Sección de características principales resaltando beneficios para restaurantes.*
 
-![i18n-support](../assets/images/deploy-steps/prove-2.png)
+![i18n-support](../assets/images/deploy-steps/prove-3.png)
 *Figura: Funcionamiento del sistema de internacionalización (i18n) en idioma chino.*
 
-![plans-section](../assets/images/deploy-steps/prove-plans.png)
+![plans-section](../assets/images/deploy-steps/prove-4.png)
 *Figura: Visualización de planes de suscripción y botones de acción (CTA).*
 
-![footer-section](../assets/images/deploy-steps/prove-footer.png)
+![footer-section](../assets/images/deploy-steps/prove-5.png)
 *Figura: Footer con información de contacto, redes sociales y navegación secundaria.*
 
 Aquí está el enlace a la página desplegada: [SupplyWok landing page](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
@@ -390,7 +389,7 @@ En el Sprint 2, como equipo nos centramos en el desarrollo del frontend de Suppl
 
 | **Sprint #** | 2 |
 |---|---|
-| **Date** | 08-05-2026 |
+| **Date** | 10-05-2026 |
 | **Time** | 13:00 |
 | **Location** | Virtual, Discord |
 | **Prepared by** | Zayd Ayasta, Juan Wang |
@@ -530,6 +529,7 @@ En esta sección mostramos como se realiso el deploy del plataforma junto con el
 ![](../assets/images/deploy-steps/deploy_firebase_1.png)
 
 ![](../assets/images/deploy-steps/deploy_firebase_2.png)
+
 Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
 [Frontend Deployment]()
 
