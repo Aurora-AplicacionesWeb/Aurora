@@ -390,23 +390,35 @@ A través de esta aproximación de alto nivel, el equipo exploró el panorama de
 
 #### Step 1: Unstructured Exploration
 
-En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. 
+En esta fase inicial, todos los miembros del equipo generan eventos de dominio de forma libre, sin preocuparse por el orden ni la coherencia. Cada evento representa una acción relevante en el negocio, escrita en tiempo pasado (ej. "Pedido registrado", "Stock actualizado"). El objetivo es capturar el mayor volumen posible de eventos para construir una visión completa del dominio antes de estructurarlo.
 
-![](../assets/images/step1bigevent.png)
+![](../assets/images/step1-bpev.png)
+
+<sub>*Ilustración. Big Picture Event Storming — Step 1: Exploración no estructurada*</sub>
 
 #### Step 2: Structured Organization
 
-Después de listar los eventos desestructurados, el equipo los organiza en una línea de tiempo narrativa, identificando las relaciones de causalidad entre ellos. Se agrupan eventos relacionados y se identifican patrones o flujos comunes. En esta fase se busca entender cómo los eventos interactúan entre sí y cómo se relacionan con los procesos del negocio.
+Con el conjunto de eventos identificados, el equipo los organiza cronológicamente en una línea de tiempo narrativa. Se eliminan duplicados, se agrupan eventos relacionados y se identifican las relaciones causales entre ellos. Esta vista lineal permite detectar flujos principales del negocio y los primeros límites lógicos entre procesos.
 
-![](../assets/images/step2e01.png)
+![](../assets/images/step2-bpev.png)
 
-![](../assets/images/step2e02.png)
+<sub>*Ilustración. Big Picture Event Storming — Step 2: Organización estructurada*</sub>
 
-![](../assets/images/step2e03.png)
+#### Step 3: Pivotal points
 
-![](../assets/images/step2e04.png)
+Se identifican los eventos pivote: aquellos que marcan transiciones críticas en el negocio (ej. "Pedido confirmado por proveedor", "Alerta de stock crítico emitida"). Alrededor de estos eventos se trazan las fronteras de los Bounded Contexts, delimitando las responsabilidades de cada subdominio y sirviendo como base para la arquitectura del sistema.
 
-![](../assets/images/step2e05.png)
+![](../assets/images/step3-bpev.png)
+
+<sub>*Ilustración. Big Picture Event Storming — Step 3: Pivotal points*</sub>
+
+#### Step 4: Pain Points and Opportunities
+
+El equipo marca sobre la línea de tiempo los puntos de fricción, cuellos de botella y oportunidades de mejora detectados. Estos "pain points" suelen concentrarse en transiciones entre actores o en procesos manuales que podrían automatizarse. Esta fase orienta las decisiones de diseño hacia las áreas de mayor impacto operativo.
+
+![](../assets/images/step4-bpev.png)
+
+<sub>*Ilustración. Big Picture Event Storming — Step 4: Pain Points and Opportunities*</sub>
 
 ## 2.5. Ubiquitous Language.
 
