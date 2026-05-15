@@ -114,16 +114,16 @@ Los restaurantes tipo chifa enfrentan dificultades en la gestión eficiente de s
 
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
-- Creemos que al permitir a los restaurantes registrar su inventario y configurar alertas de stock mínimo, lograremos reducir desabastecimientos y compras de emergencia.
-- Sabremos que hemos tenido éxito cuando al menos el 60% de los usuarios de restaurante creen su inventario inicial y configure al menos una alerta en el primer mes.
-- Creemos que al mostrar una proyección básica de demanda basada en el historial de consumo y la ocupación registrada, lograremos que los dueños planifiquen mejor sus compras.
-- Sabremos que hemos tenido éxito cuando al menos el 50% de los pedidos se originen a partir de una sugerencia o alerta del sistema.
-- Creemos que al brindar a los proveedores una vista de demanda estimada y estado de pedidos, lograremos mejorar la coordinación de entregas y reducir retrasos.
-- Sabremos que hemos tenido éxito cuando al menos el 50% de los proveedores activos consulte su panel de demanda al menos una vez por semana.
-- Creemos que al integrar monitoreo de temperatura en cocina o almacenamiento, lograremos detectar condiciones de riesgo antes de que afecten la calidad de los insumos.
-- Sabremos que hemos tenido éxito cuando al menos el 80% de los eventos de temperatura fuera de rango generen una alerta visible en el dashboard.
-- Creemos que al ofrecer una plataforma con planes diferenciados para restaurantes y proveedores, lograremos que el producto sea percibido como útil y sostenible.
-- Sabremos que hemos tenido éxito cuando al menos el 70% de los usuarios encuestados considere que el sistema aporta valor real a su operación.
+- Creemos que una vista principal que priorice lo urgente ayudará a que el equipo actúe más rápido y con menos estrés, porque reduce la navegación y facilita decidir qué hacer primero.
+- Sabremos que funciona cuando baje el tiempo desde que ingresan hasta que completan la primera acción y aumente la atención de pendientes críticos.
+- Creemos que hacer visibles los faltantes y riesgos de inventario ayudará a prevenir quiebres de stock, porque convierte el control en una tarea simple y frecuente.
+- Sabremos que funciona cuando disminuyan los quiebres de stock y aumente la reposición anticipada.
+- Creemos que un flujo rápido y claro para registrar y actualizar órdenes ayudará a reducir errores y acelerar la operación, porque estandariza la información y evita omisiones.
+- Sabremos que funciona cuando bajen las correcciones por errores y disminuya el tiempo promedio para registrar una orden completa.
+- Creemos que dar visibilidad del estado de las órdenes ayudará a mejorar la coordinación y reducir retrabajo, porque todos saben qué está pasando sin tener que preguntar.
+- Sabremos que funciona cuando disminuyan interrupciones/consultas internas y se reduzca el tiempo de ciclo de las órdenes.
+- Creemos que guiar el armado de pedidos de compra ayudará a reponer inventario más rápido y con menos errores, porque reduce el trabajo manual y estandariza el proceso.
+- Sabremos que funciona cuando disminuya el tiempo para generar un pedido y bajen los pedidos incompletos o corregidos.
 
 #### 1.2.2.4 Lean UX Canvas
 
