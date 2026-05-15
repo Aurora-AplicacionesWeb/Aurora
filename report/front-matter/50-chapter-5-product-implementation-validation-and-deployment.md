@@ -380,3 +380,166 @@ Se anexa evidencia de la participación activa del equipo en el desarrollo de la
 
 ![Team Collaboration](../assets/images/deploy-steps/participation.png)
 *Figura: Reporte de contribuciones y commits del equipo Aurora en el repositorio de la Landing Page.*
+
+### 5.2.2. Sprint 2 
+#### 5.2.2.1. Sprint Planning 2
+
+En el Sprint 2, como equipo nos centramos en el desarrollo del frontend de SupplyWok, el cual será la interfaz principal de nuestra plataforma mediante la cual los usuarios podrán administrar sus servicios. Se implementaron diferentes dashboards para que tanto los dueños como los proveedores puedan gestionar las necesidades de sus respectivos negocios.
+
+**Sprint Planning 2**
+
+| **Sprint #** | 2 |
+|---|---|
+| **Date** | 08-05-2026 |
+| **Time** | 13:00 |
+| **Location** | Virtual, Discord |
+| **Prepared by** | Zayd Ayasta, Juan Wang |
+| **Attendees** | Marcelo Cuadros, Mathias Sanchez, Miguel Jara |
+| **Sprint 1 Review Summary** | En el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de SupplyWok. Con ello, se logró configurar el entorno de trabajo, establecer los requerimientos principales del sistema, así como el diseño preliminar de la interfaz y la estructura de navegación de la plataforma. Por otro lado, el profesor a cargo brindó feedback positivo respecto al diseño inicial del sistema y sugirió corregir ciertos aspectos de la documentación del proyecto. |
+| **Sprint 1 Retrospective Summary** | Durante el Sprint 1, surgieron dificultades relacionadas con la comunicación, la distribución de tareas y el cumplimiento de algunos entregables de la plataforma, afectando principalmente la documentación del proyecto. Sin embargo, a pesar de estas dificultades, se logró entregar un sprint casi completo y con una calidad aceptable. |
+| **Sprint 2 Goal** | Nuestro enfoque en este sprint es desarrollar e implementar la interfaz principal de SupplyWok mediante dashboards funcionales para dueños y proveedores, permitiendo la visualización y gestión básica de la información del negocio. Además, se espera implementar la interfaz base de cada dashboard junto con las funcionalidades principales de cada bounded context. |
+| **Sprint 2 Velocity** | Límite de **35 SP** |
+| **Sum of Story Points** | **30 SP** |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Durante el Sprint 2, el equipo se enfocó principalmente en el desarrollo del frontend de SupplyWok, priorizando las interfaz y funcionalidades principales de la plataforma. Los principales aspectos considerados en este sprint incluyen el desarrollo de los todos los bounded context.
+
+- **Inventory Management Bounded Context**: Es el encargado de gestionar la informacion de los recursos de inventario de cada restaurante.
+
+- **Supply and Purchasing Bounded Context**: Es el encargado de gestionar las órdenes de suplementos realizadas por cada restaurante.
+
+- **Restaurant Management Bounded Context**: Es el encargado de gestionar todo lo relacionado con la operación del establecimiento.
+
+- **Operational Monitoring and IoT Alerts Bounded Context**: Es el encargado de gestionar la información recopilada por los sensores del restaurante.
+
+- **Supplier Management & Operations Bounded Context**: Es el encargado de gestionar la información de los proveedores y sus pedidos.
+
+- **Identity & Access Bounded Context**: Es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas.
+
+- **Shared Bounded Context**: Contiene Value Objects y componenetes visuales comunes que son reutilizados por múltiples bounded contexts del sistema.
+
+| Team Member | GitHub username | Inventory Management Bounded BC | Supply and Purchasing BC / Shared BC | Restaurant Management BC | Supplier Management & Operations BC | Operational Monitoring and IoT Alerts BC / Identity & Access BC  |
+|---|---|---|---|---|---|---|
+| Cuadros, Marcelo | Marcelo-alt-lab | C | C | C | - | L |
+| Sanchez, Mathias | Nounz27             | - | C | L | C | C |
+| Jara, Miguel | MiguelJara2     | L | C | - | C | C |
+| Ayasta, Zayd | Zayd Ayasta         | C | L | C | C | - |
+| Wang, Juan | jwd3t                 | C | - | C | L | C |
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+**Sprint 2 Backlog**
+
+| US Id | US Title | Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US11 | Proyección de demanda basada en historial | T30 | Diseño de interfaz de proyección | Diseñar la interfaz para visualizar la proyección de consumo de insumos. | 3 | Mathias Sanchez | Done |
+| US11 | Proyección de demanda basada en historial | T31 | Implementación de gráficos estadísticos | Implementar gráficos y métricas de proyección de demanda. | 4 | Marcelo Cuadros | Done |
+| US11 | Proyección de demanda basada en historial | T32 | Integración de datos históricos | Conectar la vista con los datos históricos de consumo. | 3 | Juan Wang | Done |
+| US14 | Monitoreo de temperatura en almacén | T33 | Diseño del dashboard IoT | Diseñar el panel de monitoreo de sensores IoT. | 2 | Marcelo Cuadros | Done |
+| US14 | Monitoreo de temperatura en almacén | T34 | Integración de datos de sensores | Implementar la recepción y visualización de temperatura en tiempo real. | 4 | Zayd Ayasta | Done |
+| US15 | Alertas de riesgo en cocina | T35 | Sistema de alertas automáticas | Implementar alertas visuales ante condiciones peligrosas. | 3 | Miguel Jara | Done |
+| US15 | Alertas de riesgo en cocina | T36 | Configuración de umbrales | Configurar parámetros de temperatura y humedad para activar alertas. | 2 | Marcelo Cuadros | Done |
+| US17 | Control de ocupación de mesas | T37 | Diseño de estado de mesas | Crear componentes visuales para representar el estado de las mesas. | 2 | Juan Wang | Done |
+| US17 | Control de ocupación de mesas | T38 | Actualización en tiempo real | Implementar actualización dinámica de ocupación de mesas. | 3 | Mathias Sanchez | Done |
+| US18 | Historial de alertas e incidencias operativas | T39 | Registro de incidencias | Implementar almacenamiento de eventos y alertas. | 3 | Zayd Ayasta | Done |
+| US18 | Historial de alertas e incidencias operativas | T40 | Vista histórica de alertas | Crear interfaz para consultar incidencias registradas. | 3 | Marcelo Cuadros | Done |
+| US19 | Exportar reporte de monitoreo y alertas | T41 | Generación de reportes PDF | Implementar exportación de reportes en PDF. | 3 | Marcelo Cuadros | Done |
+| US19 | Exportar reporte de monitoreo y alertas | T42 | Exportación CSV | Implementar exportación de datos en formato CSV. | 2 | Juan Wang | Done |
+| US20 | Registro y perfil del proveedor | T43 | Formulario de registro | Implementar formulario para registro de proveedores. | 3 | Miguel Jara | Done |
+| US20 | Registro y perfil del proveedor | T44 | Vista de perfil del proveedor | Crear pantalla de perfil y edición de datos. | 3 | Zayd Ayasta | Done |
+| US21 | Recepción y gestión de órdenes de compra | T45 | Panel de órdenes recibidas | Implementar listado de órdenes de compra recibidas. | 4 | Mathias Sanchez | Done |
+| US21 | Recepción y gestión de órdenes de compra | T46 | Gestión de estado de pedidos | Permitir actualizar estados de órdenes de compra. | 3 | Marcelo Cuadros | Done |
+| US24 | Confirmación y seguimiento de entregas | T47 | Registro de entregas | Implementar formulario para confirmar entregas realizadas. | 3 | Juan Wang | Done |
+| US24 | Confirmación y seguimiento de entregas | T48 | Seguimiento de despachos | Implementar visualización del estado de entregas. | 3 | Miguel Jara | Done |
+| US25 | Panel de rendimiento por cliente | T49 | Dashboard de clientes frecuentes | Implementar métricas de pedidos por cliente. | 4 | Zayd Ayasta | Done |
+| US25 | Panel de rendimiento por cliente | T50 | Estadísticas comerciales | Mostrar estadísticas y tendencias de consumo. | 3 | Miguel Jara | Done |
+| US27 | Selección y gestión del plan de suscripción | T51 | Vista de planes disponibles | Diseñar pantalla de planes y beneficios. | 2 | Marcelo Cuadros | Done |
+| US27 | Selección y gestión del plan de suscripción | T52 | Gestión de suscripción | Implementar selección y activación de planes. | 2 | Juan Wang | Done |
+| US28 | Notificaciones en tiempo real | T53 | Sistema de notificaciones | Implementar notificaciones dinámicas en la plataforma. | 4 | Mathias Sanchez | Done |
+| US28 | Notificaciones en tiempo real | T54 | Alertas en tiempo real | Mostrar alertas instantáneas relacionadas al sistema. | 3 | Zayd Ayasta | Done |
+| US29 | Inicio de sesión y registro de cuenta | T55 | Formulario de login | Implementar formulario de inicio de sesión con validación. | 3 | Marcelo Cuadros | Done |
+| US29 | Inicio de sesión y registro de cuenta | T56 | Formulario de registro | Implementar formulario de registro de nueva cuenta con validación. | 3 | Marcelo Cuadros | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En este Sprint se logró desarrollar gran parte del frontend de la plataforma SupplyWok. Se integraron funcionalidades como el inicio de sesión, el dashboard general, los módulos de inventario, pedidos, comandas, sensores y alertas, junto con sus funcionalidades básicas principales.
+
+Link de la plataforma de SupplyWok: ![]()
+
+![first](../assets/images/frontend/login_screen.png)
+
+![first](../assets/images/frontend/dashboard_screen.png)
+
+![first](../assets/images/frontend/inventory_screen.png)
+
+![first](../assets/images/frontend/create_inventoy_item_screen.png)
+
+![first](../assets/images/frontend/comandas_screen.png)
+
+![first](../assets/images/frontend/create_comanda_screen.png)
+
+![first](../assets/images/frontend/alerts_screen.png)
+
+![first](../assets/images/frontend/orders_screen.png)
+
+![first](../assets/images/frontend/tables_and_occupancy_screen.png)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Para esta sección se diran los servicios que se utilizaron para simular los json que devolveria nuestro backend, los cuales se implementaron en dos servicios, en mockapi y en my json server.
+
+![](../assets/images/mockapi-evidence.png)
+
+![](../assets/images/myjsonserver-evidence.png)
+
+Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección mostramos como se realiso el deploy del plataforma junto con el json server.
+
+**Deploy del Json Server**
+
+1. Accedemos a https://my-json-server.typicode.com/ y seguimos los pasos para publicar el Json Server
+
+![](../assets/images/deploy-steps/deploy_db.png)
+
+2. Creamos un nuevo repositorio y subimos el archivo Json.
+
+![](../assets/images/deploy-steps/deploy_db_1.jpg)
+
+3. Accedemos al enlace de nuestro Json server de forma  https://my-json-server.typicode.com/< your-username >/< your-repo >. 
+
+![](../assets/images/myjsonserver-evidence.png)
+
+**Deploy de la Plataforma en Firebase**
+
+1. Accedemos a https://firebase.google.com/ y accedemos con nuestra cuenta. Despues creamos nuestro proyecto.
+
+![](../assets/images/deploy-steps/deploy_firebase.png)
+
+2. Usamos el cmd de Jetbrains para deployar nuestro proyecto y acceder al enlace publico.
+
+![](../assets/images/deploy-steps/deploy_firebase_1.png)
+
+![](../assets/images/deploy-steps/deploy_firebase_2.png)
+Estos implementarion endpoints para majenar los datos y mostrarlos en nuestros componentes que permiten utilizar nuestro sistema sin necesidad de tener un backend por el momento.
+[Frontend Deployment]()
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+En este apartado se visualiza todos los graficos que representan la participacion de cada integrante en el repositorio del fronted.
+
+![Team Collaboration](../assets/images/deploy-steps/participation_2.png)
+
+![Team Contribution 1](../assets/images/deploy-steps/contributions_1_2.png)
+
+![Team Contribution 2](../assets/images/deploy-steps/contributions_2_2.png)
+
