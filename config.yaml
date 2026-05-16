@@ -1,0 +1,42 @@
+# Pandoc defaults file.
+# Usage: pandoc --defaults config.yaml
+
+from: markdown
+to: pdf
+pdf-engine: xelatex
+standalone: true
+output-file: report/upc-pre-202610-1asi0730-12206-aurora-report-tb1.pdf
+
+toc: true
+toc-depth: 3
+number-sections: true
+file-scope: true
+
+resource-path:
+  - report
+  - report/front-matter
+  - report/annexes
+  - report/assets
+
+input-files:
+  - report/front-matter/01-caratula.md
+  - report/front-matter/02-registros.md
+  - report/front-matter/03-collaboration.md
+  - report/front-matter/04-content-table.md
+  - report/front-matter/05-studentoutcome.md
+  - report/front-matter/10-chapter-1.md
+  - report/front-matter/20-chapter-2.md
+  - report/front-matter/30-chapter-3.md
+  - report/front-matter/40-chapter-4.md
+  - report/front-matter/50-chapter-5.md
+  - report/front-matter/99-bibliography.md
+  - report/annexes/anexos.md
+
+variables:
+  lang: es-PE
+  mainfont: Times New Roman
+  CJKmainfont: SimSun
+  mathfont: Cambria Math
+  geometry:
+    - margin=2.5cm
+  fontsize: 11pt

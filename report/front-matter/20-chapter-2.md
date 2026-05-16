@@ -27,20 +27,20 @@ Las siguientes plataformas son de las más relevantes en el mercado de gestión 
 **Competitive Analysis Landscape**
 
 *¿Porqué llevar a cabo este análisis?*
-El objetivo de este análisis es identificar las fortalezas, debilidades, oportunidades y amenazas del entorno competitivo en el sector de gestión de resturantes y proveedores, con el fin de definir la ventaja competitiva de SupplyWok frente a las alternativas existentes y orientar las estrategias de diferenciación e innovación.
+El objetivo de este análisis es identificar las fortalezas, debilidades, oportunidades y amenazas del entorno competitivo en el sector de gestión de restaurantes y proveedores, con el fin de definir la ventaja competitiva de SupplyWok frente a las alternativas existentes y orientar las estrategias de diferenciación e innovación.
 
-| Categoría | Subcategoría | SupplyWok <br><img src="" width="70" /> | Apicbase <br><img src="../assets/images/apicbase.png" width="70" /> | MarketMan <br><img src="../assets/images/market-man.png" width="70" /> | WISK.ai <br><img src="../assets/images/wisk.png" width="70" /> | Restaurant365 <br><img src="../assets/images/restaurant365.png" width="70" /> |
+| Categoría | Subcategoría | SupplyWok <br><img src="../assets/images/supplywok-logo.png" width="70" /> | Apicbase <br><img src="../assets/images/apicbase.png" width="70" /> | MarketMan <br><img src="../assets/images/market-man.png" width="70" /> | WISK.ai <br><img src="../assets/images/wisk.png" width="70" /> | Restaurant365 <br><img src="../assets/images/restaurant365.png" width="70" /> |
 |---|---|---|---|---|---|---|
-| **Perfil** | Overview | Plataforma web que optimiza y agiliza la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes. | Plataformaa basada en la nube diseñada para centralizar la gestión de alimentos y bebidas en cadenas de restaurantes y hoteles. | Plataforma basada en la nube especializada en automatizar el inventario y las compras para restaurantes, conectando el almacén directamente con los proveedores. | Plataforma basada en IA que se especializa en la gestión ultraprecisa de inventarios, usando reconocimiento de imágen para agilizar el conteo de existencias mediante el móvil. | Plataforma de gestión empresarial que unifica en un solo sistema la contabilidad, el control de inventarios, las compras y la gestión del personal. |
-| **Perfil** | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Plataforma centralizada y escalable que optimiza la cadena de suministro mediante analítica predictiva, garantizando eficiencia operativa, prevención de accidentes y una colaboración inteligente entre restaurantes y proveedores para una gestión sostenible. | Gestión centralizada de recetas y menús para múltiples locales, con enfoque en trazabilidad alimentaria, control de alérgenos y estandarización de la producción a gran escala. | Automatización integral del inventario y compras que utiliza análisis predictivos para sugerir pedidos, detectar variaciones de precios y maximizar la rentabilidad operativa. | Control de inventario ultrapeciso mediante inteligencia artificial y reconocimiento visual, especializado en la reducción de mermas y optimización de costos en bebidas y licores. | Sistema ERP unificado que integra contabilidad financiera, inventarios y gestión de personal, conectando el flujo de caja con la operación diaria en una sola plataforma. |
+| **Perfil** | Overview | Plataforma web que optimiza y agiliza la gestión operativa y de abastecimiento en restaurantes tipo chifa mediante soluciones tecnológicas inteligentes. | Plataforma basada en la nube diseñada para centralizar la gestión de alimentos y bebidas en cadenas de restaurantes y hoteles. | Plataforma basada en la nube especializada en automatizar el inventario y las compras para restaurantes, conectando el almacén directamente con los proveedores. | Plataforma basada en IA que se especializa en la gestión ultraprecisa de inventarios, usando reconocimiento de imágen para agilizar el conteo de existencias mediante el móvil. | Plataforma de gestión empresarial que unifica en un solo sistema la contabilidad, el control de inventarios, las compras y la gestión del personal. |
+| **Perfil** | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Plataforma centralizada y escalable que optimiza la cadena de suministro mediante analítica predictiva, garantizando eficiencia operativa, prevención de accidentes y una colaboración inteligente entre restaurantes y proveedores para una gestión sostenible. | Gestión centralizada de recetas y menús para múltiples locales, con enfoque en trazabilidad alimentaria, control de alérgenos y estandarización de la producción a gran escala. | Automatización integral del inventario y compras que utiliza análisis predictivos para sugerir pedidos, detectar variaciones de precios y maximizar la rentabilidad operativa. | Control de inventario ultrapreciso mediante inteligencia artificial y reconocimiento visual, especializado en la reducción de mermas y optimización de costos en bebidas y licores. | Sistema ERP unificado que integra contabilidad financiera, inventarios y gestión de personal, conectando el flujo de caja con la operación diaria en una sola plataforma. |
 | **Perfil de Marketing** | Mercado objetivo | Restaurantes de gastronomía peruano-china (chifas), aquellos con una operación moderada a alta complejidad que enfrentan retos críticos en la frescura de insumos y seguridad laboral. | Grupos de hospitalidad, hoteles y empresas de catering. Negocios con múltiples unidades y cocinas centrales que necesitan estandarizar recetas y producción a gran escala. | Restaurantes individuales y pequeñas cadenas enfocados principalmente en gestión de alimentos. | Establecimientos con un alto volumen de bebidas, como bares, clubes nocturnos y restaurantes de alta gama. | Operadores de nivel empresarial y franquicias que requieren una solución contable robusta. |
 | **Perfil de Marketing** | Estrategias de marketing | Promocionar el uso de sensores IoT, contenido especializado en seguridad y prevención de riegos en cocina, y co-marketing con proveedores de insumos orientales. | Contenido educativo profundo, usando una biblioteca técnica para profesionales F&B, marketing basado en casos de éxito y enfoque emocional para chefs. | Estrategia de Co-Marketing, colaborando con socios tecnológicos, SEO y guías prácticas y prueba social masiva. | Marketing de comparación con otros competidores, calculadoras de ROI y lead magnets gratuitos. | Webinars de nivel eje ejecutivo, eventos de grandes franquicias y networking y marketing de datos unificados. |
 | **Perfil de Producto** | Productos & Servicios | Gestión de inventario, comandas y abastecimiento, monitoreo de seguridad en cocina mediante sensores, analítica predictiva para demanda y alertas de bajo stock. | Gestión de recetas y menús, planificación de producción, módulo de inventario, trazabilidad de alérgenos, ventas y analítica. | Gestión de compras, escaneo de facturas, control de inventario, alertas de precios y libro de cocina digital. | Inventario de bebidas (Bar), base de datos global para licores y vinos, inteligencia de pedidos y análisis de costos. | Contabilidad, gestión de mano de obra, inventario y recetas, reporting empresarial y servicios de nómina. |
-| **Perfil de Producto** | Precios & costos | Modelo de Suscripción; Wok: S/ 119.99 al mes por ubicación. Wok Enterprise: Precio personalizado según necesidades y tamaño del cliente. | Modelo de Suscripción; Basic: $265 aprox. al mes por establecimiento | Modelo de Suscripción; Starter: Desde $199 al mes. Crecimiento: Desde $299 al mes. | Modelo de Suscripción; Essentials: Desde $189 al mes. Professional: Desde $249 al mes. Premium: Desde $499 al mes. | Modelo de Suscripción; Eseential: Desde $399 o $435 al mes por ubicación. Professional: Aproximadamente $635 al mes. |
+| **Perfil de Producto** | Precios & costos | Modelo de Suscripción; Wok: S/ 119.99 al mes por ubicación. Wok Enterprise: Precio personalizado según necesidades y tamaño del cliente. | Modelo de Suscripción; Basic: $265 aprox. al mes por establecimiento | Modelo de Suscripción; Starter: Desde $199 al mes. Crecimiento: Desde $299 al mes. | Modelo de Suscripción; Essentials: Desde $189 al mes. Professional: Desde $249 al mes. Premium: Desde $499 al mes. | Modelo de Suscripción; Essential: Desde $399 o $435 al mes por ubicación. Professional: Aproximadamente $635 al mes. |
 | **Perfil de Producto** | Canales y distribución (Web y/o móvil) | Web (Escritorio) y móvil. | Web (Escritorio) y móvil. | Web (Escritorio) y móvil (iOS y Android). | Web (Escritorio) y móvil (iOS y Android). | Web (Escritorio) y móvil (iOS y Android). |
 | **Análisis SWOT** | Fortalezas | Diferenciador de seguridad, visión colaborativa y enfoque de sostenibilidad y escalabilidad. | Gestión visual de recetas de altísima calidad y control estricto de alérgenos/HACCP. | Enorme red de proveedores ya integrados y facilidad para escanear facturas. | Tecnología de escaneo de botellas y uso de IA para predecir demanda externa. | Unificación total de contabilidad, nómina y operación en un solo sistema financiero. |
 | **Análisis SWOT** | Debilidades | Barrera tecnológica inicial, dependencia de la data del proveedor y recursos de desarrollo. | Curva de aprendizaje elevada y precio alto para restaurantes individuales | Interfaz móvil no tan intuitiva respecto a la competencia | Enfoque limitado a bebidas, la gestión de alimentos no es tan robusta como la de Apicbase. | Implementación extremedamente costosa y lenta, con un enfoque más contable que operativo. |
-| **Análisis SWOT** | Oportunidades | Nicho Especilizado (Chifas), crecimiento del sector en Latinoamérica y datos para el sector objetivo. | Expansión en el sector hotelero de lujo y grandes canteras de catering. | Integración con sistemas de pago para el proceso directo de compras. | Convertirse en el estándar para auditorías de inventario en bares de alta gama y casinos. | Adquisición de plataformas más pequeñas para dominar el mercado de franquicias. |
+| **Análisis SWOT** | Oportunidades | Nicho Especializado (Chifas), crecimiento del sector en Latinoamérica y datos para el sector objetivo. | Expansión en el sector hotelero de lujo y grandes canteras de catering. | Integración con sistemas de pago para el proceso directo de compras. | Convertirse en el estándar para auditorías de inventario en bares de alta gama y casinos. | Adquisición de plataformas más pequeñas para dominar el mercado de franquicias. |
 | **Análisis SWOT** | Amenazas | Competencia consolidada de grandes empresas, inestabilidad económica en Latinoamérica y resistencia al cambio cultural | Nuevos competidores con interfaces más ágiles y menos burocráticas como SupplyWok. | Pérdida de mercado frente a soluciones especializadas en nichos (como SupplyWok). | Que los sistemas de Punto de Venta (TPV) desarrollen sus propios escáneres nativos. | Software de contabilidad general, como QuickBook, que mejoren sus módulos de restaurante. |
 
 <sub>*Tabla 3. Análisis Competitivo*</sub>
@@ -132,9 +132,7 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 #### Segmento #1: Dueños de restaurantes chifa y administradores
 - **Entrevista #1**
 
-<p align="center">
-  <img src="../assets/images/interviews/owner-interview1.png" width="500">
-</p>
+![](../assets/images/interviews/owner-interview1.png)
 
 **Resumen de entrevista:**
 
@@ -143,23 +141,22 @@ Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, g
 <br>
 <div align="center">
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Juan Sung Jau Wang Chen            |
-| **Entrevistado**  | Ana Chen                |
-| **Edad**          | 50 años                                    |
-| **Ubicacion**     | La Perla, Callao                             |
-| **Duración / Empieza en**      | 7:38 minutos / 0:19                           |
-| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDQHa7uwWb0SpGufV03qReqAdJZ63c91J2peSXSFxW63_U?e=CLpwrJ) |
+| Detalle                  | Información                                                                                                                                                                                                                                                                                                                                                                                         |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistador**        | Juan Sung Jau Wang Chen                                                                                                                                                                                                                                                                                                                                                                             |
+| **Entrevistado**         | Ana Chen                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Edad**                 | 50 años                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Ubicacion**            | La Perla, Callao                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Duración / Empieza en** | 7:38 minutos / 0:00                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Enlace**               | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQCiHWZg6xqsSI1Y7mMb1NweAfJGxL80w4g55N_7TItUyIA?e=j8mWRg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NC44NX19) |
 
 </div>
 
 <sub>*Tabla 5. Entrevista 1*</sub>
 
 - **Entrevista #2**
-<p align="center">
-  <img src="../assets/images/interviews/owner-interview2.png" width="500" alt="entrevista-owners-2">
-</p>
+
+![](../assets/images/interviews/owner-interview2.png)
 
 **Resumen de entrevista:**
 
@@ -168,22 +165,22 @@ El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Call
 <br>
 <div align="center">
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Juan Sung Jau Wang Chen            |
-| **Entrevistado**  | Weiquan Wang               |
-| **Edad**          | 55 años                                    |
-| **Ubicacion**     | La Perla, Callao                             |
-| **Duración / Empieza en**      | 8:46 minutos / 0:20                 |
-| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDEAnd2qgv5RrhlW47RT0uwAeMEyqi6KVvTeeECfeDlJLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ftyrCl) |
+| Detalle          | Información                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Entrevistado**  | Weiquan Wang                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Edad**          | 55 años                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Ubicacion**     | La Perla, Callao                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Duración / Empieza en**      | 8:46 minutos / 7:39                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQCiHWZg6xqsSI1Y7mMb1NweAfJGxL80w4g55N_7TItUyIA?e=uHil6j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDU5LjI5fX0%3D) |
 
 </div>
 
 <sub>*Tabla 6. Entrevista 2*</sub>
-- **Entrevista #2**
-<p align="center">
-  <img src="../assets/images/interviews/owner-interview3.png" width="500" alt="entrevista-owners-3">
-</p>
+
+- **Entrevista #3**
+
+![](../assets/images/interviews/owner-interview3.png)
 
 **Resumen de entrevista:**
 
@@ -192,14 +189,14 @@ La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 1
 <br>
 <div align="center">
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Juan Sung Jau Wang Chen            |
-| **Entrevistado**  | Lily 蔡                |
-| **Edad**          | 54 años                |
-| **Ubicacion**     | La Perla, Callao       |
-| **Duración / Empieza en**      | 12:49 minutos / 0:36  |
-| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/personal/u202318609_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318609%5Fupc%5Fedu%5Fpe%2FDocuments%2Fentrevista3%2Downers%201%2Emov&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec4f1f5f8%2Db63d%2D4413%2D84a5%2Dd4920163ad74) |
+| Detalle          | Información                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Entrevistado**  | Lily 蔡                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Edad**          | 54 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Ubicacion**     | La Perla, Callao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Duración / Empieza en**      | 12:49 minutos / 16:25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQCiHWZg6xqsSI1Y7mMb1NweAfJGxL80w4g55N_7TItUyIA?e=S8AGC9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6OTg1LjMxfX0%3D) |
 
 </div>
 
@@ -209,9 +206,7 @@ La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 1
 #### Segmento #2: Proveedores de insumos para restaurantes
 - **Entrevista #1**
 
-<p align="center">
-  <img src="../assets/images/interviews/supplier-interview1.png" width="500">
-</p>
+![](../assets/images/interviews/supplier-interview1.png)
 
 **Resumen de entrevista:**
 
@@ -219,14 +214,14 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 <br>
 <div align="center">
 
-| Detalle          | Información                                |
-|------------------|--------------------------------------------|
-| **Entrevistador** | Juan Sung Jau Wang Chen            |
-| **Entrevistado**  | Alberto Copa Villa                |
-| **Edad**          | 37 años                                    |
-| **Ubicacion**     | La Perla, Callao                             |
-| **Duración / Empieza en**      | 5:26 minutos / 0:31                           |
-| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQAz-yZWPjdaTYEhhCMiX-lwAbe6dgRCmz--mI4NhxnP9zk?e=bCvRPf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| Detalle          | Información                                                                                                                                                                                                                                                                                                                               |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistador** | Juan Sung Jau Wang Chen                                                                                                                                                                                                                                                                                                                   |
+| **Entrevistado**  | Alberto Copa Villa                                                                                                                                                                                                                                                                                                                        |
+| **Edad**          | 37 años                                                                                                                                                                                                                                                                                                                                   |
+| **Ubicacion**     | La Perla, Callao                                                                                                                                                                                                                                                                                                                          |
+| **Duración / Empieza en**      | 5:26 minutos / 29:15                                                                                                                                                                                                                                                                                                                      |
+| **Enlace**        | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQCiHWZg6xqsSI1Y7mMb1NweAfJGxL80w4g55N_7TItUyIA?e=2l8g2n&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTc1NS44fX0%3D) |
 
 </div>
 
@@ -236,13 +231,9 @@ El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un prove
 
 El análisis de las entrevistas realizadas permite identificar patrones claros en los dos segmentos objetivo de SupplyWok: dueños de restaurantes chifa y proveedores. A partir de las entrevistas, se evidencian tanto comportamientos comunes como diferencias en la adopción tecnológica, sustentados en la frecuencia de respuestas observadas.
 
----
+#### Segmento 1: Dueños de restaurantes chifa y administradores
 
-## Segmento 1: Dueños de restaurantes chifa y administradores
-
-<p align="center">
-    <img src="../assets/images/analytics-owners.png" width="800">
-</p>
+![](../assets/images/analytics-owners.png)
 
 Este segmento agrupa a propietarios con amplia experiencia (entre 10 y 22 años en los casos entrevistados), quienes gestionan sus negocios de manera empírica.
 
@@ -268,13 +259,9 @@ Se identifican dos subgrupos:
 - El 67% valora alertas de stock bajo y herramientas que automaticen el cálculo de compras.  
 - Un 66% considera útil la predicción de demanda, especialmente para evitar faltantes.
 
----
+#### Segmento 2: Proveedores de insumos
 
-## Segmento 2: Proveedores de insumos
-
-<p align="center">
-    <img src="../assets/images/analytics-suppliers.png" width="800">
-</p>
+![](../assets/images/analytics-suppliers.png)
 
 Este segmento incluye proveedores con experiencia (ej. 7 años), que operan en entornos de alta inmediatez.
 
@@ -295,9 +282,7 @@ El 100% muestra interés en herramientas simples, especialmente:
 
 Sin embargo, el 0% muestra interés en analítica avanzada o predicciones complejas.
 
----
-
-## Conclusiones para el diseño de arquetipos
+#### Conclusiones para el diseño de arquetipos
 
 ### Automatización simple y práctica
 Dado que el 100% de restaurantes no usa sistemas formales, la plataforma debe automatizar procesos sin requerir esfuerzo adicional del usuario.
@@ -318,21 +303,17 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
-<p align="center">
-  <img src="../assets/images/huanzhang-userpersona.png" width="500">
-</p>
+![](../assets/images/huanzhang-userpersona.png)
 
 <sub>*Ilustración. User Persona dueños de restaurantes chifa y administradores*</sub>
 
 - **Segmento objetivo 2: Proveedores de insumos para restaurantes**
 
-<p align="center">
-  <img src="../assets/images/marcovaldivia-userpersona.png" width="500">
-</p><br>
+![](../assets/images/marcovaldivia-userpersona.png)
 
 <sub>*Ilustración. User Persona proveedores de insumos para restaurantes*</sub>
 
-### 2.2.2. User Task Matrix.
+### 2.3.2. User Task Matrix.
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
@@ -376,17 +357,13 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
-<p align="center">
-  <img src="../assets/images/map-supplywok1.png" width="500">
-</p>
+![](../assets/images/map-supplywok1.png)
 
 <sub>*Ilustración. User Journey Mapping - Segmento 1*</sub><br></br>
 
 - **Segmento objetivo 2: Proveedores de insumos para restaurantes**
 
-<p align="center">
-  <img src="../assets/images/map-supplywok2.png" width="500">
-</p>
+![](../assets/images/map-supplywok2.png)
 
 <sub>*Ilustración. User Journey Mapping - Segmento 2*</sub><br></br>
 
@@ -394,17 +371,13 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 
-<p align="center">
-  <img src="../assets/images/persona-empathy-map.png" width="500">
-</p>
+![](../assets/images/persona-empathy-map.png)
 
 <sub>*Ilustración. Empathy Map - Segmento 1*</sub><br></br>
 
 - **Segmento objetivo 2: Proveedores de insumos para restaurantes**
 
-<p align="center">
-  <img src="../assets/images/persona-empathy-map2.png" width="500">
-</p>
+![](../assets/images/persona-empathy-map2.png)
 
 <sub>*Ilustración. Empathy Map - Segmento 2*</sub><br></br>
 
@@ -417,25 +390,35 @@ A través de esta aproximación de alto nivel, el equipo exploró el panorama de
 
 #### Step 1: Unstructured Exploration
 
-En esta fase inicial, todos los miembros del equipo escriben tantos eventos de dominio como puedan en post-its naranjas. El objetivo es generar una lluvia de ideas masiva sobre lo que ocurre en el negocio de Aurora, sin preocuparse por el orden. 
+En esta fase inicial, todos los miembros del equipo generan eventos de dominio de forma libre, sin preocuparse por el orden ni la coherencia. Cada evento representa una acción relevante en el negocio, escrita en tiempo pasado (ej. "Pedido registrado", "Stock actualizado"). El objetivo es capturar el mayor volumen posible de eventos para construir una visión completa del dominio antes de estructurarlo.
 
-<p align="center">
-  <img src="../assets/images/step1bigevent.png" width="500">
-</p>
+![](../assets/images/step1-bpev.png)
+
+<sub>*Ilustración. Big Picture Event Storming — Step 1: Exploración no estructurada*</sub>
 
 #### Step 2: Structured Organization
 
-Después de listar los eventos desestructurados, el equipo los organiza en una línea de tiempo narrativa, identificando las relaciones de causalidad entre ellos. Se agrupan eventos relacionados y se identifican patrones o flujos comunes. En esta fase se busca entender cómo los eventos interactúan entre sí y cómo se relacionan con los procesos del negocio.
+Con el conjunto de eventos identificados, el equipo los organiza cronológicamente en una línea de tiempo narrativa. Se eliminan duplicados, se agrupan eventos relacionados y se identifican las relaciones causales entre ellos. Esta vista lineal permite detectar flujos principales del negocio y los primeros límites lógicos entre procesos.
 
-<img src="../assets/images/step2e01.png" width="500">
+![](../assets/images/step2-bpev.png)
 
-<img src="../assets/images/step2e02.png" width="500">
+<sub>*Ilustración. Big Picture Event Storming — Step 2: Organización estructurada*</sub>
 
-<img src="../assets/images/step2e03.png" width="500">
+#### Step 3: Pivotal points
 
-<img src="../assets/images/step2e04.png" width="500">
+Se identifican los eventos pivote: aquellos que marcan transiciones críticas en el negocio (ej. "Pedido confirmado por proveedor", "Alerta de stock crítico emitida"). Alrededor de estos eventos se trazan las fronteras de los Bounded Contexts, delimitando las responsabilidades de cada subdominio y sirviendo como base para la arquitectura del sistema.
 
-<img src="../assets/images/step2e05.png" width="500">
+![](../assets/images/step3-bpev.png)
+
+<sub>*Ilustración. Big Picture Event Storming — Step 3: Pivotal points*</sub>
+
+#### Step 4: Pain Points and Opportunities
+
+El equipo marca sobre la línea de tiempo los puntos de fricción, cuellos de botella y oportunidades de mejora detectados. Estos "pain points" suelen concentrarse en transiciones entre actores o en procesos manuales que podrían automatizarse. Esta fase orienta las decisiones de diseño hacia las áreas de mayor impacto operativo.
+
+![](../assets/images/step4-bpev.png)
+
+<sub>*Ilustración. Big Picture Event Storming — Step 4: Pain Points and Opportunities*</sub>
 
 ## 2.5. Ubiquitous Language.
 

@@ -9,9 +9,7 @@ SupplyWok adopta un sistema de diseño coherente, funcional y alineado con el co
 
 El logo de nuestra plataforma está compuesto por los caracteres **S** y **W**, provenientes del nombre *SupplyWok*, representados de forma creativa para mantener una relación con nuestro público objetivo. La **S** se encuentra en forma de humo que sale de un recipiente con forma de **W**. Esta composición transmite una conexión con el entorno de un restaurante chifa y genera familiaridad con nuestros usuarios.
 
-<div align="center">
-  <img src="../assets/images/supplywok-logo.png" width="300" height="300" alt="SupplyWok Logo">
-</div>
+![](../assets/images/supplywok-logo.png)
 
 **2. Branding:**
 
@@ -33,15 +31,11 @@ La tipografía que se ha decidido usar en nuestra plataforma son dos: **Poppins*
 
 - **Títulos:** Para los títulos se usará **Poppins** en pesos **Bold** o **SemiBold**, dependiendo del nivel jerárquico del texto. Esto permite darles la fuerza y relevancia necesarias.
 
-<div align="center">
-  <img src="../assets/images/poppins-example.png" alt="SupplyWok Poppins">
-</div>
+![](../assets/images/poppins-example.png)
 
 - **Párrafos o cuerpo del texto:** Se usará **Montserrat** en pesos variados como **Bold**, **Regular** o **Light**, dependiendo de la intención del texto. Esto asegura la legibilidad necesaria para los usuarios al momento de leer.
 
-<div align="center">
-  <img src="../assets/images/monserrat-example.png" alt="SupplyWok Montserrat">
-</div>
+![](../assets/images/monserrat-example.png)
 
 **4. Colors:**
 
@@ -53,9 +47,7 @@ La identidad visual de SupplyWok busca mantener una relación con el entorno de 
 - **Blanco (#FFFFFF):** Color neutro para mantener balance y aportar limpieza visual.
 - **Negro (#000000):** Color neutro para reforzar contraste y legibilidad.
 
-<div align="center">
-  <img src="../assets/images/paleta-colors.png" width="1000" height="200" alt="SupplyWok Colors">
-</div>
+![](../assets/images/paleta-colors.png)
 
 **5. Spacing:**
 
@@ -520,17 +512,13 @@ Los wireframes del Landing Page de SupplyWok representan la fase inicial de estr
 
 En la versión desktop, el wireframe prioriza una hero section amplia con el mensaje principal de la plataforma, acompañada por botones de acción visibles y una navegación superior persistente. A partir de esta cabecera, el contenido se organiza en secciones horizontales que presentan cómo funciona la plataforma, sus funcionalidades clave, los segmentos a los que atiende, los planes disponibles y la sección de preguntas frecuentes. Esta distribución aprovecha mejor el ancho de pantalla y facilita una lectura escaneable y ordenada.
 
-<p align="center">
-  <img src="../assets/images/figma/landingpage-desktop-wireframe.png" width="600px">
-</p>
+![](../assets/images/figma/landingpage-desktop-wireframe.png)
 
 #### Mobile
 
 En la versión mobile, la estructura se reorganiza en una sola columna, priorizando el contenido esencial y reduciendo el número de elementos visibles por bloque. La hero section conserva los mensajes y acciones principales, pero la navegación se compacta para facilitar la interacción táctil. Las secciones se apilan verticalmente y los llamados a la acción se mantienen visibles en puntos estratégicos para asegurar continuidad en el recorrido del usuario sin perder claridad.
 
-<p align="center">
-  <img src="../assets/images/figma/landingpage-mobile-wireframe.png" width="600px">
-</p>
+![](../assets/images/figma/landingpage-mobile-wireframe.png)
 
 ### 4.3.2. Landing Page Mock-up.
 
@@ -540,17 +528,13 @@ Los mock-ups finales del Landing Page de SupplyWok representan la consolidación
 
 En el mock-up desktop se evidencia una jerarquía visual clara, reforzada mediante el uso del rojo institucional en botones y puntos de énfasis, combinado con fondos claros y bloques bien espaciados. La hero section destaca la propuesta de valor de SupplyWok y dirige la atención hacia los llamados a la acción. Las secciones posteriores organizan las funcionalidades, los beneficios por segmento y los planes con una estructura visual limpia que facilita la comprensión rápida del producto.
 
-<p align="center">
-  <img src="../assets/images/figma/landingpage-desktop-mockup.png" >
-</p>
+![](../assets/images/figma/landingpage-desktop-mockup.png)
 
 #### Mobile
 
 En la versión mobile del mock-up, la composición se adapta a pantallas reducidas manteniendo consistencia visual en color, tipografía y jerarquía de contenidos. Los elementos se apilan en una sola columna y los botones se dimensionan para interacción táctil. Esta adaptación busca que la propuesta comercial de SupplyWok siga siendo clara, navegable y atractiva en dispositivos móviles, sin sacrificar legibilidad ni orientación del usuario.
 
-<p align="center">
-  <img src="../assets/images/figma/landingpage-mobile-mockup.png" width="600px">
-</p>
+![](../assets/images/figma/landingpage-mobile-mockup.png)
 
 ## 4.4. Web Applications UX/UI Design.
 
@@ -564,37 +548,38 @@ En escritorio, los wireframes muestran una estructura con sidebar, header superi
 ![wireframes web](../assets/images/figma/wireframes-web.jpg)
 ![wireframe mobile1](../assets/images/figma/web-app-mobile-wireframe1.png)
 ![wireframe mobile2](../assets/images/figma/web-app-mobile-wireframe2.png)
-[wireframe mobile3](../assets/images/figma/web-app-mobile-wireframe3.png)
+![wireframe mobile3](../assets/images/figma/web-app-mobile-wireframe3.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 Los wireflows de SupplyWok muestran cómo cambian las pantallas wireframe a medida que el usuario avanza en un flujo concreto. Cada wireflow se construye a partir de un user goal y representa la secuencia de pasos necesarios para alcanzarlo, incluyendo decisiones intermedias y estados relevantes de la interfaz.
 
 **User Goal 1: Registrar y controlar insumos del restaurante.**  
-Este wireflow representa el recorrido del usuario restaurante desde el acceso al Dashboard hasta el módulo de Inventario, donde puede registrar un nuevo insumo, definir unidad de medida, stock mínimo y proveedor asociado. El flujo permite validar que la pantalla principal, la tabla de inventario y el formulario de creación estén conectados de manera lógica y con mínima fricción.
+El usuario accede a la aplicación y, al no estar logueado, puede optar por crear una nueva cuenta o iniciar sesión. Si selecciona “Crear cuenta”, se abre un formulario donde debe ingresar su nombre, apellidos, correo electrónico y contraseña. En caso de que falte algún campo, la aplicación mostrará un mensaje de advertencia hasta que se completen los datos correctamente. Una vez registrado, se muestra una confirmación y el usuario es redirigido al mapa principal. Si ya posee una cuenta, selecciona “Iniciar sesión” e ingresa sus credenciales. Si estas son incorrectas, el sistema mostrará un mensaje de error. Tras un inicio exitoso, el usuario accede a la pantalla principal con el mapa interactivo y las funciones disponibles.
 
-![wireflow1](../assets/images/figma/web-app-mobile-wireflow1.jpeg) 
+![wireflow1](../assets/images/figma/web-app-mobile-wireflow1.png) 
 
 
 **User Goal 2: Crear y dar seguimiento a un pedido de abastecimiento.**  
-Este wireflow muestra cómo el restaurante inicia un pedido desde la sección de Pedidos, selecciona proveedor, agrega productos y revisa el estado del pedido una vez registrado. La secuencia evidencia una organización paso a paso que reduce errores y favorece la trazabilidad de la orden.
+Este wireflow muestra cómo el restaurante inicia un pedido desde la sección de Pedidos, selecciona proveedor, agrega productos y revisa el estado del pedido una vez registrado. Si el usuario no rellena los campos adecuadamente, se muestra un mensaje de error. La secuencia evidencia una organización paso a paso que reduce errores y favorece la trazabilidad de la orden.
 
-![wireflow](../assets/images/figma/web-app-mobile-wireflow2.jpeg)
+![wireflow](../assets/images/figma/web-app-mobile-wireflow2.png)
 
 **User Goal 3: Gestionar comandas y operación interna del restaurante.**  
-Este wireflow representa el flujo mediante el cual el personal del restaurante registra una comanda, la asocia a una mesa y hace seguimiento a su avance dentro de la operación interna. La estructura permite visualizar con claridad los cambios de estado entre cola, preparación y listo.
+Este wireflow representa el flujo mediante el cual el personal del restaurante registra una comanda, la asocia a una mesa y hace seguimiento a su avance dentro de la operación interna. Empieza desde el dashboard a la pagina de comandas, luego a generar nuevo ticket y dependiendo el tipo de ticket se genera un formulario para crear la solicitud de la comanda, se rellena la solicitud y luego se envia y actualiza.
 
-![wireflow3](../assets/images/figma/web-app-mobile-wireflow3.jpeg)
+![wireflow3](../assets/images/figma/web-app-mobile-wireflow3.png)
 **User Goal 4: Gestionar pedidos recibidos y catálogo del proveedor.**  
 Este wireflow muestra el recorrido del proveedor desde su dashboard hacia pedidos recibidos, clientes o catálogo de productos, permitiéndole revisar demanda, actualizar disponibilidad y dar seguimiento a entregas. Esto valida la coherencia de la experiencia del segundo rol principal del sistema.
 
-![wireflow4](../assets/images/figma/web-app-mobile-wireflow4.jpeg)
+![wireflow4](../assets/images/figma/web-app-mobile-wireflow4.png)
 
-### 4.4.2. Web Applications Mock-ups.
+### 4.4.3. Web Applications Mock-ups.
 
 Los mock-ups de SupplyWok muestran la versión visual final de las aplicaciones web, incorporando el sistema de colores, tipografía, espaciado y componentes definidos en las Style Guidelines. En estas vistas se evidencia cómo la jerarquía visual, el diseño inclusivo y la arquitectura de información se traducen en pantallas operativas, legibles y consistentes para ambos roles.
 
 En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lateral persistente, paneles informativos, tablas y tarjetas orientadas a la toma de decisiones. En mobile, la experiencia se reorganiza en bloques táctiles de una sola columna, priorizando la consulta rápida y la ejecución de acciones esenciales.
+
 ![mockupweb1](../assets/images/figma/mockup-web1.png)
 ![mockupweb2](../assets/images/figma/mockup-web2.png)
 ![mockupweb3](../assets/images/figma/mockup-web3.png)
@@ -604,13 +589,143 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 ![mockupweb8](../assets/images/figma/mockup-web8.png)
 ![mockupweb9](../assets/images/figma/mockup-web9.png)
 ![mockupweb10](../assets/images/figma/mockup-web10.png)
+![mockupweb11](../assets/images/figma/mockup-web11.png)
+![mockupweb12](../assets/images/figma/mockup-web12.png)
+
+##### Login and Register Web
+
+![mockupweblogin](../assets/images/figma/guides/login-guide.png)
+
+**1)** La seleccion de idioma del sistema, pudiendo escojer entre ingles, español y chino. <br>
+**2)** Es la seccion donde el usuario podra rellenar su información, en el caso del login pedira su correo y contraseña, mientras que para registarse pedira correo, contraseña, rol y plan de suscripción. <br>
+**3)** Son los campos para rellenar la información solicitada, en el caso del login son solo dos campos, mientras que para registarse son cuatro. Ambos campos en login con un ejemplo de correo y contraseña. <br>
+**4)** Son los textos interacctivos, estos redirigen al usuario a otras secciones del sistema segun indique el texto. <br>
+**5)** El botón principal, en el caso del login permite iniciar sesión, mientras que en el registro redirigire al pago para crear la cuenta.
+
+##### Dashboard Main Page
+
+![dashboardmain](../assets/images/figma/guides/main-dashboard-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema, como lo son el inventario, ordenes, comandas, proveedores, etc.
+
+**2)** En seccion superior dentro de la pagina esta la vista general con la información pertinente del rol, en este caso el inventario con bajos niveles de stock como ejemplo.
+
+**3)** En el Header se muestran las notificaciones, preguntas o dudas y el perfil del usuario.
+
+**4)** El aparatado visual que muestra nuestra plataforma con el rol y el nombre asociado.
+
+**5)** Una seccion que muestra con más detalle la información de los sensores disponibles.
+
+**6)** Una seccion que muestra con más detalle las comandas y sus estados.
+
+**7)** Este apartado muestra informacion del inventario, priorizando los productos que estan bajos de stock.
+
+**8)** Un apartado que muestra las ordenes que se hacen a los proveedores.
+
+##### Inventory Page
+
+![inventorypage](../assets/images/figma/guides/inventory-dashboard-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** La sección más detallada del inventario, mostrando todos los productos registrados en forma de lista, contando con buscadores por escritura del usuario y otro seleccionable por categorías.
+
+**3)** El item de la lista del inventario muestra el nombre del producto, el nivel de stock, categoria, proveedor y acciones como editar o eliminar el producto.
+
+**4)** El botón prncipal de esta sección, el cual permite agregar un nuevo producto al inventario.
+
+##### Orders Page
+
+![orderspage](../assets/images/figma/guides/orders-dashboard-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Sección para crear ordenes a los proveedores, permite seleccionar el proveedor, fecha  y prioridad; tambien añade los productos que se quieren pedir añadiendo lineas en forma de listas e indicando el precio. Contiene tambien el boton que enviaria la orden al proveedor.
+
+**3)** Apartado para ver el seguimiento de las ordenes realizadas a proveedores, se muestran en forma de listas.
+
+##### Kitchen Tickets Page
+
+![kitchentickets](../assets/images/figma/guides/kitchen-tickets-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Una vista rápida de las comandas mostrando cuantas estan abiertas, en preparacion y listas.
+
+**3)** Vista detallada de las comandas, mostrando a que mesa pertenece, el estado de la comanda y su fecha de creación, con acciones que se pueden hacer a cada comanda como eliminarlo.
+
+**4)** El botón principal, el cual permite crear una nueva comanda.
+
+##### Suppliers Page
+
+![supplierspage](../assets/images/figma/guides/supliers-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Lista detallada de los proveedores disponibles en la plataforma, la información que muestra en en formato de listas con el nombre del proveedor, datos de contacto, categorías de suministros, etc. Tambien cuenta con un botón para pasar a la siguiente vista con más proveedores en caso hallan.
+
+##### Tables Page
+
+![tablespage](../assets/images/figma/guides/tables-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Vista simple de las mesas, mostrando las mesas ocupadas, libres y un porcentaje de ocupación.
+
+**3)** Sección de búsqueda, uno por input del usuario y un seleccionable por zonas.
+
+**4)** Apartado que muestra una vista detallada de las mesas con su número de comensales, estado, etc. Para ver todos es necesario hacer scroll hacia abajo.
+
+##### Alerts Page
+
+![alertspage](../assets/images/figma/guides/alerts-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Sección de búsqueda, uno por input del usuario y un seleccionable por prioridad.
+
+**3)** Una lista detallada de las alertas notificadas, mostrando su prioridad, detalle, fuente, fecha, estado y como accion marcarlo como leída.
+
+##### Reports Page
+
+![reportspage](../assets/images/figma/guides/reports-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Botones para exportar los datos del reporte a formato PDF o CSV.
+
+**3)** Sección de gráficos que permite ver los datos del reporte de forma visual. incluye la evolución del inventario, el comsumo por periodos, ordenes por proveedor e incidentes.
+
+##### Settings Page
+
+![settingspage](../assets/images/figma/guides/settings-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Sección del perfil del usuario. Permite cambiar datos y horarios, ademas de habilitar notificaciones por SMS o Email.
+
+**3)** Lista de Usuarios que tiene acceso a las comandas, tanto para crearlas como asignarlas.
+
+**4)** Bloqueador del sistema, permite bloquear las funciones del sistema para que el personal solo pueda ver las secciones autorizadas.
+
+##### Subscription Plans Page
+
+![subscriptionplanspage](../assets/images/figma/guides/subscripcions-guide.png)
+
+**1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
+
+**2)** Sección de vista rápida que muestra el plan actual, usuarios, locaciones y sensores que tiene el usuario.
+**3)** Primer plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
+
+**4)** Segundo plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
+
 #### mobile
 ![mockupmobile1](../assets/images/figma/web-app-mobile-mockup1.png)
 
 ![mockupmobile2](../assets/images/figma/web-app-mobile-mockup2.png)
 ![mockupmobil3](../assets/images/figma/web-app-mobile-mockup3.png)
 
-### 4.4.3. Web Applications User Flow Diagrams.
+### 4.4.4. Web Applications User Flow Diagrams.
 
 Los User Flow Diagrams de SupplyWok representan los recorridos funcionales principales de los usuarios dentro del sistema, considerando tanto la ruta esperada como posibles variantes o interrupciones. A diferencia del wireflow, aquí el foco está en la lógica de navegación, las decisiones del usuario y las condiciones que afectan la continuidad del flujo.
 
@@ -618,26 +733,26 @@ Los User Flow Diagrams de SupplyWok representan los recorridos funcionales princ
 Happy path: el usuario ingresa al Dashboard, accede a Inventario, selecciona la opción para agregar o editar un insumo, guarda la información y visualiza la actualización reflejada en la tabla principal.  
 Unhappy path: el usuario omite campos obligatorios o ingresa valores inválidos; el sistema bloquea el guardado y muestra mensajes de validación.
 
-![userflow1](../assets/images/figma/web-app-mobile-userflow1.jpeg)
+![userflow1](../assets/images/figma/web-app-mobile-userflow1.png)
 
 
 **User Goal 2: Generar un pedido de abastecimiento correctamente.**  
 Happy path: el restaurante accede al módulo de Pedidos, selecciona proveedor, agrega productos, confirma cantidades y registra la orden, quedando visible con estado pendiente.  
 Unhappy path: no existe stock de referencia, no se selecciona proveedor o faltan productos; el sistema notifica el error y evita el registro incompleto.
 
-![userflow2](../assets/images/figma/web-app-mobile-userflow2.jpeg)
+![userflow2](../assets/images/figma/web-app-mobile-userflow2.png)
 
 **User Goal 3: Gestionar una comanda hasta su finalización.**  
 Happy path: el personal registra una comanda, la asocia a una mesa, la cocina la procesa y el sistema actualiza su estado hasta marcarla como lista o entregada.  
 Unhappy path: la mesa no está disponible, la comanda queda incompleta o el estado no puede avanzar por una inconsistencia operativa; el sistema informa la condición al usuario.
 
-![userflow3](../assets/images/figma/web-app-mobile-userflow3.jpeg)
+![userflow3](../assets/images/figma/web-app-mobile-userflow3.png)
 
 **User Goal 4: Dar seguimiento a pedidos desde la vista proveedor.**  
 Happy path: el proveedor accede a pedidos recibidos, revisa el detalle, actualiza el estado del despacho y confirma la entrega.  
 Unhappy path: el pedido está retrasado, faltan productos o el proveedor no puede confirmar entrega; el sistema permite registrar la incidencia y mantener trazabilidad del estado.
 
-![userflow4](../assets/images/figma/web-app-mobile-userflow4.jpeg)
+![userflow4](../assets/images/figma/web-app-mobile-userflow4.png)
 
 ## 4.5. Web Applications Prototyping.
 
@@ -665,43 +780,42 @@ En esta sección se detalla el proceso de Design-Level EventStorming realizado p
 
 Primero, refinamos la línea de tiempo original, eliminando eventos redundantes o procesos manuales que quedaban fuera del alcance tecnológico de la plataforma. Sobre este flujo depurado, incorporamos los elementos tácticos del Domain-Driven Design: Actores y Comandos para representar las intenciones, Políticas para las reglas automáticas, y Agregados (Aggregates) como responsables de procesar las operaciones y emitir los eventos de dominio. Este nivel de granularidad nos permitió consolidar y justificar las fronteras definitivas de nuestros Bounded Contexts.
 
-Este contexto delimitado constituye el núcleo operativo para los restaurantes tipo chifa dentro de la plataforma Aurora. Su propósito principal es centralizar y automatizar el control de los insumos, transformando la gestión manual tradicional en un proceso preciso y basado en datos.
+#### Bounded context 1 
+Este contexto delimitado constituye el núcleo operativo para la gestión de inventario en los restaurantes tipo chifa dentro de la plataforma Aurora. Se identificaron entidades como Insumo, Stock y Merma, junto con conceptos del lenguaje ubicuo como threshold (umbral). A partir de comandos como Register Daily Consumption e Increment Stock Levels, se generan eventos como Daily Consumption Registered y Stock Levels Incremented. Asimismo, se definieron políticas de negocio como el cálculo automático de incremento de stock al registrar nuevos productos y la validación de inconsistencias, por ejemplo, cuando se registra consumo sin stock previo, lo que puede desencadenar auditorías o alertas de riesgo.
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD1.png" alt="SupplyWok System Context Diagram">
-</div>
+![](../assets/images/Bounded-context-cavnvas-DDD1.png)
 
-Este contexto delimitado actúa como el puente transaccional entre los restaurantes tipo chifa y sus proveedores dentro del ecosistema Aurora. Su objetivo fundamental es digitalizar y estructurar la coordinación de pedidos de insumos, reemplazando las vías de comunicación informales por un flujo de trabajo centralizado y rastreable en la plataforma.
+#### Bounded context 2 
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD2.png" alt="SupplyWok System Context Diagram">
-</div>
+Este contexto delimitado actúa como el puente transaccional entre los restaurantes y sus proveedores, permitiendo la gestión de abastecimiento del stock. Se identificaron entidades como Purchase Order y conceptos clave como Lead Time y Forecasting dentro del lenguaje ubicuo. A partir del comando Identify Low Stock Levels, se genera el evento Low Stock Levels Identified, el cual puede activar políticas como la generación automática de solicitudes de reposición. Asimismo, el flujo incluye eventos como Order Sent to Supplier, Supplier Notified y Delivery Order Sent to Restaurant, junto con reglas de negocio que contemplan seguimiento manual y actualización automática del estado de los pedidos.
 
-Este contexto delimitado tiene como propósito supervisar las condiciones físicas críticas en las instalaciones del restaurante, específicamente en áreas vulnerables como la cocina y el almacén. Mediante la integración simulada de sensores IoT, el sistema monitorea variables ambientales clave de forma continua, tales como la temperatura y la humedad.
+![](../assets/images/Bounded-context-cavnvas-DDD2.png)
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD3.png" alt="SupplyWok System Context Diagram">
-</div>
+#### Bounded context 3
 
-Este contexto delimitado está diseñado para centralizar la gestión de los proveedores, brindándoles las herramientas necesarias para optimizar su logística y planificación comercial. A través de este módulo, los proveedores obtienen visibilidad sobre la demanda futura de sus clientes, lo que les permite gestionar sus catálogos de insumos y realizar un seguimiento detallado del estado de los pedidos recibidos.
+Este contexto delimitado tiene como propósito supervisar las condiciones físicas del entorno del restaurante mediante sensores. Se modelan entidades como Sensor y Lectura Ambiental, incorporando conceptos como safe range y downtime en el lenguaje ubicuo. A partir de comandos como Detect Disconnected Sensor y Define Safe Temperature Thresholds, se generan eventos como Disconnected Sensor Detected y Temperature Range Registered. Además, se establece una política que permite mostrar alertas cuando se detecta una desconexión, reflejada en eventos como Sensor Disconnected Warning Displayed.
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD4.png" alt="SupplyWok System Context Diagram">
-</div>
+![](../assets/images/Bounded-context-cavnvas-DDD3.png)
 
-Este contexto delimitado representa la capa transversal de seguridad y administración comercial de la plataforma Aurora. Su propósito principal es proporcionar un entorno centralizado y seguro donde todos los usuarios puedan autenticarse, gestionar sus cuentas y recibir soporte técnico de manera eficiente.
+#### Bounded context 4
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD5.png" alt="SupplyWok System Context Diagram">
-</div>
+Este contexto delimitado gestiona la interacción con proveedores y el seguimiento del rendimiento en las entregas. A partir del comando Confirm Delivery Completion, se genera el evento Delivery Completion Confirmed, seguido por la recepción de notificaciones (Confirmation Notification Received). Dentro del lenguaje ubicuo se incorpora el concepto de performance, el cual permite evaluar el cumplimiento y eficiencia en el proceso de entrega, apoyando la toma de decisiones operativas.
 
-Este contexto delimitado representa el núcleo operativo del restaurante chifa dentro de la plataforma Aurora. Su propósito principal es orquestar la comunicación crítica entre el salón y la cocina, asegurando que los pedidos se procesen con precisión, se monitoreen en tiempo real y se mantenga la integridad operativa.
+![](../assets/images/Bounded-context-cavnvas-DDD4.png)
 
-<div align="center">
-  <img src="../assets/images/Bounded-context-cavnvas-DDD6.png" alt="SupplyWok System Context Diagram">
-</div>
+#### Bounded context 5
 
-aqui se encuentra el enlace de lucid chart del proceso:
+Este contexto delimitado representa la gestión de suscripciones y pagos dentro de la plataforma. Se identificaron comandos como Subscription Plan Comparison, Select Subscription Plan y Submit Payment Details, que generan eventos como Subscription Plan Selected y Completed Payment Form. Asimismo, se definieron políticas relacionadas con el control de acceso mediante mecanismos de lockdown y desbloqueo según el estado de la suscripción. El lenguaje ubicuo incluye conceptos como credentials, representando los datos de acceso del usuario.
+
+![](../assets/images/Bounded-context-cavnvas-DDD5.png)
+
+#### Bounded context 6
+
+Este contexto delimitado modela la operación interna del restaurante en la gestión de pedidos entre salón y cocina. Se identificaron comandos como Assign Table to Order y Create Kitchen Order, que generan eventos como Table Assigned to Menu Order y Kitchen Order Created. Dentro del lenguaje ubicuo se incorporan términos como kitchen ticket (comanda) y lockdown mode, relacionado con el modo de operación en cocina. Este contexto permite garantizar la trazabilidad y correcta ejecución del flujo de pedidos.
+
+![](../assets/images/Bounded-context-cavnvas-DDD6.png)
+
+Aquí se encuentra el enlace de LucidChart del proceso:
 [lucid chart](https://lucid.app/lucidspark/5b28482f-d099-4d83-a08c-9b7af6d88474/edit?view_items=bz3RN-x7D4~0&page=0_0&invitationId=inv_b6c94e5b-c9dc-4932-9e69-f11cae2d319d)
 
 ### 4.6.2. Software Architecture Context Diagram.
@@ -719,6 +833,7 @@ El Container Diagram de SupplyWok muestra la descomposición de la solución en 
 La Landing Page cumple una función de presentación y conversión, guiando al visitante hacia el registro o inicio de sesión. La Single Page Application concentra la experiencia operativa principal en navegador, mientras que la Mobile Web App ofrece acceso adaptado a pantallas reducidas y tareas rápidas. Ambas aplicaciones consumen la SupplyWok API mediante comunicación JSON/HTTPS, delegando en el backend la lógica de negocio, persistencia y coordinación entre módulos. La API, a su vez, se conecta con la base de datos PostgreSQL para almacenar y consultar la información del dominio, y con Stripe para funciones relacionadas con pagos o suscripción.
 
 Este diagrama permite justificar las principales decisiones tecnológicas y evidencia una arquitectura desacoplada, donde la interfaz, la lógica de negocio y la persistencia mantienen responsabilidades diferenciadas.
+
 ![](../assets/images/supplywok-containers.png)
 
 ### 4.6.4. Software Architecture Components Diagrams.
@@ -735,27 +850,21 @@ La representación también evidencia la relación de estos componentes con la b
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-En esta seccion se presentara y se explicara el diagrama de clases por cada Boundes Context
+En esta seccion se presentar;a y se explicará el diagrama de clases por cada Bounded Context
 
-<div align="center">
-  <img src="../assets/images/IMBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/IMBC.png)
 
 El **Inventory Management Bounded Context** es el encargado de gestionar los recursos de inventario de cada restaurante, incluyendo el control de stock, niveles mínimos y movimientos de entrada y salida.
 
 El **InventoryService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza el **InventoryRepository** para la persistencia de datos y el **InventoryItem** como entidad principal del dominio, encargada de representar cada insumo almacenado en el Inventario del restaurante.El **StockMovement** representa las modificaciones realizadas al stock de cada ítem, permitiendo llevar un registro detallado de entradas, salidas y ajustes.
 
-<div align="center">
-  <img src="../assets/images/S&PBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/S&PBC.png)
 
 El **Supply and Purchasing Bounded Context** es el encargado de gestionar las órdenes de compra realizadas por cada restaurante, incluyendo el registro, cancelación y seguimiento de los pedidos.
 
 El **PurchaseOrderService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza el **PurchaseOrderRepository** para la persistencia de datos y el **PurchaseOrder** como entidad principal del dominio, encargada de representar toda la información de una orden de compra de insumos del restaurante. Además, el **OrderItem** encapsula las especificaciones de cada producto dentro de la orden, como la cantidad solicitada y el precio unitario, permitiendo un control detallado de cada pedido.
 
-<div align="center">
-  <img src="../assets/images/O&IBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/O&IBC.png)
 
 El **Operational Monitoring and IoT Alerts Bounded Context** es el encargado de gestionar la información recopilada por los sensores del restaurante, así como la configuración y generación de alertas ante condiciones fuera de los rangos establecidos.
 
@@ -763,9 +872,7 @@ El **SensorService** actúa como capa de aplicación, coordinando las operacione
 
 Además, emplea la entidad **Sensor**, junto con **SensorReading**, para representar la información capturada por los sensores. Por otro lado, la entidad **Alert** modela las alertas generadas cuando una medición supera los límites configurados.
 
-<div align="center">
-  <img src="../assets/images/RMBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/RMBC.png)
 
 El **Restaurant Management Bounded Context** es el encargado de gestionar todo lo relacionado con la operación del establecimiento, incluyendo la administración de mesas y la gestión de comandas en cada restaurante.
 
@@ -773,9 +880,7 @@ Los servicios **ComandaService**, **RestaurantService** y **TableService** actú
 
 Además, se emplean las entidades **Table**, que representa una mesa dentro del restaurante; **Comanda** y **ComandaItem**, que modelan las órdenes de consumo; y **Restaurant**, que encapsula la información principal de cada restaurante.
 
-<div align="center">
-  <img src="../assets/images/S&OBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/S&OBC.png)
 
 El **Supplier Management & Operations Bounded Context** es el encargado de gestionar la información de los proveedores, sus catálogos de productos y las operaciones relacionadas con el cumplimiento de pedidos.
 
@@ -787,9 +892,7 @@ Además, el **DemandForecastService** se encarga de generar proyecciones de dema
 
 Finalmente, el **OrderFulfillmentService** gestiona el proceso de entrega de pedidos mediante la entidad **OrderFulfillment**, permitiendo hacer seguimiento al estado de los envíos desde su despacho hasta su entrega final.
 
-<div align="center">
-  <img src="../assets/images/I&ABC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/I&ABC.png)
 
 El **Identity & Access Bounded Context** es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas de usuario en el sistema.
 
@@ -797,9 +900,7 @@ Los servicios **AuthService** y **TokenService** actúan como capa de aplicació
 
 La entidad **User** encapsula toda la información relevante de un usuario en la plataforma, como su correo electrónico, contraseña (almacenada de forma segura) y su **Role**, el cual define sus permisos dentro del sistema.
 
-<div align="center">
-  <img src="../assets/images/SBC.png" alt="SupplyWok Components Diagram">
-</div>
+![](../assets/images/SBC.png)
 
 El **Shared Bounded Context** contiene Value Objects comunes que son reutilizados por múltiples bounded contexts del sistema, evitando duplicación y promoviendo consistencia en el modelo.
 
