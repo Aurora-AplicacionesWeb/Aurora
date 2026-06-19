@@ -704,4 +704,201 @@ En este apartado se visualiza todos los gráficos que representan la participaci
 
 ![Team Contribution 2](../assets/images/deploy-steps/contributions_2_2.png)
 
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+En esta sección se presenta el diseño de las sesiones de validación realizadas sobre el Landing Page y la Web Application de SupplyWok. A diferencia de las entrevistas de descubrimiento desarrolladas durante el needfinding, estas sesiones tuvieron como objetivo evaluar el comportamiento de usuarios representativos al interactuar con la propuesta de valor del producto y con los principales flujos de la solución digital implementada.
 
+Las sesiones de validación se diseñaron para observar si los participantes comprendían el propósito del producto, si podían navegar por las vistas principales sin asistencia excesiva y si lograban completar tareas representativas del core business. Asimismo, se buscó recopilar comentarios espontáneos de los participantes sobre claridad, utilidad, confianza, facilidad de uso y valor percibido de la solución.
+
+Para ello, se trabajó con usuarios correspondientes a los dos segmentos objetivo del proyecto: dueños o administradores de restaurantes chifa y proveedores de insumos para restaurantes. Cada sesión fue moderada por un integrante del equipo y registrada en video como evidencia de validación.
+
+**Objetivo general de validación**
+
+- Verificar si los usuarios comprenden la propuesta de valor de SupplyWok al interactuar con el Landing Page.
+- Evaluar si los usuarios pueden navegar por la Web Application y completar tareas clave sin fricción significativa.
+- Identificar problemas de usabilidad, arquitectura de información y diseño inclusivo en los flujos implementados.
+- Recoger observaciones cualitativas que permitan priorizar mejoras para las siguientes iteraciones del producto.
+
+**Segmentos validados**
+
+- **Segmento 1:** Dueños o administradores de restaurantes chifa.
+- **Segmento 2:** Proveedores de insumos para restaurantes.
+
+**Escenarios y tareas de validación**
+
+Las sesiones se estructuraron alrededor de tareas concretas, alineadas con los flujos principales del producto.
+
+**Para el segmento de restaurantes**
+
+- Identificar, a partir del Landing Page, cuál es la propuesta de valor principal de SupplyWok.
+- Navegar desde el Landing Page hacia la aplicación.
+- Iniciar sesión y reconocer el propósito general del dashboard.
+- Ubicar módulos clave como inventario, pedidos, alertas o mesas.
+- Interpretar la información presentada en una vista principal del sistema.
+
+**Para el segmento de proveedores**
+
+- Identificar, a partir del Landing Page, cómo SupplyWok puede aportar valor al proveedor.
+- Navegar desde el Landing Page hacia la aplicación.
+- Iniciar sesión en la vista de proveedor.
+- Ubicar funcionalidades principales como clientes, catálogo, órdenes o demanda proyectada.
+- Interpretar la información mostrada en una vista principal del panel del proveedor.
+
+**Prompts de apoyo utilizados por el moderador**
+
+Durante la sesión, el moderador evitó inducir respuestas directas y utilizó preguntas breves para incentivar el pensamiento en voz alta del participante.
+
+- ¿Qué crees que puedes hacer en esta pantalla?
+- ¿Qué esperabas que ocurriera al hacer clic en esta opción?
+- ¿Qué parte te resulta más clara hasta este punto?
+- ¿Qué parte te genera duda o confusión?
+
+### 5.3.2. Registro de Entrevistas.
+En esta sección se presenta el registro de las sesiones de validación realizadas con representantes de los segmentos objetivo. Cada sesión permitió observar cómo los usuarios interactuaron con el Landing Page y con la Web Application, así como registrar comentarios, dudas y observaciones generadas durante la navegación.
+
+Las entrevistas de validación fueron registradas en video y consolidadas en un único material de evidencia, siguiendo las indicaciones del project statement. En cada caso se documenta la información del participante, el segmento representado, la fecha de la sesión y un resumen de los principales hallazgos obtenidos.
+
+**Video consolidado de validación**
+- **Enlace en Microsoft Stream:** [Agregar enlace del video de validación](#)
+- **Captura de evidencia:**  
+  ![validation-video-evidence](../assets/images/[agregar-captura-video-validacion].png)
+
+### Segmento Objetivo Restaurantes
+
+#### Entrevista de validación #1
+
+**Resumen de la sesión:**
+
+[Redactar aquí un resumen en formato descriptivo. Explicar cómo el participante recorrió el Landing Page, qué entendió de la propuesta de valor, qué pudo o no pudo encontrar en la Web Application, qué elementos le resultaron claros y qué observaciones realizó sobre la experiencia.]
+
+| Detalle | Información |
+|---|---|
+| **Entrevistador** | [Nombre del integrante] |
+| **Entrevistado** | [Nombre o alias del participante] |
+| **Segmento objetivo** | [Restaurante / Proveedor] |
+| **Edad** | [Edad] |
+| **Ubicación** | [Distrito / ciudad] |
+| **Fecha** | [dd/mm/aaaa] |
+| **Duración / Empieza en** | [Duración] / [minuto de inicio] |
+| **Enlace** | [Ver entrevista](#) |
+
+*Tabla. Registro de validación 1*
+
+### Segmento Objetivo Proveedores
+
+
+#### Entrevista de validación #2
+
+**Resumen de la sesión:**
+
+[Redactar aquí un resumen en formato descriptivo. Explicar las tareas ejecutadas, los puntos de confusión, las partes mejor valoradas y los comentarios relacionados con utilidad, navegación y claridad de la solución.]
+
+| Detalle | Información |
+|---|---|
+| **Entrevistador** | [Nombre del integrante] |
+| **Entrevistado** | [Nombre o alias del participante] |
+| **Segmento objetivo** | [Restaurante / Proveedor] |
+| **Edad** | [Edad] |
+| **Ubicación** | [Distrito / ciudad] |
+| **Fecha** | [dd/mm/aaaa] |
+| **Duración / Empieza en** | [Duración] / [minuto de inicio] |
+| **Enlace** | [Ver entrevista](#) |
+
+*Tabla. Registro de validación 2*
+
+#### Entrevista de validación #3
+
+**Resumen de la sesión:**
+
+[Redactar aquí un resumen en formato descriptivo. Explicar si el participante comprendió la lógica de la solución, qué tan intuitivos fueron los flujos y qué mejoras sugirió en la interacción o en la presentación de la información.]
+
+| Detalle | Información |
+|---|---|
+| **Entrevistador** | [Nombre del integrante] |
+| **Entrevistado** | [Nombre o alias del participante] |
+| **Segmento objetivo** | [Restaurante / Proveedor] |
+| **Edad** | [Edad] |
+| **Ubicación** | [Distrito / ciudad] |
+| **Fecha** | [dd/mm/aaaa] |
+| **Duración / Empieza en** | [Duración] / [minuto de inicio] |
+| **Enlace** | [Ver entrevista](#) |
+
+*Tabla. Registro de validación 3*
+
+**Síntesis general de hallazgos**
+
+- [Hallazgo general 1]
+- [Hallazgo general 2]
+- [Hallazgo general 3]
+- [Hallazgo general 4]
+
+### 5.3.3. Evaluaciones según heurísticas.
+Como complemento a la observación de las sesiones de validación, el equipo realizó una evaluación de experiencia de usuario basada en heurísticas. Esta revisión tomó como referencia los criterios de usabilidad, diseño inclusivo y arquitectura de información indicados en el project statement del curso.
+
+El objetivo de esta evaluación fue sistematizar los principales problemas detectados durante la interacción de los usuarios con el Landing Page y la Web Application, asignándoles un nivel de severidad y relacionándolos con la heurística o principio incumplido. De este modo, los hallazgos cualitativos obtenidos en las entrevistas de validación pudieron traducirse en oportunidades concretas de mejora para la siguiente iteración del producto.
+
+**Aplicación evaluada**
+
+- **Site o app a evaluar:** SupplyWok
+- **Auditor:** Aurora
+- **Clientes participantes:** [Agregar nombres o alias de participantes]
+
+**Tareas evaluadas**
+
+- Comprender la propuesta de valor del Landing Page.
+- Navegar hacia la Web Application desde los call to action.
+- Reconocer el propósito del dashboard según el rol del usuario.
+- Ubicar funcionalidades principales del sistema.
+- Interpretar información clave en vistas como inventario, pedidos, clientes o catálogo.
+
+**Escala de severidad utilizada**
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial que no afecta significativamente la experiencia. |
+| 2 | Problema menor que genera fricción, pero puede ser superado por el usuario. |
+| 3 | Problema mayor que ocurre con frecuencia o dificulta seriamente completar la tarea. |
+| 4 | Problema muy grave que impide continuar con el uso de la herramienta. |
+
+**Tabla resumen de hallazgos**
+
+| # | Problema | Escala de severidad | Heurística o principio violado |
+|---|---|---|---|
+| 1 | [Describir problema detectado] | [1-4] | [Usability / Inclusive Design / Information Architecture] |
+| 2 | [Describir problema detectado] | [1-4] | [Usability / Inclusive Design / Information Architecture] |
+| 3 | [Describir problema detectado] | [1-4] | [Usability / Inclusive Design / Information Architecture] |
+| 4 | [Describir problema detectado] | [1-4] | [Usability / Inclusive Design / Information Architecture] |
+
+**Descripción de problemas**
+
+**Problema #1: [Título breve del problema]**
+
+- **Severidad:** [1-4]
+- **Heurística violada:** [Nombre de la heurística o principio]
+- **Problema:** [Describir de forma clara el problema observado durante la interacción.]
+- **Recomendación:** [Indicar la mejora propuesta.]
+
+![heuristic-problem-1](../assets/images/[agregar-captura-problema-1].png)
+
+**Problema #2: [Título breve del problema]**
+
+- **Severidad:** [1-4]
+- **Heurística violada:** [Nombre de la heurística o principio]
+- **Problema:** [Describir de forma clara el problema observado durante la interacción.]
+- **Recomendación:** [Indicar la mejora propuesta.]
+
+![heuristic-problem-2](../assets/images/[agregar-captura-problema-2].png)
+
+**Problema #3: [Título breve del problema]**
+
+- **Severidad:** [1-4]
+- **Heurística violada:** [Nombre de la heurística o principio]
+- **Problema:** [Describir de forma clara el problema observado durante la interacción.]
+- **Recomendación:** [Indicar la mejora propuesta.]
+
+![heuristic-problem-3](../assets/images/[agregar-captura-problema-3].png)
+
+**Conclusión de la evaluación heurística**
+
+En general, la validación permitió identificar fortalezas en la propuesta de valor y en la organización general del producto, pero también reveló oportunidades de mejora en aspectos de claridad, navegabilidad y comprensión de ciertos flujos. Los hallazgos documentados en esta sección servirán como insumo para priorizar correcciones en próximas iteraciones y fortalecer la experiencia integral de SupplyWok para ambos segmentos objetivo.
+## 5.4. Video About-the-Product.
