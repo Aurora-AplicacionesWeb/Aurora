@@ -1291,3 +1291,29 @@ La incorporación de estas mejoras contribuirá a que SupplyWok ofrezca una expe
 
 
 # Conclusiones
+
+## Conclusiones y recomendaciones
+
+El proceso de desarrollo de SupplyWok mostró una evolución progresiva y coherente a lo largo de los sprints documentados en este capítulo. En el Sprint 1, el equipo logró construir y desplegar el Landing Page del producto, estableciendo una base sólida de comunicación de propuesta de valor, navegación inicial, diseño responsivo e internacionalización. Esta primera iteración permitió consolidar el entorno de trabajo, definir convenciones de desarrollo y demostrar la capacidad del equipo para entregar una primera versión visible del producto en producción.
+
+Durante el Sprint 2, el avance se concentró en la construcción del frontend de la Web Application, organizando la solución en bounded contexts y desarrollando dashboards diferenciados para restaurantes y proveedores. En esta etapa se implementaron las principales vistas funcionales del sistema, así como la estructura compartida de navegación, componentes reutilizables, manejo de estado y configuración de entornos. Aunque el frontend aún se apoyaba en una Fake API para simular datos, este sprint fue importante porque permitió validar la arquitectura de la aplicación, aterrizar los user flows principales y preparar la plataforma para la integración posterior con servicios reales.
+
+El Sprint 3 representó el avance técnico más importante del ciclo actual, ya que permitió trasladar la solución hacia una capa real de servicios backend mediante C#, Entity Framework Core, persistencia en MySql y documentación de endpoints en Swagger. En esta iteración se implementaron los bounded contexts priorizados del núcleo del negocio y se habilitaron operaciones REST funcionales para módulos como inventario, órdenes de compra, comandas, alertas, perfiles, analytics y supplier management. Además, el despliegue del backend en Render y la verificación de persistencia en MySql Workbench evidencian que el proyecto ya no se mantiene solo en nivel prototípico, sino que cuenta con una base técnica operativa y desplegada.
+
+Desde una perspectiva de desarrollo, uno de los principales logros del equipo fue haber construido el producto por capas y en etapas claras: primero la presencia pública del producto, luego la experiencia de usuario en frontend y finalmente la infraestructura de servicios que soporta la lógica de negocio. Esta secuencia permitió reducir complejidad, distribuir mejor el trabajo entre los integrantes y mantener continuidad entre diseño, implementación y validación. Asimismo, la evidencia de commits, Pull Requests, boards de sprint, despliegues y documentación técnica muestra que el trabajo no solo avanzó en funcionalidad, sino también en prácticas colaborativas y de ingeniería de software.
+
+No obstante, el propio desarrollo también dejó en evidencia aspectos que todavía deben fortalecerse. En el frontend aún existen oportunidades de mejora en consistencia visual, acompañamiento al usuario y algunos flujos operativos, mientras que en backend todavía queda pendiente seguir ampliando cobertura funcional, consolidar integraciones completas entre cliente y servidor, y profundizar pruebas con escenarios más cercanos al uso real. Del mismo modo, varias métricas de éxito definidas en Lean UX todavía no pueden validarse cuantitativamente, pues requieren una etapa posterior de uso continuo con usuarios reales sobre la versión integrada del sistema.
+
+Como recomendación para la siguiente etapa del roadmap, el equipo debería priorizar la integración completa entre el frontend y los Web Services ya desplegados, reemplazando definitivamente dependencias simuladas donde aún existan. Junto con ello, conviene continuar refinando los bounded contexts ya implementados, reforzar validaciones y manejo de errores, completar evidencias visuales faltantes del sprint y ejecutar pruebas funcionales integrales por flujo de negocio. En paralelo, resulta recomendable mantener el mismo nivel de documentación técnica y colaboración evidenciado en este capítulo, ya que ha sido una de las fortalezas más claras del proceso de desarrollo.
+
+En conjunto, el trabajo realizado demuestra que SupplyWok alcanzó un nivel importante de madurez para esta etapa del curso: existe una propuesta validada, una interfaz funcional, un backend desplegado y una arquitectura organizada que permite seguir creciendo el producto. Más allá de las mejoras pendientes, el desarrollo documentado en los sprints confirma que el equipo logró transformar una idea inicial en una solución web estructurada, técnicamente consistente y preparada para una integración y validación más profunda en las siguientes entregas.
+
+## Video About-The-Team
+
+
+### Enlaces del Video
+
+* Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* YouTube: [https://www.youtube.com/watch?v=V8HEQALGMGo](https://www.youtube.com/watch?v=V8HEQALGMGo)
+
+![About the Team](../assets/images/about-the-team.png)
