@@ -959,9 +959,9 @@ En esta sección se presentan los avances realizados durante el Sprint 3 en la i
 
 Durante el Sprint 3 se completó la implementación y validación de los principales servicios backend de SupplyWok correspondientes a los bounded contexts priorizados del núcleo del negocio. Como parte de la revisión del sprint, se verificó el correcto funcionamiento de los endpoints REST desarrollados mediante pruebas realizadas en Swagger, comprobando la ejecución satisfactoria de las operaciones expuestas por la API. Además, se validó la persistencia de la información en la base de datos MySql mediante MySql Workbench.
 
-![Trello Sprint 3 Board]()
-![Trello Sprint 3 Board]()
-![Trello Sprint 3 Board]()
+![Trello Sprint 3 Board 1](../assets/images/trello_11.png)
+![Trello Sprint 3 Board 2](../assets/images/trello_22.png)
+![Trello Sprint 3 Board 3](../assets/images/trello_33.png)
 
 **Link del vídeo de explicación del Sprint:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
 
