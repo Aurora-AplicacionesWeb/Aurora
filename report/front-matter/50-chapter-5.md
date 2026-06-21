@@ -4,6 +4,7 @@
 Para tener consistencia y seguimiento del desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El metodo cubre la configuracion del entorno de desarrollo, la gestion del codigo y el despliegue, alineado a las buenas prácticas de ingenieria de software y metodologias ágiles.
 ### 5.1.1. Software Development Environment Configuration. 
 Para facilitar la colaboración del equipo en todas las actividades del ciclo de vida de desarrollo de SupplyWok, se ha definido un entorno de desarrollo común. Este entorno está compuesto por herramientas especializadas para la gestión del proyecto, diseño UX/UI, modelado, desarrollo, pruebas, documentación y despliegue. La selección de estas herramientas se basa en criterios de eficiencia, compatibilidad con tecnologías open-source (Vue + C#), y alineación con prácticas recomendadas de la industria.
+
 |        Categoría        |      Herramienta      |                                               Propósito                                               |                                      Tipo de acceso/enlace                                      |
 | :---------------------: | :-------------------: | :---------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
 |    Project Management   |         Jira        |           Gestión del backlog, tareas y sprints del equipo usando metodología ágil (Scrum).           |                             [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira)                            |
@@ -744,14 +745,15 @@ Las sesiones se estructuraron alrededor de tareas concretas, alineadas con los f
 - Ubicar funcionalidades principales como clientes, catálogo, órdenes o demanda proyectada.
 - Interpretar la información mostrada en una vista principal del panel del proveedor.
 
-**Prompts de apoyo utilizados por el moderador**
+**Preguntas de validación posteriores a la demostración**
 
-Durante la sesión, el moderador evitó inducir respuestas directas y utilizó preguntas breves para incentivar el pensamiento en voz alta del participante.
+Después de mostrar el Landing Page y los principales flujos de la Web Application, el moderador realizó preguntas orientadas a recoger la percepción del participante sobre la utilidad, claridad y aplicabilidad real de la solución.
 
-- ¿Qué crees que puedes hacer en esta pantalla?
-- ¿Qué esperabas que ocurriera al hacer clic en esta opción?
-- ¿Qué parte te resulta más clara hasta este punto?
-- ¿Qué parte te genera duda o confusión?
+- Después de ver la aplicación, ¿te parece útil para tu trabajo o negocio?
+- ¿Qué parte de la aplicación te gustó más?
+- ¿Hubo algo que no entendiste o que te confundió?
+- ¿Usarías una aplicación como esta en la vida real? ¿Por qué?
+- ¿Qué cambiarías o mejorarías?
 
 ### 5.3.2. Registro de Entrevistas.
 En esta sección se presenta el registro de las sesiones de validación realizadas con representantes de los segmentos objetivo. Cada sesión permitió observar cómo los usuarios interactuaron con el Landing Page y con la Web Application, así como registrar comentarios, dudas y observaciones generadas durante la navegación.
@@ -759,89 +761,106 @@ En esta sección se presenta el registro de las sesiones de validación realizad
 Las entrevistas de validación fueron registradas en video y consolidadas en un único material de evidencia, siguiendo las indicaciones del project statement. En cada caso se documenta la información del participante, el segmento representado, la fecha de la sesión y un resumen de los principales hallazgos obtenidos.
 
 **Video consolidado de validación**
-- **Enlace en Microsoft Stream:** [Agregar enlace del video de validación](#)
+- **Enlace en Microsoft Stream:** [enlace del video de validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6)
 - **Captura de evidencia:**  
-  ![validation-video-evidence](../assets/images/[agregar-captura-video-validacion].png)
+  ![captura](../assets/images/valincap.png)
 
 ### Segmento Objetivo Restaurantes
 
 #### Entrevista de validación #1
+![alt text](../assets/images/validation/entrevista1.png)
 
 **Resumen de la sesión:**
 
-[Redactar aquí un resumen en formato descriptivo. Explicar cómo el participante recorrió el Landing Page, qué entendió de la propuesta de valor, qué pudo o no pudo encontrar en la Web Application, qué elementos le resultaron claros y qué observaciones realizó sobre la experiencia.]
+El primer entrevistado Weiquan Wang, un dueño de restaurante de 55 años ubicado en el Callao, logró comprender la idea general de la landing page y también el flujo principal de la aplicación, especialmente las pantallas de inventario, pedidos, comandas, mesas y alertas. Su percepción general fue positiva, ya que consideró que el sistema era fácil de usar y que podría manejarlo sin demasiada dificultad; sin embargo, aportó una observación importante sobre el módulo de pedidos, indicando que sería más práctico no agregar productos uno por uno, sino contar con una forma más rápida de seleccionar varios insumos en una sola acción.
 
 | Detalle | Información |
 |---|---|
-| **Entrevistador** | [Nombre del integrante] |
-| **Entrevistado** | [Nombre o alias del participante] |
-| **Segmento objetivo** | [Restaurante / Proveedor] |
-| **Edad** | [Edad] |
-| **Ubicación** | [Distrito / ciudad] |
-| **Fecha** | [dd/mm/aaaa] |
-| **Duración / Empieza en** | [Duración] / [minuto de inicio] |
-| **Enlace** | [Ver entrevista](#) |
+| **Entrevistador** | Juan Sung Jau Wang Chen |
+| **Entrevistado** | Weiquan Wang |
+| **Segmento objetivo** | Restaurante  |
+| **Edad** | 55 |
+| **Ubicación** | La Perla, Callao |
+| **Duración / Empieza en** | [14:18 minutos] / [0:00] |
+| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
 
 *Tabla. Registro de validación 1*
 
-### Segmento Objetivo Proveedores
+
 
 
 #### Entrevista de validación #2
+![alt text](../assets/images/validation/entrevista2.png)
 
 **Resumen de la sesión:**
 
-[Redactar aquí un resumen en formato descriptivo. Explicar las tareas ejecutadas, los puntos de confusión, las partes mejor valoradas y los comentarios relacionados con utilidad, navegación y claridad de la solución.]
+La segunda entrevistada Ana Chen, una dueña de restaurante de 50 años de Callao, entendió de forma clara las funciones principales de la aplicación, sobre todo el inventario, la creación de órdenes a proveedores, los tickets de cocina, la gestión de mesas y las alertas. Comentó que el sistema le parecía sencillo y fácil de seguir, sin encontrar grandes dificultades en su uso; no obstante, brindó una sugerencia bastante valiosa al señalar que, en la sección de pedidos, sería más útil manejar horarios de entrega además de la prioridad, ya que en la práctica casi todos los pedidos se consideran importantes y lo realmente decisivo suele ser el momento en que deben recibirse.
 
 | Detalle | Información |
 |---|---|
-| **Entrevistador** | [Nombre del integrante] |
-| **Entrevistado** | [Nombre o alias del participante] |
-| **Segmento objetivo** | [Restaurante / Proveedor] |
-| **Edad** | [Edad] |
-| **Ubicación** | [Distrito / ciudad] |
-| **Fecha** | [dd/mm/aaaa] |
-| **Duración / Empieza en** | [Duración] / [minuto de inicio] |
-| **Enlace** | [Ver entrevista](#) |
+| **Entrevistador** | Juan Sung Jau Wang Chen |
+| **Entrevistado** | Ana Chen |
+| **Segmento objetivo** | Restaurante |
+| **Edad** | 50 |
+| **Ubicación** | La Perla, Callao |
+| **Duración / Empieza en** | [12 minutos] / [14:20] |
+| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
 
 *Tabla. Registro de validación 2*
 
 #### Entrevista de validación #3
 
+![alt text](../assets/images/validation/entrevista3.png)
+
 **Resumen de la sesión:**
 
-[Redactar aquí un resumen en formato descriptivo. Explicar si el participante comprendió la lógica de la solución, qué tan intuitivos fueron los flujos y qué mejoras sugirió en la interacción o en la presentación de la información.]
+La tercera entrevistada, Lili, de 54 años y dueña de un restaurante chifa en La Perla, mostró una validación claramente favorable tanto de la landing page como de la aplicación. Después de revisar las pantallas principales, afirmó que la plataforma le parecía útil para su trabajo diario, que el flujo era entendible y que no percibía confusión importante en el uso de las funciones. Entre todos los módulos presentados, destacó especialmente el de alertas como la parte que más le interesó, señalando además que sí utilizaría la aplicación en un contexto real y que, al menos en esta etapa, no veía cambios urgentes que realizar.
 
 | Detalle | Información |
 |---|---|
-| **Entrevistador** | [Nombre del integrante] |
-| **Entrevistado** | [Nombre o alias del participante] |
-| **Segmento objetivo** | [Restaurante / Proveedor] |
-| **Edad** | [Edad] |
-| **Ubicación** | [Distrito / ciudad] |
-| **Fecha** | [dd/mm/aaaa] |
-| **Duración / Empieza en** | [Duración] / [minuto de inicio] |
-| **Enlace** | [Ver entrevista](#) |
+| **Entrevistador** | Juan Sung Jau Wang Chen |
+| **Entrevistado** | Lily 蔡 |
+| **Segmento objetivo** | Restaurante  |
+| **Edad** | 54 |
+| **Ubicación** | La Perla, Callao |
+| **Duración / Empieza en** | [8 minutos] / [26:18] |
+| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
 
 *Tabla. Registro de validación 3*
 
-**Síntesis general de hallazgos**
 
-- [Hallazgo general 1]
-- [Hallazgo general 2]
-- [Hallazgo general 3]
-- [Hallazgo general 4]
+### Segmento Objetivo Proveedores
+
+#### Entrevista de validación #4
+![alt text](../assets/images/validation/entrevista4.png)
+
+**Resumen de la sesión:**
+
+El cuarto entrevistado, Alberto Copa Villa, de 37 años, trabajador de una carnicería en La Perla y representante del perfil proveedor, valoró de manera positiva la propuesta para este segundo segmento de usuarios, especialmente en las pantallas de órdenes, clientes, delivery planning, alertas, demanda y catálogo. Indicó que las funcionalidades que más le llamaron la atención fueron las alertas, el control del stock y la planificación de rutas, ya que las percibió como herramientas útiles para el trabajo real de un proveedor. Además, propuso dos mejoras importantes: reemplazar o complementar la prioridad de las órdenes con horarios de entrega más concretos, y añadir dentro de la misma aplicación una función de mensajería o chat tipo WhatsApp para comunicarse con los restaurantes sin depender de otros medios externos.
+
+| Detalle | Información |
+|---|---|
+| **Entrevistador** | Juan Sung Jau Wang Chen |
+| **Entrevistado** | Alberto Copa Villa |
+| **Segmento objetivo** | Proveedor |
+| **Edad** | 37 |
+| **Ubicación** | La Perla, Callao |
+| **Duración / Empieza en** | [8 minutos] / [34:00] |
+| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+
+*Tabla. Registro de validación 3*
+
 
 ### 5.3.3. Evaluaciones según heurísticas.
 Como complemento a la observación de las sesiones de validación, el equipo realizó una evaluación de experiencia de usuario basada en heurísticas. Esta revisión tomó como referencia los criterios de usabilidad, diseño inclusivo y arquitectura de información indicados en el project statement del curso.
 
-El objetivo de esta evaluación fue sistematizar los principales problemas detectados durante la interacción de los usuarios con el Landing Page y la Web Application, asignándoles un nivel de severidad y relacionándolos con la heurística o principio incumplido. De este modo, los hallazgos cualitativos obtenidos en las entrevistas de validación pudieron traducirse en oportunidades concretas de mejora para la siguiente iteración del producto.
+El objetivo de esta evaluación fue sistematizar los principales problemas detectados durante la interacción de los usuarios con el Landing Page y la Web Application, asignándoles un nivel de severidad y relacionándolos con la heurística o principio incumplido. De este modo, los hallazgos cualitativos obtenidos en las entrevistas de validación pudieron complementarse con una revisión experta centrada en identificar oportunidades concretas de mejora para la siguiente iteración del producto.
 
 **Aplicación evaluada**
 
 - **Site o app a evaluar:** SupplyWok
 - **Auditor:** Aurora
-- **Clientes participantes:** [Agregar nombres o alias de participantes]
+- **Clientes participantes:** Usuarios de los segmentos restaurante y proveedor entrevistados durante la validación
 
 **Tareas evaluadas**
 
@@ -864,41 +883,51 @@ El objetivo de esta evaluación fue sistematizar los principales problemas detec
 
 | # | Problema | Escala de severidad | Heurística o principio violado |
 |---|---|---|---|
-| 1 | [Describir problema detectado] | [1-4] | [Usability / Inclusive Design / Information Architecture] |
-| 2 | [Describir problema detectado] | [1-4] | [Usability / Inclusive Design / Information Architecture] |
-| 3 | [Describir problema detectado] | [1-4] | [Usability / Inclusive Design / Information Architecture] |
-| 4 | [Describir problema detectado] | [1-4] | [Usability / Inclusive Design / Information Architecture] |
+| 1 | La aplicación no ofrece una guía inicial ni ayuda contextual para usuarios nuevos. | 3 | Ayuda y documentación |
+| 2 | No existen diálogos de confirmación antes de ejecutar acciones destructivas como eliminar registros. | 4 | Prevención de errores |
+| 3 | Se identificaron inconsistencias visuales entre pantallas, componentes y estilos del sistema. | 2 | Consistencia y estándares |
 
 **Descripción de problemas**
 
-**Problema #1: [Título breve del problema]**
+**Problema #1: Ausencia de guía de uso o acompañamiento inicial**
 
-- **Severidad:** [1-4]
-- **Heurística violada:** [Nombre de la heurística o principio]
-- **Problema:** [Describir de forma clara el problema observado durante la interacción.]
-- **Recomendación:** [Indicar la mejora propuesta.]
+- **Severidad:** 3
+- **Heurística violada:** Ayuda y documentación
+- **Problema:** Durante la evaluación se observó que la aplicación no brinda una orientación inicial para usuarios nuevos. No se encontraron mensajes introductorios, explicaciones contextuales ni elementos que indiquen con claridad cómo iniciar el uso de los módulos principales. Esto puede dificultar la adopción de la plataforma, especialmente para usuarios que ingresan por primera vez y aún no conocen la lógica del sistema ni el propósito de cada sección.
+- **Recomendación:** Incorporar una breve guía de bienvenida, textos de apoyo o mensajes contextuales que orienten al usuario sobre el propósito de cada módulo y las acciones principales que puede realizar.
 
 ![heuristic-problem-1](../assets/images/[agregar-captura-problema-1].png)
 
-**Problema #2: [Título breve del problema]**
+**Problema #2: Falta de confirmación antes de eliminar información**
 
-- **Severidad:** [1-4]
-- **Heurística violada:** [Nombre de la heurística o principio]
-- **Problema:** [Describir de forma clara el problema observado durante la interacción.]
-- **Recomendación:** [Indicar la mejora propuesta.]
+- **Severidad:** 4
+- **Heurística violada:** Prevención de errores
+- **Problema:** Se identificó que la aplicación no presenta un cuadro de confirmación antes de ejecutar acciones irreversibles como la eliminación de registros. Esta situación representa un riesgo importante, ya que el usuario puede borrar información por equivocación sin una oportunidad previa para cancelar la acción. La ausencia de esta validación reduce la sensación de control y puede ocasionar pérdida accidental de datos.
+- **Recomendación:** Implementar diálogos de confirmación antes de eliminar elementos, con mensajes claros sobre la acción que se va a realizar y opciones visibles para confirmar o cancelar.
 
 ![heuristic-problem-2](../assets/images/[agregar-captura-problema-2].png)
 
-**Problema #3: [Título breve del problema]**
+**Problema #3: Inconsistencias visuales en el diseño de la interfaz**
 
-- **Severidad:** [1-4]
-- **Heurística violada:** [Nombre de la heurística o principio]
-- **Problema:** [Describir de forma clara el problema observado durante la interacción.]
-- **Recomendación:** [Indicar la mejora propuesta.]
+- **Severidad:** 2
+- **Heurística violada:** Consistencia y estándares
+- **Problema:** Durante la revisión se detectaron diferencias visuales entre pantallas y componentes, como variaciones en estilos, jerarquías visuales, tamaños o distribución de elementos. Aunque estas diferencias no impiden por completo el uso del sistema, sí afectan la percepción de uniformidad y profesionalismo de la plataforma, y obligan al usuario a reinterpretar cada pantalla en lugar de reconocer patrones consistentes.
+- **Recomendación:** Definir y aplicar criterios visuales uniformes para componentes, botones, tablas, encabezados, colores, espaciados y estilos tipográficos en todas las vistas del sistema.
 
 ![heuristic-problem-3](../assets/images/[agregar-captura-problema-3].png)
 
 **Conclusión de la evaluación heurística**
 
-En general, la validación permitió identificar fortalezas en la propuesta de valor y en la organización general del producto, pero también reveló oportunidades de mejora en aspectos de claridad, navegabilidad y comprensión de ciertos flujos. Los hallazgos documentados en esta sección servirán como insumo para priorizar correcciones en próximas iteraciones y fortalecer la experiencia integral de SupplyWok para ambos segmentos objetivo.
+La evaluación heurística permitió identificar problemas relevantes que complementan los hallazgos obtenidos en las entrevistas de validación. En particular, se evidenció la necesidad de mejorar el acompañamiento al usuario, reforzar la prevención de errores en acciones sensibles y unificar la experiencia visual del sistema. Estos aspectos no siempre son mencionados de forma explícita por los entrevistados, pero sí impactan de manera significativa en la usabilidad general de la plataforma.
+
+La incorporación de estas mejoras contribuirá a que SupplyWok ofrezca una experiencia más clara, confiable y consistente, alineada con los principios de diseño centrado en el usuario y con los criterios de calidad esperados para una aplicación web funcional.
+
 ## 5.4. Video About-the-Product.
+
+![](../assets/images/abtproduct.png)
+
+* Microsoft Stream: [URL del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDqz9uEXx01RIo8CM6xXsP8AaC6OZqd2Gy9L5aeXz3yxoU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OCLJI9)
+* YouTube: [Url del video en youtube](https://youtu.be/AzOyy7Oak_w)
+
+
+# Conclusiones
