@@ -905,7 +905,7 @@ Las entrevistas de validación fueron registradas en video y consolidadas en un 
 **Video consolidado de validación**
 - **Enlace en Microsoft Stream:** [Vídeo de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6)
 - **Captura de evidencia:**  
-  ![captura](../assets/images/valincap.png)
+  ![captura](../assets/images/entrevista1.png)
 
 ### Segmento Objetivo Restaurantes
 
