@@ -717,7 +717,7 @@ Durante la reunión de Sprint Planning del Sprint 3, se estableció como objetiv
 
 | **Sprint #**                       | 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Date**                           | 2026-06-06                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                           | 2026-06-18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Time**                           | 17:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Location**                       | Virtual, Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Prepared by**                    | Mathias Sanchez, Juan Wang                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -1005,6 +1005,9 @@ Durante el Sprint 3 se completó la implementación y validación de los princip
 ![Trello Sprint 3 Board 1](../assets/images/trello_11.png)
 ![Trello Sprint 3 Board 2](../assets/images/trello_22.png)
 ![Trello Sprint 3 Board 3](../assets/images/trello_33.png)
+![Backend Swagger](../assets/images/deploy-steps/swagger_1.png)
+
+**Link del vídeo de explicación del Execution:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1076,18 +1079,24 @@ Durante el Sprint 3 se documentaron los servicios web desarrollados para los bou
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-En esta sección se muestra los deploy de los componentes backend de SupplyWok implementados en la plataforma Aurora-AplicacionesWeb en la plataforma Render.
+En esta sección se muestra el deploy de los componentes backend de SupplyWok implementados en la plataforma Aurora-AplicacionesWeb en la plataforma Render junto con el deploy de la base de datos en la plataforma Filess.
 
 **Backend Deployment:**
+
+1. Entramos a la página de Render: https://render.com/. Iniciamos sesión con cualquier cuenta (Google, Github, Microsoft, etc). Nos dirigimos a la sección "Projects" y damos clicks al botón "New" y escogemos la opción "Web Service".
 ![Backend Deploy 1](../assets/images/deploy-steps/deploy_backend_2.png)
+
+2. Después de rellenar todos los campos, empezamos a realizar el deploy y saldrá la siguiente vista, donde se tendrá que esperar hasta que termine el proceso de deploy.
 ![Backend Deploy 2](../assets/images/deploy-steps/deploy_backend_1.png)
-![Backend Swagger](../assets/images/deploy-steps/swagger_1.png)
+
 **Backend Deployment URL:** [Backend Deployment](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
 
 **Database Deployment:**
 ![Database Deploy](../assets/images/deploy-steps/database_deploy.png)
 
-**Link del vídeo de explicación del Deployment:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
+**Frontend Deployment:**
+
+**Link del Deploy del Frontend:** [Frontend Deploy](https://supplywok.web.app/)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
