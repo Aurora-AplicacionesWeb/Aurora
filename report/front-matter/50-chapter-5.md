@@ -1308,7 +1308,7 @@ El objetivo de esta evaluación fue sistematizar los principales problemas detec
 - **Problema:** Durante la evaluación se observó que la aplicación no brinda una orientación inicial para usuarios nuevos. No se encontraron mensajes introductorios, explicaciones contextuales ni elementos que indiquen con claridad cómo iniciar el uso de los módulos principales. Esto puede dificultar la adopción de la plataforma, especialmente para usuarios que ingresan por primera vez y aún no conocen la lógica del sistema ni el propósito de cada sección.
 - **Recomendación:** Incorporar una breve guía de bienvenida, textos de apoyo o mensajes contextuales que orienten al usuario sobre el propósito de cada módulo y las acciones principales que puede realizar.
 
-![heuristic-problem-1](../assets/images/[agregar-captura-problema-1].png)
+![heuristic-problem-1](../assets/images/heuristic1.png)
 
 **Problema #2: Falta de confirmación antes de eliminar información**
 
@@ -1317,8 +1317,8 @@ El objetivo de esta evaluación fue sistematizar los principales problemas detec
 - **Problema:** Se identificó que la aplicación no presenta un cuadro de confirmación antes de ejecutar acciones irreversibles como la eliminación de registros. Esta situación representa un riesgo importante, ya que el usuario puede borrar información por equivocación sin una oportunidad previa para cancelar la acción. La ausencia de esta validación reduce la sensación de control y puede ocasionar pérdida accidental de datos.
 - **Recomendación:** Implementar diálogos de confirmación antes de eliminar elementos, con mensajes claros sobre la acción que se va a realizar y opciones visibles para confirmar o cancelar.
 
-![heuristic-problem-2](../assets/images/[agregar-captura-problema-2].png)
-
+![heuristic-problem-2](../assets/images/heuristic21.png)
+![heuristic-problem-22](../assets/images/heuristic22.png)
 **Problema #3: Inconsistencias visuales en el diseño de la interfaz**
 
 - **Severidad:** 2
