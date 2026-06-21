@@ -781,24 +781,178 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3. Los 
 
 En esta sección se presentan los avances realizados durante el Sprint 3 en la implementación de los componentes backend de SupplyWok. El trabajo desarrollado se centró en la construcción de los bounded contexts priorizados del núcleo del negocio, incluyendo la implementación de entidades de dominio, repositorios, servicios de aplicación y endpoints REST mediante C# y Entity Framework Core.
 
-| Repository                       | Branch                        | Commit Id | Commit Message                                                                          | Commit Message Body                                                                             | Commited on (Date) |
-| -------------------------------- | ----------------------------- | --------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------ |
-| Aurora-startup/SupplyWok-backend | feature/shared                | 9e50ab7   | feat(shared): implement shared layer                                                    | Implementación de la capa compartida utilizada por los diferentes bounded contexts del sistema. | 2026-06-10         |
-| Aurora-startup/SupplyWok-backend | develop                       | 32c9e97   | chore: configure application properties and add dependencies for PostgreSQL and OpenAPI | Configuración inicial del proyecto, dependencias de PostgreSQL y documentación OpenAPI.         | 2026-06-10         |
-| Aurora-startup/SupplyWok-backend | feature/iot                   | d9c9842   | feat(iot): implement iot layer with sensor aggregate                                    | Implementación del bounded context de monitoreo IoT y agregado Sensor.                          | 2026-06-10         |
-| Aurora-startup/SupplyWok-backend | feature/restaurant-management | 8b85738   | feat(restaurant-management): implement restaurant management bounded context            | Desarrollo del bounded context Restaurant Management.                                           | 2026-06-11         |
-| Aurora-startup/SupplyWok-backend | feature/inventory-management  | 27c933e   | Add value objects for inventory management bounded context                              | Implementación de value objects para Inventory Management.                                      | 2026-06-12         |
-| Aurora-startup/SupplyWok-backend | feature/inventory-management  | dcfa1ef   | Add aggregates and entities                                                             | Incorporación de agregados y entidades del dominio para Inventory Management.                   | 2026-06-12         |
-| Aurora-startup/SupplyWok-backend | feature/inventory-management  | 4f8aef7   | Finish domain package of inventory management bounded context                           | Finalización de la estructura del dominio para Inventory Management.                            | 2026-06-13         |
-| Aurora-startup/SupplyWok-backend | feature/suppliers             | 48967ca   | feat(suppliers): add clients endpoint                                                   | Implementación del endpoint para consulta de clientes asociados a proveedores.                  | 2026-06-17         |
-| Aurora-startup/SupplyWok-backend | feature/suppliers             | 30598b0   | feat(suppliers): add catalog endpoint by supplier id                                    | Implementación del endpoint para consulta de catálogo por proveedor.                            | 2026-06-18         |
-| Aurora-startup/SupplyWok-backend | feature/purchasing            | e25f995   | feat: add purchase order management endpoints and domain                                | Desarrollo del dominio y endpoints para la gestión de órdenes de compra.                        | 2026-06-18         |
-| Aurora-startup/SupplyWok-backend | feature/purchasing            | 00bef77   | feat: align inventory persistence and activity endpoints                                | Ajuste de persistencia y endpoints relacionados con actividades de inventario.                  | 2026-06-18         |
-| Aurora-startup/SupplyWok-backend | feature/purchasing            | 4a31215   | feat: add supplier identity acl contract                                                | Implementación del contrato ACL para integración con el contexto de proveedores.                | 2026-06-18         |
-| Aurora-startup/SupplyWok-backend | feature/alerts                | 427701d   | feat(alerts): add alerts aggregate and controllers                                      | Implementación de agregados y controladores para el módulo de alertas operativas.               | 2026-06-18         |
-| Aurora-startup/SupplyWok-backend | feature/alerts                | 7e87e5    | refactor(alerts): replace external services with IoT and inventory context facades      | Refactorización para integrar el módulo de alertas con los contextos IoT e Inventory.           | 2026-06-18         |
-| Aurora-startup/SupplyWok-backend | feature/restaurant-management | c4ba83c   | fix: add CrossOrigin and clean imports in restaurant management controllers             | Corrección de configuración CORS y limpieza de imports en los controladores.                    | 2026-06-18         |
-| | | | | | | 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| supply-wok-platform | feature/shared | 8360eca | feat(shared): add domain layer |  | 2026-06-04 23:02:58 |
+| supply-wok-platform | feature/shared | c51af55 | feat(shared): add Infrastructure Layer and related components. |  | 2026-06-05 04:16:25 |
+| supply-wok-platform | feature/shared | b8ed23d | feat(shared): update .gitignore and add Application Layer. |  | 2026-06-05 01:27:09 |
+| supply-wok-platform | feature/shared | 2962552 | feat(shared): add problem details factory and shared resource files |  | 2026-06-05 06:58:16 |
+| supply-wok-platform | feature/shared | bd075fd | feat(shared): update project file with new package references and configurations. |  | 2026-06-05 22:04:51 |
+| supply-wok-platform | feature/shared | 9fdf8ad | feat(shared): correct namespace casing and update access modifiers in iauditable-entity. |  | 2026-06-05 22:09:54 |
+| supply-wok-platform | feature/shared | a307fa2 | fix(shared): refactor imports and update namespaces |  | 2026-06-05 23:14:49 |
+| supply-wok-platform | feature/shared | e2b7120 | fix(shared): fix class to interface |  | 2026-06-05 23:15:38 |
+| supply-wok-platform | feature/shared | fccc994 | feat(shared): update project file with new package references and configurations |  | 2026-06-05 23:16:20 |
+| supply-wok-platform | develop | 386fb48 | Merge branch 'feature/shared' into develop |  | 2026-06-05 23:25:09 |
+| supply-wok-platform | develop | 916076f | fix:  correct name format convention |  | 2026-06-05 21:21:24 |
+| supply-wok-platform | develop | 7a274d9 | fix:  update gitignore |  | 2026-06-05 23:15:08 |
+| supply-wok-platform | develop | c5f3939 | chore: initial commit |  | 2026-05-29 23:06:14 |
+| supply-wok-platform | feature/iot | 800da01 | feat(Sensor): add sensor definition. |  | 2026-06-06 22:58:50 |
+| supply-wok-platform | feature/iot | 988c2b6 | feat(Sensor): finish the Domain Layer for the moment. |  | 2026-06-06 23:24:02 |
+| supply-wok-platform | feature/iot | 0f34884 | feat(Sensor): add Infrastructure Layer and related components. |  | 2026-06-07 00:30:00 |
+| supply-wok-platform | feature/iot | e35fa82 | feat(Sensor): integrate IoT context and add sensor-related services |  | 2026-06-07 04:51:01 |
+| supply-wok-platform | feature/iot | 8bc8c91 | feat(Sensor): implement interfaces layer for REST API. |  | 2026-06-07 04:21:27 |
+| supply-wok-platform | feature/iot | d02cc8f | feat(Sensor): add Resources Layer and related components |  | 2026-06-07 04:37:07 |
+| supply-wok-platform | develop | 2ccb027 | Merge branch 'feature/sensors' into develop |  | 2026-06-07 04:54:08 |
+| supply-wok-platform | develop | 20e983f | Merge pull request #1 from Aurora-AplicacionesWeb/release/0.2.0 | Release/0.2.0 | 2026-06-07 04:55:48 |
+| supply-wok-platform | feature/purchasing | cbca652 | feat(purchasing): add purchase order domain model |  | 2026-06-08 04:54:50 |
+| supply-wok-platform | feature/purchasing | 3fd812c | feat(purchasing): add purchase order application services |  | 2026-06-08 04:56:06 |
+| supply-wok-platform | feature/purchasing | 0b000fd | feat(purchasing): add persistence configuration and repositories |  | 2026-06-08 04:57:09 |
+| supply-wok-platform | feature/purchasing | ddf9ff9 | feat(purchasing): add purchase order rest endpoints |  | 2026-06-08 04:57:44 |
+| supply-wok-platform | feature/purchasing | 1f04c5e | feat(purchasing): register purchasing dependencies |  | 2026-06-08 04:57:58 |
+| supply-wok-platform | develop | 666a88d | Merge branch 'feature/purchase-orders' into develop |  | 2026-06-08 05:35:20 |
+| supply-wok-platform | develop | 7d30e0d | Merge branch 'release/0.3.0' |  | 2026-06-08 05:48:15 |
+| supply-wok-platform | develop | 59fb5ef | Merge tag '0.3.0' into develop | Release v0.3.0 - Purchase Orders 0.3.0 | 2026-06-08 05:48:16 |
+| supply-wok-platform | develop | 0f7c9bb | Merge pull request #3 from Aurora-AplicacionesWeb/release/0.3.0 | Merge tag '0.3.0' into develop | 2026-06-08 06:00:35 |
+| supply-wok-platform | feature/restaurant-management | 80b55d9 | feat(tables): add commands, queries and status enumeration for table management |  | 2026-06-08 17:06:30 |
+| supply-wok-platform | feature/restaurant-management | 1f2e851 | feat(tables): add operations context and repository for table management |  | 2026-06-08 17:07:25 |
+| supply-wok-platform | feature/restaurant-management | d0d7bc6 | feat(tables): add resource and command assemblers for table creation and updates |  | 2026-06-08 17:08:27 |
+| supply-wok-platform | feature/restaurant-management | 7aa7ac9 | feat(tables): implement command and query services for table management |  | 2026-06-08 17:10:23 |
+| supply-wok-platform | feature/restaurant-management | 080d896 | feat(tables): add localized operation messages for table management |  | 2026-06-08 17:10:38 |
+| supply-wok-platform | feature/restaurant-management | b1de2d2 | feat(operations): add operations bounded context with repositories and services |  | 2026-06-08 17:11:01 |
+| supply-wok-platform | develop | 919385c | Conflicts resolved from feature/tables to develop |  | 2026-06-08 17:19:10 |
+| supply-wok-platform | develop | 71a025f | feat(settings): add user-specific settings for resource editor |  | 2026-06-08 17:27:34 |
+| supply-wok-platform | master | 3faa38d | Merge branch 'release/0.4.0' into master |  | 2026-06-08 17:33:20 |
+| supply-wok-platform | feature/purchasing | 426e307 | refactor(purchasing): align purchase order architecture with context patterns |  | 2026-06-09 06:22:45 |
+| supply-wok-platform | develop | 366721e | Merge branch 'feature/purchase-order-architecture-alignment' into develop |  | 2026-06-09 06:32:40 |
+| supply-wok-platform | develop | 13a453c | Merge branch 'release/0.3.1' |  | 2026-06-09 06:36:56 |
+| supply-wok-platform | develop | 21813b3 | Merge pull request #4 from Aurora-AplicacionesWeb/master | feat(merge): updating commits for prevent errors. | 2026-06-09 23:09:28 |
+| supply-wok-platform | feature/alerts | 29e8fd0 | feat(alerts): create intefaces for command,queries; add ValueObjects and entities. |  | 2026-06-09 23:57:15 |
+| supply-wok-platform | feature/alerts | 22fe8ba | feat(alerts): implement alert context with commands, queries, and REST resources |  | 2026-06-09 23:58:07 |
+| supply-wok-platform | feature/alerts | 21390e4 | feat(alerts): add resources for alert messages. |  | 2026-06-09 23:58:26 |
+| supply-wok-platform | develop | 7591b51 | Merge pull request #5 from Aurora-AplicacionesWeb/release/0.4.0 | Release/0.4.0 | 2026-06-10 00:00:48 |
+| supply-wok-platform | feature/suppliers | cd164e0 | feat(suppliers): add client domain and query service |  | 2026-06-11 07:50:58 |
+| supply-wok-platform | feature/suppliers | 709d42d | feat(suppliers): add client persistence and register context |  | 2026-06-11 07:52:35 |
+| supply-wok-platform | feature/suppliers | 1f47b8d | feat(suppliers): add clients interface layer |  | 2026-06-11 07:53:11 |
+| supply-wok-platform | develop | c7142b2 | feat(database): create connection string for development environment database |  | 2026-06-11 20:55:40 |
+| supply-wok-platform | develop | ff08982 | Merge pull request #8 from Aurora-AplicacionesWeb/release/0.5.0 | Release/0.5.0 | 2026-06-11 20:59:55 |
+| supply-wok-platform | develop | afa8e31 | Merge pull request #6 from Aurora-AplicacionesWeb/master | Merge pull request #5 from Aurora-AplicacionesWeb/release/0.4.0 | 2026-06-11 20:29:36 |
+| supply-wok-platform | develop | 1817395 | Merge pull request #7 from Aurora-AplicacionesWeb/develop | Develop | 2026-06-11 20:29:36 |
+| supply-wok-platform | develop | c9d9321 | fix(swagger): fix swagger ui to show it |  | 2026-06-11 21:26:42 |
+| supply-wok-platform | master | c80bf59 | Merge branch 'release/0.5.0' into master |  | 2026-06-11 21:56:46 |
+| supply-wok-platform | develop | e1f7dbd | Merge pull request #10 from Aurora-AplicacionesWeb/release/0.5.0 | Release/0.5.0 | 2026-06-11 22:00:08 |
+| supply-wok-platform | develop | 9a5b84a | Merge pull request #11 from Aurora-AplicacionesWeb/master | Merge pull request #10 from Aurora-AplicacionesWeb/release/0.5.0 | 2026-06-11 22:01:18 |
+| supply-wok-platform | develop | 422bec7 | Merge pull request #9 from Aurora-AplicacionesWeb/release/0.5.0 | fix(swagger): fix swagger ui to show it | 2026-06-11 21:29:32 |
+| supply-wok-platform | feature/inventory-management | abded98 | feat(inventory): add folder structure for inventory application and domain layers |  | 2026-06-12 20:53:37 |
+| supply-wok-platform | feature/suppliers | ef4cb30 | feat(suppliers): implement supplier aggregate and related query services |  | 2026-06-12 21:12:35 |
+| supply-wok-platform | develop | af73e64 | Merge branch 'release/0.6.0' |  | 2026-06-12 23:06:25 |
+| supply-wok-platform | develop | 3562393 | Merge branch 'master' of https://github.com/Aurora-AplicacionesWeb/supply-wok-platform |  | 2026-06-12 23:05:49 |
+| supply-wok-platform | develop | eb647fe | Merge branch 'feature/supplier-orders-facade' into develop. Related to Ts-SHR-001-003, TS-ORD-001-002, TS-ORD-001-001 |  | 2026-06-12 23:44:30 |
+| supply-wok-platform | develop | dbd74be | fix: update namespace. |  | 2026-06-12 23:53:09 |
+| supply-wok-platform | develop | fbd12d5 | Merge branch 'feature/supplier-orders-acl' into develop |  | 2026-06-12 23:53:44 |
+| supply-wok-platform | develop | 92e3998 | Merge pull request #12 from Aurora-AplicacionesWeb/master | Merge branch 'release/0.6.0' | 2026-06-12 23:34:33 |
+| supply-wok-platform | master | 68bc4bc | Merge branch 'release/0.6.1' into master |  | 2026-06-12 23:54:40 |
+| supply-wok-platform | feature/inventory-management | d19dd90 | feat(supply): implement Supply aggregate with queries and auditing |  | 2026-06-13 21:00:57 |
+| supply-wok-platform | feature/inventory-management | 1a5ff2b | feat(supply): add supply commands and unit of measure enumeration |  | 2026-06-13 20:55:16 |
+| supply-wok-platform | feature/inventory-management | 8b917e4 | feat(inventory): add stock movement entity, commands and queries. |  | 2026-06-13 21:02:23 |
+| supply-wok-platform | feature/inventory-management | be5f3f1 | feat(inventory): implement command and query services for supply and stock movement. |  | 2026-06-13 21:02:58 |
+| supply-wok-platform | feature/inventory-management | d008cee | feat(stock-movement): refactor StockMovement and Supply command services to use SupplyRepository for stock movements |  | 2026-06-13 22:27:14 |
+| supply-wok-platform | feature/inventory-management | 21d7cb8 | feat(supply): update CreateSupplyCommand and UpdateSupplyCommand to use 'Category' parameter |  | 2026-06-13 22:26:38 |
+| supply-wok-platform | feature/inventory-management | 4e86a7d | feat(supply): add CreateSupply and UpdateSupply resources and their corresponding command assemblers |  | 2026-06-13 22:28:40 |
+| supply-wok-platform | feature/inventory-management | 6a977df | feat(inventory): implement ISupplyRepository and SupplyRepository for managing supplies and stock movements |  | 2026-06-13 22:29:02 |
+| supply-wok-platform | feature/inventory-management | 6ce0afc | feat(inventory): integrate Inventory context into application services and configuration |  | 2026-06-13 22:29:33 |
+| supply-wok-platform | feature/inventory-management | fb46024 | feat(inventory): implement InventoryContextFacade and GetTotalSupplyStockQuery for stock retrieval |  | 2026-06-13 23:12:30 |
+| supply-wok-platform | feature/inventory-management | 8d055b0 | refactor(inventory): rename namespace from Ad to Acl in InventoryContextFacade and update references |  | 2026-06-14 00:34:33 |
+| supply-wok-platform | develop | 9011893 | Merge branch 'feature/stock' into develop |  | 2026-06-14 00:39:34 |
+| supply-wok-platform | master | 5cbb494 | Merge branch 'release/0.7.0' into master |  | 2026-06-14 00:52:24 |
+| supply-wok-platform | feature/restaurant-management | 7db6668 | feat(dish): add dish, dish-category entities, commands, and queries for dish management in operations bounded context. |  | 2026-06-17 17:47:55 |
+| supply-wok-platform | feature/suppliers | 59437d9 | feat(suppliers): get clients by supplier id |  | 2026-06-17 23:15:29 |
+| supply-wok-platform | feature/iot | 2cffd69 | refactor(iot): split alert controllers and add inventory alert flow |  | 2026-06-17 23:31:46 |
+| supply-wok-platform | develop | 92d076c | fix: rename application ad facades to acl |  | 2026-06-17 20:54:07 |
+| supply-wok-platform | develop | 18177c6 | Merge remote-tracking branch 'origin/develop' into develop |  | 2026-06-17 20:55:07 |
+| supply-wok-platform | feature/restaurant-management | e5266ed | feat(operations): add repositories, services, and EF configurations for dish and dish-category management |  | 2026-06-18 01:58:48 |
+| supply-wok-platform | feature/restaurant-management | d9c16f3 | feat(operations): implement controllers and resource assemblers for dish and dish category management |  | 2026-06-18 01:59:16 |
+| supply-wok-platform | feature/restaurant-management | 6b57268 | feat(operations): add query services and extend error handling for dish category management in operations context. |  | 2026-06-18 01:57:56 |
+| supply-wok-platform | develop | 0bde108 | chore: update migration and model definitions for initial create. |  | 2026-06-18 02:00:20 |
+| supply-wok-platform | develop | 2b147e9 | chore: update user settings and remove unused Operations domain folder in project file |  | 2026-06-18 02:00:28 |
+| supply-wok-platform | develop | 31361e0 | Merge remote-tracking branch 'origin/develop' into feature/alert_controllers |  | 2026-06-18 02:00:49 |
+| supply-wok-platform | develop | b43dcd8 | Merge branch 'feature/dish' into develop |  | 2026-06-18 02:10:33 |
+| supply-wok-platform | master | bdd8336 | Merge branch 'release/0.9.0' into master |  | 2026-06-18 02:15:15 |
+| supply-wok-platform | develop | 22610ee | Merge remote-tracking branch 'origin/develop' into feature/alert_controllers |  | 2026-06-18 02:30:44 |
+| supply-wok-platform | develop | 5fcd5c5 | Merge branch 'feature/alert_controllers' into develop |  | 2026-06-18 02:36:51 |
+| supply-wok-platform | master | abea41d | Merge branch 'release/0.10.0' into master |  | 2026-06-18 02:40:56 |
+| supply-wok-platform | feature/iot | 5d37281 | feat(iot): seed alerts and expose restaurant alert sensor details |  | 2026-06-18 06:01:21 |
+| supply-wok-platform | develop | c1de080 | Merge branch 'feature/iot-alerts' into develop |  | 2026-06-18 06:02:17 |
+| supply-wok-platform | master | 5e1de89 | Merge branch 'release/0.10.1' into master |  | 2026-06-18 06:05:28 |
+| supply-wok-platform | feature/suppliers | 8e55d7e | feat(suppliers): add supplier catalog crud and catalog acl facade |  | 2026-06-18 01:11:51 |
+| supply-wok-platform | develop | 0c24dc5 | Merge branch 'feature/catalog' into develop |  | 2026-06-18 01:14:00 |
+| supply-wok-platform | master | 56e5b83 | Merge branch 'release/0.8.0' into master |  | 2026-06-18 01:15:02 |
+| supply-wok-platform | feature/restaurant-management | 4894e79 | feat(kitchen-order): add KitchenOrder aggregate with entities, commands, queries, and value objects for kitchen order management. |  | 2026-06-18 17:02:09 |
+| supply-wok-platform | feature/restaurant-management | 1e97476 | feat(kitchen-order): implement command and query services for KitchenOrder management. |  | 2026-06-18 17:03:28 |
+| supply-wok-platform | feature/restaurant-management | 37fbffa | feat(kitchen-order): add repository, EF configurations, and entity mappings for KitchenOrder and related items management |  | 2026-06-18 17:05:51 |
+| supply-wok-platform | feature/restaurant-management | cde1953 | feat(kitchen-order): implement REST controllers, resources, and assemblers for KitchenOrder management. |  | 2026-06-18 17:06:14 |
+| supply-wok-platform | feature/restaurant-management | 9171072 | feat(operations): add localization messages, repository, and services registration for KitchenOrder management. |  | 2026-06-18 17:06:44 |
+| supply-wok-platform | develop | 3a99fd8 | Merge branch 'feature/kitchen-orders' into develop |  | 2026-06-18 17:07:51 |
+| supply-wok-platform | master | 7a79d00 | Merge branch 'release/0.11.0' into master |  | 2026-06-18 17:11:08 |
+| supply-wok-platform | develop | cc46700 | Add MIT License to the project |  | 2026-06-19 08:46:36 |
+| supply-wok-platform | develop | 840e091 | Merge pull request #13 from Aurora-AplicacionesWeb/license | Add MIT License to the project | 2026-06-19 08:47:05 |
+| supply-wok-platform | develop | 2db75c6 | Merge pull request #14 from Aurora-AplicacionesWeb/develop | Add MIT License to the project | 2026-06-19 08:50:33 |
+| supply-wok-platform | develop | 653b114 | feat(profile): add restaurant and supplier profile queries and commands. |  | 2026-06-19 10:48:01 |
+| supply-wok-platform | develop | ac11497 | feat(profile): add restaurant and supplier profile command and query services. |  | 2026-06-19 11:00:57 |
+| supply-wok-platform | develop | c2e8841 | feat(profile): add supplier profile command and query services. |  | 2026-06-19 11:01:32 |
+| supply-wok-platform | develop | e5e0181 | feat(profile): implement ProfilesContextFacade with command and query services for restaurant and supplier profiles. |  | 2026-06-19 11:02:18 |
+| supply-wok-platform | develop | f2d5783 | feat(profile): implement restaurant and supplier profile command and query services. |  | 2026-06-19 11:03:52 |
+| supply-wok-platform | develop | 9c65b86 | feat(profile): update query parameters to match new user id types. |  | 2026-06-19 11:03:20 |
+| supply-wok-platform | develop | a1a5476 | feat(profile): implement restaurant and supplier profile query services. |  | 2026-06-19 11:04:37 |
+| supply-wok-platform | develop | faab6d1 | feat(profile): add entity framework model configuration extensions for profiles. |  | 2026-06-19 11:16:14 |
+| supply-wok-platform | develop | 34e4aa7 | feat(profile): implement restaurant and supplier profile repository implementations and query services. |  | 2026-06-19 11:16:35 |
+| supply-wok-platform | feature/shared | 2be9cd5 | feat(shared): update query parameters to match new user id types. |  | 2026-06-19 11:18:06 |
+| supply-wok-platform | develop | 3985ad6 | feat(profile): implement restaurant and supplier profile context facade and query services. |  | 2026-06-19 11:27:38 |
+| supply-wok-platform | develop | 690255a | feat(profile): implement restaurant and supplier profile resource and command assemblers. |  | 2026-06-19 11:28:46 |
+| supply-wok-platform | develop | 85ec80e | feat(profile): implement restaurant and supplier profile resource models and record types. |  | 2026-06-19 11:28:23 |
+| supply-wok-platform | develop | b92b96e | feat(profile): implement restaurant and supplier profile rest controllers and query services. |  | 2026-06-19 11:29:00 |
+| supply-wok-platform | develop | 803ea04 | chore: ignore Rider DotSettings.user file |  | 2026-06-19 11:45:30 |
+| supply-wok-platform | develop | 3ab3c36 | feat: update profile bounded context services and repositories. |  | 2026-06-19 11:46:25 |
+| supply-wok-platform | develop | d7ba99d | Merge branch 'feature/profile' into develop |  | 2026-06-19 13:16:11 |
+| supply-wok-platform | master | 80deb3a | Merge branch 'release/0.12.0' into master |  | 2026-06-19 13:23:24 |
+| supply-wok-platform | feature/inventory-management | e1aa7c6 | feat(inventory): refactor stock movement into inventory transaction with extended operations and queries. |  | 2026-06-19 18:04:54 |
+| supply-wok-platform | feature/inventory-management | ec38e3c | feat(inventory): replace stock movement with inventory transaction, adding new services, extended operations, and queries. |  | 2026-06-19 18:06:41 |
+| supply-wok-platform | feature/inventory-management | deff419 | feat(inventory): finalize migration from stock movement to inventory transaction with updated models, repositories, and EF configurations. |  | 2026-06-19 18:08:12 |
+| supply-wok-platform | feature/inventory-management | f552426 | feat(inventory): implement InventoryTransaction REST controllers, resources, and assemblers with extended operations and localization support. |  | 2026-06-19 18:09:19 |
+| supply-wok-platform | feature/inventory-management | 1a2189c | feat(inventory): add multilingual localization resources for inventory messages. |  | 2026-06-19 18:09:52 |
+| supply-wok-platform | feature/inventory-management | c5fb27e | feat(inventory): register InventoryMessages localization and add services for InventoryTransaction operations. |  | 2026-06-19 18:10:47 |
+| supply-wok-platform | develop | 7dc4ebb | chore: remove outdated migrations for aligning IoT alerts and inventory schema |  | 2026-06-19 18:10:15 |
+| supply-wok-platform | develop | 92adcc9 | chore: update EF configurations to set `longtext` mapping for string-converted enums across multiple modules. |  | 2026-06-19 18:10:34 |
+| supply-wok-platform | develop | 885a6df | chore(settings): enable `InventoryMessages` localization in .DotSettings user file |  | 2026-06-19 18:16:57 |
+| supply-wok-platform | develop | 6ae88d8 | Merge branch 'feature/stock-movement' into develop |  | 2026-06-19 18:21:55 |
+| supply-wok-platform | develop | d3733c7 | chore: update EF configurations to include `CreatedAt` and `UpdatedAt` for seed data and map `Id` in owned entities. |  | 2026-06-19 18:41:10 |
+| supply-wok-platform | develop | 8852cf6 | feat: add migration for restaurant and supplier profiles module |  | 2026-06-19 18:41:45 |
+| supply-wok-platform | master | 72599bd | Merge branch 'release/0.13.0' into master |  | 2026-06-19 18:43:54 |
+| supply-wok-platform | master | ba54410 | Merge branch 'release/0.13.0' into master |  | 2026-06-19 18:43:53 |
+| supply-wok-platform | develop | 8d2bf13 | Merge branch 'master' into develop |  | 2026-06-19 18:58:49 |
+| supply-wok-platform | develop | 35c3a5e | ci(configuration): assign parameters for development and production environments. |  | 2026-06-19 19:52:19 |
+| supply-wok-platform | develop | f3cbe1f | chore(docker): add Dockerfile to build and run Aurora.SupplyWok.Platform. |  | 2026-06-19 20:06:05 |
+| supply-wok-platform | develop | 1ef23a8 | feat(profile): add street address, email address, and person name value objects. |  | 2026-06-19 10:29:55 |
+| supply-wok-platform | develop | 59bdd97 | feat(profile): add restaurant and supplier profile aggregates. |  | 2026-06-19 10:33:49 |
+| supply-wok-platform | develop | 59dde6d | feat(profile): add create restaurant and supplier profile commands. |  | 2026-06-19 10:34:22 |
+| supply-wok-platform | develop | d071e53 | feat(profile): add restaurant and supplier profile queries. |  | 2026-06-19 10:35:17 |
+| supply-wok-platform | develop | 902e8b8 | feat(profile): add supplier and restaurant profile repositories. |  | 2026-06-19 10:35:50 |
+| supply-wok-platform | develop | 846fe82 | chore: update project folders for new profiles modules. |  | 2026-06-19 10:36:05 |
+| supply-wok-platform | develop | a0fab97 | feat(profile): add profiles error enum and enum values. |  | 2026-06-19 10:36:22 |
+| supply-wok-platform | develop | 436cbe8 | Merge branch 'release/0.13.1' into master |  | 2026-06-19 23:19:22 |
+| supply-wok-platform | master | 2cb2d58 | Merge branch 'release/0.13.1' into master |  | 2026-06-19 23:19:23 |
+| supply-wok-platform | develop | c783443 | Merge branch 'master' into develop |  | 2026-06-19 23:20:46 |
+| supply-wok-platform | develop | e672962 | chore(migrations): remove initial database migration file. |  | 2026-06-19 23:18:08 |
+| supply-wok-platform | develop | ca747f6 | feat(migrations): create initial database schema with multiple tables |  | 2026-06-19 23:40:20 |
+| supply-wok-platform | develop | 54250c2 | Merge branch 'release/0.13.2' into master |  | 2026-06-19 23:40:44 |
+| supply-wok-platform | master | 3ee0203 | Merge branch 'release/0.13.2' into master |  | 2026-06-19 23:40:43 |
+| supply-wok-platform | feature/analytics | c4478c5 | feat(analytics): add analytics context with migration for restaurant and supplier analytics tables |  | 2026-06-20 05:41:03 |
+| supply-wok-platform | feature/alerts | 69d79e8 | refactor(alerts): remove unused alert assemblers and resources; streamline alert handling logic |  | 2026-06-20 05:00:18 |
+| supply-wok-platform | develop | 9130f0c | Merge pull request #15 from Aurora-AplicacionesWeb/feature/analytics | Feature/analytics | 2026-06-20 05:44:27 |
+| supply-wok-platform | develop | 3a3d33a | Merge pull request #16 from Aurora-AplicacionesWeb/develop | Develop | 2026-06-20 06:48:32 |
+| supply-wok-platform | feature/restaurant-management | 7205064 | feat(kitchen-orders): add support for listing kitchen orders with items included. |  | 2026-06-20 21:29:30 |
+| supply-wok-platform | feature/inventory-management | 73bf618 | feat(inventory): improve validation and error handling for supply commands, add logging, and configure JSON enum serialization. |  | 2026-06-20 21:29:43 |
+| supply-wok-platform | develop | 01eae3b | Merge branch 'release/0.13.3' into master |  | 2026-06-20 21:33:04 |
+| supply-wok-platform | master | 09ca317 | Merge branch 'release/0.13.3' into master |  | 2026-06-20 21:33:03 | 
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -809,24 +963,88 @@ Durante el Sprint 3 se completó la implementación y validación de los princip
 ![Trello Sprint 3 Board]()
 ![Trello Sprint 3 Board]()
 
-**Link del vídeo de explicación del Sprint** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
+**Link del vídeo de explicación del Sprint:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se documentaron los servicios web desarrollados para los bounded contexts priorizados de SupplyWok utilizando Swagger. La documentación generada permite visualizar y comprender la estructura de los endpoints implementados, incluyendo los métodos HTTP soportados, parámetros de entrada, cuerpos de solicitud, respuestas esperadas y códigos de estado asociados. A continuación, se presenta el detalle de los endpoints documentados, los enlaces correspondientes a la documentación generada y evidencias de interacción utilizando datos de prueba.
 
-**Repository URL:** https://github.com/Aurora-AplicacionesWeb/supply-wok-platform
-**Swagger URL:** https://supply-wok-platform-cgbs.onrender.com/swagger/index.html
+- **Repository URL:** https://github.com/Aurora-AplicacionesWeb/supply-wok-platform
+- **Swagger URL:** https://supply-wok-platform-cgbs.onrender.com/swagger/index.html
 
 | Endpoint | Action | HTTP Verb | Parameters | Response Example | Documentation URL |
-|----------|--------|------------|------------|-------------------|------------------|
-
+|---|---|---|---|---|---|
+| /api/v1/suppliers/{supplierId}/catalog-items | Create catalog item for a supplier | POST | supplierId (integer, Required), body: CreateCatalogItemResource | 201: The catalog item was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/catalog-items | Get catalog items by supplier | GET | supplierId (integer, Required) | 200: Catalog items retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/catalog-items/{catalogItemId} | Get catalog item by ID | GET | supplierId (integer, Required), catalogItemId (integer, Required) | 200: The catalog item was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/catalog-items/{catalogItemId} | Update catalog item | PUT | supplierId (integer, Required), catalogItemId (integer, Required), body: UpdateCatalogItemResource | 200: The catalog item was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/catalog-items/{catalogItemId} | Delete catalog item | DELETE | supplierId (integer, Required), catalogItemId (integer, Required) | 204: The catalog item was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/clients | Get clients by supplier | GET | supplierId (integer, Required) | 200: Clients retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/dish-categories | Get dish categories | GET | - | 200: Dish categories retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/dishes | Get dishes | GET | - | 200: Dishes retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/inventory-transactions | Create inventory transaction | POST | body: CreateInventoryTransactionResource | 201: The inventory transaction was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/inventory-transactions | Get inventory transactions | GET | - | 200: Inventory transactions retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/inventory-transactions/{inventoryTransactionId} | Get inventory transaction by ID | GET | inventoryTransactionId (integer, Required) | 200: The inventory transaction was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/inventory-transactions/by-supply/{supplyId} | Get transactions by supply | GET | supplyId (integer, Required) | 200: Inventory transactions retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders | Create kitchen order | POST | body: CreateKitchenOrderResource | 201: The kitchen order was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders | Get kitchen orders | GET | - | 200: Kitchen orders retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id} | Get kitchen order by ID | GET | id (integer, Required) | 200: The kitchen order was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id} | Update kitchen order | PUT | id (integer, Required), body: CreateKitchenOrderResource | 200: The kitchen order was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id} | Delete kitchen order | DELETE | id (integer, Required) | 204: The kitchen order was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id}/status | Update kitchen order status | PUT | id (integer, Required), body: UpdateKitchenOrderStatusResource | 200: The kitchen order status was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id}/dishes | Add dish to kitchen order | POST | id (integer, Required), body: AddDishToKitchenOrderResource | 200: The dish was added to the kitchen order successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders | Create purchase order | POST | body: CreatePurchaseOrderResource | 201: The purchase order was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders | Get purchase orders | GET | - | 200: Purchase orders retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders/{purchaseOrderId} | Get purchase order by ID | GET | purchaseOrderId (integer, Required) | 200: The purchase order was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders/{purchaseOrderId} | Update purchase order | PUT | purchaseOrderId (integer, Required), body: UpdatePurchaseOrderResource | 200: The purchase order was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders/{purchaseOrderId} | Delete purchase order | DELETE | purchaseOrderId (integer, Required) | 204: The purchase order was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders/{purchaseOrderId}/status | Update purchase order status | PUT | purchaseOrderId (integer, Required), body: UpdatePurchaseOrderStatusResource | 200: The purchase order status was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant/alerts | Get restaurant alerts | GET | - | 200: Restaurant alerts retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant/alerts/{alertId} | Get restaurant alert by ID | GET | alertId (integer, Required) | 200: The alert was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant/alerts/{alertId}/acknowledge | Acknowledge restaurant alert | POST | alertId (integer, Required) | 200: The alert was acknowledged successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/analytics/restaurant | Get restaurant analytics | GET | - | 200: Restaurant analytics retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant-profiles | Create restaurant profile | POST | body: CreateRestaurantProfileResource | 201: The restaurant profile was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant-profiles | Get restaurant profiles | GET | - | 200: Restaurant profiles retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant-profiles/{restaurantProfileId} | Get restaurant profile by ID | GET | restaurantProfileId (integer, Required) | 200: The restaurant profile was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant-profiles/by-user/{userId} | Get restaurant profile by user | GET | userId (integer, Required) | 200: The restaurant profile was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors | Create sensor | POST | body: CreateSensorResource | 201: The sensor was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors | Get sensors | GET | - | 200: Sensors retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors/{sensorId} | Get sensor by ID | GET | sensorId (integer, Required) | 200: The sensor was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors/{sensorId} | Update sensor | PUT | sensorId (integer, Required), body: UpdateSensorResource | 200: The sensor was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors/{sensorId} | Delete sensor | DELETE | sensorId (integer, Required) | 204: The sensor was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier/alerts | Get supplier alerts | GET | - | 200: Supplier alerts retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier/alerts/{alertId} | Get supplier alert by ID | GET | alertId (integer, Required) | 200: The alert was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier/alerts/{alertId}/acknowledge | Acknowledge supplier alert | POST | alertId (integer, Required) | 200: The alert was acknowledged successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/analytics/supplier | Get supplier analytics | GET | - | 200: Supplier analytics retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier-profiles | Create supplier profile | POST | body: CreateSupplierProfileResource | 201: The supplier profile was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier-profiles | Get supplier profiles | GET | - | 200: Supplier profiles retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier-profiles/{supplierProfileId} | Get supplier profile by ID | GET | supplierProfileId (integer, Required) | 200: The supplier profile was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier-profiles/by-user/{userId} | Get supplier profile by user | GET | userId (integer, Required) | 200: The supplier profile was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers | Get suppliers | GET | - | 200: Suppliers retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies | Create supply | POST | body: CreateSupplyResource | 201: The supply was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies | Get supplies | GET | - | 200: Supplies retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies/total-stock | Get total stock | GET | - | 200: Total stock retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies/{supplyId} | Get supply by ID | GET | supplyId (integer, Required) | 200: The supply was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies/{supplyId} | Update supply | PUT | supplyId (integer, Required), body: UpdateSupplyResource | 200: The supply was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies/{supplyId} | Delete supply | DELETE | supplyId (integer, Required) | 204: The supply was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables | Create table | POST | body: CreateTableResource | 201: The table was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables | Get tables | GET | - | 200: Tables retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables/{tableId} | Get table by ID | GET | tableId (integer, Required) | 200: The table was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables/{tableId} | Update table | PUT | tableId (integer, Required), body: UpdateTableResource | 200: The table was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables/{tableId} | Delete table | DELETE | tableId (integer, Required) | 204: The table was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 En esta sección se muestra los deploy de los componentes backend de SupplyWok implementados en la plataforma Aurora-AplicacionesWeb en la plataforma Render.
 
+**Backend Deployment:**
+![Backend Deploy 1](../assets/images/deploy-steps/deploy_backend_2.png)
+![Backend Deploy 2](../assets/images/deploy-steps/deploy_backend_1.png)
+![Backend Swagger](../assets/images/deploy-steps/swagger_1.png)
 **Backend Deployment URL:** [Backend Deployment](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
+
+**Database Deployment:**
+![Database Deploy](../assets/images/deploy-steps/database_deploy.png)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
