@@ -1,39 +1,43 @@
 ![upc logo](../assets/images/upc-logo.png)
 
-Carrera: Ingeniería de Software
+Universidad Peruana de Ciencias Aplicadas
+
+Carrera de Ingeniería de Software
+
+**1ASI030**
+
+**Aplicaciones Web**
 
 
-Ciclo: 2026-10
+NRC
+
+**12206**
 
 
-1ASI0730 - Aplicaciones Web
+Docente
+
+**Velásquez Núñez, Ángel Augusto**
+
+Equipo
+
+**AURORA**
 
 
-NRC: 12206
+
+Proyecto 
+**SupplyWok**
 
 
-Profesor: Angel Augusto Velasquez Nuñez
+**Integrantes**
 
 
-Informe de Trabajo Final
-
-
-Startup: AURORA
-
-
-Producto: SupplyWok
-
-
-Integrantes
-
-
-| Código | Alumno     |
+| **Código** | **Apellidos y Nombres**     |
 |:-----------:|:---------------:|
 | U202318609                   | Wang Chen Juan Sung Jau          |
 | U202422890                   | Cuadros Villanueva Marcelo Fabio |
 | U202512856                   | Jara Espinoza Miguel Angel       |
 | U20231C524                   | Sanchez Espinoza Mathias Enrique |
-| U202410837                    | Ayasta Martel Zayd Jaffar          |
+| U202410837                   | Ayasta Martel Zayd Jaffar          |
 
 
-Mayo 2026
+Junio 2026
