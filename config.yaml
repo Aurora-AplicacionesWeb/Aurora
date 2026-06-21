@@ -5,7 +5,7 @@ from: markdown
 to: pdf
 pdf-engine: xelatex
 standalone: true
-output-file: report/upc-pre-202610-1asi0730-12206-aurora-report-tb1.pdf
+output-file: report/upc-pre-202610-1asi0730-12206-aurora-report-av2.pdf
 
 toc: true
 toc-depth: 3

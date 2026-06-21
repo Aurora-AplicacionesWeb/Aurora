@@ -4,6 +4,7 @@
 Para tener consistencia y seguimiento del desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El metodo cubre la configuracion del entorno de desarrollo, la gestion del codigo y el despliegue, alineado a las buenas prácticas de ingenieria de software y metodologias ágiles.
 ### 5.1.1. Software Development Environment Configuration. 
 Para facilitar la colaboración del equipo en todas las actividades del ciclo de vida de desarrollo de SupplyWok, se ha definido un entorno de desarrollo común. Este entorno está compuesto por herramientas especializadas para la gestión del proyecto, diseño UX/UI, modelado, desarrollo, pruebas, documentación y despliegue. La selección de estas herramientas se basa en criterios de eficiencia, compatibilidad con tecnologías open-source (Vue + C#), y alineación con prácticas recomendadas de la industria.
+
 |        Categoría        |      Herramienta      |                                               Propósito                                               |                                      Tipo de acceso/enlace                                      |
 | :---------------------: | :-------------------: | :---------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
 |    Project Management   |         Jira        |           Gestión del backlog, tareas y sprints del equipo usando metodología ágil (Scrum).           |                             [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira)                            |
@@ -704,4 +705,667 @@ En este apartado se visualiza todos los gráficos que representan la participaci
 
 ![Team Contribution 2](../assets/images/deploy-steps/contributions_2_2.png)
 
+### 5.2.3. Sprint 3
 
+En esta sección se registra y explica el avance realizado durante el Sprint 3 en términos de producto y trabajo colaborativo. El enfoque principal de este Sprint es el desarrollo e implementación de los servicios backend mediante C# y Entity Framework Core para los bounded context priorizados, así como la validación y correcto funcionamiento de sus endpoints REST.
+
+#### 5.2.3.1. Sprint Planning 3
+
+Durante la reunión de Sprint Planning del Sprint 3, se estableció como objetivo principal avanzar significativamente en el desarrollo backend de la plataforma SupplyWok, planteando alcanzar aproximadamente el 70% de implementación de los servicios backend del sistema. Para ello, se priorizó el desarrollo de los bounded contexts correspondientes al núcleo del negocio, incluyendo  . Asimismo, el equipo revisó los resultados obtenidos durante el sprint anterior e identificó oportunidades de mejora con el fin de corregir errores, optimizar el proceso de desarrollo y garantizar una base sólida para las siguientes etapas del proyecto.
+
+**Sprint Planning 3**
+
+| **Sprint #**                       | 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2026-06-18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Time**                           | 17:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Location**                       | Virtual, Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Prepared by**                    | Mathias Sanchez, Juan Wang                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Attendees**                      | Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 2 Review Summary**        | Durante el Sprint 2 se completó el desarrollo de la aplicación frontend utilizando una Fake API para simular la comunicación con los servicios backend. Se implementaron las principales interfaces y flujos de usuario previstos para la plataforma, obteniendo resultados satisfactorios en términos de funcionalidad, organización del código y experiencia de usuario. Como parte del feedback recibido, se destacó la calidad de la implementación realizada; sin embargo, se recomendó fortalecer la documentación técnica del proyecto para facilitar su comprensión, mantenimiento y futura integración con los servicios backend reales. |
+| **Sprint 2 Retrospective Summary** | El equipo consideró que la distribución de tareas y la colaboración durante el Sprint 2 fueron adecuadas, permitiendo cumplir los objetivos establecidos dentro del plazo previsto. Asimismo, se identificó como principal oportunidad de mejora la elaboración de una documentación más completa y detallada, tanto del proceso de desarrollo como de los componentes implementados, con el fin de mejorar la comunicación interna y facilitar el trabajo en las siguientes iteraciones.                                                                                                                                                         |
+| **Sprint 3 Goal**                  | Habilitar la comunicación centralizada de datos en la plataforma SupplyWok mediante la implementación del Web Service principal, garantizando que los sistemas externos puedan consultar a los bounded context Inventory Management, Procurement & Purchasing, Operations, IoT Operational Monitoring & Alerts, Supplier Panel, Identity And Access Management, Profiles y Analytics de manera segura y eficiente al cierre del sprint.                                                                                                                                                                                                           |
+| **Sprint 3 Velocity**              | Límite de **45 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sum of Story Points**            | **55 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+**Link del Sprint 3 Board:** [Trello](https://trello.com/b/vRbx1S2v/supplywok-sprint-backlog-3)
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 3. Dado que el objetivo principal de esta iteración es avanzar en el desarrollo backend de SupplyWok, los aspectos considerados corresponden a los bounded contexts de negocio. Para cada aspecto se asigna un líder responsable de coordinar el desarrollo y uno o más colaboradores encargados de apoyar en la implementación, validación y pruebas de los servicios y endpoints asociados.
+
+**Consider Aspects**
+
+- **Inventory Management Bounded Context**: Es el encargado de gestionar la información de los recursos de inventario del restaurante. 
+- **Procurement & Purchasing Bounded Context**: Es el encargado de gestionar las órdenes de productos realizadas por el restaurante. 
+- **Operations Bounded Context**: Es el encargado de gestionar las comandas, tickets de cocina y mesas dentro del restaurante. 
+- **IoT Operational Monitoring & Alerts Bounded Context**: Es el encargado de monitorear y alertar sobre los dispositivos IoT del restaurante.
+- **Supplier Panel Bounded Context**: Es el encargado de gestionar los datos de los proveedores y sus clientes. 
+- **Identity And Access Management Bounded Context**: Es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas.
+- **Profiles Bounded Context**: Es el encargado de gestionar los perfiles de los usuarios del sistema.
+- **Analytics Bounded Context**: Es el encargado de gestionar los diferentes gráficos que se pueden visualizar en la plataforma.
+- **Shared Bounded Context**: Es el encargado de gestionar los datos compartidos que son reutilizados entre los diferentes bounded contexts del sistema.
+
+| Team Member| Github Username | Inventory Management Bounded Context | Procurement & Purchasing Bounded Context | Operations Bounded Context | IoT Operational Monitoring & Alerts Bounded Context | Supplier Panel Bounded Context | Identity And Access Management Bounded Context | Profiles Bounded Context | Analytics Bounded Context |
+|-----------|-----------------|--------------------------------------|------------------------------------------|----------------------------|-----------------------------------------------------|--------------------------------|------------------------------------------------|--------------------------|---------------------------|
+| Cuadros, Macelo| Marcelo-alt-lab | -                                    | -                                        | -                          | L                                                   | C                              | L                                              | C                        | L                         | 
+| Ayasta, Zayd | Zayd Ayasta     | -                                    | L                                        | -                          | -                                                   | C                              | -                                              | -                        | C                         |
+| Wang, Juan | jwd3t           | -                                    | C                                        | -                          | -                                                   | L                              | -                                              | C                        | -                         | 
+| Sánchez, Mathias | Nounz27         | L                                    | -                                        | L                          | -                                                   | -                              | -                                              | -                        | -                         |
+| Cayanchi, Milenko | MaxghZZ         | -                                    | -                                        | -                          | -                                                   | C                              | -                                              | L                        | -                         |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3. Los elementos incluidos fueron seleccionados en función del Sprint Goal establecido para esta iteración, el cual busca habilitar la comunicación centralizada de datos en la plataforma SupplyWok mediante la implementación del Web Service principal, garantizando que los sistemas externos puedan consultar inventario, pedidos, usuarios, reportes, monitoreo operativo, órdenes de cocina de SupplyWok mediante servicios backend funcionales. Para elo, se definieron las historias de usuario y tareas necesarias para implementar, validar y documentar los endpoints REST de los bounded contexts priorizados, asegurando su correcto funcionamiento antes de la integración con los componentes frontend de la plataforma.
+
+**Link del Sprint 3 Board:** [Trello](https://trello.com/b/vRbx1S2v/supplywok-sprint-backlog-3)
+
+**Sprint 3 Backlog** Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi
+
+| US ID | US Title | Task Id | Task Title | Description | Assigned To | Estimation (Hours) | Status    |
+|-------|----------|---------|------------|-------------|------------------|--------------------|-----------|
+| TS-SHR-001 | Como Arquitecto de Software, Quiero que el proyecto siga las convenciones de diseño, Para mantener una escalabilidad y mantenibilidad en el desarrollo. | TS-SHR-001-001 | Create Shared directory | Create `Shared` directory within `Domain`, `Infrastructure` and `Application`. | Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi | 1                  | Done      |
+| TS-SHR-001 | Como Arquitecto de Software, Quiero que el proyecto siga las convenciones de diseño, Para mantener una escalabilidad y mantenibilidad en el desarrollo. | TS-SHR-001-002 | Add Base content in the directories. | Create file `Result` in `Application`; `IAuditableEntity`, `IBaseRepository`, and `IUnitOfWork` in `Domain`; `StringExtensions` and extensions in `Infrastructure`. | Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi | 2                  | Done      |
+| TS-SHR-001 | Como Arquitecto de Software, Quiero que el proyecto siga las convenciones de diseño, Para mantener una escalabilidad y mantenibilidad en el desarrollo. | TS-SHR-001-003 | Create Files for the DataBase conexion | N/A | Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi | 2                  | Done      |
+| TS-INM-001 | Como desarrollador backend, quiero gestionar supplies y consultar el stock consolidado, para mantener actualizado el inventario del restaurante. | TS-INM-001-001 | Implement Supply Query Endpoints | N/A | Mathias Sanchez | 4                  | Done      |
+| TS-INM-001 | Como desarrollador backend, quiero gestionar supplies y consultar el stock consolidado, para mantener actualizado el inventario del restaurante. | TS-INM-001-002 | Implement Supply Command Endpoints | N/A | Mathias Sanchez | 5                  | Done      |
+| TS-INM-001 | Como desarrollador backend, quiero gestionar supplies y consultar el stock consolidado, para mantener actualizado el inventario del restaurante. | TS-INM-001-003 | Define Supply Resources and Assemblers | N/A | Mathias Sanchez | 2                  | Done      |
+| TS-INM-001 | Como desarrollador backend, quiero gestionar supplies y consultar el stock consolidado, para mantener actualizado el inventario del restaurante. | TS-INM-001-004 | Implement Total Stock Endpoint and Missing Supply Handling | N/A | Mathias Sanchez | 5                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-001 | Implement Purchase Order Query Service | Create `PurchaseOrderQueryService` with `GetAllPurchaseOrdersAsync()` to retrieve purchase order data from `IPurchaseOrderRepository` without side effects. | Zayd Ayasta | 4                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-002 | Implement Supplier Query Service | Create `SupplierQueryService` with `GetAllSuppliersAsync()` to retrieve supplier data from `ISupplierRepository` without side effects. | Zayd Ayasta | 3                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-003 | Implement Purchase Order Command Service | Create `PurchaseOrderCommandService` with `CreatePurchaseOrderAsync(CreatePurchaseOrderCommand command)` to validate and persist new purchase orders. | Zayd Ayasta | 6                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-004 | Define PurchaseOrderResource | Define `PurchaseOrderResource` as an immutable record containing the fields required to represent a purchase order in the public REST API contract. | Zayd Ayasta | 1                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-005 | Define SupplierResource | Define `SupplierResource` as an immutable record containing the fields required to represent a supplier in the public REST API contract. | Zayd Ayasta | 1                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-006 | Define CreatePurchaseOrderRequest | Define `CreatePurchaseOrderRequest` as an immutable record containing `supplierId`, `orderDate`, `priority`, and `items` as the request contract. | Zayd Ayasta | 1                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-007 | Implement PurchaseOrderResource Assembler | Create `PurchaseOrderResourceAssembler` with mapping methods to transform `PurchaseOrder` entities into `PurchaseOrderResource` instances. | Zayd Ayasta | 2                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-008 | Implement SupplierResource Assembler | Create `SupplierResourceAssembler` with mapping methods to transform `Supplier` entities into `SupplierResource` instances. | Zayd Ayasta | 2                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-009 | Implement Purchase Orders Controller Endpoints | Create controller endpoints for `GET /api/v1/purchase-orders` and `POST /api/v1/purchase-orders`, delegating query and command execution. | Zayd Ayasta | 4                  | Done      |
+| TS-ORD-001 | Como desarrollador backend, quiero gestionar órdenes de compra y obtener datos de proveedores para soportar el flujo de abastecimiento en el sistema. | TS-ORD-001-010 | Implement Suppliers Controller Endpoint | Create controller endpoint for `GET /api/v1/suppliers`, delegating supplier retrieval through `SupplierQueryService`. | Zayd Ayasta | 2                  | Done      |
+| TS-ORD-002 | Como desarrollador backend, quiero validar la información de órdenes de compra para garantizar consistencia en el registro y seguimiento del abastecimiento. | TS-ORD-002-001 | Validate Purchase Order Creation Command | Implement validation rules in `CreatePurchaseOrderCommand` or its validator to ensure `supplierId`, `orderDate`, `priority`, and `items` are present and valid. | Zayd Ayasta | 4                  | Done      |
+| TS-ORD-002 | Como desarrollador backend, quiero validar la información de órdenes de compra para garantizar consistencia en el registro y seguimiento del abastecimiento. | TS-ORD-002-002 | Validate Purchase Order Item Structure | Implement validation rules for each purchase order item to ensure valid product data, quantity, unit type, and unit price before persistence. | Zayd Ayasta | 3                  | Done      |
+| TS-ORD-002 | Como desarrollador backend, quiero validar la información de órdenes de compra para garantizar consistencia en el registro y seguimiento del abastecimiento. | TS-ORD-002-003 | Validate Supplier Existence | Implement supplier existence verification in `PurchaseOrderCommandService` before creating a purchase order, using `ISupplierRepository`. | Zayd Ayasta | 2                  | Done      |
+| TS-ORD-002 | Como desarrollador backend, quiero validar la información de órdenes de compra para garantizar consistencia en el registro y seguimiento del abastecimiento. | TS-ORD-002-004 | Define Validation Error Response Contract | Define a response contract for validation failures that includes invalid fields and their corresponding error messages. | Zayd Ayasta | 1                  | Done      |
+| TS-ORD-002 | Como desarrollador backend, quiero validar la información de órdenes de compra para garantizar consistencia en el registro y seguimiento del abastecimiento. | TS-ORD-002-005 | Handle Invalid Purchase Order Requests | Implement application-layer handling for invalid purchase order requests, returning `400 Bad Request` when required data is missing or malformed. | Zayd Ayasta | 3                  | Done      |
+| TS-ORD-002 | Como desarrollador backend, quiero validar la información de órdenes de compra para garantizar consistencia en el registro y seguimiento del abastecimiento. | TS-ORD-002-006 | Handle Missing Supplier in Purchase Order Creation | Implement application-layer handling to return `404 Not Found` when the supplier referenced by `supplierId` does not exist. | Zayd Ayasta | 2                  | To-Fix    |
+| TS-ORD-002 | Como desarrollador backend, quiero validar la información de órdenes de compra para garantizar consistencia en el registro y seguimiento del abastecimiento. | TS-ORD-002-007 | Add Purchase Order Validation Tests | Create unit tests covering valid and invalid purchase order creation scenarios, including missing fields, invalid items, and nonexistent suppliers. | Zayd Ayasta | 6                  | Done      |
+| TS-ORD-003 | Como desarrollador backend, quiero actualizar el estado de las órdenes de compra para soportar su seguimiento dentro del flujo de abastecimiento. | TS-ORD-003-002 | Implement Purchase Order Status Command Service | Create `PurchaseOrderStatusCommandService` with `UpdatePurchaseOrderStatusAsync()` to validate and persist order status updates. | Zayd Ayasta | 5                  | Done      |
+| TS-ORD-003 | Como desarrollador backend, quiero actualizar el estado de las órdenes de compra para soportar su seguimiento dentro del flujo de abastecimiento. | TS-ORD-003-003 | Define Purchase Order Status Transition Rules | Implement the allowed purchase order status transition rules in the application or domain layer to prevent invalid state changes. | Zayd Ayasta | 4                  | Done      |
+| TS-ORD-003 | Como desarrollador backend, quiero actualizar el estado de las órdenes de compra para soportar su seguimiento dentro del flujo de abastecimiento. | TS-ORD-003-004 | Implement Purchase Order Lookup for Status Updates | Add repository lookup logic to retrieve purchase orders by identifier before attempting a status update. | Zayd Ayasta | 2                  | Done      |
+| TS-ORD-003 | Como desarrollador backend, quiero actualizar el estado de las órdenes de compra para soportar su seguimiento dentro del flujo de abastecimiento. | TS-ORD-003-005 | Handle Missing Purchase Order on Status Update | Implement application-layer handling to return `404 Not Found` when the target purchase order does not exist. | Zayd Ayasta | 2                  | Done      |
+| TS-ORD-003 | Como desarrollador backend, quiero actualizar el estado de las órdenes de compra para soportar su seguimiento dentro del flujo de abastecimiento. | TS-ORD-003-006 | Handle Invalid Status Transitions | Implement application-layer handling to return `400 Bad Request` when the requested purchase order status transition is invalid. | Zayd Ayasta | 3                  | Done      |
+| TS-ORD-003 | Como desarrollador backend, quiero actualizar el estado de las órdenes de compra para soportar su seguimiento dentro del flujo de abastecimiento. | TS-ORD-003-007 | Implement Purchase Order Status Update Endpoint | Create controller endpoint for `PUT` or `PATCH /api/v1/purchase-orders/{purchaseOrderId}` to delegate status updates. | Zayd Ayasta | 3                  | Done      |
+| TS-ORD-004 | Como desarrollador backend, quiero actualizar y eliminar ordenes de compra, para mantener vigente la informacion del flujo de abastecimiento. | TS-ORD-004-001 | Implement Purchase Order Update Command Handling | N/A | Zayd Ayasta | 4                  | Done      |
+| TS-ORD-004 | Como desarrollador backend, quiero actualizar y eliminar ordenes de compra, para mantener vigente la informacion del flujo de abastecimiento. | TS-ORD-004-002 | Define UpdatePurchaseOrderResource and Assembler | N/A | Zayd Ayasta | 2                  | Done      |
+| TS-ORD-004 | Como desarrollador backend, quiero actualizar y eliminar ordenes de compra, para mantener vigente la informacion del flujo de abastecimiento. | TS-ORD-004-003 | Implement Purchase Order Update and Delete Endpoints | N/A | Zayd Ayasta | 4                  | Done      |
+| TS-ORD-004 | Como desarrollador backend, quiero actualizar y eliminar ordenes de compra, para mantener vigente la informacion del flujo de abastecimiento. | TS-ORD-004-004 | Handle Missing Purchase Order on Update or Delete | N/A | Zayd Ayasta | 2                  | Done      |
+| TS-SUP-001 | Como desarrollador frontend, Quiero obtener los datos relevantes de los clientes mediante una solicitud GET, Para poder mostrarlo en la vista de mis clientes. | TS-SUP-001-01 | Implement Supplier Clients Listing Endpoint | Expose GET /api/v1/suppliers/{supplierId}/clients to return the ClientResource list linked to a supplier and respond 404 Not Found when no linked clients. | Milenko Cayanchi, Juan Wang | 4                  | Done      |
+| TS-SUP-002 | Como desarrollador backend, quiero administrar el catalogo de proveedores, para consultar y mantener catalog items por proveedor desde la API. | TS-SUP-002-001 | Implement Supplier and Client Query Endpoints | N/A | Milenko Cayanchi, Juan Wang | 4                  | Done      |
+| TS-SUP-002 | Como desarrollador backend, quiero administrar el catalogo de proveedores, para consultar y mantener catalog items por proveedor desde la API. | TS-SUP-002-002 | Implement Catalog Item Query Endpoints | N/A | Milenko Cayanchi, Juan Wang | 3                  | Done      |
+| TS-SUP-002 | Como desarrollador backend, quiero administrar el catalogo de proveedores, para consultar y mantener catalog items por proveedor desde la API. | TS-SUP-002-003 | Implement Catalog Item Command Endpoints | N/A | Milenko Cayanchi, Juan Wang | 5                  | Done      |
+| TS-SUP-002 | Como desarrollador backend, quiero administrar el catalogo de proveedores, para consultar y mantener catalog items por proveedor desde la API. | TS-SUP-002-004 | Define Supplier, Client and Catalog Item Resources and Assemblers | N/A | Milenko Cayanchi, Juan Wang | 3                  | Done      |
+| TS-AIM-003 | Como desarrollador backend, quiero administrar sensores IoT desde la API, para registrar, consultar, actualizar y eliminar sensores. | TS-AIM-003-001 | Implement Sensor Query Endpoints | N/A | Marcelo Cuadros | 3                  | Done      |
+| TS-AIM-003 | Como desarrollador backend, quiero administrar sensores IoT desde la API, para registrar, consultar, actualizar y eliminar sensores. | TS-AIM-003-002 | Implement Sensor Command Endpoints | N/A | Marcelo Cuadros | 4                  | Done      |
+| TS-AIM-003 | Como desarrollador backend, quiero administrar sensores IoT desde la API, para registrar, consultar, actualizar y eliminar sensores. | TS-AIM-003-003 | Define Sensor Resources and Assembler | N/A | Marcelo Cuadros | 2                  | Done      |
+| TS-AIM-003 | Como desarrollador backend, quiero administrar sensores IoT desde la API, para registrar, consultar, actualizar y eliminar sensores. | TS-AIM-003-004 | Handle Invalid or Missing Sensor Requests | N/A | Marcelo Cuadros | 3                  | To-Review |
+| TS-AIM-004 | Como desarrollador backend, quiero administrar alertas operativas de proveedores y restaurantes, para registrar, consultar y reconocer incidentes. | TS-AIM-004-001 | Implement Supplier Alert Endpoints | N/A | Marcelo Cuadros | 4                  | Done      |
+| TS-AIM-004 | Como desarrollador backend, quiero administrar alertas operativas de proveedores y restaurantes, para registrar, consultar y reconocer incidentes. | TS-AIM-004-002 | Implement Restaurant Alert Endpoints | N/A | Marcelo Cuadros | 4                  | Done      |
+| TS-AIM-004 | Como desarrollador backend, quiero administrar alertas operativas de proveedores y restaurantes, para registrar, consultar y reconocer incidentes. | TS-AIM-004-003 | Implement Inventory-based Restaurant Alert Endpoint | N/A | Marcelo Cuadros | 6                  | Done      |
+| TS-AIM-004 | Como desarrollador backend, quiero administrar alertas operativas de proveedores y restaurantes, para registrar, consultar y reconocer incidentes. | TS-AIM-004-004 | Define Alert Resources, Assemblers and Acknowledge Handling | N/A | Marcelo Cuadros | 3                  | Done      |
+| TS-OPR-003 | Como desarrollador backend, quiero gestionar comandas desde la API, para crear, consultar, actualizar estado, agregar items y eliminar comandas. | TS-OPR-003-001 | Implement Comanda Query Endpoints | N/A | Mathias Sanchez | 4                  | Done      |
+| TS-OPR-003 | Como desarrollador backend, quiero gestionar comandas desde la API, para crear, consultar, actualizar estado, agregar items y eliminar comandas. | TS-OPR-003-002 | Implement Comanda Command Endpoints | N/A | Mathias Sanchez | 5                  | Done      |
+| TS-OPR-003 | Como desarrollador backend, quiero gestionar comandas desde la API, para crear, consultar, actualizar estado, agregar items y eliminar comandas. | TS-OPR-003-003 | Define Comanda Resources and Assembler | N/A | Mathias Sanchez | 2                  | Done      |
+| TS-OPR-003 | Como desarrollador backend, quiero gestionar comandas desde la API, para crear, consultar, actualizar estado, agregar items y eliminar comandas. | TS-OPR-003-004 | Implement Comanda Status and Item Endpoints | N/A | Mathias Sanchez | 5                  | To-Review |
+| TS-OPR-004 | Como desarrollador backend, quiero gestionar mesas desde la API, para crear, consultar, actualizar estado y eliminar mesas. | TS-OPR-004-001 | Implement Table Query Endpoints | N/A | Mathias Sanchez | 3                  | Done      |
+| TS-OPR-004 | Como desarrollador backend, quiero gestionar mesas desde la API, para crear, consultar, actualizar estado y eliminar mesas. | TS-OPR-004-002 | Implement Table Command Endpoints | N/A | Mathias Sanchez | 4                  | Done      |
+| TS-OPR-004 | Como desarrollador backend, quiero gestionar mesas desde la API, para crear, consultar, actualizar estado y eliminar mesas. | TS-OPR-004-003 | Define Table Resources and Assembler | N/A | Mathias Sanchez  | 2                   | Done      |
+| TS-OPR-004 | Como desarrollador backend, quiero gestionar mesas desde la API, para crear, consultar, actualizar estado y eliminar mesas. | TS-OPR-004-004 | Implement Table Status and Delete Endpoints | N/A | Mathias Sanchez | 4                  | Done      |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+En esta sección se presentan los avances realizados durante el Sprint 3 en la implementación de los componentes backend de SupplyWok. El trabajo desarrollado se centró en la construcción de los bounded contexts priorizados del núcleo del negocio, incluyendo la implementación de entidades de dominio, repositorios, servicios de aplicación y endpoints REST mediante C# y Entity Framework Core.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| supply-wok-platform | feature/shared | 8360eca | feat(shared): add domain layer |  | 2026-06-04 23:02:58 |
+| supply-wok-platform | feature/shared | c51af55 | feat(shared): add Infrastructure Layer and related components. |  | 2026-06-05 04:16:25 |
+| supply-wok-platform | feature/shared | b8ed23d | feat(shared): update .gitignore and add Application Layer. |  | 2026-06-05 01:27:09 |
+| supply-wok-platform | feature/shared | 2962552 | feat(shared): add problem details factory and shared resource files |  | 2026-06-05 06:58:16 |
+| supply-wok-platform | feature/shared | bd075fd | feat(shared): update project file with new package references and configurations. |  | 2026-06-05 22:04:51 |
+| supply-wok-platform | feature/shared | 9fdf8ad | feat(shared): correct namespace casing and update access modifiers in iauditable-entity. |  | 2026-06-05 22:09:54 |
+| supply-wok-platform | feature/shared | a307fa2 | fix(shared): refactor imports and update namespaces |  | 2026-06-05 23:14:49 |
+| supply-wok-platform | feature/shared | e2b7120 | fix(shared): fix class to interface |  | 2026-06-05 23:15:38 |
+| supply-wok-platform | feature/shared | fccc994 | feat(shared): update project file with new package references and configurations |  | 2026-06-05 23:16:20 |
+| supply-wok-platform | develop | 386fb48 | Merge branch 'feature/shared' into develop |  | 2026-06-05 23:25:09 |
+| supply-wok-platform | develop | 916076f | fix:  correct name format convention |  | 2026-06-05 21:21:24 |
+| supply-wok-platform | develop | 7a274d9 | fix:  update gitignore |  | 2026-06-05 23:15:08 |
+| supply-wok-platform | develop | c5f3939 | chore: initial commit |  | 2026-05-29 23:06:14 |
+| supply-wok-platform | feature/iot | 800da01 | feat(Sensor): add sensor definition. |  | 2026-06-06 22:58:50 |
+| supply-wok-platform | feature/iot | 988c2b6 | feat(Sensor): finish the Domain Layer for the moment. |  | 2026-06-06 23:24:02 |
+| supply-wok-platform | feature/iot | 0f34884 | feat(Sensor): add Infrastructure Layer and related components. |  | 2026-06-07 00:30:00 |
+| supply-wok-platform | feature/iot | e35fa82 | feat(Sensor): integrate IoT context and add sensor-related services |  | 2026-06-07 04:51:01 |
+| supply-wok-platform | feature/iot | 8bc8c91 | feat(Sensor): implement interfaces layer for REST API. |  | 2026-06-07 04:21:27 |
+| supply-wok-platform | feature/iot | d02cc8f | feat(Sensor): add Resources Layer and related components |  | 2026-06-07 04:37:07 |
+| supply-wok-platform | develop | 2ccb027 | Merge branch 'feature/sensors' into develop |  | 2026-06-07 04:54:08 |
+| supply-wok-platform | develop | 20e983f | Merge pull request #1 from Aurora-AplicacionesWeb/release/0.2.0 | Release/0.2.0 | 2026-06-07 04:55:48 |
+| supply-wok-platform | feature/purchasing | cbca652 | feat(purchasing): add purchase order domain model |  | 2026-06-08 04:54:50 |
+| supply-wok-platform | feature/purchasing | 3fd812c | feat(purchasing): add purchase order application services |  | 2026-06-08 04:56:06 |
+| supply-wok-platform | feature/purchasing | 0b000fd | feat(purchasing): add persistence configuration and repositories |  | 2026-06-08 04:57:09 |
+| supply-wok-platform | feature/purchasing | ddf9ff9 | feat(purchasing): add purchase order rest endpoints |  | 2026-06-08 04:57:44 |
+| supply-wok-platform | feature/purchasing | 1f04c5e | feat(purchasing): register purchasing dependencies |  | 2026-06-08 04:57:58 |
+| supply-wok-platform | develop | 666a88d | Merge branch 'feature/purchase-orders' into develop |  | 2026-06-08 05:35:20 |
+| supply-wok-platform | develop | 7d30e0d | Merge branch 'release/0.3.0' |  | 2026-06-08 05:48:15 |
+| supply-wok-platform | develop | 59fb5ef | Merge tag '0.3.0' into develop | Release v0.3.0 - Purchase Orders 0.3.0 | 2026-06-08 05:48:16 |
+| supply-wok-platform | develop | 0f7c9bb | Merge pull request #3 from Aurora-AplicacionesWeb/release/0.3.0 | Merge tag '0.3.0' into develop | 2026-06-08 06:00:35 |
+| supply-wok-platform | feature/restaurant-management | 80b55d9 | feat(tables): add commands, queries and status enumeration for table management |  | 2026-06-08 17:06:30 |
+| supply-wok-platform | feature/restaurant-management | 1f2e851 | feat(tables): add operations context and repository for table management |  | 2026-06-08 17:07:25 |
+| supply-wok-platform | feature/restaurant-management | d0d7bc6 | feat(tables): add resource and command assemblers for table creation and updates |  | 2026-06-08 17:08:27 |
+| supply-wok-platform | feature/restaurant-management | 7aa7ac9 | feat(tables): implement command and query services for table management |  | 2026-06-08 17:10:23 |
+| supply-wok-platform | feature/restaurant-management | 080d896 | feat(tables): add localized operation messages for table management |  | 2026-06-08 17:10:38 |
+| supply-wok-platform | feature/restaurant-management | b1de2d2 | feat(operations): add operations bounded context with repositories and services |  | 2026-06-08 17:11:01 |
+| supply-wok-platform | develop | 919385c | Conflicts resolved from feature/tables to develop |  | 2026-06-08 17:19:10 |
+| supply-wok-platform | develop | 71a025f | feat(settings): add user-specific settings for resource editor |  | 2026-06-08 17:27:34 |
+| supply-wok-platform | master | 3faa38d | Merge branch 'release/0.4.0' into master |  | 2026-06-08 17:33:20 |
+| supply-wok-platform | feature/purchasing | 426e307 | refactor(purchasing): align purchase order architecture with context patterns |  | 2026-06-09 06:22:45 |
+| supply-wok-platform | develop | 366721e | Merge branch 'feature/purchase-order-architecture-alignment' into develop |  | 2026-06-09 06:32:40 |
+| supply-wok-platform | develop | 13a453c | Merge branch 'release/0.3.1' |  | 2026-06-09 06:36:56 |
+| supply-wok-platform | develop | 21813b3 | Merge pull request #4 from Aurora-AplicacionesWeb/master | feat(merge): updating commits for prevent errors. | 2026-06-09 23:09:28 |
+| supply-wok-platform | feature/alerts | 29e8fd0 | feat(alerts): create intefaces for command,queries; add ValueObjects and entities. |  | 2026-06-09 23:57:15 |
+| supply-wok-platform | feature/alerts | 22fe8ba | feat(alerts): implement alert context with commands, queries, and REST resources |  | 2026-06-09 23:58:07 |
+| supply-wok-platform | feature/alerts | 21390e4 | feat(alerts): add resources for alert messages. |  | 2026-06-09 23:58:26 |
+| supply-wok-platform | develop | 7591b51 | Merge pull request #5 from Aurora-AplicacionesWeb/release/0.4.0 | Release/0.4.0 | 2026-06-10 00:00:48 |
+| supply-wok-platform | feature/suppliers | cd164e0 | feat(suppliers): add client domain and query service |  | 2026-06-11 07:50:58 |
+| supply-wok-platform | feature/suppliers | 709d42d | feat(suppliers): add client persistence and register context |  | 2026-06-11 07:52:35 |
+| supply-wok-platform | feature/suppliers | 1f47b8d | feat(suppliers): add clients interface layer |  | 2026-06-11 07:53:11 |
+| supply-wok-platform | develop | c7142b2 | feat(database): create connection string for development environment database |  | 2026-06-11 20:55:40 |
+| supply-wok-platform | develop | ff08982 | Merge pull request #8 from Aurora-AplicacionesWeb/release/0.5.0 | Release/0.5.0 | 2026-06-11 20:59:55 |
+| supply-wok-platform | develop | afa8e31 | Merge pull request #6 from Aurora-AplicacionesWeb/master | Merge pull request #5 from Aurora-AplicacionesWeb/release/0.4.0 | 2026-06-11 20:29:36 |
+| supply-wok-platform | develop | 1817395 | Merge pull request #7 from Aurora-AplicacionesWeb/develop | Develop | 2026-06-11 20:29:36 |
+| supply-wok-platform | develop | c9d9321 | fix(swagger): fix swagger ui to show it |  | 2026-06-11 21:26:42 |
+| supply-wok-platform | master | c80bf59 | Merge branch 'release/0.5.0' into master |  | 2026-06-11 21:56:46 |
+| supply-wok-platform | develop | e1f7dbd | Merge pull request #10 from Aurora-AplicacionesWeb/release/0.5.0 | Release/0.5.0 | 2026-06-11 22:00:08 |
+| supply-wok-platform | develop | 9a5b84a | Merge pull request #11 from Aurora-AplicacionesWeb/master | Merge pull request #10 from Aurora-AplicacionesWeb/release/0.5.0 | 2026-06-11 22:01:18 |
+| supply-wok-platform | develop | 422bec7 | Merge pull request #9 from Aurora-AplicacionesWeb/release/0.5.0 | fix(swagger): fix swagger ui to show it | 2026-06-11 21:29:32 |
+| supply-wok-platform | feature/inventory-management | abded98 | feat(inventory): add folder structure for inventory application and domain layers |  | 2026-06-12 20:53:37 |
+| supply-wok-platform | feature/suppliers | ef4cb30 | feat(suppliers): implement supplier aggregate and related query services |  | 2026-06-12 21:12:35 |
+| supply-wok-platform | develop | af73e64 | Merge branch 'release/0.6.0' |  | 2026-06-12 23:06:25 |
+| supply-wok-platform | develop | 3562393 | Merge branch 'master' of https://github.com/Aurora-AplicacionesWeb/supply-wok-platform |  | 2026-06-12 23:05:49 |
+| supply-wok-platform | develop | eb647fe | Merge branch 'feature/supplier-orders-facade' into develop. Related to Ts-SHR-001-003, TS-ORD-001-002, TS-ORD-001-001 |  | 2026-06-12 23:44:30 |
+| supply-wok-platform | develop | dbd74be | fix: update namespace. |  | 2026-06-12 23:53:09 |
+| supply-wok-platform | develop | fbd12d5 | Merge branch 'feature/supplier-orders-acl' into develop |  | 2026-06-12 23:53:44 |
+| supply-wok-platform | develop | 92e3998 | Merge pull request #12 from Aurora-AplicacionesWeb/master | Merge branch 'release/0.6.0' | 2026-06-12 23:34:33 |
+| supply-wok-platform | master | 68bc4bc | Merge branch 'release/0.6.1' into master |  | 2026-06-12 23:54:40 |
+| supply-wok-platform | feature/inventory-management | d19dd90 | feat(supply): implement Supply aggregate with queries and auditing |  | 2026-06-13 21:00:57 |
+| supply-wok-platform | feature/inventory-management | 1a5ff2b | feat(supply): add supply commands and unit of measure enumeration |  | 2026-06-13 20:55:16 |
+| supply-wok-platform | feature/inventory-management | 8b917e4 | feat(inventory): add stock movement entity, commands and queries. |  | 2026-06-13 21:02:23 |
+| supply-wok-platform | feature/inventory-management | be5f3f1 | feat(inventory): implement command and query services for supply and stock movement. |  | 2026-06-13 21:02:58 |
+| supply-wok-platform | feature/inventory-management | d008cee | feat(stock-movement): refactor StockMovement and Supply command services to use SupplyRepository for stock movements |  | 2026-06-13 22:27:14 |
+| supply-wok-platform | feature/inventory-management | 21d7cb8 | feat(supply): update CreateSupplyCommand and UpdateSupplyCommand to use 'Category' parameter |  | 2026-06-13 22:26:38 |
+| supply-wok-platform | feature/inventory-management | 4e86a7d | feat(supply): add CreateSupply and UpdateSupply resources and their corresponding command assemblers |  | 2026-06-13 22:28:40 |
+| supply-wok-platform | feature/inventory-management | 6a977df | feat(inventory): implement ISupplyRepository and SupplyRepository for managing supplies and stock movements |  | 2026-06-13 22:29:02 |
+| supply-wok-platform | feature/inventory-management | 6ce0afc | feat(inventory): integrate Inventory context into application services and configuration |  | 2026-06-13 22:29:33 |
+| supply-wok-platform | feature/inventory-management | fb46024 | feat(inventory): implement InventoryContextFacade and GetTotalSupplyStockQuery for stock retrieval |  | 2026-06-13 23:12:30 |
+| supply-wok-platform | feature/inventory-management | 8d055b0 | refactor(inventory): rename namespace from Ad to Acl in InventoryContextFacade and update references |  | 2026-06-14 00:34:33 |
+| supply-wok-platform | develop | 9011893 | Merge branch 'feature/stock' into develop |  | 2026-06-14 00:39:34 |
+| supply-wok-platform | master | 5cbb494 | Merge branch 'release/0.7.0' into master |  | 2026-06-14 00:52:24 |
+| supply-wok-platform | feature/restaurant-management | 7db6668 | feat(dish): add dish, dish-category entities, commands, and queries for dish management in operations bounded context. |  | 2026-06-17 17:47:55 |
+| supply-wok-platform | feature/suppliers | 59437d9 | feat(suppliers): get clients by supplier id |  | 2026-06-17 23:15:29 |
+| supply-wok-platform | feature/iot | 2cffd69 | refactor(iot): split alert controllers and add inventory alert flow |  | 2026-06-17 23:31:46 |
+| supply-wok-platform | develop | 92d076c | fix: rename application ad facades to acl |  | 2026-06-17 20:54:07 |
+| supply-wok-platform | develop | 18177c6 | Merge remote-tracking branch 'origin/develop' into develop |  | 2026-06-17 20:55:07 |
+| supply-wok-platform | feature/restaurant-management | e5266ed | feat(operations): add repositories, services, and EF configurations for dish and dish-category management |  | 2026-06-18 01:58:48 |
+| supply-wok-platform | feature/restaurant-management | d9c16f3 | feat(operations): implement controllers and resource assemblers for dish and dish category management |  | 2026-06-18 01:59:16 |
+| supply-wok-platform | feature/restaurant-management | 6b57268 | feat(operations): add query services and extend error handling for dish category management in operations context. |  | 2026-06-18 01:57:56 |
+| supply-wok-platform | develop | 0bde108 | chore: update migration and model definitions for initial create. |  | 2026-06-18 02:00:20 |
+| supply-wok-platform | develop | 2b147e9 | chore: update user settings and remove unused Operations domain folder in project file |  | 2026-06-18 02:00:28 |
+| supply-wok-platform | develop | 31361e0 | Merge remote-tracking branch 'origin/develop' into feature/alert_controllers |  | 2026-06-18 02:00:49 |
+| supply-wok-platform | develop | b43dcd8 | Merge branch 'feature/dish' into develop |  | 2026-06-18 02:10:33 |
+| supply-wok-platform | master | bdd8336 | Merge branch 'release/0.9.0' into master |  | 2026-06-18 02:15:15 |
+| supply-wok-platform | develop | 22610ee | Merge remote-tracking branch 'origin/develop' into feature/alert_controllers |  | 2026-06-18 02:30:44 |
+| supply-wok-platform | develop | 5fcd5c5 | Merge branch 'feature/alert_controllers' into develop |  | 2026-06-18 02:36:51 |
+| supply-wok-platform | master | abea41d | Merge branch 'release/0.10.0' into master |  | 2026-06-18 02:40:56 |
+| supply-wok-platform | feature/iot | 5d37281 | feat(iot): seed alerts and expose restaurant alert sensor details |  | 2026-06-18 06:01:21 |
+| supply-wok-platform | develop | c1de080 | Merge branch 'feature/iot-alerts' into develop |  | 2026-06-18 06:02:17 |
+| supply-wok-platform | master | 5e1de89 | Merge branch 'release/0.10.1' into master |  | 2026-06-18 06:05:28 |
+| supply-wok-platform | feature/suppliers | 8e55d7e | feat(suppliers): add supplier catalog crud and catalog acl facade |  | 2026-06-18 01:11:51 |
+| supply-wok-platform | develop | 0c24dc5 | Merge branch 'feature/catalog' into develop |  | 2026-06-18 01:14:00 |
+| supply-wok-platform | master | 56e5b83 | Merge branch 'release/0.8.0' into master |  | 2026-06-18 01:15:02 |
+| supply-wok-platform | feature/restaurant-management | 4894e79 | feat(kitchen-order): add KitchenOrder aggregate with entities, commands, queries, and value objects for kitchen order management. |  | 2026-06-18 17:02:09 |
+| supply-wok-platform | feature/restaurant-management | 1e97476 | feat(kitchen-order): implement command and query services for KitchenOrder management. |  | 2026-06-18 17:03:28 |
+| supply-wok-platform | feature/restaurant-management | 37fbffa | feat(kitchen-order): add repository, EF configurations, and entity mappings for KitchenOrder and related items management |  | 2026-06-18 17:05:51 |
+| supply-wok-platform | feature/restaurant-management | cde1953 | feat(kitchen-order): implement REST controllers, resources, and assemblers for KitchenOrder management. |  | 2026-06-18 17:06:14 |
+| supply-wok-platform | feature/restaurant-management | 9171072 | feat(operations): add localization messages, repository, and services registration for KitchenOrder management. |  | 2026-06-18 17:06:44 |
+| supply-wok-platform | develop | 3a99fd8 | Merge branch 'feature/kitchen-orders' into develop |  | 2026-06-18 17:07:51 |
+| supply-wok-platform | master | 7a79d00 | Merge branch 'release/0.11.0' into master |  | 2026-06-18 17:11:08 |
+| supply-wok-platform | develop | cc46700 | Add MIT License to the project |  | 2026-06-19 08:46:36 |
+| supply-wok-platform | develop | 840e091 | Merge pull request #13 from Aurora-AplicacionesWeb/license | Add MIT License to the project | 2026-06-19 08:47:05 |
+| supply-wok-platform | develop | 2db75c6 | Merge pull request #14 from Aurora-AplicacionesWeb/develop | Add MIT License to the project | 2026-06-19 08:50:33 |
+| supply-wok-platform | develop | 653b114 | feat(profile): add restaurant and supplier profile queries and commands. |  | 2026-06-19 10:48:01 |
+| supply-wok-platform | develop | ac11497 | feat(profile): add restaurant and supplier profile command and query services. |  | 2026-06-19 11:00:57 |
+| supply-wok-platform | develop | c2e8841 | feat(profile): add supplier profile command and query services. |  | 2026-06-19 11:01:32 |
+| supply-wok-platform | develop | e5e0181 | feat(profile): implement ProfilesContextFacade with command and query services for restaurant and supplier profiles. |  | 2026-06-19 11:02:18 |
+| supply-wok-platform | develop | f2d5783 | feat(profile): implement restaurant and supplier profile command and query services. |  | 2026-06-19 11:03:52 |
+| supply-wok-platform | develop | 9c65b86 | feat(profile): update query parameters to match new user id types. |  | 2026-06-19 11:03:20 |
+| supply-wok-platform | develop | a1a5476 | feat(profile): implement restaurant and supplier profile query services. |  | 2026-06-19 11:04:37 |
+| supply-wok-platform | develop | faab6d1 | feat(profile): add entity framework model configuration extensions for profiles. |  | 2026-06-19 11:16:14 |
+| supply-wok-platform | develop | 34e4aa7 | feat(profile): implement restaurant and supplier profile repository implementations and query services. |  | 2026-06-19 11:16:35 |
+| supply-wok-platform | feature/shared | 2be9cd5 | feat(shared): update query parameters to match new user id types. |  | 2026-06-19 11:18:06 |
+| supply-wok-platform | develop | 3985ad6 | feat(profile): implement restaurant and supplier profile context facade and query services. |  | 2026-06-19 11:27:38 |
+| supply-wok-platform | develop | 690255a | feat(profile): implement restaurant and supplier profile resource and command assemblers. |  | 2026-06-19 11:28:46 |
+| supply-wok-platform | develop | 85ec80e | feat(profile): implement restaurant and supplier profile resource models and record types. |  | 2026-06-19 11:28:23 |
+| supply-wok-platform | develop | b92b96e | feat(profile): implement restaurant and supplier profile rest controllers and query services. |  | 2026-06-19 11:29:00 |
+| supply-wok-platform | develop | 803ea04 | chore: ignore Rider DotSettings.user file |  | 2026-06-19 11:45:30 |
+| supply-wok-platform | develop | 3ab3c36 | feat: update profile bounded context services and repositories. |  | 2026-06-19 11:46:25 |
+| supply-wok-platform | develop | d7ba99d | Merge branch 'feature/profile' into develop |  | 2026-06-19 13:16:11 |
+| supply-wok-platform | master | 80deb3a | Merge branch 'release/0.12.0' into master |  | 2026-06-19 13:23:24 |
+| supply-wok-platform | feature/inventory-management | e1aa7c6 | feat(inventory): refactor stock movement into inventory transaction with extended operations and queries. |  | 2026-06-19 18:04:54 |
+| supply-wok-platform | feature/inventory-management | ec38e3c | feat(inventory): replace stock movement with inventory transaction, adding new services, extended operations, and queries. |  | 2026-06-19 18:06:41 |
+| supply-wok-platform | feature/inventory-management | deff419 | feat(inventory): finalize migration from stock movement to inventory transaction with updated models, repositories, and EF configurations. |  | 2026-06-19 18:08:12 |
+| supply-wok-platform | feature/inventory-management | f552426 | feat(inventory): implement InventoryTransaction REST controllers, resources, and assemblers with extended operations and localization support. |  | 2026-06-19 18:09:19 |
+| supply-wok-platform | feature/inventory-management | 1a2189c | feat(inventory): add multilingual localization resources for inventory messages. |  | 2026-06-19 18:09:52 |
+| supply-wok-platform | feature/inventory-management | c5fb27e | feat(inventory): register InventoryMessages localization and add services for InventoryTransaction operations. |  | 2026-06-19 18:10:47 |
+| supply-wok-platform | develop | 7dc4ebb | chore: remove outdated migrations for aligning IoT alerts and inventory schema |  | 2026-06-19 18:10:15 |
+| supply-wok-platform | develop | 92adcc9 | chore: update EF configurations to set `longtext` mapping for string-converted enums across multiple modules. |  | 2026-06-19 18:10:34 |
+| supply-wok-platform | develop | 885a6df | chore(settings): enable `InventoryMessages` localization in .DotSettings user file |  | 2026-06-19 18:16:57 |
+| supply-wok-platform | develop | 6ae88d8 | Merge branch 'feature/stock-movement' into develop |  | 2026-06-19 18:21:55 |
+| supply-wok-platform | develop | d3733c7 | chore: update EF configurations to include `CreatedAt` and `UpdatedAt` for seed data and map `Id` in owned entities. |  | 2026-06-19 18:41:10 |
+| supply-wok-platform | develop | 8852cf6 | feat: add migration for restaurant and supplier profiles module |  | 2026-06-19 18:41:45 |
+| supply-wok-platform | master | 72599bd | Merge branch 'release/0.13.0' into master |  | 2026-06-19 18:43:54 |
+| supply-wok-platform | master | ba54410 | Merge branch 'release/0.13.0' into master |  | 2026-06-19 18:43:53 |
+| supply-wok-platform | develop | 8d2bf13 | Merge branch 'master' into develop |  | 2026-06-19 18:58:49 |
+| supply-wok-platform | develop | 35c3a5e | ci(configuration): assign parameters for development and production environments. |  | 2026-06-19 19:52:19 |
+| supply-wok-platform | develop | f3cbe1f | chore(docker): add Dockerfile to build and run Aurora.SupplyWok.Platform. |  | 2026-06-19 20:06:05 |
+| supply-wok-platform | develop | 1ef23a8 | feat(profile): add street address, email address, and person name value objects. |  | 2026-06-19 10:29:55 |
+| supply-wok-platform | develop | 59bdd97 | feat(profile): add restaurant and supplier profile aggregates. |  | 2026-06-19 10:33:49 |
+| supply-wok-platform | develop | 59dde6d | feat(profile): add create restaurant and supplier profile commands. |  | 2026-06-19 10:34:22 |
+| supply-wok-platform | develop | d071e53 | feat(profile): add restaurant and supplier profile queries. |  | 2026-06-19 10:35:17 |
+| supply-wok-platform | develop | 902e8b8 | feat(profile): add supplier and restaurant profile repositories. |  | 2026-06-19 10:35:50 |
+| supply-wok-platform | develop | 846fe82 | chore: update project folders for new profiles modules. |  | 2026-06-19 10:36:05 |
+| supply-wok-platform | develop | a0fab97 | feat(profile): add profiles error enum and enum values. |  | 2026-06-19 10:36:22 |
+| supply-wok-platform | develop | 436cbe8 | Merge branch 'release/0.13.1' into master |  | 2026-06-19 23:19:22 |
+| supply-wok-platform | master | 2cb2d58 | Merge branch 'release/0.13.1' into master |  | 2026-06-19 23:19:23 |
+| supply-wok-platform | develop | c783443 | Merge branch 'master' into develop |  | 2026-06-19 23:20:46 |
+| supply-wok-platform | develop | e672962 | chore(migrations): remove initial database migration file. |  | 2026-06-19 23:18:08 |
+| supply-wok-platform | develop | ca747f6 | feat(migrations): create initial database schema with multiple tables |  | 2026-06-19 23:40:20 |
+| supply-wok-platform | develop | 54250c2 | Merge branch 'release/0.13.2' into master |  | 2026-06-19 23:40:44 |
+| supply-wok-platform | master | 3ee0203 | Merge branch 'release/0.13.2' into master |  | 2026-06-19 23:40:43 |
+| supply-wok-platform | feature/analytics | c4478c5 | feat(analytics): add analytics context with migration for restaurant and supplier analytics tables |  | 2026-06-20 05:41:03 |
+| supply-wok-platform | feature/alerts | 69d79e8 | refactor(alerts): remove unused alert assemblers and resources; streamline alert handling logic |  | 2026-06-20 05:00:18 |
+| supply-wok-platform | develop | 9130f0c | Merge pull request #15 from Aurora-AplicacionesWeb/feature/analytics | Feature/analytics | 2026-06-20 05:44:27 |
+| supply-wok-platform | develop | 3a3d33a | Merge pull request #16 from Aurora-AplicacionesWeb/develop | Develop | 2026-06-20 06:48:32 |
+| supply-wok-platform | feature/restaurant-management | 7205064 | feat(kitchen-orders): add support for listing kitchen orders with items included. |  | 2026-06-20 21:29:30 |
+| supply-wok-platform | feature/inventory-management | 73bf618 | feat(inventory): improve validation and error handling for supply commands, add logging, and configure JSON enum serialization. |  | 2026-06-20 21:29:43 |
+| supply-wok-platform | develop | 01eae3b | Merge branch 'release/0.13.3' into master |  | 2026-06-20 21:33:04 |
+| supply-wok-platform | master | 09ca317 | Merge branch 'release/0.13.3' into master |  | 2026-06-20 21:33:03 | 
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3 se completó la implementación y validación de los principales servicios backend de SupplyWok correspondientes a los bounded contexts priorizados del núcleo del negocio. Como parte de la revisión del sprint, se verificó el correcto funcionamiento de los endpoints REST desarrollados mediante pruebas realizadas en Swagger, comprobando la ejecución satisfactoria de las operaciones expuestas por la API. Además, se validó la persistencia de la información en la base de datos MySql mediante MySql Workbench.
+
+![Trello Sprint 3 Board 1](../assets/images/trello_11.png)
+![Trello Sprint 3 Board 2](../assets/images/trello_22.png)
+![Trello Sprint 3 Board 3](../assets/images/trello_33.png)
+![Backend Swagger](../assets/images/deploy-steps/swagger_1.png)
+
+**Link del vídeo de explicación del Execution:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se documentaron los servicios web desarrollados para los bounded contexts priorizados de SupplyWok utilizando Swagger. La documentación generada permite visualizar y comprender la estructura de los endpoints implementados, incluyendo los métodos HTTP soportados, parámetros de entrada, cuerpos de solicitud, respuestas esperadas y códigos de estado asociados. A continuación, se presenta el detalle de los endpoints documentados, los enlaces correspondientes a la documentación generada y evidencias de interacción utilizando datos de prueba.
+
+- **Repository URL:** https://github.com/Aurora-AplicacionesWeb/supply-wok-platform
+- **Swagger URL:** https://supply-wok-platform-cgbs.onrender.com/swagger/index.html
+
+| Endpoint | Action | HTTP Verb | Parameters | Response Example | Documentation URL |
+|---|---|---|---|---|---|
+| /api/v1/suppliers/{supplierId}/catalog-items | Create catalog item for a supplier | POST | supplierId (integer, Required), body: CreateCatalogItemResource | 201: The catalog item was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/catalog-items | Get catalog items by supplier | GET | supplierId (integer, Required) | 200: Catalog items retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/catalog-items/{catalogItemId} | Get catalog item by ID | GET | supplierId (integer, Required), catalogItemId (integer, Required) | 200: The catalog item was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/catalog-items/{catalogItemId} | Update catalog item | PUT | supplierId (integer, Required), catalogItemId (integer, Required), body: UpdateCatalogItemResource | 200: The catalog item was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/catalog-items/{catalogItemId} | Delete catalog item | DELETE | supplierId (integer, Required), catalogItemId (integer, Required) | 204: The catalog item was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers/{supplierId}/clients | Get clients by supplier | GET | supplierId (integer, Required) | 200: Clients retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/dish-categories | Get dish categories | GET | - | 200: Dish categories retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/dishes | Get dishes | GET | - | 200: Dishes retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/inventory-transactions | Create inventory transaction | POST | body: CreateInventoryTransactionResource | 201: The inventory transaction was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/inventory-transactions | Get inventory transactions | GET | - | 200: Inventory transactions retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/inventory-transactions/{inventoryTransactionId} | Get inventory transaction by ID | GET | inventoryTransactionId (integer, Required) | 200: The inventory transaction was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/inventory-transactions/by-supply/{supplyId} | Get transactions by supply | GET | supplyId (integer, Required) | 200: Inventory transactions retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders | Create kitchen order | POST | body: CreateKitchenOrderResource | 201: The kitchen order was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders | Get kitchen orders | GET | - | 200: Kitchen orders retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id} | Get kitchen order by ID | GET | id (integer, Required) | 200: The kitchen order was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id} | Update kitchen order | PUT | id (integer, Required), body: CreateKitchenOrderResource | 200: The kitchen order was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id} | Delete kitchen order | DELETE | id (integer, Required) | 204: The kitchen order was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id}/status | Update kitchen order status | PUT | id (integer, Required), body: UpdateKitchenOrderStatusResource | 200: The kitchen order status was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/kitchen-orders/{id}/dishes | Add dish to kitchen order | POST | id (integer, Required), body: AddDishToKitchenOrderResource | 200: The dish was added to the kitchen order successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders | Create purchase order | POST | body: CreatePurchaseOrderResource | 201: The purchase order was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders | Get purchase orders | GET | - | 200: Purchase orders retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders/{purchaseOrderId} | Get purchase order by ID | GET | purchaseOrderId (integer, Required) | 200: The purchase order was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders/{purchaseOrderId} | Update purchase order | PUT | purchaseOrderId (integer, Required), body: UpdatePurchaseOrderResource | 200: The purchase order was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders/{purchaseOrderId} | Delete purchase order | DELETE | purchaseOrderId (integer, Required) | 204: The purchase order was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/purchase-orders/{purchaseOrderId}/status | Update purchase order status | PUT | purchaseOrderId (integer, Required), body: UpdatePurchaseOrderStatusResource | 200: The purchase order status was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant/alerts | Get restaurant alerts | GET | - | 200: Restaurant alerts retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant/alerts/{alertId} | Get restaurant alert by ID | GET | alertId (integer, Required) | 200: The alert was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant/alerts/{alertId}/acknowledge | Acknowledge restaurant alert | POST | alertId (integer, Required) | 200: The alert was acknowledged successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/analytics/restaurant | Get restaurant analytics | GET | - | 200: Restaurant analytics retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant-profiles | Create restaurant profile | POST | body: CreateRestaurantProfileResource | 201: The restaurant profile was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant-profiles | Get restaurant profiles | GET | - | 200: Restaurant profiles retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant-profiles/{restaurantProfileId} | Get restaurant profile by ID | GET | restaurantProfileId (integer, Required) | 200: The restaurant profile was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/restaurant-profiles/by-user/{userId} | Get restaurant profile by user | GET | userId (integer, Required) | 200: The restaurant profile was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors | Create sensor | POST | body: CreateSensorResource | 201: The sensor was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors | Get sensors | GET | - | 200: Sensors retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors/{sensorId} | Get sensor by ID | GET | sensorId (integer, Required) | 200: The sensor was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors/{sensorId} | Update sensor | PUT | sensorId (integer, Required), body: UpdateSensorResource | 200: The sensor was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/sensors/{sensorId} | Delete sensor | DELETE | sensorId (integer, Required) | 204: The sensor was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier/alerts | Get supplier alerts | GET | - | 200: Supplier alerts retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier/alerts/{alertId} | Get supplier alert by ID | GET | alertId (integer, Required) | 200: The alert was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier/alerts/{alertId}/acknowledge | Acknowledge supplier alert | POST | alertId (integer, Required) | 200: The alert was acknowledged successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/analytics/supplier | Get supplier analytics | GET | - | 200: Supplier analytics retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier-profiles | Create supplier profile | POST | body: CreateSupplierProfileResource | 201: The supplier profile was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier-profiles | Get supplier profiles | GET | - | 200: Supplier profiles retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier-profiles/{supplierProfileId} | Get supplier profile by ID | GET | supplierProfileId (integer, Required) | 200: The supplier profile was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplier-profiles/by-user/{userId} | Get supplier profile by user | GET | userId (integer, Required) | 200: The supplier profile was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/suppliers | Get suppliers | GET | - | 200: Suppliers retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies | Create supply | POST | body: CreateSupplyResource | 201: The supply was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies | Get supplies | GET | - | 200: Supplies retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies/total-stock | Get total stock | GET | - | 200: Total stock retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies/{supplyId} | Get supply by ID | GET | supplyId (integer, Required) | 200: The supply was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies/{supplyId} | Update supply | PUT | supplyId (integer, Required), body: UpdateSupplyResource | 200: The supply was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/supplies/{supplyId} | Delete supply | DELETE | supplyId (integer, Required) | 204: The supply was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables | Create table | POST | body: CreateTableResource | 201: The table was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables | Get tables | GET | - | 200: Tables retrieved successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables/{tableId} | Get table by ID | GET | tableId (integer, Required) | 200: The table was found and returned. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables/{tableId} | Update table | PUT | tableId (integer, Required), body: UpdateTableResource | 200: The table was updated successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+| /api/v1/tables/{tableId} | Delete table | DELETE | tableId (integer, Required) | 204: The table was deleted successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se muestra el deploy de los componentes backend de SupplyWok implementados en la plataforma Aurora-AplicacionesWeb en la plataforma Render junto con el deploy de la base de datos en la plataforma Filess.
+
+**Backend Deployment:**
+
+1. Entramos a la página de Render: https://render.com/. Iniciamos sesión con cualquier cuenta (Google, Github, Microsoft, etc). Nos dirigimos a la sección "Projects" y damos clicks al botón "New" y escogemos la opción "Web Service".
+![Backend Deploy 1](../assets/images/deploy-steps/deploy_backend_2.png)
+
+2. Después de rellenar todos los campos, empezamos a realizar el deploy y saldrá la siguiente vista, donde se tendrá que esperar hasta que termine el proceso de deploy.
+![Backend Deploy 2](../assets/images/deploy-steps/deploy_backend_1.png)
+
+**Backend Deployment URL:** [Backend Deployment](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
+
+**Database Deployment:**
+![Database Deploy](../assets/images/deploy-steps/database_deploy.png)
+
+**Frontend Deployment:**
+
+**Link del Deploy del Frontend:** [Frontend Deploy](https://supplywok.web.app/)
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo trabajó de manera colaborativa en el desarrollo de los servicios backend de SupplyWok utilizando una estrategia basada en ramas de Git y GitHub. Las tareas fueron distribuidas entre los integrantes de acuerdo con los bounded contexts priorizados, permitiendo que cada miembro asumiera la responsabilidad principal de un área específica del negocio. En este sprint, todos los integrantes contribuyeron activamente mediante commits, revisiones e integración de cambios en el repositorio del proyecto. A continuación, se presentan evidencias de colaboración obtenidas a partir de los analíticos de GitHub, incluyendo contribuciones, historial de commits y actividad realizada durante el sprint.
+
+![Sprint 3 Insight Graphic 1](../assets/images/deploy-steps/contributions_22.png) 
+
+Como se observa en la sección Contributors del repositorio backend, durante el Sprint 3 se realizaron un total de 169 commits, reflejando una participación activa por parte de los miembros del equipo en el desarrollo de los servicios y endpoints de la plataforma.
+
+![Sprint 3 Insight Graphic 2](../assets/images/deploy-steps/contributions_23.png)
+
+Como se observa en el detalle de la sección Contributors, todos los integrantes realizaron contribuciones al repositorio. En promedio, cada miembro efectuó aproximadamente 20 commits y contribuyó con alrededor de 28040 líneas de código agregadas, evidenciando una distribución equilibrada del trabajo durante el sprint.
+
+![Sprint 3 Insight Graphic 3](../assets/images/deploy-steps/pulse_11.png)
+
+Como se observa en la sección Pulse del repositorio backend, durante la última semana se integraron 4 Pull Requests y se registraron 60 commits excluyendo merges. Asimismo, la rama principal del proyecto acumuló 10195 líneas agregadas y 1641 líneas eliminadas, reflejando el avance significativo realizado en la implementación de los bounded contexts y servicios backend planificados para este sprint.
+
+## 5.3. Validation Interviews.
+
+En esta sección se presentan las actividades de validación realizadas con usuarios pertenecientes a los segmentos objetivos de SupplyWok. El objetivo de estas entrevistas fue recopilar retroalimentación sobre la propuesta de valor, la experiencia de navegación en la Landing Page y el uso de las funcionalidades implementadas en la plataforma. Los resultados obtenidos permitieron identificar fortalezas, oportunidades de mejora y validar los principales supuestos planteados durante el desarrollo del proyecto.
+
+### 5.3.1. Diseño de Entrevistas.
+En esta sección se presenta el diseño de las sesiones de validación realizadas sobre la Landing Page y la Web Application de SupplyWok. A diferencia de las entrevistas de descubrimiento desarrolladas durante el needfinding, estas sesiones tuvieron como objetivo evaluar el comportamiento de usuarios representativos al interactuar con la propuesta de valor del producto y con los principales flujos de la solución digital implementada.
+
+Las sesiones de validación se diseñaron para observar si los participantes comprendían el propósito del producto, si podían navegar por las vistas principales sin asistencia excesiva y si lograban completar tareas representativas del core business. Asimismo, se buscó recopilar comentarios espontáneos de los participantes sobre claridad, utilidad, confianza, facilidad de uso y valor percibido de la solución.
+
+Para ello, se trabajó con usuarios correspondientes a los dos segmentos objetivos del proyecto: dueños o administradores de restaurantes chifa y proveedores de insumos para restaurantes. Cada sesión fue moderada por un integrante del equipo y registrada en video como evidencia de validación.
+
+**Objetivo general de validación**
+
+- Verificar si los usuarios comprenden la propuesta de valor de SupplyWok al interactuar con la Landing Page.
+- Evaluar si los usuarios pueden navegar por la Web Application y completar tareas clave sin fricción significativa.
+- Identificar problemas de usabilidad, arquitectura de información y diseño inclusivo en los flujos implementados.
+- Recoger observaciones cualitativas que permitan priorizar mejoras para las siguientes iteraciones del producto.
+
+**Segmentos validados**
+
+- **Segmento 1:** Dueños o administradores de restaurantes chifa.
+- **Segmento 2:** Proveedores de insumos para restaurantes.
+
+**Escenarios y tareas de validación**
+
+Las sesiones se estructuraron alrededor de tareas concretas, alineadas con los flujos principales del producto.
+
+**Para el segmento de restaurantes**
+
+- Identificar, a partir de la Landing Page, cuál es la propuesta de valor principal de SupplyWok.
+- Navegar desde la Landing Page hacia la aplicación.
+- Iniciar sesión y reconocer el propósito general del dashboard.
+- Ubicar módulos clave como inventario, pedidos, alertas o mesas.
+- Interpretar la información presentada en una vista principal del sistema.
+
+**Para el segmento de proveedores**
+
+- Identificar, a partir de la Landing Page, cómo SupplyWok puede aportar valor al proveedor.
+- Navegar desde la Landing Page hacia la aplicación.
+- Iniciar sesión en la vista de proveedor.
+- Ubicar funcionalidades principales como clientes, catálogo, órdenes o demanda proyectada.
+- Interpretar la información mostrada en una vista principal del panel del proveedor.
+
+**Preguntas de validación posteriores a la demostración**
+
+Después de mostrar la Landing Page y los principales flujos de la Web Application, el moderador realizó preguntas orientadas a recoger la percepción del participante sobre la utilidad, claridad y aplicabilidad real de la solución.
+
+- Después de ver la aplicación, ¿te parece útil para tu trabajo o negocio?
+- ¿Qué parte de la aplicación te gustó más?
+- ¿Hubo algo que no entendiste o que te confundió?
+- ¿Usarías una aplicación como esta en la vida real? ¿Por qué?
+- ¿Qué cambiarías o mejorarías?
+
+### 5.3.2. Registro de Entrevistas.
+En esta sección se presenta el registro de las sesiones de validación realizadas con representantes de los segmentos objetivo. Cada sesión permitió observar cómo los usuarios interactuaron con el Landing Page y con la Web Application, así como registrar comentarios, dudas y observaciones generadas durante la navegación.
+
+Las entrevistas de validación fueron registradas en video y consolidadas en un único material de evidencia, siguiendo las indicaciones del project statement. En cada caso se documenta la información del participante, el segmento representado, la fecha de la sesión y un resumen de los principales hallazgos obtenidos.
+
+**Video consolidado de validación**
+- **Enlace en Microsoft Stream:** [Vídeo de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6)
+- **Captura de evidencia:**  
+  ![captura](../assets/images/entrevista1.png)
+
+### Segmento Objetivo Restaurantes
+
+#### Entrevista de validación #1
+![alt text](../assets/images/validation/entrevista1.png)
+
+**Resumen de la sesión:**
+
+El primer entrevistado Weiquan Wang, un dueño de restaurante de 55 años ubicado en el Callao, logró comprender la idea general de la landing page y también el flujo principal de la aplicación, especialmente las pantallas de inventario, pedidos, comandas, mesas y alertas. Su percepción general fue positiva, ya que consideró que el sistema era fácil de usar y que podría manejarlo sin demasiada dificultad; sin embargo, aportó una observación importante sobre el módulo de pedidos, indicando que sería más práctico no agregar productos uno por uno, sino contar con una forma más rápida de seleccionar varios insumos en una sola acción.
+
+| Detalle | Información |
+|---|---|
+| **Entrevistador** | Juan Sung Jau Wang Chen |
+| **Entrevistado** | Weiquan Wang |
+| **Segmento objetivo** | Restaurante  |
+| **Edad** | 55 |
+| **Ubicación** | La Perla, Callao |
+| **Duración / Empieza en** | [14:18 minutos] / [0:00] |
+| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+
+*Tabla. Registro de validación 1*
+
+
+
+
+#### Entrevista de validación #2
+![alt text](../assets/images/validation/entrevista2.png)
+
+**Resumen de la sesión:**
+
+La segunda entrevistada Ana Chen, una dueña de restaurante de 50 años de Callao, entendió de forma clara las funciones principales de la aplicación, sobre todo el inventario, la creación de órdenes a proveedores, los tickets de cocina, la gestión de mesas y las alertas. Comentó que el sistema le parecía sencillo y fácil de seguir, sin encontrar grandes dificultades en su uso; no obstante, brindó una sugerencia bastante valiosa al señalar que, en la sección de pedidos, sería más útil manejar horarios de entrega además de la prioridad, ya que en la práctica casi todos los pedidos se consideran importantes y lo realmente decisivo suele ser el momento en que deben recibirse.
+
+| Detalle | Información |
+|---|---|
+| **Entrevistador** | Juan Sung Jau Wang Chen |
+| **Entrevistado** | Ana Chen |
+| **Segmento objetivo** | Restaurante |
+| **Edad** | 50 |
+| **Ubicación** | La Perla, Callao |
+| **Duración / Empieza en** | [12 minutos] / [14:20] |
+| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+
+*Tabla. Registro de validación 2*
+
+#### Entrevista de validación #3
+
+![alt text](../assets/images/validation/entrevista3.png)
+
+**Resumen de la sesión:**
+
+La tercera entrevistada, Lili, de 54 años y dueña de un restaurante chifa en La Perla, mostró una validación claramente favorable tanto de la landing page como de la aplicación. Después de revisar las pantallas principales, afirmó que la plataforma le parecía útil para su trabajo diario, que el flujo era entendible y que no percibía confusión importante en el uso de las funciones. Entre todos los módulos presentados, destacó especialmente el de alertas como la parte que más le interesó, señalando además que sí utilizaría la aplicación en un contexto real y que, al menos en esta etapa, no veía cambios urgentes que realizar.
+
+| Detalle | Información |
+|---|---|
+| **Entrevistador** | Juan Sung Jau Wang Chen |
+| **Entrevistado** | Lily 蔡 |
+| **Segmento objetivo** | Restaurante  |
+| **Edad** | 54 |
+| **Ubicación** | La Perla, Callao |
+| **Duración / Empieza en** | [8 minutos] / [26:18] |
+| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+
+*Tabla. Registro de validación 3*
+
+
+### Segmento Objetivo Proveedores
+
+#### Entrevista de validación #4
+![alt text](../assets/images/validation/entrevista4.png)
+
+**Resumen de la sesión:**
+
+El cuarto entrevistado, Alberto Copa Villa, de 37 años, trabajador de una carnicería en La Perla y representante del perfil proveedor, valoró de manera positiva la propuesta para este segundo segmento de usuarios, especialmente en las pantallas de órdenes, clientes, delivery planning, alertas, demanda y catálogo. Indicó que las funcionalidades que más le llamaron la atención fueron las alertas, el control del stock y la planificación de rutas, ya que las percibió como herramientas útiles para el trabajo real de un proveedor. Además, propuso dos mejoras importantes: reemplazar o complementar la prioridad de las órdenes con horarios de entrega más concretos, y añadir dentro de la misma aplicación una función de mensajería o chat tipo WhatsApp para comunicarse con los restaurantes sin depender de otros medios externos.
+
+| Detalle | Información |
+|---|---|
+| **Entrevistador** | Juan Sung Jau Wang Chen |
+| **Entrevistado** | Alberto Copa Villa |
+| **Segmento objetivo** | Proveedor |
+| **Edad** | 37 |
+| **Ubicación** | La Perla, Callao |
+| **Duración / Empieza en** | [8 minutos] / [34:00] |
+| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+
+*Tabla. Registro de validación 3*
+
+
+### 5.3.3. Evaluaciones según heurísticas.
+Como complemento a la observación de las sesiones de validación, el equipo realizó una evaluación de experiencia de usuario basada en heurísticas. Esta revisión tomó como referencia los criterios de usabilidad, diseño inclusivo y arquitectura de información indicados en el project statement del curso.
+
+El objetivo de esta evaluación fue sistematizar los principales problemas detectados durante la interacción de los usuarios con el Landing Page y la Web Application, asignándoles un nivel de severidad y relacionándolos con la heurística o principio incumplido. De este modo, los hallazgos cualitativos obtenidos en las entrevistas de validación pudieron complementarse con una revisión experta centrada en identificar oportunidades concretas de mejora para la siguiente iteración del producto.
+
+**Aplicación evaluada**
+
+- **Site o app a evaluar:** SupplyWok
+- **Auditor:** Aurora
+- **Clientes participantes:** Usuarios de los segmentos restaurante y proveedor entrevistados durante la validación
+
+**Tareas evaluadas**
+
+- Comprender la propuesta de valor de la Landing Page.
+- Navegar hacia la Web Application desde los Call To Action.
+- Reconocer el propósito del dashboard según el rol del usuario.
+- Ubicar funcionalidades principales del sistema.
+- Interpretar información clave en vistas como inventario, pedidos, clientes o catálogo.
+
+**Escala de severidad utilizada**
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial que no afecta significativamente la experiencia. |
+| 2 | Problema menor que genera fricción, pero puede ser superado por el usuario. |
+| 3 | Problema mayor que ocurre con frecuencia o dificulta seriamente completar la tarea. |
+| 4 | Problema muy grave que impide continuar con el uso de la herramienta. |
+
+**Tabla resumen de hallazgos**
+
+| # | Problema | Escala de severidad | Heurística o principio violado |
+|---|---|---|---|
+| 1 | La aplicación no ofrece una guía inicial ni ayuda contextual para usuarios nuevos. | 3 | Ayuda y documentación |
+| 2 | No existen diálogos de confirmación antes de ejecutar acciones destructivas como eliminar registros. | 4 | Prevención de errores |
+| 3 | Se identificaron inconsistencias visuales entre pantallas, componentes y estilos del sistema. | 2 | Consistencia y estándares |
+
+**Descripción de problemas**
+
+**Problema #1: Ausencia de guía de uso o acompañamiento inicial**
+
+- **Severidad:** 3
+- **Heurística violada:** Ayuda y documentación
+- **Problema:** Durante la evaluación se observó que la aplicación no brinda una orientación inicial para usuarios nuevos. No se encontraron mensajes introductorios, explicaciones contextuales ni elementos que indiquen con claridad cómo iniciar el uso de los módulos principales. Esto puede dificultar la adopción de la plataforma, especialmente para usuarios que ingresan por primera vez y aún no conocen la lógica del sistema ni el propósito de cada sección.
+- **Recomendación:** Incorporar una breve guía de bienvenida, textos de apoyo o mensajes contextuales que orienten al usuario sobre el propósito de cada módulo y las acciones principales que puede realizar.
+
+![heuristic-problem-1](../assets/images/heuristic1.png)
+
+**Problema #2: Falta de confirmación antes de eliminar información**
+
+- **Severidad:** 4
+- **Heurística violada:** Prevención de errores
+- **Problema:** Se identificó que la aplicación no presenta un cuadro de confirmación antes de ejecutar acciones irreversibles como la eliminación de registros. Esta situación representa un riesgo importante, ya que el usuario puede borrar información por equivocación sin una oportunidad previa para cancelar la acción. La ausencia de esta validación reduce la sensación de control y puede ocasionar pérdida accidental de datos.
+- **Recomendación:** Implementar diálogos de confirmación antes de eliminar elementos, con mensajes claros sobre la acción que se va a realizar y opciones visibles para confirmar o cancelar.
+
+![heuristic-problem-2](../assets/images/heuristic21.png)
+![heuristic-problem-22](../assets/images/heuristic22.png)
+**Problema #3: Inconsistencias visuales en el diseño de la interfaz**
+
+- **Severidad:** 2
+- **Heurística violada:** Consistencia y estándares
+- **Problema:** Durante la revisión se detectaron diferencias visuales entre pantallas y componentes, como variaciones en estilos, jerarquías visuales, tamaños o distribución de elementos. Aunque estas diferencias no impiden por completo el uso del sistema, sí afectan la percepción de uniformidad y profesionalismo de la plataforma, y obligan al usuario a reinterpretar cada pantalla en lugar de reconocer patrones consistentes.
+- **Recomendación:** Definir y aplicar criterios visuales uniformes para componentes, botones, tablas, encabezados, colores, espaciados y estilos tipográficos en todas las vistas del sistema.
+
+![heuristic-problem-3](../assets/images/[agregar-captura-problema-3].png)
+
+**Conclusión de la evaluación heurística**
+
+La evaluación heurística permitió identificar problemas relevantes que complementan los hallazgos obtenidos en las entrevistas de validación. En particular, se evidenció la necesidad de mejorar el acompañamiento al usuario, reforzar la prevención de errores en acciones sensibles y unificar la experiencia visual del sistema. Estos aspectos no siempre son mencionados de forma explícita por los entrevistados, pero sí impactan de manera significativa en la usabilidad general de la plataforma.
+
+La incorporación de estas mejoras contribuirá a que SupplyWok ofrezca una experiencia más clara, confiable y consistente, alineada con los principios de diseño centrado en el usuario y con los criterios de calidad esperados para una aplicación web funcional.
+
+## 5.4. Video About-the-Product.
+
+![](../assets/images/abtproduct.png)
+
+* Microsoft Stream: [URL del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDqz9uEXx01RIo8CM6xXsP8AaC6OZqd2Gy9L5aeXz3yxoU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OCLJI9)
+* YouTube: [Url del video en YouTube](https://youtu.be/AzOyy7Oak_w)
+
+
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+El proceso de desarrollo de SupplyWok mostró una evolución progresiva y coherente a lo largo de los sprints documentados en este capítulo. En el Sprint 1, el equipo logró construir y desplegar la Landing Page del producto, estableciendo una base sólida de comunicación de propuesta de valor, navegación inicial, diseño responsivo e internacionalización. Esta primera iteración permitió consolidar el entorno de trabajo, definir convenciones de desarrollo y demostrar la capacidad del equipo para entregar una primera versión visible del producto en producción.
+
+Durante el Sprint 2, el avance se concentró en la construcción del frontend de la Web Application, organizando la solución en bounded contexts y desarrollando dashboards diferenciados para restaurantes y proveedores. En esta etapa se implementaron las principales vistas funcionales del sistema, así como la estructura compartida de navegación, componentes reutilizables, manejo de estado y configuración de entornos. Aunque el frontend aún se apoyaba en una Fake API para simular datos, este sprint fue importante porque permitió validar la arquitectura de la aplicación, aterrizar los user flows principales y preparar la plataforma para la integración posterior con servicios reales.
+
+El Sprint 3 representó el avance técnico más importante del ciclo actual, ya que permitió trasladar la solución hacia una capa real de servicios backend mediante C#, Entity Framework Core, persistencia en MySql y documentación de endpoints en Swagger. En esta iteración se implementaron los bounded contexts priorizados del núcleo del negocio y se habilitaron operaciones REST funcionales para módulos como inventario, órdenes de compra, comandas, alertas, perfiles, analytics y supplier management. Además, el despliegue del backend en Render y la verificación de persistencia en MySql Workbench evidencian que el proyecto ya no se mantiene solo en nivel prototípico, sino que cuenta con una base técnica operativa y desplegada.
+
+Desde una perspectiva de desarrollo, uno de los principales logros del equipo fue haber construido el producto por capas y en etapas claras: primero la presencia pública del producto, luego la experiencia de usuario en frontend y finalmente la infraestructura de servicios que soporta la lógica de negocio. Esta secuencia permitió reducir complejidad, distribuir mejor el trabajo entre los integrantes y mantener continuidad entre diseño, implementación y validación. Asimismo, la evidencia de commits, Pull Requests, boards de sprint, despliegues y documentación técnica muestra que el trabajo no solo avanzó en funcionalidad, sino también en prácticas colaborativas y de ingeniería de software.
+
+No obstante, el propio desarrollo también dejó en evidencia aspectos que todavía deben fortalecerse. En el frontend aún existen oportunidades de mejora en consistencia visual, acompañamiento al usuario y algunos flujos operativos, mientras que en backend todavía queda pendiente seguir ampliando cobertura funcional, consolidar integraciones completas entre cliente y servidor, y profundizar pruebas con escenarios más cercanos al uso real. Del mismo modo, varias métricas de éxito definidas en Lean UX todavía no pueden validarse cuantitativamente, pues requieren una etapa posterior de uso continuo con usuarios reales sobre la versión integrada del sistema.
+
+Como recomendación para la siguiente etapa del roadmap, el equipo debería priorizar la integración completa entre el frontend y los Web Services ya desplegados, reemplazando definitivamente dependencias simuladas donde aún existan. Junto con ello, conviene continuar refinando los bounded contexts ya implementados, reforzar validaciones y manejo de errores, completar evidencias visuales faltantes del sprint y ejecutar pruebas funcionales integrales por flujo de negocio. En paralelo, resulta recomendable mantener el mismo nivel de documentación técnica y colaboración evidenciado en este capítulo, ya que ha sido una de las fortalezas más claras del proceso de desarrollo.
+
+En conjunto, el trabajo realizado demuestra que SupplyWok alcanzó un nivel importante de madurez para esta etapa del curso: existe una propuesta validada, una interfaz funcional, un backend desplegado y una arquitectura organizada que permite seguir creciendo el producto. Más allá de las mejoras pendientes, el desarrollo documentado en los sprints confirma que el equipo logró transformar una idea inicial en una solución web estructurada, técnicamente consistente y preparada para una integración y validación más profunda en las siguientes entregas.
+
+## Video About-The-Team
+
+
+### Enlaces del Video
+
+* Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* YouTube: [https://www.youtube.com/watch?v=V8HEQALGMGo](https://www.youtube.com/watch?v=V8HEQALGMGo)
+
+![About the Team](../assets/images/about-the-team.png)
