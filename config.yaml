@@ -1,22 +1,6 @@
-# Pandoc defaults file.
-# Usage: pandoc --defaults config.yaml
-
-from: markdown
+from: markdown-yaml_metadata_block+raw_html+pipe_tables+grid_tables+table_captions+implicit_figures
 to: pdf
-pdf-engine: xelatex
-standalone: true
-output-file: report/upc-pre-202610-1asi0730-12206-aurora-report-av2.pdf
-
-toc: true
-toc-depth: 3
-number-sections: true
-file-scope: true
-
-resource-path:
-  - report
-  - report/front-matter
-  - report/annexes
-  - report/assets
+output-file: upc-pre-202610-1asi0730-12206-aurora-report-tb2.pdf
 
 input-files:
   - report/front-matter/01-caratula.md
@@ -32,11 +16,34 @@ input-files:
   - report/front-matter/99-bibliography.md
   - report/annexes/anexos.md
 
-variables:
+resource-path:
+  - .
+  - report
+  - report/front-matter
+  - report/assets
+  - report/assets/images
+
+standalone: true
+pdf-engine: xelatex
+toc: false
+number-sections: false
+wrap: preserve
+
+metadata:
   lang: es-PE
-  mainfont: Times New Roman
-  CJKmainfont: SimSun
-  mathfont: Cambria Math
+
+variables:
+  documentclass: article
+  papersize: a4
+  fontsize: 11pt
   geometry:
     - margin=2.5cm
-  fontsize: 11pt
+  mainfont: Arial
+  sansfont: Arial
+  monofont: Consolas
+  CJKmainfont: Microsoft YaHei
+  colorlinks: true
+  linkcolor: blue
+  urlcolor: blue
+  toccolor: black
+  linestretch: 1.15

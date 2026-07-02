@@ -57,7 +57,7 @@ El objetivo de este análisis es identificar las fortalezas, debilidades, oportu
 
 <sub>*Tabla 4. Estrategias y tácticas frente a competidores*</sub>
 
----
+
 
 ## 2.2. Entrevistas
 
@@ -125,7 +125,7 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 - ¿Qué tipo de reportes o indicadores le ayudarían más en su trabajo diario?
 - ¿Qué tan útil le parecería una solución que combine gestión de inventario, pedidos, alertas y monitoreo operativo?
 - ¿Qué preocupaciones tendría al usar una nueva plataforma digital para su negocio?
----
+
 ### 2.2.2. Registro de entrevistas.
 
 

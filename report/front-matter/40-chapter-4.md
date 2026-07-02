@@ -496,8 +496,10 @@ La navegación en SupplyWok sigue estos criterios:
 | Panel de notificaciones | Al hacer clic en el ícono de campana del header, se despliega un panel lateral con las alertas recientes ordenadas cronológicamente. Cada alerta tiene un acceso directo a la sección donde ocurrió el evento. |
 | Modo restringido | El dueño puede activar un modo de acceso limitado desde Configuración. En este modo solo son visibles Kitchen Tickets y Tables and Occupancy, ocultando las secciones administrativas. Útil para personal de cocina y servicio. |
 | Cambio de rol | Si un usuario tiene ambos roles (restaurante y proveedor), puede cambiar de vista desde un selector en el header sin cerrar sesión. |
----
+
+
 ## 4.3. Landing Page UI Design.
+
 La propuesta de UI del Landing Page de SupplyWok traduce las decisiones previas de identidad visual, estilo y arquitectura de información en una experiencia clara, persuasiva y orientada a conversión. Su objetivo principal es presentar la propuesta de valor del producto, explicar de manera rápida cómo ayuda a restaurantes tipo chifa y proveedores, y conducir al visitante hacia una acción concreta, como registrarse, iniciar sesión o explorar el funcionamiento de la plataforma.
 
 El diseño del Landing Page se estructura en bloques progresivos que responden a una lógica de descubrimiento: primero captar atención, luego explicar el problema, mostrar beneficios y funcionalidades, reforzar confianza con evidencia visual y finalmente cerrar con llamadas a la acción claras. Esta organización permite que el usuario entienda qué resuelve SupplyWok, cómo funciona y por qué debería usarlo, sin tener que navegar por una interfaz compleja ni enfrentarse a una sobrecarga de información.

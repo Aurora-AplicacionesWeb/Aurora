@@ -1175,7 +1175,7 @@ Las entrevistas de validación fueron registradas en video y consolidadas en un 
 **Video consolidado de validación**
 - **Enlace en Microsoft Stream:** [Vídeo de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6)
 - **Captura de evidencia:**  
-  ![captura](../assets/images/entrevista1.png)
+  ![captura](../assets/images/validation/entrevista1.png)
 
 ### Segmento Objetivo Restaurantes
 
@@ -1326,7 +1326,7 @@ El objetivo de esta evaluación fue sistematizar los principales problemas detec
 - **Problema:** Durante la revisión se detectaron diferencias visuales entre pantallas y componentes, como variaciones en estilos, jerarquías visuales, tamaños o distribución de elementos. Aunque estas diferencias no impiden por completo el uso del sistema, sí afectan la percepción de uniformidad y profesionalismo de la plataforma, y obligan al usuario a reinterpretar cada pantalla en lugar de reconocer patrones consistentes.
 - **Recomendación:** Definir y aplicar criterios visuales uniformes para componentes, botones, tablas, encabezados, colores, espaciados y estilos tipográficos en todas las vistas del sistema.
 
-![heuristic-problem-3](../assets/images/[agregar-captura-problema-3].png)
+![heuristic-problem-3](../assets/images/heuristic3.png)
 
 **Conclusión de la evaluación heurística**
 
