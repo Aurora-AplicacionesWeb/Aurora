@@ -350,7 +350,7 @@ Se presentarán las capturas que muestran el despliegue de la Landing Page en Gi
 ![footer-section](../assets/images/deploy-steps/prove-5.png)
 *Figura: Footer con información de contacto, redes sociales y navegación secundaria.*
 
-Aquí está el enlace a la página desplegada: [SupplyWok landing page](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
+Aquí está el enlace a la página desplegada: [https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -467,7 +467,7 @@ Durante el Sprint 2, el equipo se enfocó principalmente en el desarrollo del fr
 
 ![Tabla en Trello 2](../assets/images/deploy-steps/trello_2.png)
 
-[Sprint en Trello](https://trello.com/b/07LRT0At/sprint-2)
+[https://trello.com/b/07LRT0At/sprint-2](https://trello.com/b/07LRT0At/sprint-2)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
@@ -728,7 +728,7 @@ Durante la reunión de Sprint Planning del Sprint 3, se estableció como objetiv
 | **Sprint 3 Velocity**              | Límite de **45 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Sum of Story Points**            | **55 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
-**Link del Sprint 3 Board:** [Trello](https://trello.com/b/vRbx1S2v/supplywok-sprint-backlog-3)
+**Link del Sprint 3 Board:** [https://trello.com/b/vRbx1S2v/supplywok-sprint-backlog-3](https://trello.com/b/vRbx1S2v/supplywok-sprint-backlog-3)
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
@@ -758,7 +758,7 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 
 En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3. Los elementos incluidos fueron seleccionados en función del Sprint Goal establecido para esta iteración, el cual busca habilitar la comunicación centralizada de datos en la plataforma SupplyWok mediante la implementación del Web Service principal, garantizando que los sistemas externos puedan consultar inventario, pedidos, usuarios, reportes, monitoreo operativo, órdenes de cocina de SupplyWok mediante servicios backend funcionales. Para elo, se definieron las historias de usuario y tareas necesarias para implementar, validar y documentar los endpoints REST de los bounded contexts priorizados, asegurando su correcto funcionamiento antes de la integración con los componentes frontend de la plataforma.
 
-**Link del Sprint 3 Board:** [Trello](https://trello.com/b/vRbx1S2v/supplywok-sprint-backlog-3)
+**Link del Sprint 3 Board:** [https://trello.com/b/vRbx1S2v/supplywok-sprint-backlog-3](https://trello.com/b/vRbx1S2v/supplywok-sprint-backlog-3)
 
 **Sprint 3 Backlog** Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi
 
@@ -1089,14 +1089,14 @@ En esta sección se muestra el deploy de los componentes backend de SupplyWok im
 2. Después de rellenar todos los campos, empezamos a realizar el deploy y saldrá la siguiente vista, donde se tendrá que esperar hasta que termine el proceso de deploy.
 ![Backend Deploy 2](../assets/images/deploy-steps/deploy_backend_1.png)
 
-**Backend Deployment URL:** [Backend Deployment](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
+**Backend Deployment URL:** [https://supply-wok-platform-cgbs.onrender.com/swagger/index.html](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
 
 **Database Deployment:**
 ![Database Deploy](../assets/images/deploy-steps/database_deploy.png)
 
 **Frontend Deployment:**
 
-**Link del Deploy del Frontend:** [Frontend Deploy](https://supplywok.web.app/)
+**Link del Deploy del Frontend:** [https://supplywok.web.app/](https://supplywok.web.app/)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -1194,7 +1194,7 @@ El primer entrevistado Weiquan Wang, un dueño de restaurante de 55 años ubicad
 | **Edad** | 55 |
 | **Ubicación** | La Perla, Callao |
 | **Duración / Empieza en** | [14:18 minutos] / [0:00] |
-| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+| **Enlace** | [https://tinyurl.com/53azn8f8](https://tinyurl.com/53azn8f8) |
 
 *Tabla. Registro de validación 1*
 
@@ -1216,7 +1216,7 @@ La segunda entrevistada Ana Chen, una dueña de restaurante de 50 años de Calla
 | **Edad** | 50 |
 | **Ubicación** | La Perla, Callao |
 | **Duración / Empieza en** | [12 minutos] / [14:20] |
-| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+| **Enlace** | [https://tinyurl.com/53azn8f8](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
 
 *Tabla. Registro de validación 2*
 
@@ -1236,7 +1236,7 @@ La tercera entrevistada, Lili, de 54 años y dueña de un restaurante chifa en L
 | **Edad** | 54 |
 | **Ubicación** | La Perla, Callao |
 | **Duración / Empieza en** | [8 minutos] / [26:18] |
-| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+| **Enlace** | [https://tinyurl.com/53azn8f8](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
 
 *Tabla. Registro de validación 3*
 
@@ -1258,7 +1258,7 @@ El cuarto entrevistado, Alberto Copa Villa, de 37 años, trabajador de una carni
 | **Edad** | 37 |
 | **Ubicación** | La Perla, Callao |
 | **Duración / Empieza en** | [8 minutos] / [34:00] |
-| **Enlace** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
+| **Enlace** | [https://tinyurl.com/53azn8f8](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQBNPmcdTVCFRIyAVH7xDnAtAXWfSILtxJUzz8KwcBEKa64?e=iLzLn6) |
 
 *Tabla. Registro de validación 3*
 
@@ -1338,8 +1338,8 @@ La incorporación de estas mejoras contribuirá a que SupplyWok ofrezca una expe
 
 ![](../assets/images/abtproduct.png)
 
-* Microsoft Stream: [URL del video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDqz9uEXx01RIo8CM6xXsP8AaC6OZqd2Gy9L5aeXz3yxoU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OCLJI9)
-* YouTube: [Url del video en YouTube](https://youtu.be/AzOyy7Oak_w)
+* Microsoft Stream: [https://tinyurl.com/4a9ucufx](https://tinyurl.com/4a9ucufx)
+* YouTube: [https://youtu.be/AzOyy7Oak_w](https://youtu.be/AzOyy7Oak_w)
 
 
 # Conclusiones
@@ -1365,7 +1365,7 @@ En conjunto, el trabajo realizado demuestra que SupplyWok alcanzó un nivel impo
 
 ### Enlaces del Video
 
-* Microsoft Stream: [https://AuroraAboutTheTeam](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* Microsoft Stream: [https://tinyurl.com/2acmmayx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * YouTube: [https://www.youtube.com/watch?v=V8HEQALGMGo](https://www.youtube.com/watch?v=V8HEQALGMGo)
 
 ![About the Team](../assets/images/about-the-team.png)
