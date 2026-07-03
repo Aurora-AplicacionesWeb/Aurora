@@ -321,16 +321,16 @@ Existe una adopción potencial en el ≈67% de restaurantes, siempre que la solu
 |----------------------------------------------------------------------------|------------|-------------|
 | Registrar y actualizar el inventario de insumos del restaurante            | Alta       | Alta        |
 | Monitorear el stock de productos críticos en almacén                       | Alta       | Alta        |
-| Revisar alertas de bajo stock para prevenir desabastecimiento              | Alta       | Alta        |
+| Detectar a tiempo cuándo un insumo está por agotarse para prevenir desabastecimiento              | Alta       | Alta        |
 | Controlar las comandas y el estado de atención de los pedidos              | Alta       | Alta        |
 | Supervisar la demanda estimada de platos e insumos                         | Media      | Alta        |
-| Verificar la temperatura de cocina y almacenamiento mediante sensores IoT  | Alta       | Alta        |
+| Supervisar las condiciones de conservación de insumos  | Alta       | Alta        |
 | Identificar posibles riesgos operativos o de seguridad en cocina           | Media      | Alta        |
 | Coordinar pedidos de abastecimiento con proveedores                        | Media      | Alta        |
 | Consultar el historial de pedidos y consumo de insumos                     | Media      | Media       |
 | Revisar el flujo de clientela en mesa para apoyar la proyección de demanda | Alta       | Alta        |
 | Tomar decisiones de compra y abastecimiento con base en datos              | Media      | Alta        |
-| Recibir notificaciones sobre eventos relevantes de operación               | Alta       | Alta        |
+| Mantenerse informado sobre eventos críticos de la operación               | Alta       | Alta        |
 
 <sub>*Tabla 9. User Task para el segmento de dueños de restaurantes chifa*</sub>
 
