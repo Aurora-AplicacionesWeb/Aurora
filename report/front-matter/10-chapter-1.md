@@ -66,6 +66,8 @@ Los restaurantes tipo chifa enfrentan dificultades en la gestión eficiente de s
 
 - Pain Points: Los restaurantes enfrentan quiebres de stock, compras de emergencia, desperdicio de insumos y poca visibilidad del estado real de su operación. Los proveedores, por su parte, trabajan con información incompleta sobre pedidos futuros, lo que dificulta la planificación de abastecimiento y entregas. Además, la falta de monitoreo de condiciones operativas, como la temperatura de almacenamiento o cocina, incrementa el riesgo de pérdidas y fallas en la operación.
 
+- Gap: Las soluciones existentes no resuelven de forma integrada el control de inventario, la generación de alertas, la proyección de demanda, la coordinación digital de pedidos y el monitoreo operativo. Como consecuencia, restaurantes y proveedores siguen tomando decisiones de manera reactiva, tardía y con información fragmentada.
+
 - Vision / Strategy: SupplyWok busca cerrar esta brecha mediante una plataforma web que conecte a restaurantes y proveedores en un mismo entorno digital. La estrategia del producto es centralizar la gestión de inventario, alertas, pedidos, proyecciones de demanda y monitoreo operativo para facilitar decisiones preventivas, mejorar la coordinación y reducir ineficiencias en la cadena de abastecimiento.
 
 - Initial Segment: Inicialmente, el producto se enfocará en dueños y administradores de restaurantes chifa, validando con ellos las funcionalidades esenciales relacionadas con inventario, alertas y generación de pedidos. De forma complementaria, se incorporará un grupo de proveedores clave para validar la visualización de demanda y la coordinación de entregas.
