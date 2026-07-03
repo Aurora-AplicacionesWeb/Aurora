@@ -54,6 +54,20 @@ Los restaurantes tipo chifa enfrentan dificultades en la gestión eficiente de s
 - **¿Cuánto impacta? (HOW MUCH)**
     El impacto es operativo, económico y humano. En términos sectoriales, el INEI (2024)[^4] reportó que la actividad de restaurantes en Perú creció 2,57% en febrero de 2024, reflejando un entorno competitivo donde la eficiencia del servicio y del abastecimiento se vuelve más importante. En el plano ocupacional, Wassif et al. (2024)[^3] encontraron prevalencias de 77,3% en lesiones laborales y 81,3% en enfermedades relacionadas con el trabajo entre personal de cocina estudiado, lo que confirma la relevancia de la prevención. En el plano logístico, Tanizaki et al. (2020)[^5] sostienen que el pronóstico de demanda mejora decisiones de pedidos e inventarios, mientras que Annosi et al. (2021)[^2] destacan que la digitalización favorece la colaboración y la reducción de desperdicios a lo largo de la cadena alimentaria. En conjunto, esto demuestra que la ausencia de una plataforma integrada genera pérdidas por ineficiencia, riesgos para el personal y menor capacidad de coordinación entre restaurante y proveedor.
 
+**Objetivos del proyecto**
+
+- Desarrollar una plataforma web que permita a restaurantes tipo chifa centralizar el control de inventario, pedidos, alertas operativas y seguimiento básico de la demanda.
+- Mejorar la coordinación entre restaurantes y proveedores mediante un entorno digital compartido que facilite la generación, visualización y seguimiento de órdenes de compra.
+- Reducir decisiones reactivas, pérdidas por desabastecimiento o sobrestock y fallas operativas asociadas a registros manuales o información fragmentada.
+- Proporcionar visibilidad operativa suficiente para apoyar decisiones de abastecimiento, control interno y prevención de riesgos en cocina y almacenamiento.
+
+**Restricciones del proyecto**
+
+- La solución debe implementarse como una aplicación web responsiva, accesible desde navegador en entornos de escritorio y móviles.
+- El alcance del producto debe centrarse en la gestión operativa y de abastecimiento de restaurantes tipo chifa y su relación con proveedores, sin abarcar procesos contables o logísticos avanzados de alcance empresarial completo.
+- La primera versión debe priorizar funcionalidades viables para validación académica y de negocio, como inventario, alertas, pedidos, demanda estimada y monitoreo operativo básico.
+- La propuesta debe sostenerse sobre evidencia bibliográfica y validación con usuarios, por lo que los componentes más avanzados del producto quedan condicionados a iteraciones posteriores.
+
 
 ### 1.2.2 Lean UX Process   
 
@@ -131,31 +145,35 @@ Con la investigación y el enfoque del producto, se identificaron 2 segmentos ob
 
 **- Segmento 1: Dueños de restaurantes chifa y administradores**
 
-**Descripción:** Usuarios responsables de la operación diaria del restaurante, la compra de insumos, el control de stock y la supervisión de procesos internos. Su motivación principal es reducir pérdidas, mejorar la planificación y tener mayor control sobre la operación.
+**Descripción:** Usuarios responsables de la operación diaria del restaurante, la compra de insumos, el control de stock y la supervisión de procesos internos. En su mayoría representan pequeños negocios gastronómicos urbanos o locales con operación intensiva, donde una misma persona concentra decisiones de compras, almacenamiento y coordinación del servicio. Su motivación principal es reducir pérdidas, mejorar la planificación y tener mayor control sobre la operación.
 
 **Características generales:**
 - **Ubicación:** Restaurantes urbanos y zonas con alta concentración de oferta gastronómica.
 - **Rol:** Dueños, administradores o encargados de operación.
+- **Perfil del negocio:** Pequeños o medianos restaurantes con alta rotación de insumos perecibles y necesidad de control diario.
 - **Necesidad principal:** Control de inventario, alertas, proyección de demanda y coordinación de pedidos.
 - **Nivel tecnológico:** Uso frecuente de sistemas web o móviles para gestión básica del negocio.
 
 **Información de sustento:**
-- La mala proyección de demanda en foodservice se asocia con sobreproducción y desperdicio, mientras que mejorar el forecasting ayuda a reducir desperdicio y demanda insatisfecha.
-- Los enfoques de IoT permiten monitorear temperatura, humedad y trazabilidad en entornos alimentarios, aportando control operativo y visibilidad.
+- El sector restaurantes mantiene actividad y competencia sostenida en el contexto peruano; el INEI (2024)[^4] reportó crecimiento de 2,57% y menciona expresamente a los chifas dentro de las actividades con desempeño positivo, lo que refuerza la relevancia de digitalizar su operación.
+- Tanizaki et al. (2020)[^5] muestran que el pronóstico de demanda en restaurantes mejora decisiones sobre compras, inventario y operación, por lo que este segmento sí enfrenta un problema real y recurrente de planificación.
+- Bouzembrak et al. (2019)[^6] sostienen que los enfoques basados en IoT mejoran monitoreo, trazabilidad y control de variables críticas en entornos alimentarios, algo directamente alineado con las necesidades operativas de este segmento.
 
 **- Segmento 2: Proveedores de insumos para restaurantes**
 
-**Descripción:** Usuarios que abastecen a uno o varios restaurantes y necesitan anticipar pedidos, organizar entregas y mantener una relación más eficiente con sus clientes. Su motivación principal es planificar mejor su distribución y contar con información útil para sus rutas y abastecimiento.
+**Descripción:** Usuarios que abastecen a uno o varios restaurantes y necesitan anticipar pedidos, organizar entregas y mantener una relación más eficiente con sus clientes. Corresponden a proveedores o distribuidores que operan relaciones B2B recurrentes y dependen de una mejor visibilidad de la demanda para planificar reposición, rutas y tiempos de entrega. Su motivación principal es planificar mejor su distribución y contar con información útil para sus rutas y abastecimiento.
 
 **Características generales:**
 - **Ubicación:** Empresas o negocios de distribución de insumos alimentarios.
 - **Rol:** Proveedores, distribuidores o encargados comerciales.
+- **Perfil de operación:** Atención recurrente a varios clientes gastronómicos con necesidad de coordinar pedidos y entregas con baja incertidumbre.
 - **Necesidad principal:** Visibilidad de demanda, seguimiento de pedidos y planificación de entregas.
 - **Nivel tecnológico:** Uso de plataformas digitales para pedidos, coordinación y seguimiento.
 
 **Información de sustento:**
-- La digitalización mejora la visibilidad y trazabilidad en cadenas alimentarias, lo que facilita la coordinación entre actores.
-- Las soluciones basadas en datos permiten mejorar la planificación de la oferta y reducir errores de abastecimiento.
+- Annosi et al. (2021)[^1] identifican que la digitalización en cadenas de suministro alimentarias mejora la colaboración, el intercambio de información y la reducción de desperdicios, lo cual justifica incluir a los proveedores como segmento clave y no solo como actor secundario.
+- La misma evidencia muestra que las barreras de coordinación e intercambio de información entre actores de la cadena alimentaria siguen siendo relevantes, por lo que un proveedor con visibilidad parcial de la demanda sí constituye un usuario directamente afectado por el problema.
+- Tanizaki et al. (2020)[^5] respaldan que una mejor anticipación de la demanda mejora decisiones de abastecimiento; trasladado al proveedor, esto se traduce en mejor planificación de oferta, rutas y tiempos de respuesta.
 
 
 
