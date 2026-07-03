@@ -57,7 +57,7 @@ Los restaurantes tipo chifa enfrentan dificultades en la gestión eficiente de s
 
 ### 1.2.2 Lean UX Process   
 
-#### 1.2.2.1 Lean UX Problem Statements
+#### 1.2.2.1 Lean UX Problem Statement
 
 
 - Domain: La gestión operativa y de abastecimiento en restaurantes tipo chifa sigue dependiendo en gran medida de controles manuales, registros dispersos y coordinación informal entre restaurantes y proveedores. Esto limita la capacidad de mantener inventarios actualizados, anticipar la demanda y responder oportunamente a eventos críticos dentro de la operación.
@@ -70,12 +70,6 @@ Los restaurantes tipo chifa enfrentan dificultades en la gestión eficiente de s
 
 - Initial Segment: Inicialmente, el producto se enfocará en dueños y administradores de restaurantes chifa, validando con ellos las funcionalidades esenciales relacionadas con inventario, alertas y generación de pedidos. De forma complementaria, se incorporará un grupo de proveedores clave para validar la visualización de demanda y la coordinación de entregas.
 
-- Cómo sabremos que tuvimos éxito (comportamientos medibles):
-  - ≥ 60% de restaurantes activos configuran su inventario inicial y al menos una alerta durante el primer mes.
-  - ≥ 50% de los pedidos se originan a partir de sugerencias o alertas del sistema.
-  - ≥ 70% de los usuarios encuestados manifiestan que la plataforma mejora la coordinación operativa.
-  - ≥ 50% de proveedores activos consultan su panel de demanda al menos una vez por semana.
-  - ≥ 80% de los eventos de temperatura fuera de rango generan alertas visibles y accionables en el dashboard.
 
 #### 1.2.2.2 Lean UX Assumptions
 

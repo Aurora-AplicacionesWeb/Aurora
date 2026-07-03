@@ -1365,7 +1365,7 @@ En conjunto, el trabajo realizado demuestra que SupplyWok alcanzó un nivel impo
 
 ### Enlaces del Video
 
-* Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* Microsoft Stream: [https://AuroraAboutTheTeam](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202422890_upc_edu_pe/IQDySsjWzeU3QJIfvb_8FEj8AQdXLUYVA6erYiIsj7Xe7eU?e=qVnNMj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * YouTube: [https://www.youtube.com/watch?v=V8HEQALGMGo](https://www.youtube.com/watch?v=V8HEQALGMGo)
 
 ![About the Team](../assets/images/about-the-team.png)
