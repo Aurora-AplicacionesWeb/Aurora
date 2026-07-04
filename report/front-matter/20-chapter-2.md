@@ -378,6 +378,44 @@ Los siguientes Empathy Maps fueron elaborados a partir de las observaciones extr
 
 <sub>*Ilustración. Empathy Map - Segmento 2*</sub><br></br>
 
+### 2.3.5. As-Is Scenario Maps.
+
+En esta sección se presentan los escenarios actuales de los usuarios objetivo antes de la existencia de SupplyWok. Cada As-Is Scenario Map organiza el flujo de trabajo en fases y muestra qué hace, piensa, dice y siente el usuario mientras intenta completar una tarea relevante en su contexto actual.
+
+- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
+
+| Phase | Doing | Thinking | Saying | Feeling |
+|---|---|---|---|---|
+| **1. Detect shortage** | Revisa visualmente cocina, almacén o zona de preparación para verificar qué insumos quedan disponibles. | "¿Todavía alcanza para hoy o ya me voy a quedar corto?" | "Falta pollo" / "Ya casi no queda verdura." | Preocupación, urgencia |
+| **2. Estimate need** | Calcula mentalmente cuánto insumo necesita según experiencia, flujo de clientes o lo que espera vender ese día. | "Tengo que comprar lo justo para no quedarme sin nada, pero tampoco gastar de más." | "Con esto debería aguantar hasta la tarde." | Incertidumbre, presión |
+| **3. Contact supplier** | Llama o envía mensajes a uno o más proveedores para consultar disponibilidad, precio y tiempo de entrega. | "Ojalá tengan producto y puedan traerlo rápido." | "¿Tienes pollo?" / "¿A cuánto está hoy?" | Dependencia, apuro |
+| **4. Decide purchase** | Define qué comprar y en qué cantidad con la información parcial que obtuvo. | "Si compro poco, me vuelvo a quedar corto; si compro mucho, se puede perder." | "Mándame lo de siempre" / "Tráeme un poco más." | Duda, tensión |
+| **5. Wait or resolve manually** | Coordina entrega, espera respuesta o decide salir personalmente a comprar para no detener la operación. | "No puedo esperar demasiado porque la cocina sigue trabajando." | "Si no llega, tendré que salir yo mismo." | Estrés, frustración |
+| **6. Continue operation** | Ajusta platos, ritmo de cocina o decisiones de compra mientras espera el abastecimiento. | "Tengo que seguir atendiendo aunque no tenga todo controlado." | "Hoy tendremos que reemplazar este insumo." | Cansancio, resignación |
+
+**Pain Points identificados:** detección tardía de faltantes, cálculo empírico de compras, dependencia de llamadas o mensajes dispersos, poca visibilidad del stock y decisiones reactivas bajo presión.
+
+**Oportunidades de diseño:** alertas tempranas, visibilidad centralizada del inventario, apoyo para decidir cantidades de compra y coordinación digital más ordenada con proveedores.
+
+<sub>*Tabla 10. As-Is Scenario Map para dueños y administradores de restaurantes chifa*</sub>
+
+- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
+
+| Phase | Doing | Thinking | Saying | Feeling |
+|---|---|---|---|---|
+| **1. Receive requests** | Revisa llamadas o mensajes de WhatsApp para identificar qué cliente pidió, qué necesita y para cuándo lo requiere. | "Otra vez están pidiendo a última hora." | "¿Qué te falta?" / "¿Para cuándo lo necesitas?" | Apuro, interrupción |
+| **2. Check availability** | Verifica manualmente si tiene stock suficiente para responder al pedido. | "Tengo que ver si me alcanza para todos." | "Sí tengo" / "Solo me queda cierta cantidad." | Tensión, cálculo rápido |
+| **3. Prioritize orders** | Ordena mentalmente los pedidos según urgencia, cercanía o cliente habitual. | "Primero debo atender al que lo necesita ya o al que siempre compra." | "Voy a salir primero por esa zona." | Presión, responsabilidad |
+| **4. Organize delivery** | Define de manera informal la ruta o secuencia de entregas del día. | "Si me atraso en una entrega, se me desordena todo." | "Primero paso por Callao, luego por Lima." | Carga operativa |
+| **5. Confirm with clients** | Confirma disponibilidad, hora estimada o ajustes de cantidad con los restaurantes. | "Tengo que avisar si no podré cumplir exactamente lo que pidieron." | "Te lo llevo en una hora" / "Solo puedo mandarte esta cantidad." | Incomodidad, negociación |
+| **6. Deliver and react** | Realiza las entregas y resuelve sobre la marcha cambios, retrasos o nuevos pedidos urgentes. | "Todo cambia rápido y tengo que adaptarme en el momento." | "Estoy en camino" / "Espérame unos minutos más." | Estrés, improvisación |
+
+**Pain Points identificados:** pedidos tardíos, coordinación fragmentada en mensajes, priorización manual, rutas improvisadas y escasa visibilidad de la demanda futura.
+
+**Oportunidades de diseño:** consolidación de pedidos, visibilidad de órdenes pendientes, alertas de prioridad, planificación básica de rutas y referencia anticipada de demanda.
+
+<sub>*Tabla 11. As-Is Scenario Map para proveedores de insumos para restaurantes*</sub>
+
 ## 2.4. Big Picture EventStorming.
 
 En esta sección se introduce y resume el proceso colaborativo realizado por el equipo Aurora para el descubrimiento del dominio del negocio. El objetivo primordial de esta actividad fue lograr una comprensión integral del ecosistema de gestión y abastecimiento de los restaurantes tipo chifa, plasmando los eventos significativos y sus interacciones de manera visual.
