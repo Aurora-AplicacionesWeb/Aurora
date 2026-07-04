@@ -99,6 +99,19 @@ El Impact Mapping de SupplyWok refleja la relación entre los objetivos de negoc
 
 ### 3.3. Product Backlog
 
+La gestión del Product Backlog se realizó en Jira Software, donde se registraron, priorizaron y estimaron las User Stories del proyecto.
+
+![](../assets/images/jira-evidence.png)
+
+<sub>*Ilustración. Product Backlog gestionado en Jira Software*</sub>
+
+**Enlace de referencia al backlog en Jira:**  
+[https://aurorasu.atlassian.net/jira/software/projects/AU/boards/35](https://aurorasu.atlassian.net/jira/software/projects/AU/boards/35)
+
+![](../assets/images/jira-evidence-2.png)
+
+<sub>*Ilustración. Evidencia complementaria de estados y seguimiento de actividades en Jira*</sub>
+
 | # Orden | User Story ID | Título | Descripción | Story Points |
 |:---:|:---:|---|---|:---:|
 | 1 | US44 | Página de inicio con hero section | Como visitante de la plataforma, quiero acceder a una página de inicio atractiva que presente claramente el valor de SupplyWok, para comprender rápidamente qué ofrece la plataforma. | 2 |
