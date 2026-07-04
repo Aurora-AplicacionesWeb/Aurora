@@ -1,4 +1,4 @@
-# Capítulo II: Requirements Elicitation & Analysis.
+ # Capítulo II: Requirements Elicitation & Analysis.
 
 ## 2.1. Competidores
 
@@ -127,7 +127,6 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 - ¿Qué preocupaciones tendría al usar una nueva plataforma digital para su negocio?
 
 ### 2.2.2. Registro de entrevistas.
-
 
 #### Segmento #1: Dueños de restaurantes chifa y administradores
 - **Entrevista #1**
