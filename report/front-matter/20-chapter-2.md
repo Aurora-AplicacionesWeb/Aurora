@@ -316,43 +316,35 @@ Los siguientes User Personas sintetizan los patrones más representativos identi
 
 ### 2.3.2. User Task Matrix.
 
-- **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
+En la siguiente matriz se comparan las principales tareas que realizan los dos User Personas considerados en el proyecto. Para cada tarea se indica la frecuencia y la importancia relativa según el segmento, buscando evidenciar coincidencias, diferencias operativas y prioridades antes de la existencia de la solución propuesta.
 
-| User Task                                                                  | Frecuencia | Importancia |
-|----------------------------------------------------------------------------|------------|-------------|
-| Registrar y actualizar el inventario de insumos del restaurante            | Alta       | Alta        |
-| Monitorear el stock de productos críticos en almacén                       | Alta       | Alta        |
-| Detectar a tiempo cuándo un insumo está por agotarse para prevenir desabastecimiento              | Alta       | Alta        |
-| Controlar las comandas y el estado de atención de los pedidos              | Alta       | Alta        |
-| Supervisar la demanda estimada de platos e insumos                         | Media      | Alta        |
-| Supervisar las condiciones de conservación de insumos  | Alta       | Alta        |
-| Identificar posibles riesgos operativos o de seguridad en cocina           | Media      | Alta        |
-| Coordinar pedidos de abastecimiento con proveedores                        | Media      | Alta        |
-| Consultar el historial de pedidos y consumo de insumos                     | Media      | Media       |
-| Revisar el flujo de clientela en mesa para apoyar la proyección de demanda | Alta       | Alta        |
-| Tomar decisiones de compra y abastecimiento con base en datos              | Media      | Alta        |
-| Mantenerse informado sobre eventos críticos de la operación               | Alta       | Alta        |
+| User Task | Dueños y administradores de chifa<br>Frecuencia | Dueños y administradores de chifa<br>Importancia | Proveedores de insumos<br>Frecuencia | Proveedores de insumos<br>Importancia |
+|---|---|---|---|---|
+| Registrar y actualizar el inventario de insumos del restaurante | Alta | Alta | Baja | Media |
+| Monitorear el stock de productos críticos en almacén | Alta | Alta | Baja | Media |
+| Detectar a tiempo cuándo un insumo está por agotarse para prevenir desabastecimiento | Alta | Alta | Media | Alta |
+| Controlar las comandas y el estado de atención de los pedidos | Alta | Alta | Baja | Baja |
+| Supervisar la demanda estimada de platos e insumos | Media | Alta | Media | Alta |
+| Supervisar las condiciones de conservación de insumos | Alta | Alta | Baja | Media |
+| Identificar posibles riesgos operativos o de seguridad en cocina | Media | Alta | Baja | Baja |
+| Coordinar pedidos de abastecimiento con proveedores | Media | Alta | Alta | Alta |
+| Consultar el historial de pedidos y consumo de insumos | Media | Media | Media | Media |
+| Revisar el flujo de clientela en mesa para apoyar la proyección de demanda | Alta | Alta | Baja | Baja |
+| Tomar decisiones de compra y abastecimiento con base en datos | Media | Alta | Media | Alta |
+| Mantenerse informado sobre eventos críticos de la operación | Alta | Alta | Media | Alta |
+| Registrar y gestionar pedidos recibidos de los restaurantes | Baja | Media | Alta | Alta |
+| Consultar el estado de los pedidos y su historial | Media | Alta | Alta | Alta |
+| Planificar rutas de entrega según pedidos y ubicaciones | Baja | Media | Media | Alta |
+| Coordinar entregas con mayor anticipación y precisión | Baja | Media | Media | Alta |
+| Monitorear información relacionada con el abastecimiento de sus clientes | Baja | Media | Media | Alta |
+| Identificar necesidades de reposición según consumo estimado | Media | Alta | Media | Alta |
+| Consultar alertas o cambios relevantes en los pedidos | Media | Alta | Alta | Alta |
+| Revisar patrones de compra de los restaurantes atendidos | Baja | Media | Media | Media |
+| Organizar su operación logística en función de la demanda prevista | Baja | Media | Media | Alta |
+| Mejorar la puntualidad y eficiencia en las entregas | Baja | Media | Alta | Alta |
+| Mantener comunicación más clara con los restaurantes sobre pedidos y abastecimiento | Media | Alta | Alta | Alta |
 
-<sub>*Tabla 9. User Task para el segmento de dueños de restaurantes chifa*</sub>
-
-- **Segmento objetivo 2: Proveedores de insumos para restaurantes**
-
-| User Task                                                                           | Frecuencia | Importancia |
-|-------------------------------------------------------------------------------------|------------|-------------|
-| Registrar y gestionar pedidos recibidos de los restaurantes                         | Alta       | Alta        |
-| Consultar el estado de los pedidos y su historial                                   | Alta       | Alta        |
-| Revisar la demanda proyectada de sus clientes                                       | Media      | Alta        |
-| Planificar rutas de entrega según pedidos y ubicaciones                             | Media      | Alta        |
-| Coordinar entregas con mayor anticipación y precisión                               | Media      | Alta        |
-| Monitorear información relacionada con el almacenamiento de sus clientes            | Media      | Alta        |
-| Identificar necesidades de reposición según consumo estimado                        | Media      | Alta        |
-| Consultar alertas o cambios relevantes en los pedidos                               | Alta       | Alta        |
-| Revisar patrones de compra de los restaurantes atendidos                            | Media      | Media       |
-| Organizar su operación logística en función de la demanda prevista                  | Media      | Alta        |
-| Mejorar la puntualidad y eficiencia en las entregas                                 | Alta       | Alta        |
-| Mantener comunicación más clara con los restaurantes sobre pedidos y abastecimiento | Alta       | Alta        |
-
-<sub>*Tabla 10. User Task para el segmento de proveedores de chifas*</sub>
+<sub>*Tabla 9. User Task Matrix comparativo para los segmentos objetivo de SupplyWok*</sub>
 
 ### 2.3.3. User Journey Mapping.
 
