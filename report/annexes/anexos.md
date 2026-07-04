@@ -1,10 +1,13 @@
-# Anexos
+# Anexo A - Videos de exposiciones
 
+# Anexo B - Code Conventions
 ## JavaScript Style Guide 
 https://github.com/airbnb/javascript
 
 ## Official Vue.js Style Guide
 https://vuejs.org/style-guide/
+
+# Anexo C - Videos de entrevistas
 
 ## Entrevistas
 [Dueño1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDQHa7uwWb0SpGufV03qReqAdJZ63c91J2peSXSFxW63_U?e=CLpwrJ)
@@ -15,6 +18,16 @@ https://vuejs.org/style-guide/
 
 [Proveedor1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQAz-yZWPjdaTYEhhCMiX-lwAbe6dgRCmz--mI4NhxnP9zk?e=bCvRPf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+## Entrevistas de validacion
+
+[https://tinyurl.com/53azn8f8](https://tinyurl.com/53azn8f8)
+
+# Anexo D - Video de prototipos
+
 ## Prototype
 
-[upc-pre-202610-1asi0730-12206-AURORA-prototype-navigation](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDkq2Qv2M5aR40vWnyGaTpSAfxzErIKTIrpk9ecgyM3YHI?e=dJMWyy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https://tinyurl.com/3su7w5hs](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318609_upc_edu_pe/IQDkq2Qv2M5aR40vWnyGaTpSAfxzErIKTIrpk9ecgyM3YHI?e=dJMWyy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+# Anexo E - About the team
+
+[https://tinyurl.com/2acmmayx](https://tinyurl.com/2acmmayx)
