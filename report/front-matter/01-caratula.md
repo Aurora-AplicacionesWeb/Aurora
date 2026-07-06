@@ -1,4 +1,7 @@
+<div align="center">
+
 ![upc logo](../assets/images/upc-logo.png)
+
 
 Universidad Peruana de Ciencias Aplicadas
 
@@ -40,4 +43,8 @@ Proyecto
 | U202410837                   | Ayasta Martel Zayd Jaffar          |
 
 
-Junio 2026
+Julio 2026
+
+</div>
+<div style="page-break-before: always;"></div>
+
