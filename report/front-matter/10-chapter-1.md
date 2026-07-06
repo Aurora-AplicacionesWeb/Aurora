@@ -73,19 +73,15 @@ Los restaurantes tipo chifa enfrentan dificultades en la gestión eficiente de s
 
 #### 1.2.2.1 Lean UX Problem Statement
 
+El estado actual de la gestión operativa y de abastecimiento en restaurantes tipo chifa se ha centrado principalmente en controles manuales, registros dispersos, decisiones reactivas sobre inventario y coordinación informal con proveedores. 
 
-- Domain: La gestión operativa y de abastecimiento en restaurantes tipo chifa sigue dependiendo en gran medida de controles manuales, registros dispersos y coordinación informal entre restaurantes y proveedores. Esto limita la capacidad de mantener inventarios actualizados, anticipar la demanda y responder oportunamente a eventos críticos dentro de la operación.
+Lo que los productos y servicios existentes no logran atender es la necesidad de una solución integrada que combine control de inventario, alertas operativas, proyección de demanda, coordinación digital de pedidos y monitoreo operativo en un solo entorno. 
 
-- Customer Segments: Los principales segmentos involucrados son los dueños y administradores de restaurantes chifa, quienes necesitan controlar inventario, reducir pérdidas y tomar decisiones rápidas de abastecimiento, y los proveedores de insumos, quienes requieren visibilidad sobre la demanda de sus clientes para planificar mejor sus entregas y distribución.
+Nuestro producto abordará esta brecha mediante una plataforma web que conecte restaurantes y proveedores para centralizar inventario, alertas, pedidos, proyecciones de demanda y monitoreo operativo. 
 
-- Pain Points: Los restaurantes enfrentan quiebres de stock, compras de emergencia, desperdicio de insumos y poca visibilidad del estado real de su operación. Los proveedores, por su parte, trabajan con información incompleta sobre pedidos futuros, lo que dificulta la planificación de abastecimiento y entregas. Además, la falta de monitoreo de condiciones operativas, como la temperatura de almacenamiento o cocina, incrementa el riesgo de pérdidas y fallas en la operación.
+Nuestro enfoque inicial estará dirigido a dueños y administradores de restaurantes chifa, incorporando progresivamente a proveedores clave para validar la coordinación de abastecimiento. 
 
-- Gap: Las soluciones existentes no resuelven de forma integrada el control de inventario, la generación de alertas, la proyección de demanda, la coordinación digital de pedidos y el monitoreo operativo. Como consecuencia, restaurantes y proveedores siguen tomando decisiones de manera reactiva, tardía y con información fragmentada.
-
-- Vision / Strategy: SupplyWok busca cerrar esta brecha mediante una plataforma web que conecte a restaurantes y proveedores en un mismo entorno digital. La estrategia del producto es centralizar la gestión de inventario, alertas, pedidos, proyecciones de demanda y monitoreo operativo para facilitar decisiones preventivas, mejorar la coordinación y reducir ineficiencias en la cadena de abastecimiento.
-
-- Initial Segment: Inicialmente, el producto se enfocará en dueños y administradores de restaurantes chifa, validando con ellos las funcionalidades esenciales relacionadas con inventario, alertas y generación de pedidos. De forma complementaria, se incorporará un grupo de proveedores clave para validar la visualización de demanda y la coordinación de entregas.
-
+Sabremos que vamos en la dirección correcta cuando los usuarios objetivo gestionen su inventario con mayor consistencia, anticipen antes sus necesidades de compra y coordinen pedidos de abastecimiento con menor incertidumbre y menos decisiones reactivas.
 
 #### 1.2.2.2 Lean UX Assumptions
 

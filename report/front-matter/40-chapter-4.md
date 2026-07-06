@@ -5,6 +5,8 @@
 
 SupplyWok adopta un sistema de diseño coherente, funcional y alineado con el contexto operativo de restaurantes tipo chifa y sus proveedores. En esta sección se detallan los lineamientos de estilo que hemos definido para mantener la coherencia visual de la plataforma, la cual incluye la landing page, la web application y las versiones mobile. Se detallan el branding, la paleta de colores y las tipografías a utilizar en el proyecto.
 
+Estas decisiones se sustentan en principios de diseño visual y de interacción como consistencia, jerarquía visual, contraste, proximidad, legibilidad y feedback inmediato. Asimismo, se considera el enfoque responsive e inclusivo exigido por el proyecto, de modo que los mismos criterios puedan aplicarse tanto en escritorio como en dispositivos móviles sin perder claridad ni usabilidad.
+
 **1. Logo:**
 
 El logo de nuestra plataforma está compuesto por los caracteres **S** y **W**, provenientes del nombre *SupplyWok*, representados de forma creativa para mantener una relación con nuestro público objetivo. La **S** se encuentra en forma de humo que sale de un recipiente con forma de **W**. Esta composición transmite una conexión con el entorno de un restaurante chifa y genera familiaridad con nuestros usuarios.
@@ -68,14 +70,14 @@ Por ello, la experiencia visual y verbal evita un tono alarmista o excesivamente
 
 **7. Language:**
 
-El lenguaje de SupplyWok será **directo, breve y orientado a la acción**. Se utilizarán etiquetas y mensajes simples que permitan al usuario identificar rápidamente qué está ocurriendo y qué acción puede realizar a continuación.
+El lenguaje de SupplyWok será **directo, breve y orientado a la acción**. Siguiendo el Project Statement, el idioma por defecto de la interfaz será **English (`en_US`)**, manteniendo además soporte de internacionalización para **Latin American Spanish (`es_419`)** y un tercer idioma adicional cuando el contexto del usuario lo requiera. Las etiquetas y mensajes deben permitir al usuario identificar rápidamente qué está ocurriendo y qué acción puede realizar a continuación.
 
 Se evitarán expresiones ambiguas o excesivamente técnicas. Por ejemplo, se priorizarán frases como:
 
-- `Crear pedido` en lugar de `Registrar nueva orden de abastecimiento`.
-- `Stock bajo` en lugar de `Nivel de inventario inferior al umbral configurado`.
-- `Ver proveedor` en lugar de `Consultar información detallada del proveedor asociado`.
-- `Actualizar estado` en lugar de `Modificar el flujo transaccional del pedido`.
+- `Create order` en lugar de `Register new supply order`.
+- `Low stock` en lugar de `Inventory level below configured threshold`.
+- `View supplier` en lugar de `Consult associated supplier detailed information`.
+- `Update status` en lugar de `Modify the transactional flow of the order`.
 
 Este enfoque reduce la fricción cognitiva y mejora la usabilidad, especialmente en escenarios donde el usuario necesita actuar rápido, como reposición de insumos, revisión de alertas o seguimiento de entregas.
 
@@ -264,12 +266,12 @@ A diferencia de un simple glosario, el sistema de etiquetado de SupplyWok se apl
 
 #### Labeling in the Landing Page
 
-En la Landing Page, las etiquetas priorizan claridad comercial y orientación a la conversión. Se emplean principalmente en:
+En la Landing Page, las etiquetas priorizan claridad comercial y orientación a la conversión. Debido a que la experiencia pública adopta inglés como idioma por defecto, las etiquetas base se definen en ese idioma y luego se localizan para otros mercados. Se emplean principalmente en:
 
-- **Navbar superior:** `Inicio`, `Funcionalidades`, `Planes`, `FAQ`, `Iniciar sesión`.
-- **Botones principales del hero:** `Crear cuenta`, `Ver demo`, `Soy restaurante`, `Soy proveedor`.
-- **Secciones informativas:** `Beneficios`, `Cómo funciona`, `Impacto`, `Preguntas frecuentes`.
-- **Footer:** `Contacto`, `Política de privacidad`, `Términos y condiciones`.
+- **Navbar superior:** `Home`, `Features`, `Pricing`, `FAQ`, `Sign in`.
+- **Botones principales del hero:** `Create account`, `View demo`, `I'm a restaurant`, `I'm a supplier`.
+- **Secciones informativas:** `Benefits`, `How it works`, `Impact`, `Frequently asked questions`.
+- **Footer:** `Contact`, `Privacy policy`, `Terms and conditions`.
 
 Estas etiquetas permiten que el visitante identifique rápidamente la estructura del contenido y pueda desplazarse hacia las secciones que más le interesan antes de tomar una decisión.
 
@@ -277,12 +279,12 @@ Estas etiquetas permiten que el visitante identifique rápidamente la estructura
 
 En la Web Application, las etiquetas se enfocan en apoyar la operación diaria del usuario. Se distribuyen en los siguientes puntos:
 
-- **Sidebar o menú lateral:** `Dashboard`, `Inventario`, `Pedidos`, `Proveedores`, `Alertas`, `Reportes`, `Configuración`.
-- **Header:** `Notificaciones`, `Mi perfil`, `Cambiar de vista`, `Cerrar sesión`.
-- **Botones de acción:** `Agregar insumo`, `Crear pedido`, `Actualizar estado`, `Ver detalle`, `Guardar cambios`, `Cancelar`.
-- **Breadcrumbs:** `Pedidos > Detalle del pedido`, `Inventario > Agregar insumo`, `Proveedores > Perfil del proveedor`.
-- **Formularios:** `Nombre del insumo`, `Unidad de medida`, `Stock mínimo`, `Proveedor asociado`, `Fecha de entrega`, `Precio unitario`.
-- **Mensajes de estado:** `Pendiente`, `En camino`, `Entregado`, `Cancelado`, `Stock bajo`, `Fuera de rango`.
+- **Sidebar o menú lateral:** `Dashboard`, `Inventory`, `Orders`, `Suppliers`, `Alerts`, `Reports`, `Settings`.
+- **Header:** `Notifications`, `My profile`, `Switch view`, `Sign out`.
+- **Botones de acción:** `Add item`, `Create order`, `Update status`, `View details`, `Save changes`, `Cancel`.
+- **Breadcrumbs:** `Orders > Order details`, `Inventory > Add item`, `Suppliers > Supplier profile`.
+- **Formularios:** `Item name`, `Unit of measure`, `Minimum stock`, `Assigned supplier`, `Delivery date`, `Unit price`.
+- **Mensajes de estado:** `Pending`, `In transit`, `Delivered`, `Cancelled`, `Low stock`, `Out of range`.
 
 #### Criterios del sistema de etiquetado
 
@@ -298,20 +300,20 @@ El sistema de etiquetado de SupplyWok sigue los siguientes criterios:
 
 | Etiqueta | Lugar de uso | Descripción |
 |---|---|---|
-| Iniciar sesión | Navbar, formularios de acceso | Permite ingresar con una cuenta existente. |
-| Crear cuenta | Hero section, formularios de registro | Permite registrarse como nuevo usuario. |
+| Sign in | Navbar, formularios de acceso | Permite ingresar con una cuenta existente. |
+| Create account | Hero section, formularios de registro | Permite registrarse como nuevo usuario. |
 | Dashboard | Sidebar, header, breadcrumbs | Pantalla inicial con el resumen principal del rol. |
-| Inventario | Sidebar, títulos de vista | Módulo de control de insumos y stock. |
-| Agregar insumo | Botón principal, formularios | Acción para registrar un nuevo producto en inventario. |
-| Stock mínimo | Formularios, tablas, alertas | Umbral que activa reposición o advertencia. |
-| Crear pedido | Botón principal, módulo de pedidos | Acción para generar una nueva orden. |
-| Estado del pedido | Tablas, cards, detalle de pedido | Indicador del avance operativo del pedido. |
-| Alerta de stock | Dashboard, alertas, notificaciones | Notificación sobre nivel crítico de inventario. |
-| Proveedor vinculado | Formularios, tablas, fichas | Relación activa entre restaurante y proveedor. |
-| Historial | Tablas, reportes, filtros | Registro cronológico de eventos o transacciones. |
-| Reportes | Sidebar, títulos, cards | Módulo de análisis y visualización de métricas. |
-| Configuración | Sidebar, header | Área de gestión del perfil y parámetros del sistema. |
-| Cerrar sesión | Header, menú de usuario | Acción para salir de la cuenta actual. |
+| Inventory | Sidebar, títulos de vista | Módulo de control de insumos y stock. |
+| Add item | Botón principal, formularios | Acción para registrar un nuevo producto en inventario. |
+| Minimum stock | Formularios, tablas, alertas | Umbral que activa reposición o advertencia. |
+| Create order | Botón principal, módulo de pedidos | Acción para generar una nueva orden. |
+| Order status | Tablas, cards, detalle de pedido | Indicador del avance operativo del pedido. |
+| Stock alert | Dashboard, alertas, notificaciones | Notificación sobre nivel crítico de inventario. |
+| Linked supplier | Formularios, tablas, fichas | Relación activa entre restaurante y proveedor. |
+| History | Tablas, reportes, filtros | Registro cronológico de eventos o transacciones. |
+| Reports | Sidebar, títulos, cards | Módulo de análisis y visualización de métricas. |
+| Settings | Sidebar, header | Área de gestión del perfil y parámetros del sistema. |
+| Sign out | Header, menú de usuario | Acción para salir de la cuenta actual. |
 
 ### 4.2.3. SEO Tags and Meta Tags.
 
@@ -321,58 +323,58 @@ A continuación, se detallan los principales títulos y metadatos propuestos par
 
 #### Home / Landing Page
 
-- **Title:** SupplyWok | Gestión inteligente de abastecimiento para restaurantes
-- **Meta Description:** Optimiza inventario, pedidos y coordinación con proveedores desde una sola plataforma diseñada para restaurantes tipo chifa y negocios gastronómicos.
-- **Meta Keywords:** gestión de inventario restaurantes, abastecimiento gastronómico, control de stock, pedidos a proveedores, software para chifas, supply chain restaurante
+- **Title:** SupplyWok | Smart supply management for restaurants
+- **Meta Description:** Optimize inventory, orders, and supplier coordination from one platform designed for chifa restaurants and food businesses.
+- **Meta Keywords:** restaurant inventory management, food supply chain, stock control, supplier orders, software for restaurants, restaurant operations
 - **Meta Author:** Aurora
 
 #### Funcionalidades / Features
 
-- **Title:** Funcionalidades de SupplyWok | Inventario, pedidos y alertas en una sola plataforma
-- **Meta Description:** Conoce cómo SupplyWok ayuda a restaurantes y proveedores a gestionar inventario, coordinar pedidos, monitorear alertas y tomar mejores decisiones operativas.
-- **Meta Keywords:** funcionalidades software restaurante, inventario digital, pedidos a proveedores, alertas de stock, dashboard gastronómico
+- **Title:** SupplyWok Features | Inventory, orders, and alerts in one platform
+- **Meta Description:** Discover how SupplyWok helps restaurants and suppliers manage inventory, coordinate orders, monitor alerts, and make better operational decisions.
+- **Meta Keywords:** restaurant software features, digital inventory, supplier orders, stock alerts, operations dashboard
 - **Meta Author:** Aurora
 
 #### Planes / Pricing
 
-- **Title:** Planes de SupplyWok | Soluciones para restaurantes y proveedores
-- **Meta Description:** Explora los planes de SupplyWok y descubre la opción adecuada para digitalizar el control de inventario, pedidos y abastecimiento de tu negocio.
-- **Meta Keywords:** precios software restaurante, planes gestión de inventario, suscripción software gastronómico, plataforma para proveedores
+- **Title:** SupplyWok Pricing | Plans for restaurants and suppliers
+- **Meta Description:** Explore SupplyWok plans and choose the right option to digitize inventory control, purchasing, and supply management for your business.
+- **Meta Keywords:** restaurant software pricing, inventory management plans, food business subscription, supplier platform
 - **Meta Author:** Aurora
 
 #### Login / Iniciar sesión
 
-- **Title:** Iniciar sesión | SupplyWok
-- **Meta Description:** Accede a tu cuenta de SupplyWok para gestionar inventario, pedidos, alertas y reportes desde una plataforma centralizada.
-- **Meta Keywords:** login supplywok, acceso plataforma inventario, panel restaurante, panel proveedor
+- **Title:** Sign in | SupplyWok
+- **Meta Description:** Access your SupplyWok account to manage inventory, orders, alerts, and reports from one centralized platform.
+- **Meta Keywords:** supplywok login, inventory platform access, restaurant dashboard, supplier dashboard
 - **Meta Author:** Aurora
 
 #### Register / Crear cuenta
 
-- **Title:** Crear cuenta | SupplyWok
-- **Meta Description:** Regístrate en SupplyWok como restaurante o proveedor y empieza a organizar tu abastecimiento de forma más eficiente.
-- **Meta Keywords:** registro supplywok, crear cuenta restaurante, crear cuenta proveedor, software abastecimiento
+- **Title:** Create account | SupplyWok
+- **Meta Description:** Register in SupplyWok as a restaurant or supplier and start organizing your supply operations more efficiently.
+- **Meta Keywords:** supplywok register, restaurant account, supplier account, supply management software
 - **Meta Author:** Aurora
 
 #### Dashboard
 
 - **Title:** Dashboard | SupplyWok
-- **Meta Description:** Revisa el estado actual de tu operación, alertas activas, pedidos pendientes y métricas clave desde el panel principal de SupplyWok.
-- **Meta Keywords:** dashboard restaurante, dashboard proveedor, panel operativo, alertas de stock, pedidos pendientes
+- **Meta Description:** Review your current operation status, active alerts, pending orders, and key metrics from the main SupplyWok dashboard.
+- **Meta Keywords:** restaurant dashboard, supplier dashboard, operations panel, stock alerts, pending orders
 - **Meta Author:** Aurora
 
 #### Inventario
 
-- **Title:** Inventario | SupplyWok
-- **Meta Description:** Gestiona tus insumos, controla niveles de stock y detecta productos críticos desde el módulo de inventario de SupplyWok.
-- **Meta Keywords:** inventario restaurante, control de insumos, stock mínimo, abastecimiento digital
+- **Title:** Inventory | SupplyWok
+- **Meta Description:** Manage your items, control stock levels, and detect critical products from the SupplyWok inventory module.
+- **Meta Keywords:** restaurant inventory, stock control, minimum stock, digital supply management
 - **Meta Author:** Aurora
 
 #### Pedidos
 
-- **Title:** Pedidos | SupplyWok
-- **Meta Description:** Crea, consulta y supervisa órdenes de abastecimiento entre restaurantes y proveedores con trazabilidad centralizada.
-- **Meta Keywords:** pedidos restaurante, órdenes de compra, seguimiento de pedidos, abastecimiento proveedor
+- **Title:** Orders | SupplyWok
+- **Meta Description:** Create, review, and track supply orders between restaurants and suppliers with centralized traceability.
+- **Meta Keywords:** restaurant orders, purchase orders, order tracking, supplier fulfillment
 - **Meta Author:** Aurora
 
 Estas etiquetas permiten diferenciar el propósito de cada página dentro del ecosistema digital, mantener coherencia entre la propuesta comercial y la experiencia operativa, y reforzar el posicionamiento del producto en búsquedas relacionadas con inventario, abastecimiento y gestión gastronómica.
@@ -557,7 +559,7 @@ En escritorio, los wireframes muestran una estructura con sidebar, header superi
 Los wireflows de SupplyWok muestran cómo cambian las pantallas wireframe a medida que el usuario avanza en un flujo concreto. Cada wireflow se construye a partir de un user goal y representa la secuencia de pasos necesarios para alcanzarlo, incluyendo decisiones intermedias y estados relevantes de la interfaz.
 
 **User Goal 1: Registrar y controlar insumos del restaurante.**  
-El usuario accede a la aplicación y, al no estar logueado, puede optar por crear una nueva cuenta o iniciar sesión. Si selecciona “Crear cuenta”, se abre un formulario donde debe ingresar su nombre, apellidos, correo electrónico y contraseña. En caso de que falte algún campo, la aplicación mostrará un mensaje de advertencia hasta que se completen los datos correctamente. Una vez registrado, se muestra una confirmación y el usuario es redirigido al mapa principal. Si ya posee una cuenta, selecciona “Iniciar sesión” e ingresa sus credenciales. Si estas son incorrectas, el sistema mostrará un mensaje de error. Tras un inicio exitoso, el usuario accede a la pantalla principal con el mapa interactivo y las funciones disponibles.
+Este wireflow representa el recorrido del usuario restaurante desde el dashboard hacia el módulo de inventario, donde puede revisar insumos existentes, agregar un nuevo producto o editar uno ya registrado. El flujo muestra los estados principales de la interfaz durante el registro de un insumo, incluyendo validaciones cuando faltan campos obligatorios, y evidencia cómo la estructura del formulario y la lista de inventario apoyan la actualización operativa sin salir del contexto principal.
 
 ![wireflow1](../assets/images/figma/web-app-mobile-wireflow1.png) 
 
@@ -778,40 +780,40 @@ La fase de prototipado de SupplyWok permite simular la navegación y la interacc
 
 ### 4.6.1. Design-Level EventStorming.
 
-En esta sección se detalla el proceso de Design-Level EventStorming realizado por el equipo para perfeccionar el modelo del dominio de Aurora. Partiendo del Big Picture, profundizamos en el comportamiento interno del sistema para alcanzar el mayor nivel de detalle arquitectónico posible.
+En esta sección se detalla el proceso de Design-Level EventStorming realizado por el equipo para perfeccionar el modelo del dominio de SupplyWok. Partiendo del Big Picture, profundizamos en el comportamiento interno del sistema para alcanzar el mayor nivel de detalle arquitectónico posible.
 
 Primero, refinamos la línea de tiempo original, eliminando eventos redundantes o procesos manuales que quedaban fuera del alcance tecnológico de la plataforma. Sobre este flujo depurado, incorporamos los elementos tácticos del Domain-Driven Design: Actores y Comandos para representar las intenciones, Políticas para las reglas automáticas, y Agregados (Aggregates) como responsables de procesar las operaciones y emitir los eventos de dominio. Este nivel de granularidad nos permitió consolidar y justificar las fronteras definitivas de nuestros Bounded Contexts.
 
-#### Bounded context 1 
-Este contexto delimitado constituye el núcleo operativo para la gestión de inventario en los restaurantes tipo chifa dentro de la plataforma Aurora. Se identificaron entidades como Insumo, Stock y Merma, junto con conceptos del lenguaje ubicuo como threshold (umbral). A partir de comandos como Register Daily Consumption e Increment Stock Levels, se generan eventos como Daily Consumption Registered y Stock Levels Incremented. Asimismo, se definieron políticas de negocio como el cálculo automático de incremento de stock al registrar nuevos productos y la validación de inconsistencias, por ejemplo, cuando se registra consumo sin stock previo, lo que puede desencadenar auditorías o alertas de riesgo.
+#### Bounded Context 1: Inventory Management
+Este contexto delimitado constituye el núcleo operativo para la gestión de inventario en los restaurantes tipo chifa dentro de la plataforma SupplyWok. Se identificaron entidades como Insumo, Stock y Merma, junto con conceptos del lenguaje ubicuo como threshold (umbral). A partir de comandos como Register Daily Consumption e Increment Stock Levels, se generan eventos como Daily Consumption Registered y Stock Levels Incremented. Asimismo, se definieron políticas de negocio como el cálculo automático de incremento de stock al registrar nuevos productos y la validación de inconsistencias, por ejemplo, cuando se registra consumo sin stock previo, lo que puede desencadenar auditorías o alertas de riesgo.
 
 ![](../assets/images/Bounded-context-cavnvas-DDD1.png)
 
-#### Bounded context 2 
+#### Bounded Context 2: Supply and Purchasing
 
 Este contexto delimitado actúa como el puente transaccional entre los restaurantes y sus proveedores, permitiendo la gestión de abastecimiento del stock. Se identificaron entidades como Purchase Order y conceptos clave como Lead Time y Forecasting dentro del lenguaje ubicuo. A partir del comando Identify Low Stock Levels, se genera el evento Low Stock Levels Identified, el cual puede activar políticas como la generación automática de solicitudes de reposición. Asimismo, el flujo incluye eventos como Order Sent to Supplier, Supplier Notified y Delivery Order Sent to Restaurant, junto con reglas de negocio que contemplan seguimiento manual y actualización automática del estado de los pedidos.
 
 ![](../assets/images/Bounded-context-cavnvas-DDD2.png)
 
-#### Bounded context 3
+#### Bounded Context 3: Operational Monitoring and IoT Alerts
 
 Este contexto delimitado tiene como propósito supervisar las condiciones físicas del entorno del restaurante mediante sensores. Se modelan entidades como Sensor y Lectura Ambiental, incorporando conceptos como safe range y downtime en el lenguaje ubicuo. A partir de comandos como Detect Disconnected Sensor y Define Safe Temperature Thresholds, se generan eventos como Disconnected Sensor Detected y Temperature Range Registered. Además, se establece una política que permite mostrar alertas cuando se detecta una desconexión, reflejada en eventos como Sensor Disconnected Warning Displayed.
 
 ![](../assets/images/Bounded-context-cavnvas-DDD3.png)
 
-#### Bounded context 4
+#### Bounded Context 4: Supplier Management & Operations
 
 Este contexto delimitado gestiona la interacción con proveedores y el seguimiento del rendimiento en las entregas. A partir del comando Confirm Delivery Completion, se genera el evento Delivery Completion Confirmed, seguido por la recepción de notificaciones (Confirmation Notification Received). Dentro del lenguaje ubicuo se incorpora el concepto de performance, el cual permite evaluar el cumplimiento y eficiencia en el proceso de entrega, apoyando la toma de decisiones operativas.
 
 ![](../assets/images/Bounded-context-cavnvas-DDD4.png)
 
-#### Bounded context 5
+#### Bounded Context 5: Subscription and Payment Management
 
 Este contexto delimitado representa la gestión de suscripciones y pagos dentro de la plataforma. Se identificaron comandos como Subscription Plan Comparison, Select Subscription Plan y Submit Payment Details, que generan eventos como Subscription Plan Selected y Completed Payment Form. Asimismo, se definieron políticas relacionadas con el control de acceso mediante mecanismos de lockdown y desbloqueo según el estado de la suscripción. El lenguaje ubicuo incluye conceptos como credentials, representando los datos de acceso del usuario.
 
 ![](../assets/images/Bounded-context-cavnvas-DDD5.png)
 
-#### Bounded context 6
+#### Bounded Context 6: Restaurant Management
 
 Este contexto delimitado modela la operación interna del restaurante en la gestión de pedidos entre salón y cocina. Se identificaron comandos como Assign Table to Order y Create Kitchen Order, que generan eventos como Table Assigned to Menu Order y Kitchen Order Created. Dentro del lenguaje ubicuo se incorporan términos como kitchen ticket (comanda) y lockdown mode, relacionado con el modo de operación en cocina. Este contexto permite garantizar la trazabilidad y correcta ejecución del flujo de pedidos.
 
