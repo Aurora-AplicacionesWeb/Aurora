@@ -788,11 +788,17 @@ Primero, refinamos la línea de tiempo original, eliminando eventos redundantes 
 #### Bounded Context 1: Inventory Management
 Este contexto delimitado constituye el núcleo operativo para la gestión de inventario en los restaurantes tipo chifa dentro de la plataforma SupplyWok. Se identificaron entidades como Insumo, Stock y Merma, junto con conceptos del lenguaje ubicuo como threshold (umbral). A partir de comandos como Register Daily Consumption e Increment Stock Levels, se generan eventos como Daily Consumption Registered y Stock Levels Incremented. Asimismo, se definieron políticas de negocio como el cálculo automático de incremento de stock al registrar nuevos productos y la validación de inconsistencias, por ejemplo, cuando se registra consumo sin stock previo, lo que puede desencadenar auditorías o alertas de riesgo.
 
+![](../assets/images/bounded-context-ddd1.png)
+![](../assets/images/bounded-context-ddd12.png)
+
 ![](../assets/images/Bounded-context-cavnvas-DDD1.png)
 
 #### Bounded Context 2: Supply and Purchasing
 
 Este contexto delimitado actúa como el puente transaccional entre los restaurantes y sus proveedores, permitiendo la gestión de abastecimiento del stock. Se identificaron entidades como Purchase Order y conceptos clave como Lead Time y Forecasting dentro del lenguaje ubicuo. A partir del comando Identify Low Stock Levels, se genera el evento Low Stock Levels Identified, el cual puede activar políticas como la generación automática de solicitudes de reposición. Asimismo, el flujo incluye eventos como Order Sent to Supplier, Supplier Notified y Delivery Order Sent to Restaurant, junto con reglas de negocio que contemplan seguimiento manual y actualización automática del estado de los pedidos.
+
+![](../assets/images/bounded-context-ddd2.png)
+![](../assets/images/bounded-context-ddd22.png)
 
 ![](../assets/images/Bounded-context-cavnvas-DDD2.png)
 
@@ -800,11 +806,16 @@ Este contexto delimitado actúa como el puente transaccional entre los restauran
 
 Este contexto delimitado tiene como propósito supervisar las condiciones físicas del entorno del restaurante mediante sensores. Se modelan entidades como Sensor y Lectura Ambiental, incorporando conceptos como safe range y downtime en el lenguaje ubicuo. A partir de comandos como Detect Disconnected Sensor y Define Safe Temperature Thresholds, se generan eventos como Disconnected Sensor Detected y Temperature Range Registered. Además, se establece una política que permite mostrar alertas cuando se detecta una desconexión, reflejada en eventos como Sensor Disconnected Warning Displayed.
 
+![](../assets/images/bounded-context-ddd3.png)
+
 ![](../assets/images/Bounded-context-cavnvas-DDD3.png)
 
 #### Bounded Context 4: Supplier Management & Operations
 
 Este contexto delimitado gestiona la interacción con proveedores y el seguimiento del rendimiento en las entregas. A partir del comando Confirm Delivery Completion, se genera el evento Delivery Completion Confirmed, seguido por la recepción de notificaciones (Confirmation Notification Received). Dentro del lenguaje ubicuo se incorpora el concepto de performance, el cual permite evaluar el cumplimiento y eficiencia en el proceso de entrega, apoyando la toma de decisiones operativas.
+
+![](../assets/images/bounded-context-ddd4.png)
+![](../assets/images/bounded-context-ddd42.png)
 
 ![](../assets/images/Bounded-context-cavnvas-DDD4.png)
 
@@ -812,11 +823,17 @@ Este contexto delimitado gestiona la interacción con proveedores y el seguimien
 
 Este contexto delimitado representa la gestión de suscripciones y pagos dentro de la plataforma. Se identificaron comandos como Subscription Plan Comparison, Select Subscription Plan y Submit Payment Details, que generan eventos como Subscription Plan Selected y Completed Payment Form. Asimismo, se definieron políticas relacionadas con el control de acceso mediante mecanismos de lockdown y desbloqueo según el estado de la suscripción. El lenguaje ubicuo incluye conceptos como credentials, representando los datos de acceso del usuario.
 
+![](../assets/images/bounded-context-ddd5.png)
+![](../assets/images/bounded-context-ddd52.png)
+
 ![](../assets/images/Bounded-context-cavnvas-DDD5.png)
 
 #### Bounded Context 6: Restaurant Management
 
 Este contexto delimitado modela la operación interna del restaurante en la gestión de pedidos entre salón y cocina. Se identificaron comandos como Assign Table to Order y Create Kitchen Order, que generan eventos como Table Assigned to Menu Order y Kitchen Order Created. Dentro del lenguaje ubicuo se incorporan términos como kitchen ticket (comanda) y lockdown mode, relacionado con el modo de operación en cocina. Este contexto permite garantizar la trazabilidad y correcta ejecución del flujo de pedidos.
+
+![](../assets/images/bounded-context-ddd6.png)
+![](../assets/images/bounded-context-ddd62.png) 
 
 ![](../assets/images/Bounded-context-cavnvas-DDD6.png)
 
