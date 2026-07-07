@@ -386,7 +386,7 @@ Los siguientes Empathy Maps fueron elaborados a partir de las observaciones extr
 
 ### 2.3.5. As-Is Scenario Maps.
 
-En esta sección se presentan los escenarios actuales de los usuarios objetivo antes de la existencia de SupplyWok. Cada As-Is Scenario Map organiza el flujo de trabajo en fases y muestra qué hace, piensa, dice y siente el usuario mientras intenta completar una tarea relevante en su contexto actual.
+En esta sección se presentan los escenarios actuales de los usuarios objetivos antes de la existencia de SupplyWok. Cada As-Is Scenario Map organiza el flujo de trabajo en fases y muestra qué hace, piensa, dice y siente el usuario mientras intenta completar una tarea relevante en su contexto actual.
 
 - **Segmento objetivo 1: Dueños de restaurantes chifa y administradores**
 

@@ -612,19 +612,19 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema, como lo son el inventario, ordenes, comandas, proveedores, etc.
 
-**2)** En seccion superior dentro de la pagina esta la vista general con la información pertinente del rol, en este caso el inventario con bajos niveles de stock como ejemplo.
+**2)** En sección superior dentro de la página esta la vista general con la información pertinente del rol, en este caso el inventario con bajos niveles de stock como ejemplo.
 
 **3)** En el Header se muestran las notificaciones, preguntas o dudas y el perfil del usuario.
 
-**4)** El aparatado visual que muestra nuestra plataforma con el rol y el nombre asociado.
+**4)** El apartado visual que muestra nuestra plataforma con el rol y el nombre asociado.
 
-**5)** Una seccion que muestra con más detalle la información de los sensores disponibles.
+**5)** Una sección que muestra con más detalle la información de los sensores disponibles.
 
-**6)** Una seccion que muestra con más detalle las comandas y sus estados.
+**6)** Una sección que muestra con más detalle las comandas y sus estados.
 
-**7)** Este apartado muestra informacion del inventario, priorizando los productos que estan bajos de stock.
+**7)** Este apartado muestra información del inventario, priorizando los productos que estan bajos de stock.
 
-**8)** Un apartado que muestra las ordenes que se hacen a los proveedores.
+**8)** Un apartado que muestra las órdenes que se hacen a los proveedores.
 
 ##### Inventory Page
 
@@ -636,7 +636,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **3)** El item de la lista del inventario muestra el nombre del producto, el nivel de stock, categoria, proveedor y acciones como editar o eliminar el producto.
 
-**4)** El botón prncipal de esta sección, el cual permite agregar un nuevo producto al inventario.
+**4)** El botón principal de esta sección, el cual permite agregar un nuevo producto al inventario.
 
 ##### Orders Page
 
@@ -644,9 +644,9 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Sección para crear ordenes a los proveedores, permite seleccionar el proveedor, fecha  y prioridad; tambien añade los productos que se quieren pedir añadiendo lineas en forma de listas e indicando el precio. Contiene tambien el boton que enviaria la orden al proveedor.
+**2)** Sección para crear órdenes a los proveedores, permite seleccionar el proveedor, fecha y prioridad; también añade los productos que se quieren pedir añadiendo líneas en forma de listas e indicando el precio. Contiene también el botón que enviaría la orden al proveedor.
 
-**3)** Apartado para ver el seguimiento de las ordenes realizadas a proveedores, se muestran en forma de listas.
+**3)** Apartado para ver el seguimiento de las órdenes realizadas a proveedores, se muestran en forma de listas.
 
 ##### Kitchen Tickets Page
 
@@ -654,9 +654,9 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Una vista rápida de las comandas mostrando cuantas estan abiertas, en preparacion y listas.
+**2)** Una vista rápida de las comandas mostrando cuantas están abiertas, en preparación y listas.
 
-**3)** Vista detallada de las comandas, mostrando a que mesa pertenece, el estado de la comanda y su fecha de creación, con acciones que se pueden hacer a cada comanda como eliminarlo.
+**3)** Vista detallada de las comandas, mostrando a qué mesa pertenece, el estado de la comanda y su fecha de creación, con acciones que se pueden hacer a cada comanda como eliminarlo.
 
 **4)** El botón principal, el cual permite crear una nueva comanda.
 
@@ -688,7 +688,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **2)** Sección de búsqueda, uno por input del usuario y un seleccionable por prioridad.
 
-**3)** Una lista detallada de las alertas notificadas, mostrando su prioridad, detalle, fuente, fecha, estado y como accion marcarlo como leída.
+**3)** Una lista detallada de las alertas notificadas, mostrando su prioridad, detalle, fuente, fecha, estado y como acción marcarlo como leída.
 
 ##### Reports Page
 
@@ -698,7 +698,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **2)** Botones para exportar los datos del reporte a formato PDF o CSV.
 
-**3)** Sección de gráficos que permite ver los datos del reporte de forma visual. incluye la evolución del inventario, el comsumo por periodos, ordenes por proveedor e incidentes.
+**3)** Sección de gráficos que permite ver los datos del reporte de forma visual. Incluye la evolución del inventario, el consumo por periodos, órdenes por proveedor e incidentes.
 
 ##### Settings Page
 
@@ -706,7 +706,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Sección del perfil del usuario. Permite cambiar datos y horarios, ademas de habilitar notificaciones por SMS o Email.
+**2)** Sección del perfil del usuario. Permite cambiar datos y horarios, además de habilitar notificaciones por SMS o Email.
 
 **3)** Lista de Usuarios que tiene acceso a las comandas, tanto para crearlas como asignarlas.
 
@@ -719,6 +719,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
 **2)** Sección de vista rápida que muestra el plan actual, usuarios, locaciones y sensores que tiene el usuario.
+
 **3)** Primer plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
 
 **4)** Segundo plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
@@ -854,7 +855,7 @@ La representación también evidencia la relación de estos componentes con la b
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-En esta seccion se presentar;a y se explicará el diagrama de clases por cada Bounded Context
+En esta sección se presentará y se explicará el diagrama de clases por cada Bounded Context
 
 ![](../assets/images/IMBC.png)
 

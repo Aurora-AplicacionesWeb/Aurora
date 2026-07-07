@@ -1115,6 +1115,45 @@ Como se observa en el detalle de la sección Contributors, todos los integrantes
 
 Como se observa en la sección Pulse del repositorio backend, durante la última semana se integraron 4 Pull Requests y se registraron 60 commits excluyendo merges. Asimismo, la rama principal del proyecto acumuló 10195 líneas agregadas y 1641 líneas eliminadas, reflejando el avance significativo realizado en la implementación de los bounded contexts y servicios backend planificados para este sprint.
 
+### 5.2.4. Sprint 4: 
+
+En esta sección se explicará y registrará el desarrollo del Sprint 4, se estableció como objetivo terminar y arreglar los defectos identificados tras la entrega del sprint anterior, esto incluye al web service, web application y landing page.
+
+#### 5.2.4.1. Sprint Planning 4
+
+Durante la reunion del Sprint Planning referente al Sprint 4, se estableció terminar el 30% restante del web service y conectarlo con la vista del cliente que seria el web application de la plataforma.
+
+**Sprint Planning 4**
+
+
+| **Sprint #**                       | 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2026-06-28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Time**                           | 19:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Location**                       | Virtual, Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Prepared by**                    | Marcelo Cuadros, Juan Wang                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Attendees**                      | Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 3 Review Summary**        | Durante el Sprint 2 se completó el desarrollo de la aplicación frontend utilizando una Fake API para simular la comunicación con los servicios backend. Se implementaron las principales interfaces y flujos de usuario previstos para la plataforma, obteniendo resultados satisfactorios en términos de funcionalidad, organización del código y experiencia de usuario. Como parte del feedback recibido, se destacó la calidad de la implementación realizada; sin embargo, se recomendó fortalecer la documentación técnica del proyecto para facilitar su comprensión, mantenimiento y futura integración con los servicios backend reales. |
+| **Sprint 3 Retrospective Summary** | El equipo considero ordenar mejor los tiempos de entrega para cada miembro del equipo con el fin de no resulte en un trabajo apresurado que pueda llamar a errores, asimismo se notificó mejorar la documentación de la plataforma para mantener la construccion de la plataforma detallada y correcta para su lectura, esto con el fin de mejorar la comunicaion en el proyecto para nuevos y viejos integrantes que quieran modificar o revisar la plataforma realizada.                                                                                                                                                                        |
+| **Sprint 4 Goal**                  | Finalizar el Web Service con los servicios faltantes y conectarlo satisfactoriamente con la base de datos y la aplicación web permitiendo a los usuarios usar la plataforma con las funcionalidades propuestas al cierre del sprint.                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sprint 4 Velocity**              | Límite de **45 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sum of Story Points**            | **26 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+#### 5.2.4.3. Sprint Backlog 4
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
 ## 5.3. Validation Interviews.
 
 En esta sección se presentan las actividades de validación realizadas con usuarios pertenecientes a los segmentos objetivos de SupplyWok. El objetivo de estas entrevistas fue recopilar retroalimentación sobre la propuesta de valor, la experiencia de navegación en la Landing Page y el uso de las funcionalidades implementadas en la plataforma. Los resultados obtenidos permitieron identificar fortalezas, oportunidades de mejora y validar los principales supuestos planteados durante el desarrollo del proyecto.
@@ -1165,7 +1204,7 @@ Después de mostrar la Landing Page y los principales flujos de la Web Applicati
 - Después de ver la aplicación, ¿te parece útil para tu trabajo o negocio?
 - ¿Qué parte de la aplicación te gustó más?
 - ¿Hubo algo que no entendiste o que te confundió?
-- ¿Usarías una aplicación como esta en la vida real? ¿Por qué?
+- ¿Usarías una aplicación como está en la vida real? ¿Por qué?
 - ¿Qué cambiarías o mejorarías?
 
 ### 5.3.2. Registro de Entrevistas.
