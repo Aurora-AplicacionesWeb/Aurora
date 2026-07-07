@@ -88,6 +88,7 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 
 **Preguntas complementarias:**
 - ¿Qué herramientas digitales usa actualmente para el negocio?
+- ¿Qué dispositivos tecnológicos utiliza con más frecuencia en su trabajo diario (celular, laptop, tablet, POS u otros)?
 - ¿Qué redes sociales usa con mayor frecuencia?
 - ¿Ha usado sensores o sistemas de monitoreo en su restaurante?
 - ¿Qué tan cómodo se siente usando smartphones o aplicaciones móviles?
@@ -114,6 +115,7 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 
 **Preguntas complementarias:**
 - ¿Qué herramientas usa hoy para organizar sus rutas o pedidos?
+- ¿Qué dispositivos o aplicaciones utiliza durante sus entregas o para comunicarse con sus clientes?
 - ¿Usa algún sistema para seguimiento de entregas?
 - ¿Qué datos le gustaría consultar antes de salir a repartir?
 - ¿Cómo se podría usar una herramienta digital para mejorar la coordinación con restaurantes?
@@ -132,10 +134,11 @@ Para comprender mejor a nuestros usuarios y construir arquetipos representativos
 - **Entrevista #1**
 
 ![](../assets/images/interviews/owner-interview1.png)
+![](../assets/images/interviews/owner-interview11.jpg)
 
 **Resumen de entrevista:**
 
-Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, gestiona su restaurante basándose principalmente en su experiencia y cálculo mental, especialmente para el manejo de inventario y abastecimiento de insumos como pollo, verduras y otros productos. No utiliza herramientas digitales ni considera necesarias funciones como alertas de stock o predicción de demanda, ya que confía en su conocimiento práctico y en la compra diaria según precios y necesidades. Actualmente realiza pedidos de forma directa (llamadas) y percibe que una plataforma podría complicar su proceso. Sin embargo, muestra cierto interés en herramientas orientadas a atraer más clientes, como una mejor presentación del menú, y solo usaría una solución digital en casos puntuales cuando lo considere necesario.
+Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, gestiona su restaurante basándose principalmente en su experiencia y cálculo mental, especialmente para el manejo de inventario y abastecimiento de insumos como pollo, verduras y otros productos. No utiliza herramientas digitales avanzadas ni considera necesarias funciones como alertas de stock o predicción de demanda, ya que confía en su conocimiento práctico y en la compra diaria según precios y necesidades. En cuanto a tecnología, indicó que utiliza WhatsApp para comunicarse y Yape para los pagos digitales, mientras que el celular es el dispositivo que usa con mayor frecuencia; además, señaló que el uso de computadora es muy limitado. Actualmente realiza pedidos de forma directa (llamadas) y percibe que una plataforma podría complicar su proceso. Sin embargo, muestra cierto interés en herramientas orientadas a atraer más clientes, como una mejor presentación del menú, y solo usaría una solución digital en casos puntuales cuando lo considere necesario.
 
 <br>
 <div align="center">
@@ -156,10 +159,11 @@ Ana Chen, dueña de un chifa en La Perla (Callao) con 22 años de experiencia, g
 - **Entrevista #2**
 
 ![](../assets/images/interviews/owner-interview2.png)
+![](../assets/images/interviews/owner-interview22.png)
 
 **Resumen de entrevista:**
 
-El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Callao) con aproximadamente 20 años de experiencia, gestiona su restaurante de forma muy tradicional, basándose principalmente en la compra directa y la comunicación por teléfono con proveedores. No lleva un control formal de inventario y suele darse cuenta de la falta de insumos cada pocos días, lo que genera problemas recurrentes de abastecimiento. Muestra interés en herramientas digitales, reconoce que sería útil contar con alertas de stock y sistemas que indiquen cuánto comprar, especialmente para evitar faltantes. También considera importante mejorar la rapidez en la entrega de pedidos y estaría dispuesto a usar una plataforma diariamente si esta le ayudara a resolver estos problemas de manera automática y sencilla.
+El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Callao) con aproximadamente 20 años de experiencia, gestiona su restaurante de forma muy tradicional, basándose principalmente en la compra directa y la comunicación por teléfono con proveedores. No lleva un control formal de inventario y suele darse cuenta de la falta de insumos cada pocos días, lo que genera problemas recurrentes de abastecimiento. Respecto al uso de tecnología, comentó que solo emplea Yape para los pagos y que utiliza únicamente el celular, indicando además que no tiene conocimiento de otros dispositivos. Muestra interés en herramientas digitales, reconoce que sería útil contar con alertas de stock y sistemas que indiquen cuánto comprar, especialmente para evitar faltantes. También considera importante mejorar la rapidez en la entrega de pedidos y estaría dispuesto a usar una plataforma diariamente si esta le ayudara a resolver estos problemas de manera automática y sencilla.
 
 <br>
 <div align="center">
@@ -180,10 +184,11 @@ El entrevistado Weiquan Wang, un cocinero y dueño de un chifa en La Perla (Call
 - **Entrevista #3**
 
 ![](../assets/images/interviews/owner-interview3.png)
+![](../assets/images/interviews/owner-interview33.jpg)
 
 **Resumen de entrevista:**
 
-La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 10 años de experiencia, gestiona su restaurante de manera empírica, sin un control formal de inventario, revisando manualmente y comprando cuando nota que faltan insumos como carne, pollo, verduras y bebidas. Coordina los pedidos principalmente por llamadas y, en ocasiones, debe ir personalmente a adquirir los productos. No percibe grandes dificultades en su operación diaria, aunque reconoce que todo el proceso puede resultar molesto. A diferencia de otros casos, muestra apertura hacia una solución digital: considera importante recibir alertas de stock bajo y ve útil contar con proyecciones de demanda para planificar compras. Estaría dispuesta a usar una plataforma que automatice estas funciones y acepte diversas herramientas (inventario, pedidos, predicción), utilizándola de forma frecuente si le facilita la gestión del negocio.
+La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 10 años de experiencia, gestiona su restaurante de manera empírica, sin un control formal de inventario, revisando manualmente y comprando cuando nota que faltan insumos como carne, pollo, verduras y bebidas. Coordina los pedidos principalmente por llamadas y, en ocasiones, debe ir personalmente a adquirir los productos. En el aspecto tecnológico, señaló que usa WeChat para comunicarse y realizar llamadas telefónicas, y que su dispositivo principal es el celular, ya que no utiliza otros equipos con frecuencia. No percibe grandes dificultades en su operación diaria, aunque reconoce que todo el proceso puede resultar molesto. A diferencia de otros casos, muestra apertura hacia una solución digital: considera importante recibir alertas de stock bajo y ve útil contar con proyecciones de demanda para planificar compras. Estaría dispuesta a usar una plataforma que automatice estas funciones y acepte diversas herramientas (inventario, pedidos, predicción), utilizándola de forma frecuente si le facilita la gestión del negocio.
 
 <br>
 <div align="center">
@@ -206,10 +211,11 @@ La entrevistada, Lili (54 años), dueña y encargada de cocina de un chifa con 1
 - **Entrevista #1**
 
 ![](../assets/images/interviews/supplier-interview1.png)
+![](../assets/images/interviews/supplier-interview11.png)
 
 **Resumen de entrevista:**
 
-El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un proveedor de carne y pollo con 7 años de experiencia que gestiona sus pedidos principalmente por WhatsApp. Su trabajo es inmediato y diario, ya que los restaurantes compran para el momento, lo que genera como principal problema que muchos clientes pidan tarde, dificultando la disponibilidad de productos y su organización. No muestra interés en herramientas de predicción de demanda ni en conocer el consumo o stock de sus clientes, ya que considera que el consumo es constante. Sin embargo, sí valora una solución digital simple que le permita visualizar pedidos pendientes y recibir recordatorios o alertas, con el fin de evitar olvidos y mejorar su gestión diaria.
+El entrevistado, Alberto Copa Villa (37 años, La Perla – Callao), es un proveedor de carne y pollo con 7 años de experiencia que gestiona sus pedidos principalmente por WhatsApp. Su trabajo es inmediato y diario, ya que los restaurantes compran para el momento, lo que genera como principal problema que muchos clientes pidan tarde, dificultando la disponibilidad de productos y su organización. Respecto al uso de tecnología, señaló que utiliza WhatsApp para recibir pedidos y comunicarse con sus clientes, y que emplea principalmente el celular para coordinar entregas y revisar mensajes. No muestra interés en herramientas de predicción de demanda ni en conocer el consumo o stock de sus clientes, ya que considera que el consumo es constante. Sin embargo, sí valora una solución digital simple que le permita visualizar pedidos pendientes y recibir recordatorios o alertas, con el fin de evitar olvidos y mejorar su gestión diaria.
 <br>
 <div align="center">
 
