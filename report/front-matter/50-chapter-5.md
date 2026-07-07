@@ -1139,14 +1139,49 @@ Durante la reunion del Sprint Planning referente al Sprint 4, se estableció ter
 | **Sprint 4 Velocity**              | Límite de **45 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Sum of Story Points**            | **26 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
+**Link del Sprint 4 Board:** [https://tinyurl.com/yvj3y3bj](https://tinyurl.com/yvj3y3bj)
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 3. Dado que el objetivo principal de esta iteración es avanzar en el desarrollo backend de SupplyWok, los aspectos considerados corresponden a los bounded contexts de negocio. Para cada aspecto se asigna un líder responsable de coordinar el desarrollo y uno o más colaboradores encargados de apoyar en la implementación, validación y pruebas de los servicios y endpoints asociados.
+
+**Consider Aspects**
+
+- **Inventory Management Bounded Context**: Es el encargado de gestionar la información de los recursos de inventario del restaurante.
+- **Procurement & Purchasing Bounded Context**: Es el encargado de gestionar las órdenes de productos realizadas por el restaurante.
+- **Operations Bounded Context**: Es el encargado de gestionar las comandas, tickets de cocina y mesas dentro del restaurante.
+- **IoT Operational Monitoring & Alerts Bounded Context**: Es el encargado de monitorear y alertar sobre los dispositivos IoT del restaurante.
+- **Supplier Panel Bounded Context**: Es el encargado de gestionar los datos de los proveedores y sus clientes.
+- **Identity And Access Management Bounded Context**: Es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas.
+- **Profiles Bounded Context**: Es el encargado de gestionar los perfiles de los usuarios del sistema.
+- **Analytics Bounded Context**: Es el encargado de gestionar los diferentes gráficos que se pueden visualizar en la plataforma.
+- **Shared Bounded Context**: Es el encargado de gestionar los datos compartidos que son reutilizados entre los diferentes bounded contexts del sistema.
+
+|     Team Member     |  Github Username  |  Inventory Management Bounded Context  | Procurement & Purchasing Bounded Context |  Operations Bounded Context  |  IoT Operational Monitoring & Alerts Bounded Context  | Supplier Panel Bounded Context | Identity And Access Management Bounded Context | Profiles Bounded Context | Analytics Bounded Context |
+|:-------------------:|:-----------------:|:--------------------------------------:|:----------------------------------------:|:----------------------------:|:-----------------------------------------------------:|:------------------------------:|:----------------------------------------------:|:------------------------:|:-------------------------:|
+|   Cuadros, Macelo   |  Marcelo-alt-lab  |                   -                    |                    -                     |              -               |                           L                           |               -                |                       L                        |            -             |             L             | 
+|    Ayasta, Zayd     |    Zayd Ayasta    |                   -                    |                    L                     |              -               |                           -                           |               -                |                       -                        |            -             |             -             |
+|     Wang, Juan      |       jwd3t       |                   -                    |                    -                     |              -               |                           -                           |               L                |                       C                        |            C             |             -             | 
+|  Sánchez, Mathias   |      Nounz27      |                   L                    |                    -                     |              L               |                           -                           |               -                |                       -                        |            -             |             C             |
+|  Cayanchi, Milenko  |      MaxghZZ      |                   -                    |                    -                     |              -               |                           -                           |               C                |                       C                        |            L             |             -             |
+
 
 #### 5.2.4.3. Sprint Backlog 4
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 4 se finalizó los servicios web backend de SupplyWok, ádemas de modificar y corregir el frontend de la plataforma para que no halla errores entre al aplicacion y el servicio web de Supply Wok, esto añadiendo nuevos endpoints y métodos REST corregidos con respecto al sprint anterior que se detallaran a continuación.
+
+- **Repository URL:** https://github.com/Aurora-AplicacionesWeb/supply-wok-platform
+- **Swagger URL:** https://supply-wok-platform-cgbs.onrender.com/swagger/index.html
+
+|                            Endpoint                            |                Action                |  HTTP Verb  |                                              Parameters                                              |                       Response Example                       |                         Documentation URL                          |
+|:--------------------------------------------------------------:|:------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------------:|
+|          /api/v1/suppliers/{supplierId}/catalog-items          |  Create catalog item for a supplier  |    POST     |                   supplierId (integer, Required), body: CreateCatalogItemResource                    |       201: The catalog item was created successfully.        |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|          /api/v1/suppliers/{supplierId}/catalog-items          |    Get catalog items by supplier     |     GET     |                                    supplierId (integer, Required)                                    |          200: Catalog items retrieved successfully.          |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
