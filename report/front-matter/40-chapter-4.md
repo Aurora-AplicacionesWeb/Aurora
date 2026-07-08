@@ -612,19 +612,19 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema, como lo son el inventario, ordenes, comandas, proveedores, etc.
 
-**2)** En seccion superior dentro de la pagina esta la vista general con la información pertinente del rol, en este caso el inventario con bajos niveles de stock como ejemplo.
+**2)** En sección superior dentro de la página esta la vista general con la información pertinente del rol, en este caso el inventario con bajos niveles de stock como ejemplo.
 
 **3)** En el Header se muestran las notificaciones, preguntas o dudas y el perfil del usuario.
 
-**4)** El aparatado visual que muestra nuestra plataforma con el rol y el nombre asociado.
+**4)** El apartado visual que muestra nuestra plataforma con el rol y el nombre asociado.
 
-**5)** Una seccion que muestra con más detalle la información de los sensores disponibles.
+**5)** Una sección que muestra con más detalle la información de los sensores disponibles.
 
-**6)** Una seccion que muestra con más detalle las comandas y sus estados.
+**6)** Una sección que muestra con más detalle las comandas y sus estados.
 
-**7)** Este apartado muestra informacion del inventario, priorizando los productos que estan bajos de stock.
+**7)** Este apartado muestra información del inventario, priorizando los productos que estan bajos de stock.
 
-**8)** Un apartado que muestra las ordenes que se hacen a los proveedores.
+**8)** Un apartado que muestra las órdenes que se hacen a los proveedores.
 
 ##### Inventory Page
 
@@ -636,7 +636,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **3)** El item de la lista del inventario muestra el nombre del producto, el nivel de stock, categoria, proveedor y acciones como editar o eliminar el producto.
 
-**4)** El botón prncipal de esta sección, el cual permite agregar un nuevo producto al inventario.
+**4)** El botón principal de esta sección, el cual permite agregar un nuevo producto al inventario.
 
 ##### Orders Page
 
@@ -644,9 +644,9 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Sección para crear ordenes a los proveedores, permite seleccionar el proveedor, fecha  y prioridad; tambien añade los productos que se quieren pedir añadiendo lineas en forma de listas e indicando el precio. Contiene tambien el boton que enviaria la orden al proveedor.
+**2)** Sección para crear órdenes a los proveedores, permite seleccionar el proveedor, fecha y prioridad; también añade los productos que se quieren pedir añadiendo líneas en forma de listas e indicando el precio. Contiene también el botón que enviaría la orden al proveedor.
 
-**3)** Apartado para ver el seguimiento de las ordenes realizadas a proveedores, se muestran en forma de listas.
+**3)** Apartado para ver el seguimiento de las órdenes realizadas a proveedores, se muestran en forma de listas.
 
 ##### Kitchen Tickets Page
 
@@ -654,9 +654,9 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Una vista rápida de las comandas mostrando cuantas estan abiertas, en preparacion y listas.
+**2)** Una vista rápida de las comandas mostrando cuantas están abiertas, en preparación y listas.
 
-**3)** Vista detallada de las comandas, mostrando a que mesa pertenece, el estado de la comanda y su fecha de creación, con acciones que se pueden hacer a cada comanda como eliminarlo.
+**3)** Vista detallada de las comandas, mostrando a qué mesa pertenece, el estado de la comanda y su fecha de creación, con acciones que se pueden hacer a cada comanda como eliminarlo.
 
 **4)** El botón principal, el cual permite crear una nueva comanda.
 
@@ -688,7 +688,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **2)** Sección de búsqueda, uno por input del usuario y un seleccionable por prioridad.
 
-**3)** Una lista detallada de las alertas notificadas, mostrando su prioridad, detalle, fuente, fecha, estado y como accion marcarlo como leída.
+**3)** Una lista detallada de las alertas notificadas, mostrando su prioridad, detalle, fuente, fecha, estado y como acción marcarlo como leída.
 
 ##### Reports Page
 
@@ -698,7 +698,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **2)** Botones para exportar los datos del reporte a formato PDF o CSV.
 
-**3)** Sección de gráficos que permite ver los datos del reporte de forma visual. incluye la evolución del inventario, el comsumo por periodos, ordenes por proveedor e incidentes.
+**3)** Sección de gráficos que permite ver los datos del reporte de forma visual. Incluye la evolución del inventario, el consumo por periodos, órdenes por proveedor e incidentes.
 
 ##### Settings Page
 
@@ -706,7 +706,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
-**2)** Sección del perfil del usuario. Permite cambiar datos y horarios, ademas de habilitar notificaciones por SMS o Email.
+**2)** Sección del perfil del usuario. Permite cambiar datos y horarios, además de habilitar notificaciones por SMS o Email.
 
 **3)** Lista de Usuarios que tiene acceso a las comandas, tanto para crearlas como asignarlas.
 
@@ -719,6 +719,7 @@ En escritorio, los mock-ups reflejan una interfaz de trabajo con navegación lat
 **1)** La barra de navegación lateral de la plataforma, interactuando con ella te permite navegar a las diferentes secciones del sistema.
 
 **2)** Sección de vista rápida que muestra el plan actual, usuarios, locaciones y sensores que tiene el usuario.
+
 **3)** Primer plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
 
 **4)** Segundo plan de suscripción, muestra sus beneficios, precio y un botón para adquirirlo, en caso ya lo tenga se desactiva y cambia el texto a "Plan Actual".
@@ -787,11 +788,17 @@ Primero, refinamos la línea de tiempo original, eliminando eventos redundantes 
 #### Bounded Context 1: Inventory Management
 Este contexto delimitado constituye el núcleo operativo para la gestión de inventario en los restaurantes tipo chifa dentro de la plataforma SupplyWok. Se identificaron entidades como Insumo, Stock y Merma, junto con conceptos del lenguaje ubicuo como threshold (umbral). A partir de comandos como Register Daily Consumption e Increment Stock Levels, se generan eventos como Daily Consumption Registered y Stock Levels Incremented. Asimismo, se definieron políticas de negocio como el cálculo automático de incremento de stock al registrar nuevos productos y la validación de inconsistencias, por ejemplo, cuando se registra consumo sin stock previo, lo que puede desencadenar auditorías o alertas de riesgo.
 
+![](../assets/images/bounded-context-ddd1.png)
+![](../assets/images/bounded-context-ddd12.png)
+
 ![](../assets/images/Bounded-context-cavnvas-DDD1.png)
 
 #### Bounded Context 2: Supply and Purchasing
 
 Este contexto delimitado actúa como el puente transaccional entre los restaurantes y sus proveedores, permitiendo la gestión de abastecimiento del stock. Se identificaron entidades como Purchase Order y conceptos clave como Lead Time y Forecasting dentro del lenguaje ubicuo. A partir del comando Identify Low Stock Levels, se genera el evento Low Stock Levels Identified, el cual puede activar políticas como la generación automática de solicitudes de reposición. Asimismo, el flujo incluye eventos como Order Sent to Supplier, Supplier Notified y Delivery Order Sent to Restaurant, junto con reglas de negocio que contemplan seguimiento manual y actualización automática del estado de los pedidos.
+
+![](../assets/images/bounded-context-ddd2.png)
+![](../assets/images/bounded-context-ddd22.png)
 
 ![](../assets/images/Bounded-context-cavnvas-DDD2.png)
 
@@ -799,11 +806,16 @@ Este contexto delimitado actúa como el puente transaccional entre los restauran
 
 Este contexto delimitado tiene como propósito supervisar las condiciones físicas del entorno del restaurante mediante sensores. Se modelan entidades como Sensor y Lectura Ambiental, incorporando conceptos como safe range y downtime en el lenguaje ubicuo. A partir de comandos como Detect Disconnected Sensor y Define Safe Temperature Thresholds, se generan eventos como Disconnected Sensor Detected y Temperature Range Registered. Además, se establece una política que permite mostrar alertas cuando se detecta una desconexión, reflejada en eventos como Sensor Disconnected Warning Displayed.
 
+![](../assets/images/bounded-context-ddd3.png)
+
 ![](../assets/images/Bounded-context-cavnvas-DDD3.png)
 
 #### Bounded Context 4: Supplier Management & Operations
 
 Este contexto delimitado gestiona la interacción con proveedores y el seguimiento del rendimiento en las entregas. A partir del comando Confirm Delivery Completion, se genera el evento Delivery Completion Confirmed, seguido por la recepción de notificaciones (Confirmation Notification Received). Dentro del lenguaje ubicuo se incorpora el concepto de performance, el cual permite evaluar el cumplimiento y eficiencia en el proceso de entrega, apoyando la toma de decisiones operativas.
+
+![](../assets/images/bounded-context-ddd4.png)
+![](../assets/images/bounded-context-ddd42.png)
 
 ![](../assets/images/Bounded-context-cavnvas-DDD4.png)
 
@@ -811,11 +823,17 @@ Este contexto delimitado gestiona la interacción con proveedores y el seguimien
 
 Este contexto delimitado representa la gestión de suscripciones y pagos dentro de la plataforma. Se identificaron comandos como Subscription Plan Comparison, Select Subscription Plan y Submit Payment Details, que generan eventos como Subscription Plan Selected y Completed Payment Form. Asimismo, se definieron políticas relacionadas con el control de acceso mediante mecanismos de lockdown y desbloqueo según el estado de la suscripción. El lenguaje ubicuo incluye conceptos como credentials, representando los datos de acceso del usuario.
 
+![](../assets/images/bounded-context-ddd5.png)
+![](../assets/images/bounded-context-ddd52.png)
+
 ![](../assets/images/Bounded-context-cavnvas-DDD5.png)
 
 #### Bounded Context 6: Restaurant Management
 
 Este contexto delimitado modela la operación interna del restaurante en la gestión de pedidos entre salón y cocina. Se identificaron comandos como Assign Table to Order y Create Kitchen Order, que generan eventos como Table Assigned to Menu Order y Kitchen Order Created. Dentro del lenguaje ubicuo se incorporan términos como kitchen ticket (comanda) y lockdown mode, relacionado con el modo de operación en cocina. Este contexto permite garantizar la trazabilidad y correcta ejecución del flujo de pedidos.
+
+![](../assets/images/bounded-context-ddd6.png)
+![](../assets/images/bounded-context-ddd62.png) 
 
 ![](../assets/images/Bounded-context-cavnvas-DDD6.png)
 
@@ -854,77 +872,64 @@ La representación también evidencia la relación de estos componentes con la b
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-En esta seccion se presentar;a y se explicará el diagrama de clases por cada Bounded Context
+- #### Gestión de Inventario
 
-![](../assets/images/IMBC.png)
+Controla las entradas, salidas y niveles de stock para evitar desabastecimientos o excesos.
 
-El **Inventory Management Bounded Context** es el encargado de gestionar los recursos de inventario de cada restaurante, incluyendo el control de stock, niveles mínimos y movimientos de entrada y salida.
+![](../assets/images/inventory-dc.png)
 
-El **InventoryService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza el **InventoryRepository** para la persistencia de datos y el **InventoryItem** como entidad principal del dominio, encargada de representar cada insumo almacenado en el Inventario del restaurante.El **StockMovement** representa las modificaciones realizadas al stock de cada ítem, permitiendo llevar un registro detallado de entradas, salidas y ajustes.
+![](../assets/images/analytics-dc.png)
 
-![](../assets/images/S&PBC.png)
+- #### Órdenes de Compra
 
-El **Supply and Purchasing Bounded Context** es el encargado de gestionar las órdenes de compra realizadas por cada restaurante, incluyendo el registro, cancelación y seguimiento de los pedidos.
+Gestiona los pedidos de insumos entre el restaurante y el proveedor, reduciendo los tiempos de respuesta entre ambos.
 
-El **PurchaseOrderService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza el **PurchaseOrderRepository** para la persistencia de datos y el **PurchaseOrder** como entidad principal del dominio, encargada de representar toda la información de una orden de compra de insumos del restaurante. Además, el **OrderItem** encapsula las especificaciones de cada producto dentro de la orden, como la cantidad solicitada y el precio unitario, permitiendo un control detallado de cada pedido.
+![](../assets/images/purchasing-dc.png)
 
-![](../assets/images/O&IBC.png)
+- #### Operaciones del Restaurante
 
-El **Operational Monitoring and IoT Alerts Bounded Context** es el encargado de gestionar la información recopilada por los sensores del restaurante, así como la configuración y generación de alertas ante condiciones fuera de los rangos establecidos.
+Facilita la comunicación eficiente entre la cocina y las mesas para garantizar un servicio rápido y sin errores.
 
-El **SensorService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza los repositorios **IAlertRepository** y **ISensorRepository** para la persistencia de datos.
+![](../assets/images/operation-dc.png)
 
-Además, emplea la entidad **Sensor**, junto con **SensorReading**, para representar la información capturada por los sensores. Por otro lado, la entidad **Alert** modela las alertas generadas cuando una medición supera los límites configurados.
+- #### Plataforma y Acceso
 
-![](../assets/images/RMBC.png)
+Administra el acceso seguro de los usuarios, sus cuentas y planes de suscripción.
 
-El **Restaurant Management Bounded Context** es el encargado de gestionar todo lo relacionado con la operación del establecimiento, incluyendo la administración de mesas y la gestión de comandas en cada restaurante.
+![](../assets/images/iam-dc.png)
 
-Los servicios **ComandaService**, **RestaurantService** y **TableService** actúan como capa de aplicación, coordinando las distintas operaciones del sistema. Estos servicios utilizan los repositorios **ComandaRepository**, **IRestaurantRepository** y **TableRepository** respectivamente para la persistencia de datos.
+![](../assets/images/profile-dc.png)
 
-Además, se emplean las entidades **Table**, que representa una mesa dentro del restaurante; **Comanda** y **ComandaItem**, que modelan las órdenes de consumo; y **Restaurant**, que encapsula la información principal de cada restaurante.
+![](../assets/images/subscriptions-dc.png)
 
-![](../assets/images/S&OBC.png)
+- #### Monitoreo Operativo y Alertas IoT
 
-El **Supplier Management & Operations Bounded Context** es el encargado de gestionar la información de los proveedores, sus catálogos de productos y las operaciones relacionadas con el cumplimiento de pedidos.
+Controla sensores y notificaciones para garantizar la seguridad en el entorno de trabajo.
 
-Los servicios **SupplierService**, **SupplierCatalogService**, **DemandForecastService** y **OrderFulfillmentService** actúan como capa de aplicación, coordinando las distintas operaciones del sistema dentro de este contexto.
+![](../assets/images/iot-dc.png)
 
-El **SupplierService** gestiona la información de los proveedores utilizando el repositorio **SupplierRepository**. Por su parte, el **SupplierCatalogService** administra los productos ofrecidos por cada proveedor mediante **SupplierCatalog** y **CatalogItem**, utilizando **SupplierCatalogRepository** para la persistencia.
+- #### Procesos del Proveedor
 
-Además, el **DemandForecastService** se encarga de generar proyecciones de demanda a través de la entidad **DemandForecast**, la cual contiene múltiples **ProductDemand** que representan estimaciones de consumo.
+Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
 
-Finalmente, el **OrderFulfillmentService** gestiona el proceso de entrega de pedidos mediante la entidad **OrderFulfillment**, permitiendo hacer seguimiento al estado de los envíos desde su despacho hasta su entrega final.
-
-![](../assets/images/I&ABC.png)
-
-El **Identity & Access Bounded Context** es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas de usuario en el sistema.
-
-Los servicios **AuthService** y **TokenService** actúan como capa de aplicación, coordinando las operaciones de autenticación. El **AuthService** utiliza el repositorio UserRepository para la persistencia de datos, mientras que **TokenService** se encarga de la generación y validación de tokens de acceso.
-
-La entidad **User** encapsula toda la información relevante de un usuario en la plataforma, como su correo electrónico, contraseña (almacenada de forma segura) y su **Role**, el cual define sus permisos dentro del sistema.
-
-![](../assets/images/SBC.png)
-
-El **Shared Bounded Context** contiene Value Objects comunes que son reutilizados por múltiples bounded contexts del sistema, evitando duplicación y promoviendo consistencia en el modelo.
-
-El **ContactInfo** encapsula la información de contacto relevante, como teléfono, correo electrónico y sitio web. Este value object es utilizado por entidades como **Supplier** y **Restaurant**. Por otro lado, **Address** encapsula la información de dirección necesaria, siendo utilizado también por entidades como **Supplier** y **Restaurant** para representar ubicaciones físicas de manera estructurada.
+![](../assets/images/spm-dc.png)
 
 ## 4.8. Database Design.
 
-El siguiente Diagrama Entidad-Relación detalla la estructura de datos fundamental que soporta la lógica de la plataforma. A este modelo, compuesto por 25 entidades, se le aplicaron las tres fases de normalización para garantizar un diseño robusto y eficiente. Esto asegura la escalabilidad, la separación de responsabilidades y el mantenimiento de la aplicación, organizada en los siguientes seis módulos:
+El siguiente Diagrama Entidad-Relación detalla la estructura de datos fundamental que soporta la lógica de la plataforma. Se le aplicaron las tres fases de normalización para garantizar un diseño robusto y eficiente. Esto asegura la escalabilidad, la separación de responsabilidades y el mantenimiento de la aplicación, organizada en los siguientes módulos:
 
 - #### Gestión de Inventario
 
 Controla las entradas, salidas y niveles de stock para evitar desabastecimientos o excesos.
 
-- #### Abastecimiento y Órdenes de Compra
+- #### Órdenes de Compra
 
 Gestiona los pedidos de insumos entre el restaurante y el proveedor, reduciendo los tiempos de respuesta entre ambos.
 
-- #### Panel del Proveedor
 
-Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
+- #### Operaciones del Restaurante
+
+Facilita la comunicación eficiente entre la cocina y las mesas para garantizar un servicio rápido y sin errores.
 
 - #### Plataforma y Acceso
 
@@ -932,12 +937,11 @@ Administra el acceso seguro de los usuarios, sus cuentas y planes de suscripció
 
 - #### Monitoreo Operativo y Alertas IoT
 
-Representa el núcleo operativo del sistema; controla sensores y notificaciones para garantizar la seguridad en el entorno de trabajo.
+Controla sensores y notificaciones para garantizar la seguridad en el entorno de trabajo.
 
-- #### Comandas y Órdenes para Cocina
+- #### Procesos del Proveedor
 
-Facilita la comunicación eficiente entre la cocina y las mesas para garantizar un servicio rápido y sin errores.
-
+Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
 
 ### 4.8.1. Database Diagrams.
 
@@ -945,31 +949,31 @@ El Database Diagram de SupplyWok representa la estructura relacional que soporta
 
 #### Inventory Management Bounded Context
 
-En este contexto, la persistencia se centra en el control de insumos y movimientos de stock. Las tablas `INSUMOS`, `MOVIMIENTO_INVENTARIO` y `TIPO_MOVIMIENTO_INVENTARIO` permiten registrar productos, cambios de cantidad y clasificación del movimiento. Aquí se evidencia el uso de claves primarias y foráneas para relacionar cada movimiento con su insumo correspondiente y con el tipo de operación ejecutada.
+En este contexto, la persistencia se centra en el control de insumos y movimientos de stock. Las tablas `SUPPLIES`, `INVENTORY_TRANSACTIONS` y `INVENTORY_OPERATIONS` permiten registrar productos, cambios de cantidad y clasificación del movimiento. Aquí se evidencia el uso de claves primarias y foráneas para relacionar cada movimiento con su insumo correspondiente y con el tipo de operación ejecutada.
 
-#### Supply and Purchasing Bounded Context
+#### Purchasing Bounded Context
 
-La gestión de órdenes de compra se modela principalmente a través de `ORDEN_COMPRA`, `DETALLE_ORDEN` y `ESTADO_ORDEN_COMPRA`. Estas tablas permiten registrar el encabezado de cada pedido, sus ítems específicos y el estado transaccional de la orden. Las relaciones entre ellas garantizan integridad referencial y facilitan trazabilidad del pedido desde su creación hasta su entrega.
+La gestión de órdenes de compra se modela principalmente a través de `PURCHASE_ORDERS` y `PURCHASE_ORDERS_ITEMS` . Estas tablas permiten registrar el encabezado de cada pedido, sus ítems específicos y el estado transaccional de la orden. Las relaciones entre ellas garantizan integridad referencial y facilitan trazabilidad del pedido desde su creación hasta su entrega.
 
-#### Supplier Management & Operations Bounded Context
+#### Kitchen Operations Management
 
-La información de los proveedores y sus catálogos se representa mediante tablas como `PROVEEDOR` y `CATALOGO_PROVEEDOR`. Estas estructuras permiten asociar proveedores con los insumos que ofrecen, así como registrar precios, unidades y disponibilidad. Este módulo también se relaciona con el contexto de pedidos, ya que un proveedor puede participar en múltiples órdenes de compra.
+La información de los proveedores y sus catálogos se representa mediante tablas como `TABLES`, `DISHES`, `DISH_CATEGORIES` y `KITCHEN_ORDERS_ITEMS`. Estas estructuras permiten asociar proveedores con los insumos que ofrecen, así como registrar precios, unidades y disponibilidad. Este módulo también se relaciona con el contexto de pedidos, ya que un proveedor puede participar en múltiples órdenes de compra.
 
-#### Identity & Access Bounded Context
+#### Identity & Access Management Bounded Context
 
-La persistencia del acceso y administración de usuarios se modela con `USUARIO`, `ROL_USUARIO`, `PLANES` y `NOMBRE_PLAN`. Estas tablas permiten gestionar credenciales, roles, tipo de plan y relación entre cuenta y nivel de suscripción. Esto asegura que la plataforma pueda distinguir permisos, acceso y condiciones comerciales de cada usuario registrado.
+La persistencia del acceso y administración de usuarios se modela con `USERS`, `RESTAURANT_PROFILES`, `SUPPLIER_PROFILES` y `SUBSCRIPTIONS`. Estas tablas permiten gestionar credenciales, roles, tipo de plan y relación entre cuenta y nivel de suscripción. Esto asegura que la plataforma pueda distinguir permisos, acceso y condiciones comerciales de cada usuario registrado.
 
-#### Operational Monitoring and IoT Alerts Bounded Context
+#### Iot & Alerts Monitoring Bounded Context
 
-El monitoreo operativo se soporta con tablas como `ALERTAS`, `TIPO_ALERTA`, `SENSORES`, `TIPO_SENSOR`, `LECTURA_SENSOR`, `UBICACION_SENSOR` y `NOTIFICACIONES`. Estas entidades permiten registrar lecturas provenientes de sensores, generar alertas cuando se superan umbrales definidos y mantener historial de eventos y notificaciones asociadas. La estructura favorece trazabilidad y análisis posterior de incidencias operativas.
+El monitoreo operativo se soporta con tablas como `SENSORS` Y `ALERTS`. Estas entidades permiten registrar lecturas provenientes de sensores, generar alertas cuando se superan umbrales definidos y mantener historial de eventos y notificaciones asociadas. La estructura favorece trazabilidad y análisis posterior de incidencias operativas.
 
-#### Restaurant Management Bounded Context
+#### Supplier Process Management Bounded Context
 
-La operación interna del restaurante se modela con `MESA`, `ESTADOS_MESA`, `COMANDA`, `DETALLE_COMANDA`, `MENU_PLATOS` y `ESTADO_COMANDA`. Estas tablas permiten representar la asignación de mesas, el registro de pedidos internos y el estado de preparación o atención en cocina. Este módulo complementa el enfoque de SupplyWok al conectar abastecimiento con operación diaria del restaurante.
+La operación interna del restaurante se modela con `SUPPLIER_RESTAURANTS` y `CATALOG_ITEMS`. Estas tablas permiten representar la asignación de mesas, el registro de pedidos internos y el estado de preparación o atención en cocina. Este módulo complementa el enfoque de SupplyWok al conectar abastecimiento con operación diaria del restaurante.
 
 En conjunto, el diagrama relacional de SupplyWok muestra una estructura con entidades claramente separadas por responsabilidad, relaciones explícitas mediante claves foráneas y soporte para la evolución del sistema en múltiples módulos funcionales. Esta base de datos relacional permite mantener consistencia en la información, facilitar consultas operativas y sostener la integración entre los distintos bounded contexts del dominio.
 
-![base de datos](../assets/images/database-diagram.png)
+![base de datos](../assets/images/diagram-database.png)
 
 
 

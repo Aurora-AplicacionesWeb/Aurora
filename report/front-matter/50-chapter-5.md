@@ -1115,6 +1115,125 @@ Como se observa en el detalle de la sección Contributors, todos los integrantes
 
 Como se observa en la sección Pulse del repositorio backend, durante la última semana se integraron 4 Pull Requests y se registraron 60 commits excluyendo merges. Asimismo, la rama principal del proyecto acumuló 10195 líneas agregadas y 1641 líneas eliminadas, reflejando el avance significativo realizado en la implementación de los bounded contexts y servicios backend planificados para este sprint.
 
+### 5.2.4. Sprint 4: 
+
+En esta sección se explicará y registrará el desarrollo del Sprint 4, se estableció como objetivo terminar y arreglar los defectos identificados tras la entrega del sprint anterior, esto incluye al web service, web application y landing page.
+
+#### 5.2.4.1. Sprint Planning 4
+
+Durante la reunion del Sprint Planning referente al Sprint 4, se estableció terminar el 30% restante del web service y conectarlo con la vista del cliente que seria el web application de la plataforma.
+
+**Sprint Planning 4**
+
+
+| **Sprint #**                       | 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2026-06-28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                           | 19:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Location**                       | Virtual, Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Prepared by**                    | Marcelo Cuadros, Juan Wang                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Attendees**                      | Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 3 Review Summary**        | Durante el Sprint 2 se completó el desarrollo de la aplicación frontend utilizando una Fake API para simular la comunicación con los servicios backend. Se implementaron las principales interfaces y flujos de usuario previstos para la plataforma, obteniendo resultados satisfactorios en términos de funcionalidad, organización del código y experiencia de usuario. Como parte del feedback recibido, se destacó la calidad de la implementación realizada; sin embargo, se recomendó fortalecer la documentación técnica del proyecto para facilitar su comprensión, mantenimiento y futura integración con los servicios backend reales.                                                                                                                                                                                                                      |
+| **Sprint 3 Retrospective Summary** | El equipo considero ordenar mejor los tiempos de entrega para cada miembro del equipo con el fin de no resulte en un trabajo apresurado que pueda llamar a errores, asimismo se notificó mejorar la documentación de la plataforma para mantener la construccion de la plataforma detallada y correcta para su lectura, esto con el fin de mejorar la comunicaion en el proyecto para nuevos y viejos integrantes que quieran modificar o revisar la plataforma realizada.                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 4 Goal**                  | Nuestro enfoque se centra en implementar un sistema de autenticación robusto y habilitar la facturación automatizada, proporcionando a los usuarios de Supply Wok un acceso seguro a la plataforma y control total sobre sus planes de suscripción. Creemos que esto proporciona a los clientes una experiencia de incorporación confiable junto con total autonomía en el manejo de su información financiera, y establece para el equipo de desarrollo la infraestructura crítica de seguridad y monetización requerida para la viabilidad comercial del producto. Esto se confirmará cuando los usuarios puedan registrarse e iniciar sesión exitosamente validando su identidad, puedan suscribirse o actualizar planes de pago; y la aplicación web actualice estos estados de acceso y facturación en tiempo real comunicándose correctamente con el Web Service |
+| **Sprint 4 Velocity**              | Límite de **45 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Sum of Story Points**            | **26 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+**Link del Sprint 4 Board:** [https://tinyurl.com/yvj3y3bj](https://tinyurl.com/yvj3y3bj)
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 3. Dado que el objetivo principal de esta iteración es avanzar en el desarrollo backend de SupplyWok, los aspectos considerados corresponden a los bounded contexts de negocio. Para cada aspecto se asigna un líder responsable de coordinar el desarrollo y uno o más colaboradores encargados de apoyar en la implementación, validación y pruebas de los servicios y endpoints asociados.
+
+**Consider Aspects**
+
+- **Inventory Management Bounded Context**: Es el encargado de gestionar la información de los recursos de inventario del restaurante.
+- **Procurement & Purchasing Bounded Context**: Es el encargado de gestionar las órdenes de productos realizadas por el restaurante.
+- **Operations Bounded Context**: Es el encargado de gestionar las comandas, tickets de cocina y mesas dentro del restaurante.
+- **IoT Operational Monitoring & Alerts Bounded Context**: Es el encargado de monitorear y alertar sobre los dispositivos IoT del restaurante.
+- **Supplier Panel Bounded Context**: Es el encargado de gestionar los datos de los proveedores y sus clientes.
+- **Identity And Access Management Bounded Context**: Es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas.
+- **Profiles Bounded Context**: Es el encargado de gestionar los perfiles de los usuarios del sistema.
+- **Analytics Bounded Context**: Es el encargado de gestionar los diferentes gráficos que se pueden visualizar en la plataforma.
+- **Shared Bounded Context**: Es el encargado de gestionar los datos compartidos que son reutilizados entre los diferentes bounded contexts del sistema.
+
+|     Team Member     |  Github Username  |  Inventory Management Bounded Context  | Procurement & Purchasing Bounded Context |  Operations Bounded Context  |  IoT Operational Monitoring & Alerts Bounded Context  | Supplier Panel Bounded Context | Identity And Access Management Bounded Context | Profiles Bounded Context | Analytics Bounded Context |
+|:-------------------:|:-----------------:|:--------------------------------------:|:----------------------------------------:|:----------------------------:|:-----------------------------------------------------:|:------------------------------:|:----------------------------------------------:|:------------------------:|:-------------------------:|
+|   Cuadros, Macelo   |  Marcelo-alt-lab  |                   -                    |                    -                     |              -               |                           L                           |               -                |                       L                        |            -             |             L             | 
+|    Ayasta, Zayd     |    Zayd Ayasta    |                   -                    |                    L                     |              -               |                           -                           |               -                |                       -                        |            -             |             -             |
+|     Wang, Juan      |       jwd3t       |                   -                    |                    -                     |              -               |                           -                           |               L                |                       C                        |            C             |             -             | 
+|  Sánchez, Mathias   |      Nounz27      |                   L                    |                    -                     |              L               |                           -                           |               -                |                       -                        |            -             |             C             |
+|  Cayanchi, Milenko  |      MaxghZZ      |                   -                    |                    -                     |              -               |                           -                           |               C                |                       C                        |            L             |             -             |
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+|    US ID     | US Title                                                                                                                                |     Task Id      | Task Title                                                         | Description                                                                                                                                                          |                                 Assigned To                                  |  Estimation (Hours)  |   Status    |
+|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------:|:--------------------:|:-----------:|
+|  TS-IAM-001  | Como desarrollador frontend, Quiero que el acceso de los usuarios sea seguro, Para asegurar los procesos de los usuarios segun el rol.  |  TS-SHR-001-001  | Create Shared directory                                            | Create `Shared` directory within `Domain`, `Infrastructure` and `Application`.                                                                                       |  Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi  |          1           |    Done     |
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 4 se completó la integración entre el frontend y el backend de SupplyWok para habilitar el nuevo flujo de autenticación y suscripción. La evidencia de ejecución presentada en esta sección demuestra que el usuario puede registrarse seleccionando un plan, ser redirigido al checkout de Stripe, esperar la confirmación del pago y la provisión de su cuenta, y finalmente acceder a la plataforma mediante inicio de sesión. Asimismo, se verifica que las rutas privadas del sistema se encuentren protegidas y que la navegación responda correctamente según el rol autenticado.
+
+![Trello Sprint 4 Board 1](../assets/images/trello_111.png)
+![Trello Sprint 4 Board 2](../assets/images/trello_222.png)
+
+**Link del vídeo de explicación del Execution:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 4 se finalizó los servicios web backend de SupplyWok, ádemas de modificar y corregir el frontend de la plataforma para que no halla errores entre al aplicacion y el servicio web de Supply Wok, esto añadiendo nuevos endpoints y métodos REST corregidos con respecto al sprint anterior que se detallaran a continuación.
+
+- **Repository URL:** https://github.com/Aurora-AplicacionesWeb/supply-wok-platform
+- **Swagger URL:** https://supply-wok-platform-cgbs.onrender.com/swagger/index.html
+
+|                            Endpoint                            |                Action                |  HTTP Verb  |                                              Parameters                                              |                       Response Example                       |                         Documentation URL                          |
+|:--------------------------------------------------------------:|:------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------------:|
+|          /api/v1/suppliers/{supplierId}/catalog-items          |  Create catalog item for a supplier  |    POST     |                   supplierId (integer, Required), body: CreateCatalogItemResource                    |       201: The catalog item was created successfully.        |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|          /api/v1/suppliers/{supplierId}/catalog-items          |    Get catalog items by supplier     |     GET     |                                    supplierId (integer, Required)                                    |          200: Catalog items retrieved successfully.          |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|                  /api/v1/kitchen-orders/{id}                   |     Update Kitchen Order Status      |    PATCH    |                    id (integer, Required), body: UpdateKitchenOrderStatusResource                    |   200: The kitchen order status was updated successfully.    |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|           /api/v1/purchase-orders/{purchaseOrderId}            |     Update Purchase Order Status     |    PATCH    |             purchaseOrderId (integer, Required), body: UpdatePurchaseOrderStatusResource             |   200: The purchase order status was updated successfully.   |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|           /api/v1/purchase-orders/{purchaseOrderId}            |        Update Purchase Order         |     PUT     |               purchaseOrderId (integer, Required), body: UpdatePurchaseOrderResource                 |      200: The purchase order was updated successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|                  /api/v1/kitchen-orders/{id}                   |         Update Kitchen Order         |     PUT     |                       id (integer, Required), body: UpdateKitchenOrderResource                       |       200: The kitchen order was updated successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|           /api/v1/users/{userId}/restaurant-profiles           |  Get Restaurant Profile by User Id   |     GET     |                                      userId (integer, Required)                                      |       200: Restaurant profile retrieved successfully.        |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|            /api/v1/users/{userId}/supplier-profiles            |   Get Supplier Profile by User Id    |     GET     |                                      userId (integer, Required)                                      |        200: Supplier profile retrieved successfully.         |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|              /api/v1/subscriptions/registrations               |   Start subscription registration    |    POST     |                             body: StartSubscriptionRegistrationResource                              |     201: Subscription registration started successfully.     |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|         /api/v1/subscriptions/registrations/{publicId}         |       Get registration status        |     GET     |                                     publicId (string, Required)                                      |       200: Registration status retrieved successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+En esta sección se presentarán las versiones actualizadas de los aportes a la plataforma Supply Wok, lo cual incluira los aportes en Landing Page, Frontend y Backend. La forma para mostrar este avance será usando las analiticas por commits del repositorio respectivo de Github.
+
+##### Landing Page
+
+Durante el Sprint 4 el equipo hizo cambios en la Landing Page de Supply Wok enfocado en ajustes visuales y léxicos para mantener un enfoque claro respecto a la plataforma.
+
+![Sprint 4 Landing Page](../assets/images/insights/sprint-4-lpi.png)
+
+![Sprint 4 Landing Page](../assets/images/insights/sprint-4-lpi-2.png)
+
+##### Frontend
+
+Los cambios aplicados en el Frontend de Supply Wok durante este sprint son en consecuencia de la construcción del web service, para que emitan y reciban el mismo esquema de información en formato json.
+
+![Sprint 4 Frontend](../assets/images/insights/sprint-4-fi.png)
+
+![Sprint 4 Frontend](../assets/images/insights/sprint-4-fi-2.png)
+
+##### Backend
+
+El enfoque del Sprint 4 ya fue explicado anteriormente, por lo que se mostrara directamente la evidencia de la participación del equipo en el desarrollo del web service.
+
+![Sprint 4 Backend](../assets/images/insights/sprint-4-bi.png)
+
+![Sprint 4 Backend](../assets/images/insights/sprint-4-bi-2.png)
+
 ## 5.3. Validation Interviews.
 
 En esta sección se presentan las actividades de validación realizadas con usuarios pertenecientes a los segmentos objetivos de SupplyWok. El objetivo de estas entrevistas fue recopilar retroalimentación sobre la propuesta de valor, la experiencia de navegación en la Landing Page y el uso de las funcionalidades implementadas en la plataforma. Los resultados obtenidos permitieron identificar fortalezas, oportunidades de mejora y validar los principales supuestos planteados durante el desarrollo del proyecto.
@@ -1165,7 +1284,7 @@ Después de mostrar la Landing Page y los principales flujos de la Web Applicati
 - Después de ver la aplicación, ¿te parece útil para tu trabajo o negocio?
 - ¿Qué parte de la aplicación te gustó más?
 - ¿Hubo algo que no entendiste o que te confundió?
-- ¿Usarías una aplicación como esta en la vida real? ¿Por qué?
+- ¿Usarías una aplicación como está en la vida real? ¿Por qué?
 - ¿Qué cambiarías o mejorarías?
 
 ### 5.3.2. Registro de Entrevistas.

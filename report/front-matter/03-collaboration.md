@@ -4,20 +4,31 @@ Todas las actividades asignadas para cada entrega se encuentran documentadas en 
 
 ## Insights av1
 
-Aqui se pueden aprecion todos los commits hechos en la av1 evidenciando el trabajo colaborativo.
+Aquí se pueden apreciar todos los commits hechos en la av1 evidenciando el trabajo colaborativo.
+
 ![pulse insight](../assets/images/insights/report-collaboration-insight.png)
 ![contributions](../assets/images/insights/report-contributors.png)
 
 ## Insights tb1
 
-Aqui se pueden aprecion todos los commits hechos en la tb1 evidenciando el trabajo colaborativo.
+Aquí se pueden apreciar todos los commits hechos en la tb1 evidenciando el trabajo colaborativo.
+
 ![report-collaboration-insights-tb1.png](../assets/images/insights/report-collaboration-insights-tb1.png)
 ![report-contributiors-tb1.png](../assets/images/insights/report-contributiors-tb1.png)
 
 ## Insights av2
 
-Aqui se pueden aprecion todos los commits hechos en la av2 evidenciando el trabajo 
+Aquí se pueden apreciar todos los commits hechos en la av2 evidenciando el trabajo 
 
 ![alt text](../assets/images/image.png)
 
 ![alt text](../assets/images/image-1.png)
+
+
+## Insights tb2
+
+Se mostrará la colaboración de los miembros del equipo en la documentación de la plataforma durante el TB2.
+
+![report-insights-tb2-1](../assets/images/insights/report-insights-tb2.png)
+![report-insights-tb2-2](../assets/images/insights/report-insights-tb21.png)
+
