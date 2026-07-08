@@ -1176,6 +1176,12 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
+Durante el Sprint 4 se completó la integración entre el frontend y el backend de SupplyWok para habilitar el nuevo flujo de autenticación y suscripción. La evidencia de ejecución presentada en esta sección demuestra que el usuario puede registrarse seleccionando un plan, ser redirigido al checkout de Stripe, esperar la confirmación del pago y la provisión de su cuenta, y finalmente acceder a la plataforma mediante inicio de sesión. Asimismo, se verifica que las rutas privadas del sistema se encuentren protegidas y que la navegación responda correctamente según el rol autenticado.
+
+![Trello Sprint 4 Board 1](../assets/images/trello_111.png)
+![Trello Sprint 4 Board 2](../assets/images/trello_222.png)
+
+**Link del vídeo de explicación del Execution:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
