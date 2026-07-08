@@ -1176,6 +1176,10 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
 Durante el Sprint 4 se finalizó los servicios web backend de SupplyWok, ádemas de modificar y corregir el frontend de la plataforma para que no halla errores entre al aplicacion y el servicio web de Supply Wok, esto añadiendo nuevos endpoints y métodos REST corregidos con respecto al sprint anterior que se detallaran a continuación.
 
 - **Repository URL:** https://github.com/Aurora-AplicacionesWeb/supply-wok-platform
@@ -1193,9 +1197,6 @@ Durante el Sprint 4 se finalizó los servicios web backend de SupplyWok, ádemas
 |            /api/v1/users/{userId}/supplier-profiles            |   Get Supplier Profile by User Id    |     GET     |                                      userId (integer, Required)                                      |        200: Supplier profile retrieved successfully.         |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
 |              /api/v1/subscriptions/registrations               |   Start subscription registration    |    POST     |                             body: StartSubscriptionRegistrationResource                              |     201: Subscription registration started successfully.     |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
 |         /api/v1/subscriptions/registrations/{publicId}         |       Get registration status        |     GET     |                                     publicId (string, Required)                                      |       200: Registration status retrieved successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
-
-
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
