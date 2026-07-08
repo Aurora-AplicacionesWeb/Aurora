@@ -930,19 +930,19 @@ El **ContactInfo** encapsula la información de contacto relevante, como teléfo
 
 ## 4.8. Database Design.
 
-El siguiente Diagrama Entidad-Relación detalla la estructura de datos fundamental que soporta la lógica de la plataforma. A este modelo, compuesto por 25 entidades, se le aplicaron las tres fases de normalización para garantizar un diseño robusto y eficiente. Esto asegura la escalabilidad, la separación de responsabilidades y el mantenimiento de la aplicación, organizada en los siguientes seis módulos:
+El siguiente Diagrama Entidad-Relación detalla la estructura de datos fundamental que soporta la lógica de la plataforma. Se le aplicaron las tres fases de normalización para garantizar un diseño robusto y eficiente. Esto asegura la escalabilidad, la separación de responsabilidades y el mantenimiento de la aplicación, organizada en los siguientes módulos:
 
 - #### Gestión de Inventario
 
 Controla las entradas, salidas y niveles de stock para evitar desabastecimientos o excesos.
 
-- #### Abastecimiento y Órdenes de Compra
+- #### Órdenes de Compra
 
 Gestiona los pedidos de insumos entre el restaurante y el proveedor, reduciendo los tiempos de respuesta entre ambos.
 
-- #### Panel del Proveedor
+- #### Operaciones del Restaurante
 
-Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
+Facilita la comunicación eficiente entre la cocina y las mesas para garantizar un servicio rápido y sin errores.
 
 - #### Plataforma y Acceso
 
@@ -950,11 +950,11 @@ Administra el acceso seguro de los usuarios, sus cuentas y planes de suscripció
 
 - #### Monitoreo Operativo y Alertas IoT
 
-Representa el núcleo operativo del sistema; controla sensores y notificaciones para garantizar la seguridad en el entorno de trabajo.
+Controla sensores y notificaciones para garantizar la seguridad en el entorno de trabajo.
 
-- #### Comandas y Órdenes para Cocina
+- #### Procesos del Proveedor
 
-Facilita la comunicación eficiente entre la cocina y las mesas para garantizar un servicio rápido y sin errores.
+Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
 
 
 ### 4.8.1. Database Diagrams.
@@ -963,27 +963,27 @@ El Database Diagram de SupplyWok representa la estructura relacional que soporta
 
 #### Inventory Management Bounded Context
 
-En este contexto, la persistencia se centra en el control de insumos y movimientos de stock. Las tablas `INSUMOS`, `MOVIMIENTO_INVENTARIO` y `TIPO_MOVIMIENTO_INVENTARIO` permiten registrar productos, cambios de cantidad y clasificación del movimiento. Aquí se evidencia el uso de claves primarias y foráneas para relacionar cada movimiento con su insumo correspondiente y con el tipo de operación ejecutada.
+En este contexto, la persistencia se centra en el control de insumos y movimientos de stock. Las tablas `SUPPLIES`, `INVENTORY_TRANSACTIONS` y `INVENTORY_OPERATIONS` permiten registrar productos, cambios de cantidad y clasificación del movimiento. Aquí se evidencia el uso de claves primarias y foráneas para relacionar cada movimiento con su insumo correspondiente y con el tipo de operación ejecutada.
 
-#### Supply and Purchasing Bounded Context
+#### Purchasing Bounded Context
 
-La gestión de órdenes de compra se modela principalmente a través de `ORDEN_COMPRA`, `DETALLE_ORDEN` y `ESTADO_ORDEN_COMPRA`. Estas tablas permiten registrar el encabezado de cada pedido, sus ítems específicos y el estado transaccional de la orden. Las relaciones entre ellas garantizan integridad referencial y facilitan trazabilidad del pedido desde su creación hasta su entrega.
+La gestión de órdenes de compra se modela principalmente a través de `PURCHASE_ORDERS` y `PURCHASE_ORDERS_ITEMS` . Estas tablas permiten registrar el encabezado de cada pedido, sus ítems específicos y el estado transaccional de la orden. Las relaciones entre ellas garantizan integridad referencial y facilitan trazabilidad del pedido desde su creación hasta su entrega.
 
-#### Supplier Management & Operations Bounded Context
+#### Kitchen Operations Management
 
-La información de los proveedores y sus catálogos se representa mediante tablas como `PROVEEDOR` y `CATALOGO_PROVEEDOR`. Estas estructuras permiten asociar proveedores con los insumos que ofrecen, así como registrar precios, unidades y disponibilidad. Este módulo también se relaciona con el contexto de pedidos, ya que un proveedor puede participar en múltiples órdenes de compra.
+La información de los proveedores y sus catálogos se representa mediante tablas como `TABLES`, `DISHES`, `DISH_CATEGORIES` y `KITCHEN_ORDERS_ITEMS`. Estas estructuras permiten asociar proveedores con los insumos que ofrecen, así como registrar precios, unidades y disponibilidad. Este módulo también se relaciona con el contexto de pedidos, ya que un proveedor puede participar en múltiples órdenes de compra.
 
-#### Identity & Access Bounded Context
+#### Identity & Access Management Bounded Context
 
-La persistencia del acceso y administración de usuarios se modela con `USUARIO`, `ROL_USUARIO`, `PLANES` y `NOMBRE_PLAN`. Estas tablas permiten gestionar credenciales, roles, tipo de plan y relación entre cuenta y nivel de suscripción. Esto asegura que la plataforma pueda distinguir permisos, acceso y condiciones comerciales de cada usuario registrado.
+La persistencia del acceso y administración de usuarios se modela con `USERS`, `RESTAURANT_PROFILES`, `SUPPLIER_PROFILES` y `SUBSCRIPTIONS`. Estas tablas permiten gestionar credenciales, roles, tipo de plan y relación entre cuenta y nivel de suscripción. Esto asegura que la plataforma pueda distinguir permisos, acceso y condiciones comerciales de cada usuario registrado.
 
-#### Operational Monitoring and IoT Alerts Bounded Context
+#### Iot & Alerts Monitoring Bounded Context
 
-El monitoreo operativo se soporta con tablas como `ALERTAS`, `TIPO_ALERTA`, `SENSORES`, `TIPO_SENSOR`, `LECTURA_SENSOR`, `UBICACION_SENSOR` y `NOTIFICACIONES`. Estas entidades permiten registrar lecturas provenientes de sensores, generar alertas cuando se superan umbrales definidos y mantener historial de eventos y notificaciones asociadas. La estructura favorece trazabilidad y análisis posterior de incidencias operativas.
+El monitoreo operativo se soporta con tablas como `SENSORS` Y `ALERTS`. Estas entidades permiten registrar lecturas provenientes de sensores, generar alertas cuando se superan umbrales definidos y mantener historial de eventos y notificaciones asociadas. La estructura favorece trazabilidad y análisis posterior de incidencias operativas.
 
-#### Restaurant Management Bounded Context
+#### Supplier Process Management Bounded Context
 
-La operación interna del restaurante se modela con `MESA`, `ESTADOS_MESA`, `COMANDA`, `DETALLE_COMANDA`, `MENU_PLATOS` y `ESTADO_COMANDA`. Estas tablas permiten representar la asignación de mesas, el registro de pedidos internos y el estado de preparación o atención en cocina. Este módulo complementa el enfoque de SupplyWok al conectar abastecimiento con operación diaria del restaurante.
+La operación interna del restaurante se modela con `SUPPLIER_RESTAURANTS` y `CATALOG_ITEMS`. Estas tablas permiten representar la asignación de mesas, el registro de pedidos internos y el estado de preparación o atención en cocina. Este módulo complementa el enfoque de SupplyWok al conectar abastecimiento con operación diaria del restaurante.
 
 En conjunto, el diagrama relacional de SupplyWok muestra una estructura con entidades claramente separadas por responsabilidad, relaciones explícitas mediante claves foráneas y soporte para la evolución del sistema en múltiples módulos funcionales. Esta base de datos relacional permite mantener consistencia en la información, facilitar consultas operativas y sostener la integración entre los distintos bounded contexts del dominio.
 
