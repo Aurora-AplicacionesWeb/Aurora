@@ -872,61 +872,47 @@ La representación también evidencia la relación de estos componentes con la b
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-En esta sección se presentará y se explicará el diagrama de clases por cada Bounded Context
+- #### Gestión de Inventario
 
-![](../assets/images/IMBC.png)
+Controla las entradas, salidas y niveles de stock para evitar desabastecimientos o excesos.
 
-El **Inventory Management Bounded Context** es el encargado de gestionar los recursos de inventario de cada restaurante, incluyendo el control de stock, niveles mínimos y movimientos de entrada y salida.
+![](../assets/images/inventory-dc.png)
 
-El **InventoryService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza el **InventoryRepository** para la persistencia de datos y el **InventoryItem** como entidad principal del dominio, encargada de representar cada insumo almacenado en el Inventario del restaurante.El **StockMovement** representa las modificaciones realizadas al stock de cada ítem, permitiendo llevar un registro detallado de entradas, salidas y ajustes.
+![](../assets/images/analytics-dc.png)
 
-![](../assets/images/S&PBC.png)
+- #### Órdenes de Compra
 
-El **Supply and Purchasing Bounded Context** es el encargado de gestionar las órdenes de compra realizadas por cada restaurante, incluyendo el registro, cancelación y seguimiento de los pedidos.
+Gestiona los pedidos de insumos entre el restaurante y el proveedor, reduciendo los tiempos de respuesta entre ambos.
 
-El **PurchaseOrderService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza el **PurchaseOrderRepository** para la persistencia de datos y el **PurchaseOrder** como entidad principal del dominio, encargada de representar toda la información de una orden de compra de insumos del restaurante. Además, el **OrderItem** encapsula las especificaciones de cada producto dentro de la orden, como la cantidad solicitada y el precio unitario, permitiendo un control detallado de cada pedido.
+![](../assets/images/purchasing-dc.png)
 
-![](../assets/images/O&IBC.png)
+- #### Operaciones del Restaurante
 
-El **Operational Monitoring and IoT Alerts Bounded Context** es el encargado de gestionar la información recopilada por los sensores del restaurante, así como la configuración y generación de alertas ante condiciones fuera de los rangos establecidos.
+Facilita la comunicación eficiente entre la cocina y las mesas para garantizar un servicio rápido y sin errores.
 
-El **SensorService** actúa como capa de aplicación, coordinando las operaciones del sistema. Este servicio utiliza los repositorios **IAlertRepository** y **ISensorRepository** para la persistencia de datos.
+![](../assets/images/operation-dc.png)
 
-Además, emplea la entidad **Sensor**, junto con **SensorReading**, para representar la información capturada por los sensores. Por otro lado, la entidad **Alert** modela las alertas generadas cuando una medición supera los límites configurados.
+- #### Plataforma y Acceso
 
-![](../assets/images/RMBC.png)
+Administra el acceso seguro de los usuarios, sus cuentas y planes de suscripción.
 
-El **Restaurant Management Bounded Context** es el encargado de gestionar todo lo relacionado con la operación del establecimiento, incluyendo la administración de mesas y la gestión de comandas en cada restaurante.
+![](../assets/images/iam-dc.png)
 
-Los servicios **ComandaService**, **RestaurantService** y **TableService** actúan como capa de aplicación, coordinando las distintas operaciones del sistema. Estos servicios utilizan los repositorios **ComandaRepository**, **IRestaurantRepository** y **TableRepository** respectivamente para la persistencia de datos.
+![](../assets/images/profile-dc.png)
 
-Además, se emplean las entidades **Table**, que representa una mesa dentro del restaurante; **Comanda** y **ComandaItem**, que modelan las órdenes de consumo; y **Restaurant**, que encapsula la información principal de cada restaurante.
+![](../assets/images/subscriptions-dc.png)
 
-![](../assets/images/S&OBC.png)
+- #### Monitoreo Operativo y Alertas IoT
 
-El **Supplier Management & Operations Bounded Context** es el encargado de gestionar la información de los proveedores, sus catálogos de productos y las operaciones relacionadas con el cumplimiento de pedidos.
+Controla sensores y notificaciones para garantizar la seguridad en el entorno de trabajo.
 
-Los servicios **SupplierService**, **SupplierCatalogService**, **DemandForecastService** y **OrderFulfillmentService** actúan como capa de aplicación, coordinando las distintas operaciones del sistema dentro de este contexto.
+![](../assets/images/iot-dc.png)
 
-El **SupplierService** gestiona la información de los proveedores utilizando el repositorio **SupplierRepository**. Por su parte, el **SupplierCatalogService** administra los productos ofrecidos por cada proveedor mediante **SupplierCatalog** y **CatalogItem**, utilizando **SupplierCatalogRepository** para la persistencia.
+- #### Procesos del Proveedor
 
-Además, el **DemandForecastService** se encarga de generar proyecciones de demanda a través de la entidad **DemandForecast**, la cual contiene múltiples **ProductDemand** que representan estimaciones de consumo.
+Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
 
-Finalmente, el **OrderFulfillmentService** gestiona el proceso de entrega de pedidos mediante la entidad **OrderFulfillment**, permitiendo hacer seguimiento al estado de los envíos desde su despacho hasta su entrega final.
-
-![](../assets/images/I&ABC.png)
-
-El **Identity & Access Bounded Context** es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas de usuario en el sistema.
-
-Los servicios **AuthService** y **TokenService** actúan como capa de aplicación, coordinando las operaciones de autenticación. El **AuthService** utiliza el repositorio UserRepository para la persistencia de datos, mientras que **TokenService** se encarga de la generación y validación de tokens de acceso.
-
-La entidad **User** encapsula toda la información relevante de un usuario en la plataforma, como su correo electrónico, contraseña (almacenada de forma segura) y su **Role**, el cual define sus permisos dentro del sistema.
-
-![](../assets/images/SBC.png)
-
-El **Shared Bounded Context** contiene Value Objects comunes que son reutilizados por múltiples bounded contexts del sistema, evitando duplicación y promoviendo consistencia en el modelo.
-
-El **ContactInfo** encapsula la información de contacto relevante, como teléfono, correo electrónico y sitio web. Este value object es utilizado por entidades como **Supplier** y **Restaurant**. Por otro lado, **Address** encapsula la información de dirección necesaria, siendo utilizado también por entidades como **Supplier** y **Restaurant** para representar ubicaciones físicas de manera estructurada.
+![](../assets/images/spm-dc.png)
 
 ## 4.8. Database Design.
 
@@ -939,6 +925,7 @@ Controla las entradas, salidas y niveles de stock para evitar desabastecimientos
 - #### Órdenes de Compra
 
 Gestiona los pedidos de insumos entre el restaurante y el proveedor, reduciendo los tiempos de respuesta entre ambos.
+
 
 - #### Operaciones del Restaurante
 
@@ -955,7 +942,6 @@ Controla sensores y notificaciones para garantizar la seguridad en el entorno de
 - #### Procesos del Proveedor
 
 Centraliza la funcionalidad del proveedor, permitiendo una mejor gestión de catálogos y pedidos.
-
 
 ### 4.8.1. Database Diagrams.
 
@@ -987,7 +973,7 @@ La operación interna del restaurante se modela con `SUPPLIER_RESTAURANTS` y `CA
 
 En conjunto, el diagrama relacional de SupplyWok muestra una estructura con entidades claramente separadas por responsabilidad, relaciones explícitas mediante claves foráneas y soporte para la evolución del sistema en múltiples módulos funcionales. Esta base de datos relacional permite mantener consistencia en la información, facilitar consultas operativas y sostener la integración entre los distintos bounded contexts del dominio.
 
-![base de datos](../assets/images/database-diagram.png)
+![base de datos](../assets/images/diagram-database.png)
 
 
 
