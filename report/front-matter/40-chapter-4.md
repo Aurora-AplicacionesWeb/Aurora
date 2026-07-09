@@ -1,3 +1,5 @@
+<div style="page-break-before: always;"></div>
+
 # Capítulo IV: Product Design.
 ## 4.1. Style Guidelines
 
@@ -974,6 +976,8 @@ La operación interna del restaurante se modela con `SUPPLIER_RESTAURANTS` y `CA
 En conjunto, el diagrama relacional de SupplyWok muestra una estructura con entidades claramente separadas por responsabilidad, relaciones explícitas mediante claves foráneas y soporte para la evolución del sistema en múltiples módulos funcionales. Esta base de datos relacional permite mantener consistencia en la información, facilitar consultas operativas y sostener la integración entre los distintos bounded contexts del dominio.
 
 ![base de datos](../assets/images/diagram-database.png)
+
+<div style="page-break-before: always;"></div>
 
 
 

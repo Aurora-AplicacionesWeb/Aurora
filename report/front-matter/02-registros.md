@@ -1,3 +1,5 @@
+<div style="page-break-before: always;"></div>
+
 # Registro de Versiones del Informe
 
 | Versión | Fecha      | Autor                            | Descripción de modificación |

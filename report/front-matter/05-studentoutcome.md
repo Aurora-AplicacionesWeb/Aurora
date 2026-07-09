@@ -1,3 +1,5 @@
+<div style="page-break-before: always;"></div>
+
 # Student Outcome 5
 
 | Criterio específico | Acciones realizadas              | Conclusiones |

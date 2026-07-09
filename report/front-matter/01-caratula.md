@@ -65,8 +65,8 @@ Proyecto
         <td align="left" >Ayasta Martel Zayd Jaffar</td>
       </tr>
       <tr>
-        <td align="left" >U202410837</td>
-        <td align="left" >Ayasta Martel Zayd Jaffar</td>
+        <td align="left" >U202312566</td>
+        <td align="left" >Milenko Ruben Cayanchi Avila</td>
       </tr>
     </tbody>
   </table>
@@ -77,5 +77,5 @@ Proyecto
 Julio 2026
 
 </div>
-<div style="page-break-before: always;"></div>
+
 

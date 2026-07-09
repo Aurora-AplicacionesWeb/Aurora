@@ -1,3 +1,5 @@
+<div style="page-break-before: always;"></div>
+
 # Project Report Collaboration Insights
 Todas las actividades asignadas para cada entrega se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: [https://github.com/Aurora-AplicacionesWeb](https://github.com/Aurora-AplicacionesWeb) En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: [https://github.com/Aurora-AplicacionesWeb/Aurora](https://github.com/Aurora-AplicacionesWeb/Aurora) 
 

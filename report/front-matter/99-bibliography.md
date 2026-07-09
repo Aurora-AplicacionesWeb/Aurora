@@ -1,3 +1,5 @@
+<div style="page-break-before: always;"></div>
+
 Annosi, M. C., Brunetta, F., Bimbo, F., & Kostoula, M. (2021). Digitalization within food supply chains to prevent food waste: Drivers, barriers and collaboration practices. *Industrial Marketing Management, 93*, 208–220. https://doi.org/10.1016/j.indmarman.2021.01.005
 
 Bouzembrak, Y., Klüche, M., Gavai, A., & Marvin, H. J. P. (2019). Internet of things in food safety: Literature review and a bibliometric analysis. *Trends in Food Science & Technology, 94*, 54–64. https://doi.org/10.1016/j.tifs.2019.11.002
