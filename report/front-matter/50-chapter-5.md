@@ -198,7 +198,7 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
   [https://github.com/Aurora-AplicacionesWeb/SupplyWok-BackEnd](https://github.com/Aurora-AplicacionesWeb/SupplyWok-BackEnd)
 
 - **Plataforma de despliegue:**  
-  Azure App Service.
+  Render.
 
 - **Método de despliegue:**  
   - El backend se empaqueta como un archivo ejecutable o se publica directamente desde Visual Studio.  
@@ -1170,8 +1170,9 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 
 El Sprint Backlog 4 concentra las tareas necesarias para completar la integración final de SupplyWok, reforzar la autenticación, conectar perfiles y suscripciones con el backend, corregir rutas y endpoints consumidos por la Web Application y cerrar la validación del flujo de registro con pago. A continuación se presenta la evidencia del tablero de trabajo utilizado por el equipo y el enlace correspondiente.
 
-![Trello Sprint 4 Board 1](../assets/images/trello_1111.png)
-![Trello Sprint 4 Board 2](../assets/images/trello_2222.png)
+![Trello Sprint 4 Board 1](../assets/images/trello_111.png)
+
+![Trello Sprint 4 Board 2](../assets/images/trello_222.png)
 
 **Link del Sprint 4 Board:** [https://trello.com/b/f6gLH0LZ/supply-wok-sprint-backlog-4](https://trello.com/b/f6gLH0LZ/supply-wok-sprint-backlog-4)
 
@@ -1281,15 +1282,56 @@ Durante el Sprint 4 se actualizaron y documentaron los servicios web necesarios 
 - **Repository URL:** https://github.com/Aurora-AplicacionesWeb/supply-wok-platform
 - **Swagger URL:** https://supply-wok-platform-cgbs.onrender.com/swagger/index.html
 
-|                   Endpoint                   |               Action               | HTTP Verb |                           Parameters                            |                Response Example                 |                        Documentation URL                         |
-| :------------------------------------------: | :--------------------------------: | :-------: | :-------------------------------------------------------------: | :---------------------------------------------: | :--------------------------------------------------------------: |
-| /api/v1/suppliers/{supplierId}/catalog-items | Create catalog item for a supplier |   POST    | supplierId (integer, Required), body: CreateCatalogItemResource | 201: The catalog item was created successfully. | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
-| /api/v1/suppliers/{supplierId}/catalog-items |   Get catalog items by supplier    |    GET    |                 supplierId (integer, Required)                  |   200: Catalog items retrieved successfully.    | https://supply-wok-platform-cgbs.onrender.com/swagger/index.html |
+|                            Endpoint                            |                Action                |  HTTP Verb  |                                              Parameters                                              |                       Response Example                       |                         Documentation URL                          |
+|:--------------------------------------------------------------:|:------------------------------------:|:-----------:|:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------------:|
+|          /api/v1/suppliers/{supplierId}/catalog-items          |  Create catalog item for a supplier  |    POST     |                   supplierId (integer, Required), body: CreateCatalogItemResource                    |       201: The catalog item was created successfully.        |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|          /api/v1/suppliers/{supplierId}/catalog-items          |    Get catalog items by supplier     |     GET     |                                    supplierId (integer, Required)                                    |          200: Catalog items retrieved successfully.          |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|                  /api/v1/kitchen-orders/{id}                   |     Update Kitchen Order Status      |    PATCH    |                    id (integer, Required), body: UpdateKitchenOrderStatusResource                    |   200: The kitchen order status was updated successfully.    |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|           /api/v1/purchase-orders/{purchaseOrderId}            |     Update Purchase Order Status     |    PATCH    |             purchaseOrderId (integer, Required), body: UpdatePurchaseOrderStatusResource             |   200: The purchase order status was updated successfully.   |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|           /api/v1/purchase-orders/{purchaseOrderId}            |        Update Purchase Order         |     PUT     |               purchaseOrderId (integer, Required), body: UpdatePurchaseOrderResource                 |      200: The purchase order was updated successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|                  /api/v1/kitchen-orders/{id}                   |         Update Kitchen Order         |     PUT     |                       id (integer, Required), body: UpdateKitchenOrderResource                       |       200: The kitchen order was updated successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|           /api/v1/users/{userId}/restaurant-profiles           |  Get Restaurant Profile by User Id   |     GET     |                                      userId (integer, Required)                                      |       200: Restaurant profile retrieved successfully.        |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|            /api/v1/users/{userId}/supplier-profiles            |   Get Supplier Profile by User Id    |     GET     |                                      userId (integer, Required)                                      |        200: Supplier profile retrieved successfully.         |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|              /api/v1/subscriptions/registrations               |   Start subscription registration    |    POST     |                             body: StartSubscriptionRegistrationResource                              |     201: Subscription registration started successfully.     |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
+|         /api/v1/subscriptions/registrations/{publicId}         |       Get registration status        |     GET     |                                     publicId (string, Required)                                      |       200: Registration status retrieved successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
 
+A continuación, se añaden evidencias visuales de la interacción con la documentación generada en Swagger utilizando datos de prueba del Sprint:
 
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+![Sprint 4 Swagger Authentication](../assets/images/execution-evidence/sprint-4-swagger-authentication.png)
+
+*Figura: Ejecución del endpoint de autenticación en Swagger para validar el inicio de sesión y el contrato del usuario autenticado.*
+
+![Sprint 4 Swagger Subscription Registration](../assets/images/execution-evidence/sprint-4-swagger-subscription-registration.png)
+
+*Figura: Ejecución del endpoint de inicio de registro con suscripción, mostrando el `checkoutUrl` y el identificador del registro pendiente.*
+
+![Sprint 4 Swagger Registration Status](../assets/images/execution-evidence/sprint-4-swagger-registration-status.png)
+
+*Figura: Consulta del estado de un registro de suscripción mediante su `publicId` después del retorno desde Stripe.*
+
+Los commits más relevantes relacionados con la documentación y estabilización de contratos durante este Sprint incluyen, entre otros, `1dc9520`, `0a9f040`, `bc19db5` y `2e122be`, los cuales consolidaron los endpoints utilizados por la Web Application para autenticación, perfiles y suscripciones.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4 se consolidó el despliegue de la versión final de la plataforma, considerando la publicación del Web Service y la Web Application conectada al backend real. El backend se mantuvo desplegado en Render con documentación Swagger pública, mientras que la aplicación frontend se publicó en Firebase para permitir la validación de los flujos de autenticación, perfiles y suscripción desde un entorno accesible.
+
+**Backend Deployment:**
+
+![Sprint 4 Backend Deployment](../assets/images/execution-evidence/sprint-4-backend-deployment.png)
+
+*Figura: Evidencia del servicio backend desplegado en Render con la documentación Swagger accesible públicamente.*
+
+- **Backend Deployment URL:** [https://supply-wok-platform-cgbs.onrender.com/swagger/index.html](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
+
+**Frontend Deployment:**
+
+![Sprint 4 Frontend Deployment](../assets/images/execution-evidence/sprint-4-frontend-deployment.png)
+
+*Figura: Evidencia de la Web Application desplegada en Firebase consumiendo el Web Service real de SupplyWok.*
+
+- **Frontend Deployment URL:** [https://supplywok.web.app/](https://supplywok.web.app/)
+
+Adicionalmente, para soportar el flujo de suscripción en un entorno desplegado, se configuró la integración con Stripe mediante claves de entorno y un endpoint de retorno hacia la vista de confirmación del registro. En una versión completamente demostrable del flujo productivo, esta configuración debe complementarse con la evidencia visual del webhook público registrado en Stripe Dashboard apuntando al backend desplegado.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
@@ -1307,17 +1349,18 @@ Durante el Sprint 4 el equipo hizo cambios en la Landing Page de Supply Wok enfo
 
 Los cambios aplicados en el Frontend de Supply Wok durante este sprint son en consecuencia de la construcción del web service, para que emitan y reciban el mismo esquema de información en formato json.
 
-![Sprint 4 Frontend](../assets/images/insights/sprint-4-fi.png)
+![Sprint 4 Frontend](../assets/images/insights/frontend-c1.png)
 
-![Sprint 4 Frontend](../assets/images/insights/sprint-4-fi-2.png)
+![Sprint 4 Frontend](../assets/images/insights/frontend-c2.png)
 
 ##### Backend
 
 El enfoque del Sprint 4 ya fue explicado anteriormente, por lo que se mostrara directamente la evidencia de la participación del equipo en el desarrollo del web service.
 
-![Sprint 4 Backend](../assets/images/insights/sprint-4-bi.png)
+![Sprint 4 Backend](../assets/images/insights/backend-c1.png)
 
-![Sprint 4 Backend](../assets/images/insights/sprint-4-bi-2.png)
+![Sprint 4 Backend](../assets/images/insights/backend-c2.png)
+
 
 ## 5.3. Validation Interviews.
 
@@ -1548,22 +1591,9 @@ La incorporación de estas mejoras contribuirá a que SupplyWok ofrezca una expe
 
 ## Conclusiones y recomendaciones
 
-El proceso de desarrollo de SupplyWok mostró una evolución progresiva y coherente a lo largo de los sprints documentados en este capítulo. En el Sprint 1, el equipo logró construir y desplegar la Landing Page del producto, estableciendo una base sólida de comunicación de propuesta de valor, navegación inicial, diseño responsivo e internacionalización. Esta primera iteración permitió consolidar el entorno de trabajo, definir convenciones de desarrollo y demostrar la capacidad del equipo para entregar una primera versión visible del producto en producción.
-
-Durante el Sprint 2, el avance se concentró en la construcción del frontend de la Web Application, organizando la solución en bounded contexts y desarrollando dashboards diferenciados para restaurantes y proveedores. En esta etapa se implementaron las principales vistas funcionales del sistema, así como la estructura compartida de navegación, componentes reutilizables, manejo de estado y configuración de entornos. Aunque el frontend aún se apoyaba en una Fake API para simular datos, este sprint fue importante porque permitió validar la arquitectura de la aplicación, aterrizar los user flows principales y preparar la plataforma para la integración posterior con servicios reales.
-
-El Sprint 3 representó el avance técnico más importante del ciclo actual, ya que permitió trasladar la solución hacia una capa real de servicios backend mediante C#, Entity Framework Core, persistencia en MySql y documentación de endpoints en Swagger. En esta iteración se implementaron los bounded contexts priorizados del núcleo del negocio y se habilitaron operaciones REST funcionales para módulos como inventario, órdenes de compra, comandas, alertas, perfiles, analytics y supplier management. Además, el despliegue del backend en Render y la verificación de persistencia en MySql Workbench evidencian que el proyecto ya no se mantiene solo en nivel prototípico, sino que cuenta con una base técnica operativa y desplegada.
-
-Desde una perspectiva de desarrollo, uno de los principales logros del equipo fue haber construido el producto por capas y en etapas claras: primero la presencia pública del producto, luego la experiencia de usuario en frontend y finalmente la infraestructura de servicios que soporta la lógica de negocio. Esta secuencia permitió reducir complejidad, distribuir mejor el trabajo entre los integrantes y mantener continuidad entre diseño, implementación y validación. Asimismo, la evidencia de commits, Pull Requests, boards de sprint, despliegues y documentación técnica muestra que el trabajo no solo avanzó en funcionalidad, sino también en prácticas colaborativas y de ingeniería de software.
-
-No obstante, el propio desarrollo también dejó en evidencia aspectos que todavía deben fortalecerse. En el frontend aún existen oportunidades de mejora en consistencia visual, acompañamiento al usuario y algunos flujos operativos, mientras que en backend todavía queda pendiente seguir ampliando cobertura funcional, consolidar integraciones completas entre cliente y servidor, y profundizar pruebas con escenarios más cercanos al uso real. Del mismo modo, varias métricas de éxito definidas en Lean UX todavía no pueden validarse cuantitativamente, pues requieren una etapa posterior de uso continuo con usuarios reales sobre la versión integrada del sistema.
-
-Como recomendación para la siguiente etapa del roadmap, el equipo debería priorizar la integración completa entre el frontend y los Web Services ya desplegados, reemplazando definitivamente dependencias simuladas donde aún existan. Junto con ello, conviene continuar refinando los bounded contexts ya implementados, reforzar validaciones y manejo de errores, completar evidencias visuales faltantes del sprint y ejecutar pruebas funcionales integrales por flujo de negocio. En paralelo, resulta recomendable mantener el mismo nivel de documentación técnica y colaboración evidenciado en este capítulo, ya que ha sido una de las fortalezas más claras del proceso de desarrollo.
-
-En conjunto, el trabajo realizado demuestra que SupplyWok alcanzó un nivel importante de madurez para esta etapa del curso: existe una propuesta validada, una interfaz funcional, un backend desplegado y una arquitectura organizada que permite seguir creciendo el producto. Más allá de las mejoras pendientes, el desarrollo documentado en los sprints confirma que el equipo logró transformar una idea inicial en una solución web estructurada, técnicamente consistente y preparada para una integración y validación más profunda en las siguientes entregas.
+El proceso de desarrollo de SupplyWok logró validar las 11 hipótesis planteadas mediante el desarrollo de una plataforma web integrada que conecta a restaurantes tipo chifa con sus proveedores. Se implementaron los módulos de inventario centralizado, alertas de stock mínimo, dashboard de visualización, proyección de demanda, órdenes de compra con seguimiento, directorio de proveedores, catálogo de productos, monitoreo IoT de temperatura y alertas operativas en tiempo real. Estas funcionalidades fueron distribuidas en los 3 sprints del proyecto: Landing Page (Sprint 1), Frontend Web Application con Vue.js (Sprint 2) y Backend Services con C# .NET (Sprint 3). La plataforma responde directamente a las necesidades identificadas en las entrevistas de validación, donde el 100% de los restaurantes carecía de sistemas formales de inventario y el 100% de los proveedores coordinaba pedidos mediante canales informales como WhatsApp o llamadas telefónicas. Como resultado, SupplyWok centraliza la gestión operativa y de abastecimiento, reduciendo decisiones reactivas y mejorando la coordinación entre ambos segmentos.
 
 ## Video About-The-Team
-
 
 ### Enlaces del Video
 
