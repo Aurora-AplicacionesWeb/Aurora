@@ -1142,43 +1142,50 @@ Durante la reunión de Sprint Planning del Sprint 4, el equipo priorizó la inte
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
-En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 4. Dado que el objetivo principal de esta iteración fue cerrar la integración del producto, los aspectos considerados corresponden a los bounded contexts y flujos que requirieron ajustes finales entre backend y frontend. Para cada aspecto se asigna un líder responsable y colaboradores encargados de apoyar en implementación, validación e integración.
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 4. Dado que el objetivo principal de esta iteración fue cerrar la integración final del producto, los aspectos considerados se concentraron en los bounded contexts y flujos que efectivamente tuvieron cambios en backend y frontend durante el Sprint: autenticación, suscripciones, perfiles, analítica e integración compartida. La siguiente distribución se construyó a partir de la evidencia de commits presentada en la sección 5.2.4.4 y de la asignación real de trabajo del equipo.
 
 **Consider Aspects**
 
-- **Inventory Management Bounded Context**: Es el encargado de gestionar la información de los recursos de inventario del restaurante.
-- **Procurement & Purchasing Bounded Context**: Es el encargado de gestionar las órdenes de productos realizadas por el restaurante.
-- **Operations Bounded Context**: Es el encargado de gestionar las comandas, tickets de cocina y mesas dentro del restaurante.
-- **IoT Operational Monitoring & Alerts Bounded Context**: Es el encargado de monitorear y alertar sobre los dispositivos IoT del restaurante.
-- **Supplier Panel Bounded Context**: Es el encargado de gestionar los datos de los proveedores y sus clientes.
-- **Identity And Access Management Bounded Context**: Es el encargado de gestionar todo lo relacionado con la autenticación y administración de cuentas.
-- **Profiles Bounded Context**: Es el encargado de gestionar los perfiles de los usuarios del sistema.
-- **Analytics Bounded Context**: Es el encargado de gestionar los diferentes gráficos que se pueden visualizar en la plataforma.
-- **Shared Bounded Context**: Es el encargado de gestionar los datos compartidos que son reutilizados entre los diferentes bounded contexts del sistema.
+- **Subscriptions Bounded Context**: Es el encargado de gestionar el registro condicionado al pago, el estado temporal del registro, la integración con Stripe y el aprovisionamiento final de la cuenta.
+- **Identity And Access Management Bounded Context**: Es el encargado de gestionar la autenticación, autorización, roles y acceso seguro a la plataforma.
+- **Profiles Bounded Context**: Es el encargado de gestionar la información de perfil de los usuarios y su vínculo con la cuenta autenticada.
+- **Analytics Bounded Context**: Es el encargado de gestionar la información analítica y la proyección de demanda mostrada en la plataforma.
+- **Shared Integration Aspect**: Es el aspecto transversal encargado de alinear rutas, endpoints, guards, consumo de API y consistencia de sesión entre frontend y backend.
 
-|     Team Member     |  Github Username  |  Inventory Management Bounded Context  | Procurement & Purchasing Bounded Context |  Operations Bounded Context  |  IoT Operational Monitoring & Alerts Bounded Context  | Supplier Panel Bounded Context | Identity And Access Management Bounded Context | Profiles Bounded Context | Analytics Bounded Context |
-|:-------------------:|:-----------------:|:--------------------------------------:|:----------------------------------------:|:----------------------------:|:-----------------------------------------------------:|:------------------------------:|:----------------------------------------------:|:------------------------:|:-------------------------:|
-|   Cuadros, Macelo   |  Marcelo-alt-lab  |                   -                    |                    -                     |              -               |                           L                           |               -                |                       L                        |            -             |             L             | 
-|    Ayasta, Zayd     |    Zayd Ayasta    |                   -                    |                    L                     |              -               |                           -                           |               -                |                       -                        |            -             |             -             |
-|     Wang, Juan      |       jwd3t       |                   -                    |                    -                     |              -               |                           -                           |               L                |                       C                        |            C             |             -             | 
-|  Sánchez, Mathias   |      Nounz27      |                   L                    |                    -                     |              L               |                           -                           |               -                |                       -                        |            -             |             C             |
-|  Cayanchi, Milenko  |      MaxghZZ      |                   -                    |                    -                     |              -               |                           -                           |               C                |                       C                        |            L             |             -             |
-
+|     Team Member     |  Github Username  | Subscriptions Bounded Context | Identity And Access Management Bounded Context | Profiles Bounded Context | Analytics Bounded Context | Shared Integration Aspect |
+|:-------------------:|:-----------------:|:-----------------------------:|:----------------------------------------------:|:------------------------:|:-------------------------:|:-------------------------:|
+|   Cuadros, Marcelo  |  Marcelo-alt-lab  |               -               |                       -                        |            -             |             C             |             C             |
+|    Ayasta, Zayd     |    Zayd Ayasta    |               L               |                       C                        |            -             |             -             |             L             |
+|     Wang, Juan      |       jwd3t       |               -               |                       -                        |            C             |             -             |             C             |
+|  Sánchez, Mathias   |      Nounz27      |               -               |                       -                        |            -             |             L             |             C             |
+|  Cayanchi, Milenko  |      MaxghZZ      |               -               |                       L                        |            L             |             -             |             C             |
 
 #### 5.2.4.3. Sprint Backlog 4
 
-El Sprint Backlog 4 concentra las tareas necesarias para completar la integración final de SupplyWok, reforzar la autenticación, conectar los perfiles y suscripciones con el backend, corregir endpoints utilizados por la Web Application y preparar la versión final del producto. A continuación se presenta la evidencia del tablero de trabajo utilizado por el equipo y el enlace correspondiente.
-
-
+El Sprint Backlog 4 concentra las tareas necesarias para completar la integración final de SupplyWok, reforzar la autenticación, conectar perfiles y suscripciones con el backend, corregir rutas y endpoints consumidos por la Web Application y cerrar la validación del flujo de registro con pago. A continuación se presenta la evidencia del tablero de trabajo utilizado por el equipo y el enlace correspondiente.
 
 ![Trello Sprint 4 Board 1](../assets/images/trello_111.png)
 ![Trello Sprint 4 Board 2](../assets/images/trello_222.png)
 
 **Link del Sprint 4 Board:** [https://tinyurl.com/yvj3y3bj](https://tinyurl.com/yvj3y3bj)
-|    US ID     | US Title                                                                                                                                |     Task Id      | Task Title                                                         | Description                                                                                                                                                          |                                 Assigned To                                  |  Estimation (Hours)  |   Status    |
-|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------:|:--------------------:|:-----------:|
-|  TS-IAM-001  | Como desarrollador frontend, Quiero que el acceso de los usuarios sea seguro, Para asegurar los procesos de los usuarios segun el rol.  |  TS-SHR-001-001  | Create Shared directory                                            | Create `Shared` directory within `Domain`, `Infrastructure` and `Application`.                                                                                       |  Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi  |          1           |    Done     |
 
+| US ID | US Title | Task Id | Task Title | Description | Assigned To | Estimation (Hours) | Status |
+|:-----:|:---------|:-------:|:-----------|:------------|:-----------:|:------------------:|:------:|
+| TS-IAM-001 | Como desarrollador frontend, Quiero que el acceso de los usuarios sea seguro, Para asegurar los procesos de los usuarios según el rol. | TS-IAM-001-001 | Extend IAM role model in backend | Incorporar el atributo `Role` en la entidad `User`, recursos de autenticación y persistencia para que el backend retorne el rol correcto durante el sign-in. | Milenko Cayanchi | 4 | Done |
+| TS-IAM-001 | Como desarrollador frontend, Quiero que el acceso de los usuarios sea seguro, Para asegurar los procesos de los usuarios según el rol. | TS-IAM-001-002 | Connect frontend authentication to real API | Conectar las pantallas de login y register a los endpoints reales de autenticación del backend y dejar de depender del flujo local o mockeado. | Milenko Cayanchi | 3 | Done |
+| TS-IAM-001 | Como desarrollador frontend, Quiero que el acceso de los usuarios sea seguro, Para asegurar los procesos de los usuarios según el rol. | TS-IAM-001-003 | Implement authentication guard and session persistence | Implementar guardas de navegación, persistencia de sesión y validación del usuario autenticado en frontend. | Zayd Ayasta | 3 | Done |
+| TS-SUB-001 | Como desarrollador frontend, Quiero que el registro de nuevos usuarios dependa del pago de una suscripción, Para evitar cuentas activas sin una suscripción válida. | TS-SUB-001-001 | Implement subscriptions bounded context | Crear el bounded context `Subscriptions` en backend con el flujo de `PendingRegistration`, creación de sesión de checkout y consulta de estado de registro. | Zayd Ayasta | 6 | Done |
+| TS-SUB-001 | Como desarrollador frontend, Quiero que el registro de nuevos usuarios dependa del pago de una suscripción, Para evitar cuentas activas sin una suscripción válida. | TS-SUB-001-002 | Create Stripe Checkout registration flow | Integrar Stripe Hosted Checkout para iniciar la suscripción mensual seleccionada desde el formulario de registro. | Zayd Ayasta | 4 | Done |
+| TS-SUB-001 | Como desarrollador frontend, Quiero que el registro de nuevos usuarios dependa del pago de una suscripción, Para evitar cuentas activas sin una suscripción válida. | TS-SUB-001-003 | Expand register form with profile data | Ampliar el formulario de registro para capturar los datos necesarios de perfil antes de redirigir al flujo de pago. | Zayd Ayasta | 4 | Done |
+| TS-SUB-002 | Como desarrollador frontend, Quiero que la plataforma confirme el pago y aprovisione la cuenta automáticamente, Para que el usuario solo pueda iniciar sesión después de un cobro exitoso. | TS-SUB-002-001 | Implement Stripe webhook processing | Implementar el webhook de Stripe con validación de firma, manejo idempotente y actualización del estado del registro temporal. | Zayd Ayasta | 5 | Done |
+| TS-SUB-002 | Como desarrollador frontend, Quiero que la plataforma confirme el pago y aprovisione la cuenta automáticamente, Para que el usuario solo pueda iniciar sesión después de un cobro exitoso. | TS-SUB-002-002 | Provision IAM user, profile and subscription | Crear el usuario en IAM, el perfil correspondiente y la suscripción activa solo después de recibir la confirmación válida del primer pago. | Zayd Ayasta | 5 | Done |
+| TS-SUB-002 | Como desarrollador frontend, Quiero que la plataforma confirme el pago y aprovisione la cuenta automáticamente, Para que el usuario solo pueda iniciar sesión después de un cobro exitoso. | TS-SUB-002-003 | Add registration completion view | Implementar la vista `/register/complete` con polling de estado, mensajes de procesamiento y redirección final a login. | Zayd Ayasta | 3 | Done |
+| TS-IAM-002 | Como desarrollador frontend, Quiero que las rutas protegidas respeten la sesión y el rol autenticado, Para impedir el acceso directo a módulos no autorizados. | TS-IAM-002-001 | Use backend role for route redirection | Ajustar el flujo de login para redirigir al usuario según el rol retornado por el backend. | Milenko Cayanchi | 2 | Done |
+| TS-IAM-002 | Como desarrollador frontend, Quiero que las rutas protegidas respeten la sesión y el rol autenticado, Para impedir el acceso directo a módulos no autorizados. | TS-IAM-002-002 | Block direct access to protected pages | Restringir el acceso directo a rutas protegidas cuando no exista una sesión autenticada válida. | Zayd Ayasta | 3 | Done |
+| TS-IAM-002 | Como desarrollador frontend, Quiero que las rutas protegidas respeten la sesión y el rol autenticado, Para impedir el acceso directo a módulos no autorizados. | TS-IAM-002-003 | Resolve profile data from authenticated identity | Ajustar el frontend para obtener el `profileId` y la configuración del usuario autenticado a partir de la identidad real de sesión. | Milenko Cayanchi | 3 | Done |
+| TS-ANY-001 | Como desarrollador frontend, Quiero recibir la información de la proyección de demanda, Para mostrarlo hacia el usuario. | TS-ANY-001-001 | Implement weekly consumption ACL service | Agregar el servicio ACL necesario para obtener el consumo semanal desde el bounded context correspondiente y reutilizarlo en Analytics. | Mathias Sanchez | 4 | Done |
+| TS-ANY-001 | Como desarrollador frontend, Quiero recibir la información de la proyección de demanda, Para mostrarlo hacia el usuario. | TS-ANY-001-002 | Integrate weekly consumption into analytics | Ajustar el backend de Analytics para eliminar propiedades no utilizadas e integrar la información real de consumo semanal en la respuesta. | Mathias Sanchez | 4 | Done |
+| TS-ANY-001 | Como desarrollador frontend, Quiero recibir la información de la proyección de demanda, Para mostrarlo hacia el usuario. | TS-ANY-001-003 | Validate analytics integration in final build | Revisar la integración y consistencia de la vista analítica dentro del producto integrado antes del cierre del Sprint. | Marcelo Cuadros | 2 | Done |
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
 Durante el Sprint 4 se realizaron cambios en los repositorios de backend y frontend para completar la integración del producto. Los commits evidencian la incorporación de autenticación real, manejo de roles, flujo de suscripción, actualización de perfiles, ajustes de endpoints y correcciones necesarias para alinear la Web Application con el Web Service desplegado.
@@ -1242,8 +1249,15 @@ Durante el Sprint 4 se realizaron cambios en los repositorios de backend y front
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
-Durante el Sprint 4 se completó la integración entre el frontend y el backend de SupplyWok para habilitar el nuevo flujo de autenticación y suscripción. La evidencia de ejecución presentada en esta sección demuestra que el usuario puede registrarse seleccionando un plan, ser redirigido al checkout de Stripe, esperar la confirmación del pago y la provisión de su cuenta, y finalmente acceder a la plataforma mediante inicio de sesión. Asimismo, se verifica que las rutas privadas del sistema se encuentren protegidas y que la navegación responda correctamente según el rol autenticado.
+Durante el Sprint 4 se completó la integración entre la Web Application y el Web Service de SupplyWok para habilitar el nuevo flujo de autenticación y suscripción. La evidencia de ejecución presentada en esta sección demuestra que el usuario puede registrarse seleccionando un plan, ser redirigido al checkout de Stripe, esperar la confirmación del pago y la provisión de su cuenta, y finalmente acceder a la plataforma mediante inicio de sesión.
 
+![Sprint 4 Register View](../assets/images/execution-evidence/sprint-4-register-view.png)
+
+*Figura: Pantalla de registro de SupplyWok con captura de datos de acceso, rol, plan de suscripción e información de perfil requerida para iniciar el onboarding.*
+
+![Sprint 4 Stripe Checkout](../assets/images/execution-evidence/sprint-4-stripe-checkout.png)
+
+![Sprint 4 Stripe Checkout](../assets/images/execution-evidence/sprint4-dashboard.png)
 
 **Link del vídeo de explicación del Execution:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
 
@@ -1268,12 +1282,43 @@ Durante el Sprint 4 se actualizaron y documentaron los servicios web necesarios 
 |              /api/v1/subscriptions/registrations               |   Start subscription registration    |    POST     |                             body: StartSubscriptionRegistrationResource                              |     201: Subscription registration started successfully.     |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
 |         /api/v1/subscriptions/registrations/{publicId}         |       Get registration status        |     GET     |                                     publicId (string, Required)                                      |       200: Registration status retrieved successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
 
+A continuación, se añaden evidencias visuales de la interacción con la documentación generada en Swagger utilizando datos de prueba del Sprint:
+
+![Sprint 4 Swagger Authentication](../assets/images/execution-evidence/sprint-4-swagger-authentication.png)
+
+*Figura: Ejecución del endpoint de autenticación en Swagger para validar el inicio de sesión y el contrato del usuario autenticado.*
+
+![Sprint 4 Swagger Subscription Registration](../assets/images/execution-evidence/sprint-4-swagger-subscription-registration.png)
+
+*Figura: Ejecución del endpoint de inicio de registro con suscripción, mostrando el `checkoutUrl` y el identificador del registro pendiente.*
+
+![Sprint 4 Swagger Registration Status](../assets/images/execution-evidence/sprint-4-swagger-registration-status.png)
+
+*Figura: Consulta del estado de un registro de suscripción mediante su `publicId` después del retorno desde Stripe.*
+
+Los commits más relevantes relacionados con la documentación y estabilización de contratos durante este Sprint incluyen, entre otros, `1dc9520`, `0a9f040`, `bc19db5` y `2e122be`, los cuales consolidaron los endpoints utilizados por la Web Application para autenticación, perfiles y suscripciones.
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 4 se consolidó el despliegue de la versión final de la plataforma, considerando la publicación del Web Service y la Web Application conectada al backend real. El backend se mantuvo desplegado en Render con documentación Swagger pública, mientras que la aplicación frontend se publicó en Firebase para permitir la validación de los flujos de autenticación, perfiles y suscripción desde un entorno accesible.
 
+**Backend Deployment:**
+
+![Sprint 4 Backend Deployment](../assets/images/execution-evidence/sprint-4-backend-deployment.png)
+
+*Figura: Evidencia del servicio backend desplegado en Render con la documentación Swagger accesible públicamente.*
+
 - **Backend Deployment URL:** [https://supply-wok-platform-cgbs.onrender.com/swagger/index.html](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
+
+**Frontend Deployment:**
+
+![Sprint 4 Frontend Deployment](../assets/images/execution-evidence/sprint-4-frontend-deployment.png)
+
+*Figura: Evidencia de la Web Application desplegada en Firebase consumiendo el Web Service real de SupplyWok.*
+
 - **Frontend Deployment URL:** [https://supplywok.web.app/](https://supplywok.web.app/)
+
+Adicionalmente, para soportar el flujo de suscripción en un entorno desplegado, se configuró la integración con Stripe mediante claves de entorno y un endpoint de retorno hacia la vista de confirmación del registro. En una versión completamente demostrable del flujo productivo, esta configuración debe complementarse con la evidencia visual del webhook público registrado en Stripe Dashboard apuntando al backend desplegado.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
@@ -1555,5 +1600,6 @@ En conjunto, el trabajo realizado demuestra que SupplyWok alcanzó un nivel impo
 * YouTube: [https://www.youtube.com/watch?v=V8HEQALGMGo](https://www.youtube.com/watch?v=V8HEQALGMGo)
 
 ![About the Team](../assets/images/about-the-team.png)
+
 
 
