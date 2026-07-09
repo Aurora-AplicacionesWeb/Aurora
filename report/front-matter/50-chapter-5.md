@@ -737,7 +737,7 @@ Durante la reunión de Sprint Planning del Sprint 3, se estableció como objetiv
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
-En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 3. Dado que el objetivo principal de esta iteración es avanzar en el desarrollo backend de SupplyWok, los aspectos considerados corresponden a los bounded contexts de negocio. Para cada aspecto se asigna un líder responsable de coordinar el desarrollo y uno o más colaboradores encargados de apoyar en la implementación, validación y pruebas de los servicios y endpoints asociados.
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 4. Dado que el objetivo principal de esta iteración fue consolidar la integración entre el Web Service y la Web Application de SupplyWok, además de estabilizar autenticación, perfiles, suscripciones y bounded contexts complementarios, los aspectos considerados abarcan tanto capacidades backend como flujos de consumo desde el frontend. Para cada aspecto se asigna un líder responsable de coordinar el desarrollo y uno o más colaboradores encargados de apoyar en la implementación, integración, validación y pruebas de los módulos asociados.
 
 **Consider Aspects**
 
@@ -1147,7 +1147,7 @@ Durante la reunion del Sprint Planning referente al Sprint 4, se estableció ter
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
-En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 3. Dado que el objetivo principal de esta iteración es avanzar en el desarrollo backend de SupplyWok, los aspectos considerados corresponden a los bounded contexts de negocio. Para cada aspecto se asigna un líder responsable de coordinar el desarrollo y uno o más colaboradores encargados de apoyar en la implementación, validación y pruebas de los servicios y endpoints asociados.
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 4. Dado que el objetivo principal de esta iteración fue consolidar la integración entre el Web Service y la Web Application de SupplyWok, además de estabilizar autenticación, perfiles, suscripciones y bounded contexts complementarios, los aspectos considerados abarcan tanto capacidades backend como flujos de consumo desde el frontend. Para cada aspecto se asigna un líder responsable de coordinar el desarrollo y uno o más colaboradores encargados de apoyar en la implementación, integración, validación y pruebas de los módulos asociados.
 
 **Consider Aspects**
 
@@ -1299,43 +1299,63 @@ Durante el Sprint 4 se actualizaron y documentaron los servicios web necesarios 
 |              /api/v1/subscriptions/registrations               |   Start subscription registration    |    POST     |                             body: StartSubscriptionRegistrationResource                              |     201: Subscription registration started successfully.     |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
 |         /api/v1/subscriptions/registrations/{publicId}         |       Get registration status        |     GET     |                                     publicId (string, Required)                                      |       200: Registration status retrieved successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
 
-A continuación, se añaden evidencias visuales de la interacción con la documentación generada en Swagger utilizando datos de prueba del Sprint:
+A continuación, se añade una evidencia visual de la documentación interactiva publicada en Swagger, donde se observa la disponibilidad de grupos de endpoints utilizados durante la integración final del Sprint 4, incluyendo autenticación, catálogo de proveedores, categorías, platos y demás recursos operativos consumidos por la plataforma.
 
-![Sprint 4 Swagger Authentication](../assets/images/execution-evidence/sprint-4-swagger-authentication.png)
+![Sprint 4 Swagger Overview](../assets/images/execution-evidence/sprint-4-swagger-overview.png)
 
-*Figura: Ejecución del endpoint de autenticación en Swagger para validar el inicio de sesión y el contrato del usuario autenticado.*
+*Figura: Vista general de la documentación Swagger del backend desplegado en Render, utilizada para validar contratos REST y disponibilidad de endpoints durante la integración del Sprint 4.*
 
-![Sprint 4 Swagger Subscription Registration](../assets/images/execution-evidence/sprint-4-swagger-subscription-registration.png)
-
-*Figura: Ejecución del endpoint de inicio de registro con suscripción, mostrando el `checkoutUrl` y el identificador del registro pendiente.*
-
-![Sprint 4 Swagger Registration Status](../assets/images/execution-evidence/sprint-4-swagger-registration-status.png)
-
-*Figura: Consulta del estado de un registro de suscripción mediante su `publicId` después del retorno desde Stripe.*
-
-Los commits más relevantes relacionados con la documentación y estabilización de contratos durante este Sprint incluyen, entre otros, `1dc9520`, `0a9f040`, `bc19db5` y `2e122be`, los cuales consolidaron los endpoints utilizados por la Web Application para autenticación, perfiles y suscripciones.
+Los commits más relevantes relacionados con la documentación y estabilización de contratos durante este Sprint incluyen, entre otros, `1dc9520`, `0a9f040`, `bc19db5` y `2e122be`, los cuales consolidaron los endpoints utilizados por la Web Application para autenticación, perfiles, catálogo y suscripciones.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
-Durante el Sprint 4 se consolidó el despliegue de la versión final de la plataforma, considerando la publicación del Web Service y la Web Application conectada al backend real. El backend se mantuvo desplegado en Render con documentación Swagger pública, mientras que la aplicación frontend se publicó en Firebase para permitir la validación de los flujos de autenticación, perfiles y suscripción desde un entorno accesible.
+Durante el Sprint 4 se consolidó el despliegue de la versión final de la plataforma, considerando la publicación del Web Service y la Web Application conectada al backend real. El backend se publicó en Render con documentación Swagger pública y la aplicación frontend se desplegó en Firebase Hosting, permitiendo validar desde un entorno productivo los flujos de autenticación, perfiles y consumo de datos integrados.
 
-**Backend Deployment:**
+**Backend Deployment**
 
-![Sprint 4 Backend Deployment](../assets/images/execution-evidence/sprint-4-backend-deployment.png)
+Primero, se verificó la configuración del servicio web en Render, incluyendo la selección del proyecto, el entorno de producción y la opción de despliegue manual utilizada para publicar la versión integrada del backend.
 
-*Figura: Evidencia del servicio backend desplegado en Render con la documentación Swagger accesible públicamente.*
+![Sprint 4 Render Service](../assets/images/execution-evidence/sprint-4-render-service.png)
+
+*Figura: Servicio backend `supply-wok-platform` configurado en Render dentro del entorno de producción, mostrando la URL pública del Web Service.*
+
+Luego, se registró la ejecución del despliegue y el progreso de construcción del contenedor, observando el proceso de exportación de la imagen y el arranque del servicio en la nube.
+
+![Sprint 4 Render Deploy Log](../assets/images/execution-evidence/sprint-4-render-deploy-log.png)
+
+*Figura: Logs del despliegue del backend en Render durante el Sprint 4, evidenciando la construcción y publicación de la imagen Docker del proyecto.*
+
+Finalmente, se validó el acceso a la documentación OpenAPI publicada por el backend desplegado para comprobar que los endpoints quedaran disponibles desde Internet.
+
+![Sprint 4 Swagger Overview](../assets/images/execution-evidence/sprint-4-swagger-overview.png)
+
+*Figura: Validación del backend desplegado mediante el acceso a Swagger UI en la URL pública de Render.*
 
 - **Backend Deployment URL:** [https://supply-wok-platform-cgbs.onrender.com/swagger/index.html](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
 
-**Frontend Deployment:**
+**Frontend Deployment**
 
-![Sprint 4 Frontend Deployment](../assets/images/execution-evidence/sprint-4-frontend-deployment.png)
+Como parte del flujo de publicación del frontend, primero se ejecutó la compilación de producción con Vite para generar los archivos estáticos optimizados que luego serían publicados en Firebase Hosting.
 
-*Figura: Evidencia de la Web Application desplegada en Firebase consumiendo el Web Service real de SupplyWok.*
+![Sprint 4 Frontend Build](../assets/images/execution-evidence/sprint-4-frontend-build.png)
+
+*Figura: Compilación de producción del frontend con `npm run build`, evidenciando la generación exitosa del bundle final de la Web Application.*
+
+Después, se realizó el despliegue del directorio `dist` en Firebase Hosting, obteniendo la confirmación del servicio publicado y la URL final de acceso.
+
+![Sprint 4 Firebase Deploy](../assets/images/execution-evidence/sprint-4-firebase-deploy.png)
+
+*Figura: Despliegue exitoso del frontend en Firebase Hosting con publicación de la Web Application en el dominio productivo.*
+
+Finalmente, se comprobó el acceso en línea al frontend ya desplegado y conectado con el backend real, validando la disponibilidad de la pantalla de inicio de sesión en el entorno productivo.
+
+![Sprint 4 Frontend Login Production](../assets/images/execution-evidence/sprint-4-frontend-login-production.png)
+
+*Figura: Vista de la pantalla de login de SupplyWok en el dominio productivo `supplywok.web.app`, utilizada para verificar la publicación del frontend en producción.*
 
 - **Frontend Deployment URL:** [https://supplywok.web.app/](https://supplywok.web.app/)
 
-Adicionalmente, para soportar el flujo de suscripción en un entorno desplegado, se configuró la integración con Stripe mediante claves de entorno y un endpoint de retorno hacia la vista de confirmación del registro. En una versión completamente demostrable del flujo productivo, esta configuración debe complementarse con la evidencia visual del webhook público registrado en Stripe Dashboard apuntando al backend desplegado.
+Adicionalmente, para soportar el flujo de suscripción en un entorno desplegado, se configuró la integración con Stripe mediante claves de entorno y un endpoint de retorno hacia la vista de confirmación del registro. Esta configuración permitió completar el escenario de registro, pago y acceso desde una arquitectura publicada en la nube.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
@@ -1345,7 +1365,7 @@ En esta sección se presentarán las versiones actualizadas de los aportes a la 
 
 Durante el Sprint 4 el equipo hizo cambios en la Landing Page de Supply Wok enfocado en ajustes visuales y léxicos para mantener un enfoque claro respecto a la plataforma.
 
-![Sprint 4 Landing Page](../assets/images/insights/landing-ins-sp4.png)
+![Sprint 4 Landing Page](../assets/images/insights/sprint-4-lpi.png)
 
 ![Sprint 4 Landing Page](../assets/images/insights/sprint-4-lpi-2.png)
 
