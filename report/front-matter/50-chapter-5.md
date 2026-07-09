@@ -1,4 +1,4 @@
-# Capítulo V: Product Implementation, Validation & Deployment.
+﻿# Capítulo V: Product Implementation, Validation & Deployment.
 
 ## 5.1. Software Configuration Management. 
 Para tener consistencia y seguimiento del desarrollo de la plataforma, se ha definido una serie de herramientas y estrategias de desarrollo. El método cubre la configuración del entorno de desarrollo, la gestion del código y el despliegue, alineado a las buenas prácticas de ingeniería de software y metodologías ágiles.
@@ -195,16 +195,16 @@ La configuración de despliegue contempla mecanismos organizados para publicar c
   C# con .NET 10.
 
 - **Repositorio GitHub:**  
-  [https://github.com/Aurora-AplicacionesWeb/SupplyWok-BackEnd](https://github.com/Aurora-AplicacionesWeb/SupplyWok-BackEnd)
+  [https://github.com/Aurora-AplicacionesWeb/supply-wok-platform](https://github.com/Aurora-AplicacionesWeb/supply-wok-platform)
 
 - **Plataforma de despliegue:**  
-  Azure App Service.
+  Render.
 
 - **Método de despliegue:**  
-  - El backend se empaqueta como un archivo ejecutable o se publica directamente desde Visual Studio.  
-  - Se configura un pipeline de despliegue automático en Azure DevOps para integrar los cambios desde el repositorio.  
-  - Las variables de entorno (como credenciales de base de datos) se configuran en Azure App Service de forma segura.  
-  - El servicio se expone mediante una URL pública que el frontend puede consumir vía HTTP/REST.
+  - La rama estable se publica mediante releases integradas desde `develop` hacia `master`.  
+  - Render toma el código del repositorio y ejecuta el proceso de build y publicación del Web Service.  
+  - Las variables de entorno necesarias para conexión a base de datos, autenticación y servicios externos se configuran desde el panel de Render.  
+  - El servicio queda expuesto mediante una URL pública que permite consultar la documentación Swagger y ser consumida por la Web Application.
 
 ---
 
@@ -1117,11 +1117,11 @@ Como se observa en la sección Pulse del repositorio backend, durante la última
 
 ### 5.2.4. Sprint 4: 
 
-En esta sección se explicará y registrará el desarrollo del Sprint 4, se estableció como objetivo terminar y arreglar los defectos identificados tras la entrega del sprint anterior, esto incluye al web service, web application y landing page.
+En esta sección se explica y registra el desarrollo del Sprint 4, cuyo objetivo principal fue cerrar la integración entre la Web Application y el Web Service, corregir defectos identificados en la entrega anterior y completar funcionalidades críticas de autenticación, perfiles, suscripciones y ajustes finales de la plataforma.
 
 #### 5.2.4.1. Sprint Planning 4
 
-Durante la reunion del Sprint Planning referente al Sprint 4, se estableció terminar el 30% restante del web service y conectarlo con la vista del cliente que seria el web application de la plataforma.
+Durante la reunión de Sprint Planning del Sprint 4, el equipo priorizó la integración final entre frontend y backend, la corrección de endpoints, la protección de rutas por autenticación y la implementación del flujo de suscripción. Esta planificación permitió enfocar el cierre del producto en funcionalidades verificables desde la experiencia real del usuario.
 
 **Sprint Planning 4**
 
@@ -1133,17 +1133,16 @@ Durante la reunion del Sprint Planning referente al Sprint 4, se estableció ter
 | **Location**                       | Virtual, Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Prepared by**                    | Marcelo Cuadros, Juan Wang                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Attendees**                      | Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Sprint 3 Review Summary**        | Durante el Sprint 2 se completó el desarrollo de la aplicación frontend utilizando una Fake API para simular la comunicación con los servicios backend. Se implementaron las principales interfaces y flujos de usuario previstos para la plataforma, obteniendo resultados satisfactorios en términos de funcionalidad, organización del código y experiencia de usuario. Como parte del feedback recibido, se destacó la calidad de la implementación realizada; sin embargo, se recomendó fortalecer la documentación técnica del proyecto para facilitar su comprensión, mantenimiento y futura integración con los servicios backend reales.                                                                                                                                                                                                                      |
+| **Sprint 3 Review Summary**        | Durante el Sprint 3 se completó la implementación de los principales servicios backend de SupplyWok mediante C# y Entity Framework Core. Se desarrollaron endpoints REST para los bounded contexts priorizados, se documentaron mediante Swagger, se validó la persistencia en MySQL y se desplegó el Web Service en Render para permitir su posterior integración con la Web Application.                                                                                                                                                                                                                      |
 | **Sprint 3 Retrospective Summary** | El equipo considero ordenar mejor los tiempos de entrega para cada miembro del equipo con el fin de no resulte en un trabajo apresurado que pueda llamar a errores, asimismo se notificó mejorar la documentación de la plataforma para mantener la construccion de la plataforma detallada y correcta para su lectura, esto con el fin de mejorar la comunicaion en el proyecto para nuevos y viejos integrantes que quieran modificar o revisar la plataforma realizada.                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Sprint 4 Goal**                  | Nuestro enfoque se centra en implementar un sistema de autenticación robusto y habilitar la facturación automatizada, proporcionando a los usuarios de Supply Wok un acceso seguro a la plataforma y control total sobre sus planes de suscripción. Creemos que esto proporciona a los clientes una experiencia de incorporación confiable junto con total autonomía en el manejo de su información financiera, y establece para el equipo de desarrollo la infraestructura crítica de seguridad y monetización requerida para la viabilidad comercial del producto. Esto se confirmará cuando los usuarios puedan registrarse e iniciar sesión exitosamente validando su identidad, puedan suscribirse o actualizar planes de pago; y la aplicación web actualice estos estados de acceso y facturación en tiempo real comunicándose correctamente con el Web Service |
 | **Sprint 4 Velocity**              | Límite de **45 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Sum of Story Points**            | **26 SP**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-**Link del Sprint 4 Board:** [https://tinyurl.com/yvj3y3bj](https://tinyurl.com/yvj3y3bj)
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
-En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 3. Dado que el objetivo principal de esta iteración es avanzar en el desarrollo backend de SupplyWok, los aspectos considerados corresponden a los bounded contexts de negocio. Para cada aspecto se asigna un líder responsable de coordinar el desarrollo y uno o más colaboradores encargados de apoyar en la implementación, validación y pruebas de los servicios y endpoints asociados.
+En esta sección se presenta la matriz de liderazgo y colaboración correspondiente al Sprint 4. Dado que el objetivo principal de esta iteración fue cerrar la integración del producto, los aspectos considerados corresponden a los bounded contexts y flujos que requirieron ajustes finales entre backend y frontend. Para cada aspecto se asigna un líder responsable y colaboradores encargados de apoyar en implementación, validación e integración.
 
 **Consider Aspects**
 
@@ -1168,86 +1167,90 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 
 #### 5.2.4.3. Sprint Backlog 4
 
+El Sprint Backlog 4 concentra las tareas necesarias para completar la integración final de SupplyWok, reforzar la autenticación, conectar los perfiles y suscripciones con el backend, corregir endpoints utilizados por la Web Application y preparar la versión final del producto. A continuación se presenta la evidencia del tablero de trabajo utilizado por el equipo y el enlace correspondiente.
+
+
+
+![Trello Sprint 4 Board 1](../assets/images/trello_111.png)
+![Trello Sprint 4 Board 2](../assets/images/trello_222.png)
+
+**Link del Sprint 4 Board:** [https://tinyurl.com/yvj3y3bj](https://tinyurl.com/yvj3y3bj)
 |    US ID     | US Title                                                                                                                                |     Task Id      | Task Title                                                         | Description                                                                                                                                                          |                                 Assigned To                                  |  Estimation (Hours)  |   Status    |
 |:------------:|:----------------------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------:|:--------------------:|:-----------:|
 |  TS-IAM-001  | Como desarrollador frontend, Quiero que el acceso de los usuarios sea seguro, Para asegurar los procesos de los usuarios segun el rol.  |  TS-SHR-001-001  | Create Shared directory                                            | Create `Shared` directory within `Domain`, `Infrastructure` and `Application`.                                                                                       |  Marcelo Cuadros, Zayd Ayasta, Juan Wang, Mathias Sanchez, Milenko Cayanchi  |          1           |    Done     |
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
-**Development Evidence for Sprint Review**
+Durante el Sprint 4 se realizaron cambios en los repositorios de backend y frontend para completar la integración del producto. Los commits evidencian la incorporación de autenticación real, manejo de roles, flujo de suscripción, actualización de perfiles, ajustes de endpoints y correcciones necesarias para alinear la Web Application con el Web Service desplegado.
 
-**Development Evidence for Sprint Review**
-
-| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
-|---|---|---|---|---|
-| supplywok-frontend | main | f474f50 | Merge branch 'release/2.4.7' into main | 2026-07-08 |
-| supplywok-platform | master | df4d5a4 | Merge branch 'release/1.2.3' into master | 2026-07-08 |
-| supplywok-platform | develop | 0ba28df | Merge branch 'feature/get-analytics' into develop | 2026-07-08 |
-| supplywok-platform | develop | 4e18a9f | chore: fix newline inconsistencies across multiple files & add ACL service for weekly consumption | 2026-07-08 |
-| supplywok-platform | develop | 28f41ae | chore(migrations): remove InitialMigration file and associated schema. | 2026-07-08 |
-| supplywok-platform | develop | e1bad77 | feat(analytics): remove unused analytics properties and integrate weekly consumption from operations service | 2026-07-08 |
-| supplywok-platform | develop | afd02ed | Merge branch 'feature/subscriptions' into develop | 2026-07-08 |
-| supplywok-platform | develop | ba2cb00 | refactor(subscriptions): remove SupplierSettings configuration and seeding logic | 2026-07-08 |
-| supplywok-frontend | develop | df2714b | Merge branch 'feature/iam' into develop | 2026-07-08 |
-| supplywok-frontend | develop | 0a9f040 | feat(iam): implement authentication guard and API integration for user sign-in and sign-up | 2026-07-08 |
-| supplywok-frontend | develop | 7b1fc28 | Merge branch 'feature/subscription' into develop | 2026-07-08 |
-| supplywok-frontend | develop | 2e122be | feat(supplier): refactor supplier profile management with new fields and API integration | 2026-07-08 |
-| supplywok-frontend | develop | bc19db5 | feat(subscriptions): enhance registration process with additional fields and completion view | 2026-07-08 |
-| supplywok-frontend | develop | acdcc92 | feat(subscriptions): enhance registration process with additional fields and completion view | 2026-07-08 |
-| supplywok-platform | develop | 8c92075 | Merge branch 'feature/subscriptions' into develop | 2026-07-07 |
-| supplywok-platform | develop | 1dc9520 | feat(subscriptions): implement subscription registration and webhook processing functionality | 2026-07-07 |
-| supplywok-platform | master | e3044ce | Merge branch 'release/1.2.2' into master | 2026-07-07 |
-| supplywok-platform | develop | 9338284 | Merge branch 'feature/fix-supplier-settings' into develop | 2026-07-07 |
-| supplywok-platform | develop | 64dc244 | feat: add supplier settings table and initial data. | 2026-07-07 |
-| supplywok-frontend | main | f1546c5 | Merge branch 'release/2.4.6' into main | 2026-07-07 |
-| supplywok-frontend | develop | 7027f81 | Merge branch 'feature/fix-supplier-settings' into develop | 2026-07-07 |
-| supplywok-frontend | develop | 13d8888 | feat: update supplier settings store and view with loading and error handling. | 2026-07-07 |
-| supplywok-frontend | develop | c152bde | feat: update supplier settings endpoint and fetch logic | 2026-07-07 |
-| supplywok-platform | master | 409a0fb | Merge pull request #19 from Aurora-AplicacionesWeb/master | 2026-07-04 |
-| supplywok-platform | develop | ffe9f08 | Merge branch 'feature/add-update-profiles' into develop | 2026-07-04 |
-| supplywok-platform | develop | 2cc780c | feat(profiles): add update endpoints to supplier and restaurant controllers. | 2026-07-04 |
-| supplywok-platform | develop | fa23722 | feat(profiles): add update commands and resources for supplier and restaurant profiles. | 2026-07-04 |
-| supplywok-frontend | main | f7fd36a | Merge branch 'release/2.4.5' into main | 2026-07-04 |
-| supplywok-frontend | develop | 5f5c4b9 | Merge branch 'feature/dynamic-supplier-profile-id' into develop | 2026-07-04 |
-| supplywok-frontend | develop | 72f62fd | feat: resolve supplier profile id dynamically from authenticated user. | 2026-07-04 |
-| supplywok-frontend | develop | fa15feb | Merge branch 'feature/fix-kitchen-order-status-route' into develop | 2026-07-04 |
-| supplywok-frontend | develop | d48f34f | fix: align kitchen order status update to backend PATCH route. | 2026-07-04 |
-| supplywok-frontend | develop | 32f3b55 | Merge branch 'feature/connect-configuration-save' into develop | 2026-07-04 |
-| supplywok-frontend | develop | 14e5148 | feat(configuration): connect save button to backend PUT profiles. | 2026-07-04 |
-| supplywok-platform | master | 78d75a7 | Merge branch 'release/1.2.0' into master | 2026-07-03 |
-| supplywok-platform | develop | c30fa98 | Merge branch 'feature/fix-endpoints' into develop | 2026-07-03 |
-| supplywok-platform | develop | 6473a30 | feat: update inventory and profile endpoints to use new API version and paths. | 2026-07-03 |
-| supplywok-platform | develop | 0ec7f84 | Merge branch 'feature/put-to-patch-status-endpoints' into develop | 2026-07-03 |
-| supplywok-platform | develop | 7ac1d48 | feat: update patch method | 2026-07-03 |
-| supplywok-platform | develop | 2822a9c | Merge branch 'feature/add-role-to-iam' into develop | 2026-07-03 |
-| supplywok-platform | develop | a6cb45a | feat: add EF migration for Role column. | 2026-07-03 |
-| supplywok-platform | develop | 851628c | feat: include Role in AuthenticatedUserResource response. | 2026-07-03 |
-| supplywok-platform | develop | caf07e9 | feat: pass Role through assembler and command service. | 2026-07-03 |
-| supplywok-platform | develop | 684b9d6 | feat: add Role to SignUpCommand and SignUpResource. | 2026-07-03 |
-| supplywok-platform | develop | a2ec0b0 | feat: add Role property to User aggregate. | 2026-07-03 |
-| supplywok-frontend | main | 827d11a | Merge branch 'release/2.4.2' into main | 2026-07-03 |
-| supplywok-frontend | develop | 997803f | Merge branch 'feature/fix-iam-role-flow' into develop | 2026-07-03 |
-| supplywok-frontend | develop | 12c76ef | fix: configuration page supports both supplier and restaurant profiles. | 2026-07-03 |
-| supplywok-frontend | develop | 76c8770 | fix: login uses role from backend response. | 2026-07-03 |
-| supplywok-frontend | develop | b1e960 | feat: send role to backend on sign-up and auto-login after register. | 2026-07-03 |
-| supplywok-frontend | develop | b866917 | Merge branch 'feature/connect-configuration-to-profiles' into develop | 2026-07-03 |
-| supplywok-frontend | develop | 6a2eb67 | feat: connect configuration page to real profiles backend | 2026-07-03 |
-| supplywok-frontend | develop | 40cc331 | Merge branch 'feature/fix-iam-real-authentication' into develop | 2026-07-03 |
-| supplywok-frontend | develop | a332b39 | fix(iam): connect login and register to real backend authentication endpoints | 2026-07-03 |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| supplywok-frontend | main | f474f50 | Merge branch 'release/2.4.7' into main | - | 2026-07-08 |
+| supplywok-platform | master | df4d5a4 | Merge branch 'release/1.2.3' into master | - | 2026-07-08 |
+| supplywok-platform | develop | 0ba28df | Merge branch 'feature/get-analytics' into develop | - | 2026-07-08 |
+| supplywok-platform | develop | 4e18a9f | chore: fix newline inconsistencies across multiple files & add ACL service for weekly consumption | - | 2026-07-08 |
+| supplywok-platform | develop | 28f41ae | chore(migrations): remove InitialMigration file and associated schema. | - | 2026-07-08 |
+| supplywok-platform | develop | e1bad77 | feat(analytics): remove unused analytics properties and integrate weekly consumption from operations service | - | 2026-07-08 |
+| supplywok-platform | develop | afd02ed | Merge branch 'feature/subscriptions' into develop | - | 2026-07-08 |
+| supplywok-platform | develop | ba2cb00 | refactor(subscriptions): remove SupplierSettings configuration and seeding logic | - | 2026-07-08 |
+| supplywok-frontend | develop | df2714b | Merge branch 'feature/iam' into develop | - | 2026-07-08 |
+| supplywok-frontend | develop | 0a9f040 | feat(iam): implement authentication guard and API integration for user sign-in and sign-up | - | 2026-07-08 |
+| supplywok-frontend | develop | 7b1fc28 | Merge branch 'feature/subscription' into develop | - | 2026-07-08 |
+| supplywok-frontend | develop | 2e122be | feat(supplier): refactor supplier profile management with new fields and API integration | - | 2026-07-08 |
+| supplywok-frontend | develop | bc19db5 | feat(subscriptions): enhance registration process with additional fields and completion view | - | 2026-07-08 |
+| supplywok-frontend | develop | acdcc92 | feat(subscriptions): enhance registration process with additional fields and completion view | - | 2026-07-08 |
+| supplywok-platform | develop | 8c92075 | Merge branch 'feature/subscriptions' into develop | - | 2026-07-07 |
+| supplywok-platform | develop | 1dc9520 | feat(subscriptions): implement subscription registration and webhook processing functionality | - | 2026-07-07 |
+| supplywok-platform | master | e3044ce | Merge branch 'release/1.2.2' into master | - | 2026-07-07 |
+| supplywok-platform | develop | 9338284 | Merge branch 'feature/fix-supplier-settings' into develop | - | 2026-07-07 |
+| supplywok-platform | develop | 64dc244 | feat: add supplier settings table and initial data. | - | 2026-07-07 |
+| supplywok-frontend | main | f1546c5 | Merge branch 'release/2.4.6' into main | - | 2026-07-07 |
+| supplywok-frontend | develop | 7027f81 | Merge branch 'feature/fix-supplier-settings' into develop | - | 2026-07-07 |
+| supplywok-frontend | develop | 13d8888 | feat: update supplier settings store and view with loading and error handling. | - | 2026-07-07 |
+| supplywok-frontend | develop | c152bde | feat: update supplier settings endpoint and fetch logic | - | 2026-07-07 |
+| supplywok-platform | master | 409a0fb | Merge pull request #19 from Aurora-AplicacionesWeb/master | - | 2026-07-04 |
+| supplywok-platform | develop | ffe9f08 | Merge branch 'feature/add-update-profiles' into develop | - | 2026-07-04 |
+| supplywok-platform | develop | 2cc780c | feat(profiles): add update endpoints to supplier and restaurant controllers. | - | 2026-07-04 |
+| supplywok-platform | develop | fa23722 | feat(profiles): add update commands and resources for supplier and restaurant profiles. | - | 2026-07-04 |
+| supplywok-frontend | main | f7fd36a | Merge branch 'release/2.4.5' into main | - | 2026-07-04 |
+| supplywok-frontend | develop | 5f5c4b9 | Merge branch 'feature/dynamic-supplier-profile-id' into develop | - | 2026-07-04 |
+| supplywok-frontend | develop | 72f62fd | feat: resolve supplier profile id dynamically from authenticated user. | - | 2026-07-04 |
+| supplywok-frontend | develop | fa15feb | Merge branch 'feature/fix-kitchen-order-status-route' into develop | - | 2026-07-04 |
+| supplywok-frontend | develop | d48f34f | fix: align kitchen order status update to backend PATCH route. | - | 2026-07-04 |
+| supplywok-frontend | develop | 32f3b55 | Merge branch 'feature/connect-configuration-save' into develop | - | 2026-07-04 |
+| supplywok-frontend | develop | 14e5148 | feat(configuration): connect save button to backend PUT profiles. | - | 2026-07-04 |
+| supplywok-platform | master | 78d75a7 | Merge branch 'release/1.2.0' into master | - | 2026-07-03 |
+| supplywok-platform | develop | c30fa98 | Merge branch 'feature/fix-endpoints' into develop | - | 2026-07-03 |
+| supplywok-platform | develop | 6473a30 | feat: update inventory and profile endpoints to use new API version and paths. | - | 2026-07-03 |
+| supplywok-platform | develop | 0ec7f84 | Merge branch 'feature/put-to-patch-status-endpoints' into develop | - | 2026-07-03 |
+| supplywok-platform | develop | 7ac1d48 | feat: update patch method | - | 2026-07-03 |
+| supplywok-platform | develop | 2822a9c | Merge branch 'feature/add-role-to-iam' into develop | - | 2026-07-03 |
+| supplywok-platform | develop | a6cb45a | feat: add EF migration for Role column. | - | 2026-07-03 |
+| supplywok-platform | develop | 851628c | feat: include Role in AuthenticatedUserResource response. | - | 2026-07-03 |
+| supplywok-platform | develop | caf07e9 | feat: pass Role through assembler and command service. | - | 2026-07-03 |
+| supplywok-platform | develop | 684b9d6 | feat: add Role to SignUpCommand and SignUpResource. | - | 2026-07-03 |
+| supplywok-platform | develop | a2ec0b0 | feat: add Role property to User aggregate. | - | 2026-07-03 |
+| supplywok-frontend | main | 827d11a | Merge branch 'release/2.4.2' into main | - | 2026-07-03 |
+| supplywok-frontend | develop | 997803f | Merge branch 'feature/fix-iam-role-flow' into develop | - | 2026-07-03 |
+| supplywok-frontend | develop | 12c76ef | fix: configuration page supports both supplier and restaurant profiles. | - | 2026-07-03 |
+| supplywok-frontend | develop | 76c8770 | fix: login uses role from backend response. | - | 2026-07-03 |
+| supplywok-frontend | develop | b1e960 | feat: send role to backend on sign-up and auto-login after register. | - | 2026-07-03 |
+| supplywok-frontend | develop | b866917 | Merge branch 'feature/connect-configuration-to-profiles' into develop | - | 2026-07-03 |
+| supplywok-frontend | develop | 6a2eb67 | feat: connect configuration page to real profiles backend | - | 2026-07-03 |
+| supplywok-frontend | develop | 40cc331 | Merge branch 'feature/fix-iam-real-authentication' into develop | - | 2026-07-03 |
+| supplywok-frontend | develop | a332b39 | fix(iam): connect login and register to real backend authentication endpoints | - | 2026-07-03 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 4 se completó la integración entre el frontend y el backend de SupplyWok para habilitar el nuevo flujo de autenticación y suscripción. La evidencia de ejecución presentada en esta sección demuestra que el usuario puede registrarse seleccionando un plan, ser redirigido al checkout de Stripe, esperar la confirmación del pago y la provisión de su cuenta, y finalmente acceder a la plataforma mediante inicio de sesión. Asimismo, se verifica que las rutas privadas del sistema se encuentren protegidas y que la navegación responda correctamente según el rol autenticado.
 
-![Trello Sprint 4 Board 1](../assets/images/trello_111.png)
-![Trello Sprint 4 Board 2](../assets/images/trello_222.png)
 
 **Link del vídeo de explicación del Execution:** [Vídeo del Sprint](https://youtu.be/olHC8_y3YLo)
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 4 se finalizó los servicios web backend de SupplyWok, ádemas de modificar y corregir el frontend de la plataforma para que no halla errores entre al aplicacion y el servicio web de Supply Wok, esto añadiendo nuevos endpoints y métodos REST corregidos con respecto al sprint anterior que se detallaran a continuación.
+Durante el Sprint 4 se actualizaron y documentaron los servicios web necesarios para completar la integración con la Web Application. Los cambios se centraron en endpoints de perfiles, catálogo de proveedores, órdenes, actualización de estados mediante PATCH y registro de suscripciones, permitiendo que el frontend consuma contratos REST consistentes con el backend desplegado.
 
 - **Repository URL:** https://github.com/Aurora-AplicacionesWeb/supply-wok-platform
 - **Swagger URL:** https://supply-wok-platform-cgbs.onrender.com/swagger/index.html
@@ -1266,6 +1269,11 @@ Durante el Sprint 4 se finalizó los servicios web backend de SupplyWok, ádemas
 |         /api/v1/subscriptions/registrations/{publicId}         |       Get registration status        |     GET     |                                     publicId (string, Required)                                      |       200: Registration status retrieved successfully.       |  https://supply-wok-platform-cgbs.onrender.com/swagger/index.html  |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4 se consolidó el despliegue de la versión final de la plataforma, considerando la publicación del Web Service y la Web Application conectada al backend real. El backend se mantuvo desplegado en Render con documentación Swagger pública, mientras que la aplicación frontend se publicó en Firebase para permitir la validación de los flujos de autenticación, perfiles y suscripción desde un entorno accesible.
+
+- **Backend Deployment URL:** [https://supply-wok-platform-cgbs.onrender.com/swagger/index.html](https://supply-wok-platform-cgbs.onrender.com/swagger/index.html)
+- **Frontend Deployment URL:** [https://supplywok.web.app/](https://supplywok.web.app/)
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
@@ -1547,3 +1555,5 @@ En conjunto, el trabajo realizado demuestra que SupplyWok alcanzó un nivel impo
 * YouTube: [https://www.youtube.com/watch?v=V8HEQALGMGo](https://www.youtube.com/watch?v=V8HEQALGMGo)
 
 ![About the Team](../assets/images/about-the-team.png)
+
+
