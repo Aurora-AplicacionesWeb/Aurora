@@ -49,7 +49,7 @@
 | 1.15    | 15/05/2026 | Ayasta Martel Zayd Jaffar        | Actualización de user stories para inventory management y refinamiento de arquitectura DDD. |
 | 2.0     | 15/05/2026 | Todos                            | Cierre de TB1 con integración del Sprint 2, backlog priorizado, evidencias de ejecución, deployment y ajustes generales del reporte. |
 | 2.1     | 19/06/2026 | Wang Chen Juan Sung Jau          | Agregado de placeholder para la sección 5.3. |
-| 2.2     | 20/06/2026 | MaxghZZ                          | Incorporación de Milenko como integrante del equipo. |
+| 2.2     | 20/06/2026 | Milenko Ruben Cayanchi Avila     | Incorporación de Milenko como integrante del equipo. |
 | 2.3     | 20/06/2026 | Wang Chen Juan Sung Jau          | Desarrollo de las secciones 5.3 y 5.4 y limpieza de archivos innecesarios. |
 | 2.4     | 20/06/2026 | Sanchez Espinoza Mathias Enrique | Documentación detallada del Sprint 3: planificación, backlog, colaboración y validación. |
 | 2.5     | 20/06/2026 | Sanchez Espinoza Mathias Enrique | Actualización de execution evidence, enlaces de servicios y endpoints del Sprint 3. |
@@ -78,7 +78,7 @@
 | 3.17    | 07/07/2026 | Cuadros Villanueva Marcelo Fabio | Agregado de contenido del Sprint 5. |
 | 3.18    | 07/07/2026 | Cuadros Villanueva Marcelo Fabio | Adición de imágenes de Event Storming en el capítulo 4. |
 | 3.19    | 08/07/2026 | Cuadros Villanueva Marcelo Fabio | Actualización de collaboration insights, registros y diseño de base de datos. |
-| 3.20    | 08/07/2026 | MaxghZZ                          | Actualización de endpoints en execution evidence para sprint review. |
+| 3.20    | 08/07/2026 | Milenko Ruben Cayanchi Avila     | Actualización de endpoints en execution evidence para sprint review. |
 | 3.21    | 08/07/2026 | Cuadros Villanueva Marcelo Fabio | Reubicación de evidencias de documentación y ajustes generales del contenido. |
 | 3.22    | 08/07/2026 | Ayasta Martel Zayd Jaffar        | Incorporación de execution evidence para sprint review. |
 | 3.23    | 08/07/2026 | Wang Chen Juan Sung Jau          | Mejora del diseño y legibilidad de Lean UX Canvas. |
