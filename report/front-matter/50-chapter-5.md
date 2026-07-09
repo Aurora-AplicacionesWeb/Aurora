@@ -1174,6 +1174,67 @@ En esta sección se presenta la matriz de liderazgo y colaboración correspondie
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
+**Development Evidence for Sprint Review**
+
+**Development Evidence for Sprint Review**
+
+| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
+|---|---|---|---|---|
+| supplywok-frontend | main | f474f50 | Merge branch 'release/2.4.7' into main | 2026-07-08 |
+| supplywok-platform | master | df4d5a4 | Merge branch 'release/1.2.3' into master | 2026-07-08 |
+| supplywok-platform | develop | 0ba28df | Merge branch 'feature/get-analytics' into develop | 2026-07-08 |
+| supplywok-platform | develop | 4e18a9f | chore: fix newline inconsistencies across multiple files & add ACL service for weekly consumption | 2026-07-08 |
+| supplywok-platform | develop | 28f41ae | chore(migrations): remove InitialMigration file and associated schema. | 2026-07-08 |
+| supplywok-platform | develop | e1bad77 | feat(analytics): remove unused analytics properties and integrate weekly consumption from operations service | 2026-07-08 |
+| supplywok-platform | develop | afd02ed | Merge branch 'feature/subscriptions' into develop | 2026-07-08 |
+| supplywok-platform | develop | ba2cb00 | refactor(subscriptions): remove SupplierSettings configuration and seeding logic | 2026-07-08 |
+| supplywok-frontend | develop | df2714b | Merge branch 'feature/iam' into develop | 2026-07-08 |
+| supplywok-frontend | develop | 0a9f040 | feat(iam): implement authentication guard and API integration for user sign-in and sign-up | 2026-07-08 |
+| supplywok-frontend | develop | 7b1fc28 | Merge branch 'feature/subscription' into develop | 2026-07-08 |
+| supplywok-frontend | develop | 2e122be | feat(supplier): refactor supplier profile management with new fields and API integration | 2026-07-08 |
+| supplywok-frontend | develop | bc19db5 | feat(subscriptions): enhance registration process with additional fields and completion view | 2026-07-08 |
+| supplywok-frontend | develop | acdcc92 | feat(subscriptions): enhance registration process with additional fields and completion view | 2026-07-08 |
+| supplywok-platform | develop | 8c92075 | Merge branch 'feature/subscriptions' into develop | 2026-07-07 |
+| supplywok-platform | develop | 1dc9520 | feat(subscriptions): implement subscription registration and webhook processing functionality | 2026-07-07 |
+| supplywok-platform | master | e3044ce | Merge branch 'release/1.2.2' into master | 2026-07-07 |
+| supplywok-platform | develop | 9338284 | Merge branch 'feature/fix-supplier-settings' into develop | 2026-07-07 |
+| supplywok-platform | develop | 64dc244 | feat: add supplier settings table and initial data. | 2026-07-07 |
+| supplywok-frontend | main | f1546c5 | Merge branch 'release/2.4.6' into main | 2026-07-07 |
+| supplywok-frontend | develop | 7027f81 | Merge branch 'feature/fix-supplier-settings' into develop | 2026-07-07 |
+| supplywok-frontend | develop | 13d8888 | feat: update supplier settings store and view with loading and error handling. | 2026-07-07 |
+| supplywok-frontend | develop | c152bde | feat: update supplier settings endpoint and fetch logic | 2026-07-07 |
+| supplywok-platform | master | 409a0fb | Merge pull request #19 from Aurora-AplicacionesWeb/master | 2026-07-04 |
+| supplywok-platform | develop | ffe9f08 | Merge branch 'feature/add-update-profiles' into develop | 2026-07-04 |
+| supplywok-platform | develop | 2cc780c | feat(profiles): add update endpoints to supplier and restaurant controllers. | 2026-07-04 |
+| supplywok-platform | develop | fa23722 | feat(profiles): add update commands and resources for supplier and restaurant profiles. | 2026-07-04 |
+| supplywok-frontend | main | f7fd36a | Merge branch 'release/2.4.5' into main | 2026-07-04 |
+| supplywok-frontend | develop | 5f5c4b9 | Merge branch 'feature/dynamic-supplier-profile-id' into develop | 2026-07-04 |
+| supplywok-frontend | develop | 72f62fd | feat: resolve supplier profile id dynamically from authenticated user. | 2026-07-04 |
+| supplywok-frontend | develop | fa15feb | Merge branch 'feature/fix-kitchen-order-status-route' into develop | 2026-07-04 |
+| supplywok-frontend | develop | d48f34f | fix: align kitchen order status update to backend PATCH route. | 2026-07-04 |
+| supplywok-frontend | develop | 32f3b55 | Merge branch 'feature/connect-configuration-save' into develop | 2026-07-04 |
+| supplywok-frontend | develop | 14e5148 | feat(configuration): connect save button to backend PUT profiles. | 2026-07-04 |
+| supplywok-platform | master | 78d75a7 | Merge branch 'release/1.2.0' into master | 2026-07-03 |
+| supplywok-platform | develop | c30fa98 | Merge branch 'feature/fix-endpoints' into develop | 2026-07-03 |
+| supplywok-platform | develop | 6473a30 | feat: update inventory and profile endpoints to use new API version and paths. | 2026-07-03 |
+| supplywok-platform | develop | 0ec7f84 | Merge branch 'feature/put-to-patch-status-endpoints' into develop | 2026-07-03 |
+| supplywok-platform | develop | 7ac1d48 | feat: update patch method | 2026-07-03 |
+| supplywok-platform | develop | 2822a9c | Merge branch 'feature/add-role-to-iam' into develop | 2026-07-03 |
+| supplywok-platform | develop | a6cb45a | feat: add EF migration for Role column. | 2026-07-03 |
+| supplywok-platform | develop | 851628c | feat: include Role in AuthenticatedUserResource response. | 2026-07-03 |
+| supplywok-platform | develop | caf07e9 | feat: pass Role through assembler and command service. | 2026-07-03 |
+| supplywok-platform | develop | 684b9d6 | feat: add Role to SignUpCommand and SignUpResource. | 2026-07-03 |
+| supplywok-platform | develop | a2ec0b0 | feat: add Role property to User aggregate. | 2026-07-03 |
+| supplywok-frontend | main | 827d11a | Merge branch 'release/2.4.2' into main | 2026-07-03 |
+| supplywok-frontend | develop | 997803f | Merge branch 'feature/fix-iam-role-flow' into develop | 2026-07-03 |
+| supplywok-frontend | develop | 12c76ef | fix: configuration page supports both supplier and restaurant profiles. | 2026-07-03 |
+| supplywok-frontend | develop | 76c8770 | fix: login uses role from backend response. | 2026-07-03 |
+| supplywok-frontend | develop | b1e960 | feat: send role to backend on sign-up and auto-login after register. | 2026-07-03 |
+| supplywok-frontend | develop | b866917 | Merge branch 'feature/connect-configuration-to-profiles' into develop | 2026-07-03 |
+| supplywok-frontend | develop | 6a2eb67 | feat: connect configuration page to real profiles backend | 2026-07-03 |
+| supplywok-frontend | develop | 40cc331 | Merge branch 'feature/fix-iam-real-authentication' into develop | 2026-07-03 |
+| supplywok-frontend | develop | a332b39 | fix(iam): connect login and register to real backend authentication endpoints | 2026-07-03 |
+
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 4 se completó la integración entre el frontend y el backend de SupplyWok para habilitar el nuevo flujo de autenticación y suscripción. La evidencia de ejecución presentada en esta sección demuestra que el usuario puede registrarse seleccionando un plan, ser redirigido al checkout de Stripe, esperar la confirmación del pago y la provisión de su cuenta, y finalmente acceder a la plataforma mediante inicio de sesión. Asimismo, se verifica que las rutas privadas del sistema se encuentren protegidas y que la navegación responda correctamente según el rol autenticado.
