@@ -353,6 +353,10 @@ Se presentarán las capturas que muestran el despliegue de la Landing Page en Gi
 
 Aquí está el enlace a la página desplegada: [https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/](https://aurora-aplicacionesweb.github.io/SupplyWok-Landing-Page/)
 
+
+Enlace del video de ejecucion en youtube [https://youtu.be/CiZMKMATK20](https://youtu.be/CiZMKMATK20)
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Como la Landing Page es una página estática, no fue necesario durante el Sprint el uso de servicios externos ni conexiones a API's, por lo cual no hay generación ni evidencia de documentación técnica relacionada.
@@ -1341,9 +1345,10 @@ En esta sección se presentarán las versiones actualizadas de los aportes a la 
 
 Durante el Sprint 4 el equipo hizo cambios en la Landing Page de Supply Wok enfocado en ajustes visuales y léxicos para mantener un enfoque claro respecto a la plataforma.
 
-![Sprint 4 Landing Page](../assets/images/insights/sprint-4-lpi.png)
+![Sprint 4 Landing Page](../assets/images/insights/landing-ins-sp4.png)
 
 ![Sprint 4 Landing Page](../assets/images/insights/sprint-4-lpi-2.png)
+
 
 ##### Frontend
 
